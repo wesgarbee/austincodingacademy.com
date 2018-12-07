@@ -1,18 +1,64 @@
+body {
+    font-family: "open sans", sans-serif;
+    margin: 0 20px;
+}
+
+#SVGGraphicIllustration1 {
+    margin: 0 -20px;
+}
+
+/* REMOVE the above margins in final product, they are only a band-aid for funky width! */
+
 h2 {
     margin: 1em auto;
     text-align: center;
     color: #377dff;
 }
 
-body {
-    margin: 0;
-}
-
 #navBarTitle {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .cta-button {
     background-color: #f5b02c;
     color: white;
+}
+
+.cta-button:hover {
+    color: #2a3179;
+}
+
+.info-button {
+    border: 1px solid #f5b02c;
+    color: #f5b02c;
+}
+
+.info-button:hover {
+    background-color: #2a3179;
+    color: #f5b02c;
+    border: 1px solid #2a3179;
+}
+
+.montserrat {
+    font-family: "montserrat", sans-serif
+}
+
+#header {
+    margin-top: 10px;
+}
+
+.nav-classic {
+    border-bottom: 0;
+}
+
+.nav-classic > .nav-item {
+    box-shadow: 0 3px 1px 1px rgba(140, 152, 164, 0.25);
+}
+
+.tab-pane {
+}
+
+.card-block {
+    display: flex;
+    flex-direction: row;
 }
