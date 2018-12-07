@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ACA Test!</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- begin DEFAULT -->
+        <!-- CSS Implementing Plugins -->
+        <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/vendor/font-awesome/css/fontawesome-all.min.css">
+
+        <!-- CSS Front Template -->
+        <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/css/theme.css">
+    <!-- end DEFAULT -->
+
+    <!-- begin HEADER -->
+        <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/vendor/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/vendor/animate.css/animate.min.css">
+        <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <!-- end HEADER -->
+
+    <!-- begin INSTRUCTORS -->
+        <link rel="stylesheet" href="https://austincodingacademy.github.io/front/assets/vendor/slick-carousel/slick/slick.css">
+    <!-- end INSTRUCTORS -->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
+    
+</head>
+
+<body>
+
+    {{content}}
+
+    <!-- begin DEFAULT-->
+        <!-- JS Global Compulsory -->
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+        <!-- JS Front -->
+        <script src="https://austincodingacademy.github.io/front/assets/js/hs.core.js"></script>
+    <!-- end DEFAULT -->
+
+    <!-- begin HEADER -->
+        <!-- JS Implementing Plugins -->
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+
+        <!-- JS Front -->
+        <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.header.js"></script>
+        <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.svg-injector.js"></script>
+
+        <!-- JS Plugins Init. -->
+        <script>
+        $(window).on('load', function () {
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+            event: 'hover',
+            pageContainer: $('.container'),
+            breakpoint: 767.98,
+            hideTimeOut: 0
+            });
+
+            // initialization of svg injector module
+            $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+        });
+
+        $(document).on('ready', function () {
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#header'));
+        });
+        </script>
+    <!-- end HEADER -->
+        
+    <!-- begin HERO -->
+        <!-- JS Implementing Plugins -->
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/typed.js/lib/typed.min.js"></script>
+
+        <!-- JS Front -->
+        <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.svg-injector.js"></script>
+
+        <!-- JS Plugins Init. -->
+        <script>
+        $(window).on('load', function () {
+            // initialization of svg injector module
+            $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+        });
+
+        $(document).on('ready', function () {
+            // initialization of text animation (typing)
+            var typed = new Typed(".u-text-animation.u-text-animation--typing", {
+            strings: ["building brands.", "dealing with complexity.", "win more business."],
+            typeSpeed: 60,
+            loop: true,
+            backSpeed: 25,
+            backDelay: 1500
+            });
+        });
+        </script>
+    <!-- end HERO -->
+
+    <!-- begin TABS -->
+        <!-- JS Implementing Plugins -->
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+
+        <!-- JS Front -->
+        <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.svg-injector.js"></script>
+
+        <!-- JS Plugins Init. -->
+        <script>
+        $(window).on('load', function () {
+            // initialization of svg injector module
+            $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+        });
+        </script>
+    <!-- end TABS -->
+
+    <!-- begin INSTRUCTORS -->
+    <!-- JS Implementing Plugins -->
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/slick-carousel/slick/slick.js"></script>
+
+        <!-- JS Implementing Plugins -->
+        <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.slick-carousel.js"></script>
+
+        <!-- JS Plugins Init. -->
+        <script>
+        $(document).on('ready', function () {
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+        });
+        </script>
+    <!-- end INSTRUCTORS -->
+
+    <!-- begin CALLTOARMS -->
+        <!-- JS Implementing Plugins -->
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+
+        <!-- JS Front -->
+        <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.svg-injector.js"></script>
+
+        <!-- JS Plugins Init. -->
+        <script>
+        $(document).on('ready', function () {
+            // initialization of svg injector module
+            $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+        });
+        </script>
+    <!-- end CALLTOARMS -->
+
+    <!-- begin CONTACTUS -->
+        <!-- JS Implementing Plugins -->
+        <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+
+        <!-- JS Front -->
+        <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.validation.js"></script>
+
+        <!-- JS Plugins Init. -->
+        <script>
+        $(document).on('ready', function () {
+            // initialization of form validation
+            $.HSCore.components.HSValidation.init('.js-validate');
+        });
+        </script>
+    <!-- end CONTACTUS -->
+
+</body>
+</html>

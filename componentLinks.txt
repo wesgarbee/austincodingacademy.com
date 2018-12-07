@@ -1,0 +1,21 @@
+header: https://austincodingacademy.github.io/front/starter/header-layouts.html#header-default-transparent
+
+hero: https://austincodingacademy.github.io/front/starter/hero/hero-12.html
+
+tabs: https://austincodingacademy.github.io/front/starter/tabs.html#tabs-1
+
+whyStudentsLoveStats: https://austincodingacademy.github.io/front/starter/stats.html#stats-4
+
+jobOutlookBlock: https://austincodingacademy.github.io/front/starter/stats.html#stats-4
+
+clientsCarousel: https://austincodingacademy.github.io/front/starter/clients.html#white-1
+
+instructors: https://austincodingacademy.github.io/front/starter/team.html#team-1
+
+trackInfoCards: https://austincodingacademy.github.io/front/starter/info.html#info-8
+
+callToAction: https://austincodingacademy.github.io/front/starter/cta.html#cta-4
+
+contactUs: https://austincodingacademy.github.io/front/starter/form-layouts.html#contacts-1
+
+footer: https://austincodingacademy.github.io/front/starter/footers.html#footer-6
