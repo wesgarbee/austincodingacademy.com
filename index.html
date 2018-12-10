@@ -5,32 +5,29 @@ layout: default
 
 {% include hero.html %}
 
-<h2>Why ACA?</h2>
+<section>
+    <h2 class="montserrat-bold size45">Why our students love us</h2>
+    {% include tabs.html %}
+</section>
 
-{% include tabs.html %}
+<section>
+    <h2 class="montserrat-bold size45">Two paths to choose from</h2>
+    {% include tracksInfoCards.html %}
+</section>
 
-<h2>Why students love us</h2>
+<section>
+    <h2 class="montserrat-bold size45">Our instructors work full-time in the industry</h2>
+    {% include instructorsAlt.html %}
+</section>
 
-{% include whyStudentsLoveStats.html %}
+<section>
+    <h2 class="montserrat-bold size45">Our graduates are working at</h2>
+    {% include gradCompanies.html %}
+</section>
 
-{% include jobOutlookBlock.html %}
-
-<h2>Our students are working at</h2>
-
-{% include clientsCarousel.html %}
-
-<h2>Meet our instructors</h2>
-
-{% include instructorsAlt.html %}
-
-<h2>Our Tracks</h2>
-
-{% include tracksInfoCards.html %}
-
-{% include callToAction.html %}
-
-<h2>Contact us</h2>
-
-{% include contactUs.html %}
+<section class="largeSection">
+    <h2 class="montserrat-bold size45">Ready to get started?</h2>
+    <a class="btn blueButton" href="#">Apply Now</a>
+</section>
 
 {% include footer.html %}

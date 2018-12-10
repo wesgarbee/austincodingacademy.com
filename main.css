@@ -3,11 +3,11 @@ body {
     margin: 0 20px;
 }
 
-#SVGGraphicIllustration1 {
+#SVGGraphicIllustration1, footer {
     margin: 0 -20px;
 }
 
-/* REMOVE the above margins in final product, they are only a band-aid for funky width! */
+/* REMOVE the above margins in final product, they are only a band-aid for excessive width! */
 
 h2 {
     margin: 1em auto;
@@ -22,43 +22,125 @@ h2 {
 .cta-button {
     background-color: #f5b02c;
     color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 3px solid #f5b02c;
+    border-radius: 50px;
 }
 
 .cta-button:hover {
-    color: #2a3179;
+    color: #ffffff;
+    transform: scale(1.05);
 }
 
-.info-button {
-    border: 1px solid #f5b02c;
+.btn-outline-secondary {
+    border: 3px solid #f5b02c;
+    color: #ffffff;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-outline-secondary:hover {
     color: #f5b02c;
+    border: 3px solid #f5b02c;
+    background: none;
 }
 
-.info-button:hover {
-    background-color: #2a3179;
-    color: #f5b02c;
-    border: 1px solid #2a3179;
-}
-
-.montserrat {
-    font-family: "montserrat", sans-serif
+.montserrat-bold-bold {
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
 }
 
 #header {
     margin-top: 10px;
 }
 
-.nav-classic {
-    border-bottom: 0;
+#logoAndNav img {
+    width: 90px;
 }
 
-.nav-classic > .nav-item {
+#navBar li {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navBar .btn {
+    width: 135px;
+}
+
+.nav-classic {
+    border-bottom: 0;
+    box-shadow: 0 0 1px 1px rgba(140, 152, 164, 0.15);
+}
+
+/* .nav-classic > .nav-item {
     box-shadow: 0 3px 1px 1px rgba(140, 152, 164, 0.25);
+} */
+
+#SVGGraphicIllustration1 .btn {
+    margin-right: 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 228px;
 }
 
 .tab-pane {
 }
 
 .card-block {
+    padding: 0 100px;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.size37 {
+    font-size: 37px;
+}
+
+.size45 {
+    font-size: 45px;
+}
+
+.boldAndBlue {
+    color: #2D2F77;
+    font-weight: bold;
+}
+
+.blueButton {
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: #2d2f77;
+    width: 228px;
+}
+
+.blueButton:hover {
+    color: #f5b02c;
+}
+
+.largeSection {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 100px;
+}
+
+footer p {
+    padding: 0 10px;
+    margin: 25px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+footer .list-group {
+    margin-top: 50px;
+}
+
+footer .list-group-item {
+    font-size: 18px !important;
 }
