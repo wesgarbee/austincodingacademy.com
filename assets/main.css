@@ -6,6 +6,7 @@
 body {
     font-family: "open sans", sans-serif;
     margin: 0 20px;
+    color: #303133;
 }
 
 #SVGGraphicIllustration1, footer {
@@ -13,12 +14,6 @@ body {
 }
 
 /* REMOVE the above margins in final product, they are only a band-aid for excessive width! */
-
-h2 {
-    margin: 1em auto;
-    text-align: center;
-    color: #377dff;
-}
 
 #navBarTitle {
     font-size: 1.25em;
@@ -73,9 +68,21 @@ h2 {
     width: 491px;
 }
 
-.montserrat-bold-bold {
+.section-header {
+    margin-top: 140px;
+    margin-bottom: 48px;
+}
+
+.section-title {
     font-family: "montserrat", sans-serif;
     font-weight: bold;
+    text-align: center;
+}
+
+.section-text {
+    font-size: 16px;
+    color: #7E8697;
+    text-align: center;
 }
 
 #header {
@@ -112,7 +119,8 @@ h2 {
     width: 228px;
 }
 
-.tab-pane {
+.less-wide {
+    max-width: 500px;
 }
 
 .card-block {
@@ -121,6 +129,10 @@ h2 {
 
 .size20 {
     font-size: 20px;
+}
+
+.size31 {
+    font-size: 31px;
 }
 
 .size37 {
@@ -169,4 +181,9 @@ footer .list-group {
 
 footer .list-group-item {
     font-size: 18px !important;
+}
+
+.center-form {
+    max-width: 900px;
+    margin: 0 auto;
 }

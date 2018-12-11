@@ -6,28 +6,54 @@ layout: default
 {% include hero.html %}
 
 <section>
-    <h2 class="montserrat-bold size45">Why our students love us</h2>
+    <div class="section-header">
+        <h2 class="section-title size45">Why our students love us</h2>
+    </div>
     {% include tabs.html %}
 </section>
 
 <section>
-    <h2 class="montserrat-bold size45">Two paths to choose from</h2>
+    <div class="section-header">
+        <h2 class="section-title size45">Two paths to choose from</h2>
+    </div>
     {% include tracksInfoCards.html %}
 </section>
 
 <section>
-    <h2 class="montserrat-bold size45">Our instructors work full-time in the industry</h2>
+    <div class="section-header">
+        <h2 class="section-title size45">Our instructors work full-time in the industry</h2>
+    </div>
     {% include instructorsAlt.html %}
 </section>
 
 <section>
-    <h2 class="montserrat-bold size45">Our graduates are working at</h2>
+    <div class="section-header">
+        <h2 class="section-title size45">Our graduates are working at</h2>
+    </div>
     {% include gradCompanies.html %}
 </section>
 
 <section class="largeSection">
-    <h2 class="montserrat-bold size45">Ready to get started?</h2>
-    <a class="btn blueButton" href="#">Apply Now</a>
+    <div class="section-header">
+        <h2 class="section-title size45">
+        Next Classes Start January 15th<br>
+        <span style="font-weight: normal">Save your spot today</span>
+        </h2>
+    </div>
+    <a class="btn blueButton" href="#">Apply</a>
+</section>
+
+<section>
+    <div class="section-header">
+        <h2 class="section-title size45">
+            Contact Us
+        </h2>
+        <p class="section-text">
+            Whether you have questions or you would just<br>
+            like to say hello, contact us.
+        </p>
+    </div>
+    {% include contactUs.html %}
 </section>
 
 {% include footer.html %}

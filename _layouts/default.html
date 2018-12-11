@@ -132,5 +132,21 @@
         </script>
     <!-- end TABS -->
 
+    <!-- begin CONTACTUS -->
+        <!-- JS Implementing Plugins -->
+        <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+
+        <!-- JS Front -->
+        <script src="../../assets/js/components/hs.validation.js"></script>
+
+        <!-- JS Plugins Init. -->
+        <script>
+        $(document).on('ready', function () {
+            // initialization of form validation
+            $.HSCore.components.HSValidation.init('.js-validate');
+        });
+        </script>
+    <!-- end CONTACTUS -->
+
 </body>
 </html>
