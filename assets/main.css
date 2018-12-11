@@ -1,0 +1,172 @@
+
+
+/* gradient-turq: 00b3d1 */
+/* gradient-green: 7fc89a */
+
+body {
+    font-family: "open sans", sans-serif;
+    margin: 0 20px;
+}
+
+#SVGGraphicIllustration1, footer {
+    margin: 0 -20px;
+}
+
+/* REMOVE the above margins in final product, they are only a band-aid for excessive width! */
+
+h2 {
+    margin: 1em auto;
+    text-align: center;
+    color: #377dff;
+}
+
+#navBarTitle {
+    font-size: 1.25em;
+}
+
+.wide-button {
+    width: 228px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-button {
+    background: linear-gradient(to right, #00b3d1, #7fc89a);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.wide-button:hover {
+    transform: scale(1.05);
+}
+
+.info-button {
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.outlined-cta {
+    color: #ffffff;
+    width: 135px;
+    height: 44px;
+    border: 3px solid #2d2f77;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outlined-cta:hover {
+    transform: scale(1.05);
+}
+
+#hero-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 491px;
+}
+
+.montserrat-bold-bold {
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+}
+
+#header {
+    margin-top: 36px;
+}
+
+#logoAndNav img {
+    width: 90px;
+}
+
+#navBar li {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navBar .btn {
+    width: 135px;
+}
+
+.nav-classic {
+    border-bottom: 0;
+    box-shadow: 0 0 1px 1px rgba(140, 152, 164, 0.15);
+}
+
+/* .nav-classic > .nav-item {
+    box-shadow: 0 3px 1px 1px rgba(140, 152, 164, 0.25);
+} */
+
+#SVGGraphicIllustration1 .btn {
+    margin-right: 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 228px;
+}
+
+.tab-pane {
+}
+
+.card-block {
+    padding: 0 100px;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.size37 {
+    font-size: 37px;
+}
+
+.size45 {
+    font-size: 45px;
+}
+
+.boldAndBlue {
+    color: #2D2F77;
+    font-weight: bold;
+}
+
+.blueButton {
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: #2d2f77;
+    width: 228px;
+}
+
+.blueButton:hover {
+    color: #f5b02c;
+}
+
+.largeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 100px;
+}
+
+footer p {
+    padding: 0 10px;
+    margin: 25px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+footer .list-group {
+    margin-top: 50px;
+}
+
+footer .list-group-item {
+    font-size: 18px !important;
+}
