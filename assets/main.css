@@ -107,10 +107,6 @@ body {
     box-shadow: 0 0 1px 1px rgba(140, 152, 164, 0.15);
 }
 
-/* .nav-classic > .nav-item {
-    box-shadow: 0 3px 1px 1px rgba(140, 152, 164, 0.25);
-} */
-
 #SVGGraphicIllustration1 .btn {
     margin-right: 35px;
     border-radius: 50px;
@@ -152,7 +148,7 @@ body {
     font-size: 20px;
     color: #ffffff;
     border-radius: 50px;
-    background-color: #2d2f77;
+    background-color: #2d2f77 !important;
     width: 228px;
 }
 
