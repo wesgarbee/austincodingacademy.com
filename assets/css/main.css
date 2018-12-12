@@ -4,137 +4,30 @@
 /* gradient-turq: 00b3d1 */
 /* gradient-green: 7fc89a */
 
+/* begin INDEX */
+/*  */
+
 body {
     font-family: "open sans", sans-serif;
-    margin: 0 20px;
     color: #303133;
+    margin: 0 20px;
 }
 
-#SVGGraphicIllustration1, footer {
-    margin: 0 -20px;
-}
-
-/* REMOVE the above margins in final product, they are only a band-aid for excessive width! */
-
-#navBarTitle {
-    font-size: 1.25em;
-}
-
-.wide-button {
-    width: 228px;
-    height: 53px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cta-button {
-    background: linear-gradient(to right, #00b3d1, #7fc89a);
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 30px;
-}
-
-.wide-button:hover {
-    transform: scale(1.05);
-}
-
-.info-button {
-    border: 3px solid #ffffff;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 30px;
-}
-
-.outlined-cta {
-    color: #ffffff;
-    width: 135px;
-    height: 44px;
-    border: 3px solid #2d2f77;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.outlined-cta:hover {
-    transform: scale(1.05);
-}
-
-#hero-buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 491px;
-}
-
-.section-header {
+.sectionHeader {
     margin-top: 140px;
     margin-bottom: 48px;
 }
 
-.section-title {
+.sectionTitle {
     font-family: "montserrat", sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
-.section-text {
+.sectionText {
     font-size: 16px;
     color: #7E8697;
     text-align: center;
-}
-
-#header {
-    margin-top: 36px;
-}
-
-#logoAndNav img {
-    width: 90px;
-}
-
-#navBar {
-    li {
-        font-weight: bold;
-        font-size: 18px;
-    }
-}
-
-#navBar a {
-    color: #ffffff !important;
-}
-
-#navBar .btn {
-    width: 135px;
-}
-
-.nav-classic {
-    border-bottom: 0;
-    box-shadow: 0 0 1px 1px rgba(140, 152, 164, 0.15);
-}
-
-#SVGGraphicIllustration1 .btn {
-    margin-right: 35px;
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 18px;
-    width: 228px;
-}
-
-.less-wide {
-    max-width: 500px;
-}
-
-.card-block {
-    padding: 0 100px;
-}
-
-.montserrat-bold {
-    font-family: "montserrat", sans-serif;
-    font-weight: bold;
-    margin-bottom: 16px;
-    color: #ffffff;
 }
 
 .size20 {
@@ -153,13 +46,121 @@ body {
     font-size: 45px;
 }
 
+/* Margin fix */
+
+#SVGGraphicIllustration1, footer {
+    margin: 0 -20px;
+}
+
+/*  */
+/* end INDEX */
+
+
+/* begin HEADER */
+/*  */
+
+.outlinedCTA {
+    color: #ffffff;
+    width: 135px;
+    height: 44px;
+    border: 3px solid #2d2f77;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoverScaleButton:hover {
+    transform: scale(1.05);
+}
+
+#header {
+    margin-top: 36px;
+}
+
+#logoAndNav img {
+    width: 90px;
+}
+
+#navBar li {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#navBar a {
+    color: #ffffff !important;
+}
+
+#navBar .btn {
+    width: 135px;
+}
+
+/* end HEADER */
+
+/* begin HERO */
+/*  */
+
+.montserratBold {
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.wideButton {
+    width: 228px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctaButton {
+    background: linear-gradient(to right, #00b3d1, #7fc89a);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.infoButton {
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+#heroButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 491px;
+}
+
 .mb-57 {
     margin-bottom: 57px;
 }
 
-.boldAndBlue {
-    color: #2D2F77;
-    font-weight: bold;
+/*  */
+/* end HERO */
+
+/* begin TABS */
+/*  */
+
+.tabNav {
+    border-bottom: 0;
+    box-shadow: 0 0 1px 1px rgba(140, 152, 164, 0.15);
+}
+
+/*  */
+/* end TABS */
+
+/* begin TRACKS */
+/*  */
+
+.trackCard {
+    max-width: 538px;
+    max-height: 531px;
 }
 
 .blueButton {
@@ -170,17 +171,59 @@ body {
     width: 228px;
 }
 
-.blueButton:hover {
-    color: #f5b02c;
+/*  */
+/* end TRACKS */
+
+/* begin INSTRUCTORS */
+/*  */
+
+/*  */
+/* end INSTRUCTORS */
+
+.cardBlock {
+    padding: 0 100px;
 }
 
-.largeSection {
+/*  */
+/* begin GRADCOMPANIES */
+
+.companyLogoDiv {
+    width: 270px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end GRADCOMPANIES */
+/*  */
+
+/* begin CTA */
+/*  */
+
+.ctaSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    margin: 100px;
 }
+
+/*  */
+/* end CTA */
+
+/* begin CONTACTUS */
+/*  */
+
+.centerForm {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*  */
+/* end CONTACTUS */
+
+/* begin FOOTER */
+/*  */
 
 footer p {
     padding: 0 10px;
@@ -197,7 +240,5 @@ footer .list-group-item {
     font-size: 18px !important;
 }
 
-.center-form {
-    max-width: 900px;
-    margin: 0 auto;
-}
+/*  */
+/* end FOOTER */
