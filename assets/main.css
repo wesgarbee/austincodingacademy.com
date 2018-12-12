@@ -98,6 +98,10 @@ body {
     font-size: 18px;
 }
 
+#navBar a {
+    color: #ffffff !important;
+}
+
 #navBar .btn {
     width: 135px;
 }
@@ -123,6 +127,13 @@ body {
     padding: 0 100px;
 }
 
+.montserrat-bold {
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
 .size20 {
     font-size: 20px;
 }
@@ -137,6 +148,10 @@ body {
 
 .size45 {
     font-size: 45px;
+}
+
+.mb-57 {
+    margin-bottom: 57px;
 }
 
 .boldAndBlue {
