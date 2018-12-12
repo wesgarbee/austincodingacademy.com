@@ -15,7 +15,7 @@ body {
 }
 
 .sectionHeader {
-    margin-top: 140px;
+    margin-top: 148px;
     margin-bottom: 48px;
 }
 
@@ -29,6 +29,18 @@ body {
     font-size: 16px;
     color: #7E8697;
     text-align: center;
+}
+
+.size14 {
+    font-size: 14px;
+}
+
+.size16 {
+    font-size: 16px;
+}
+
+.size14 {
+    font-size: 14px;
 }
 
 .size20 {
@@ -85,15 +97,14 @@ body {
 
 #navBar li {
     font-weight: bold;
-    font-size: 18px;
-}
-
-#navBar a {
-    color: #ffffff !important;
 }
 
 #navBar .btn {
     width: 135px;
+}
+
+.whiteText {
+    color: #ffffff !important;
 }
 
 /* end HEADER */
@@ -106,6 +117,7 @@ body {
     font-weight: bold;
     margin-bottom: 16px;
     color: #ffffff;
+    font-size: 77px;
 }
 
 .wideButton {
