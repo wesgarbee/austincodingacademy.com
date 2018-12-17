@@ -76,11 +76,20 @@ body {
     color: #ffffff;
     width: 135px;
     height: 44px;
-    border: 3px solid #2d2f77;
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background: transparent;
+    background-repeat: no-repeat;
+    border: 3px;
+    border-style: solid;
+    border-color: transparent;
+    border-image-source: url(/assets/images/applyButton.svg);
+    border-image-repeat: stretch stretch;
+    border-image-slice: 21;
+    border-image-width: 135px;
 }
 
 .hoverScaleButton:hover {
