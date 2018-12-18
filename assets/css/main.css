@@ -43,8 +43,16 @@ body {
     font-size: 14px;
 }
 
+.size18 {
+    font-size: 18px;
+}
+
 .size20 {
     font-size: 20px;
+}
+
+.size22 {
+    /* font-size: 22px; */
 }
 
 .size31 {
@@ -126,6 +134,21 @@ body {
     }
 }
 
+/* alt header below */
+
+.headerApply {
+    width: 140px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerBlue {
+    background-color: #202254;
+    padding: 17px 0;
+}
+
 
 /* end HEADER */
 
@@ -187,6 +210,28 @@ body {
 .tabNav {
     border-bottom: 0;
     box-shadow: 0 0 1px 1px rgba(140, 152, 164, 0.15);
+}
+
+.nav-classic .nav-link {
+    color: #303133;
+}
+
+.nav-classic .nav-link.active {
+    color: #303133;
+    font-weight: bold !important;
+
+    border-width: 0;
+    border-bottom: 3px solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(#00b3d1), to(#7fc89a)) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(left, #00b3d1, #7fc89a) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(left, #00b3d1, #7fc89a) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(left, #00b3d1, #7fc89a) 1 100%;
+    border-image:
+      linear-gradient(to right, #00b3d1, #7fc89a) 1 100%;
 }
 
 /*  */
