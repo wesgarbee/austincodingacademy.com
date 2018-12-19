@@ -357,8 +357,13 @@ footer .list-group-item {
     margin-bottom: 48px;
 }
 
+.policyBlock .row {
+    margin: 0;
+}
+
 .policyBlock p, ul {
-    margin-bottom: 25px;
+    margin:0 0 25px;
+    width: 100%;
 }
 
 /*  */
