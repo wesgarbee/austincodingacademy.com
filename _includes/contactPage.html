@@ -1,86 +1,12 @@
-<h2 class="montserratBold centeredText size45" style="margin: 209px 0 78px">
-    Contacting Austin Coding Academy
-</h2>
-
 <div class="container" style="margin-bottom: 190px;">
     <div class="row">
 
         <div class="col-6">
-            <p class="size18" style="margin-bottom: 43px;">
-                Have you stopped by our <a href="/faq.html">FAQ Page</a>? 
-                We might have already answered your question, but if not, don’t hesitate to fill out this form or give us a call
-                9am - 6pm Monday - Friday at <span style="flex-wrap: nowrap">(512) 827-8498</span>
-            </p>
-            <ul class="fa-ul" style="list-style: none; margin-top: 20px;">
-                <li><i class="fa-li fa fa-map-marker"></i>Capital Factory,</li>
-                <li>701 Brazos St, Ste 1616,</li>
-                <li>Austin, TX 78701</li>
-            </ul>
-            <ul class="fa-ul" style="list-style: none; margin-top: 20px;">
-                <li><i class="fa-li fa fa-map-marker"></i>Austin Coding Academy,</li>
-                <li>314 E Highland Mall Blvd, Ste 114,</li>
-                <li>Austin, TX 78752</li>
-            </ul>
+            {% include contactPageInfoSection.html %}
         </div>
 
         <div class="col-6">
-            <form class="js-validate">
-                <div class="row">
-                    <!-- Input -->
-                    <div class="col-sm-6 mb-6">
-                        <div class="js-form-message">
-                        <label class="formLabel">
-                            Name
-                            <span class="text-danger">*</span>
-                        </label>
-                
-                        <input type="text" class="form-control" name="name" placeholder="Your name" aria-label="Your name" required
-                                data-msg="Please enter your name."
-                                data-error-class="u-has-error"
-                                data-success-class="u-has-success">
-                        </div>
-                    </div>
-                    <!-- End Input -->
-                
-                    <!-- Input -->
-                    <div class="col-sm-6 mb-6">
-                        <div class="js-form-message">
-                        <label class="formLabel">
-                            Email
-                            <span class="text-danger">*</span>
-                        </label>
-                
-                        <input type="email" class="form-control" name="email" placeholder="Your email address" aria-label="Your email address" required
-                                data-msg="Please enter a valid email address."
-                                data-error-class="u-has-error"
-                                data-success-class="u-has-success">
-                        </div>
-                    </div>
-                    <!-- End Input -->
-                
-                    <!-- Input -->
-                    <div class="js-form-message mb-6 col-sm-12">
-                        <label class="formLabel">
-                            Message
-                            <span class="text-danger">*</span>
-                        </label>
-                    
-                        <div class="input-group">
-                            <textarea class="form-control" rows="4" name="text" placeholder="Enter your questions or comments here" aria-label="Enter your questions or comments here" required
-                                    data-msg="Please enter a message."
-                                    data-error-class="u-has-error"
-                                    data-success-class="u-has-success"></textarea>
-                        </div>
-                    </div>
-                    <!-- End Input -->
-                
-                    <div class="text-center col-sm-12">
-                        <button type="submit" id="largeSendButton" class="whiteText btn transition-3d-hover mb-4">
-                            Send
-                        </button>
-                    </div>
-                </div>
-            </form>
+            {% include ContactForm.html %}
         </div>
 
     </div>
