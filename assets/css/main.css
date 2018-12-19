@@ -118,6 +118,11 @@ body {
     width: 90px;
 }
 
+#navBar ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
 #navBar li {
     font-weight: bold;
 }
