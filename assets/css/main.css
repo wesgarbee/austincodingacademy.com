@@ -256,6 +256,11 @@ body, p {
       linear-gradient(to right, #00b3d1, #7fc89a) 1 100%; */
 }
 
+.hiddenIcon {
+    /* visibility:hidden; */
+    display: none;
+}
+
 /*  */
 /* end TABS */
 
