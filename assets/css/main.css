@@ -61,7 +61,7 @@ body, p {
 }
 
 .size22 {
-    /* font-size: 22px; */
+    font-size: 22px;
 }
 
 .size31 {
@@ -222,8 +222,7 @@ body, p {
 /*  */
 
 .tabDiv {
-    width: 1042px !important;
-    max-width: 1042px;
+    width: 100% !important;
 }
 
 .tabNav {
@@ -235,13 +234,17 @@ body, p {
     color: #303133;
 }
 
+.nav-link :hover {
+    color: #00b3d1;
+}
+
 .nav-classic .nav-link.active {
     color: #303133;
     font-weight: bold !important;
 
     border-width: 0;
-    border-bottom: 3px solid;
-    -webkit-border-image: 
+    border-bottom: 3px solid #2d2f77;
+    /* -webkit-border-image: 
       -webkit-gradient(linear, 0 0, 0 100%, from(#00b3d1), to(#7fc89a)) 1 100%;
     -webkit-border-image: 
       -webkit-linear-gradient(left, #00b3d1, #7fc89a) 1 100%;
@@ -250,7 +253,7 @@ body, p {
     -o-border-image:
       -o-linear-gradient(left, #00b3d1, #7fc89a) 1 100%;
     border-image:
-      linear-gradient(to right, #00b3d1, #7fc89a) 1 100%;
+      linear-gradient(to right, #00b3d1, #7fc89a) 1 100%; */
 }
 
 /*  */
