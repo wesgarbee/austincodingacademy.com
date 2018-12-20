@@ -17,8 +17,12 @@ body, p {
     color: #303133;
 }
 
+.homeSection {
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+
 .sectionHeader {
-    margin-top: 148px;
     margin-bottom: 48px;
 }
 
@@ -217,6 +221,11 @@ body, p {
 /* begin TABS */
 /*  */
 
+.tabDiv {
+    width: 1042px !important;
+    max-width: 1042px;
+}
+
 .tabNav {
     border-bottom: 0;
     box-shadow: 0 0 1px 1px rgba(140, 152, 164, 0.15);
@@ -273,6 +282,8 @@ body, p {
 
 .cardBlock {
     padding: 0 100px;
+    display: flex;
+    justify-content: center;
 }
 
 /*  */
@@ -319,8 +330,12 @@ body, p {
 /*  */
 
 .centerForm {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
+}
+
+.centerForm .sendButton {
+    max-width: 500px;
 }
 
 .sendButton {
