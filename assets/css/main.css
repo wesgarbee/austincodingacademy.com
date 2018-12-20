@@ -376,7 +376,6 @@ footer .list-group-item {
     width: 64.3%;
     padding: 80px;
     margin: 255px auto 215px;
-    color: #77838F;
     border: 1px solid #E7EAF3;
     border-radius: 4px;
 }
@@ -392,6 +391,7 @@ footer .list-group-item {
 .policyBlock p, .policyBlock ul {
     margin:0 0 25px;
     width: 100%;
+    color: #77838F;
 }
 
 /*  */
