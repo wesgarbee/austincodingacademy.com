@@ -221,26 +221,37 @@ body, p {
 /* begin TABS */
 /*  */
 
-.tabDiv {
-    width: 100% !important;
-}
-
-.tabNav {
+#homeTabs {
+    box-sizing: border-box;
     border-bottom: 0;
     box-shadow: 0 0 1px 1px rgba(140, 152, 164, 0.15);
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px
 }
 
-.nav-item {
+.noPadding {
+    padding: 0;
+}
+
+.nav-tabs .nav-link {
     color: #303133;
-    text-align: center;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav-item :hover {
+.nav-tabs .nav-link:hover {
     color: #00b3d1;
+    border: 0;
+    transform: none;
 }
 
-.nav-item .active {
-    /* color: #303133; */
+.nav-tabs .nav-link.active {
+    color: #303133;
     font-weight: bold !important;
 
     border-width: 0;
