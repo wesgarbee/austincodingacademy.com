@@ -5,12 +5,8 @@
 /* gradient-turq: 00b3d1 */
 /* gradient-green: 7fc89a */
 
-/* begin INDEX */
+/* begin GLOBAL */
 /*  */
-
-body {
-    margin: 0 20px;
-}
 
 body, p {
     font-family: "open sans", sans-serif;
@@ -38,6 +34,11 @@ body, p {
 .sectionText {
     font-size: 16px;
     color: #7E8697;
+}
+
+.headerTextMargins {
+    margin-top: 84px;
+    margin-bottom: 70px;
 }
 
 .size14 {
@@ -76,6 +77,14 @@ body, p {
     font-size: 45px;
 }
 
+.bottom48 {
+    margin-bottom: 48px;
+}
+
+.top84 {
+    margin-top: 84px;
+}
+
 .primaryGradient {
     background: linear-gradient(to right, #00b3d1, #7fc89a);
 }
@@ -83,7 +92,7 @@ body, p {
 /* Margin fix */
 
 #SVGGraphicIllustration1, footer {
-    margin: 0 -20px;
+    /* margin: 0 -20px; */
 }
 
 /*  */
@@ -165,6 +174,8 @@ body, p {
 #headerBlue {
     background-color: #202254;
     padding: 17px 0;
+    position: relative;
+    width: 100%;
 }
 
 
@@ -279,6 +290,10 @@ body, p {
 /* begin TRACKS */
 /*  */
 
+.card-deck {
+    width: 100%;
+}
+
 .trackCard {
     max-width: 538px;
     max-height: 531px;
@@ -360,6 +375,7 @@ body, p {
 }
 
 .sendButton {
+    height: 50px;
     width: 100%;
     background-color: #2d2f77 !important;
     border-radius: 3px;
@@ -405,10 +421,6 @@ footer .list-group-item {
     border-radius: 4px;
 }
 
-.bottom48 {
-    margin-bottom: 48px;
-}
-
 .policyBlock .row {
     margin: 0;
 }
@@ -430,13 +442,6 @@ footer .list-group-item {
     font-size: 13px;
 }
 
-#largeSendButton {
-    height: 50px;
-    width: 100%;
-    background-color: #2d2f77;
-    border-radius: 3px;
-}
-
 /*  */
 /* end CONTACTPAGE */
 
@@ -451,3 +456,20 @@ footer .list-group-item {
 
 /*  */
 /* end FAQ */
+
+/* begin TUITION */
+/*  */
+
+#tuitionHero {
+    background-color: #2d2f77;
+    width: 100%;
+    height: 392px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/* end TUITION */
