@@ -81,6 +81,10 @@ body, p {
     font-size: 45px;
 }
 
+.size77 {
+    font-size: 77px;
+}
+
 .bottom48 {
     margin-bottom: 48px;
 }
@@ -194,12 +198,28 @@ body, p {
 /* begin HERO */
 /*  */
 
-#heroContainer {
-    max-width: 95%;
+#homeHero {
+    background-image: url(/assets/images/placeholders/Artboard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    width: 100%;
+    height: 864px;
+    margin: 0;
 }
 
-.heroTitle {
-    margin-bottom: 16px;
+#homeHeroContent {
+    position: absolute;
+    top: 200px;
+    left: 5%;
+}
+
+#heroButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 491px;
 }
 
 .wideButton {
@@ -226,14 +246,48 @@ body, p {
     border-radius: 30px;
 }
 
-#heroButtons {
-    display: flex;
-    justify-content: space-between;
-    width: 491px;
+@media (max-width: 767.98px) {
+    #homeHero {
+        height: 700px;
+    }
+
+    #heroButtons {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .wideButton {
+        width: 175px;
+    }
+
+    #homeHeroContent .size77 {
+        font-size: 50px;
+    }
+
+    #homeHeroContent .size31 {
+        font-size: 20px;
+    }
 }
 
-.mb-57 {
-    margin-bottom: 57px;
+@media (max-width: 575.98px) {
+    #homeHero {
+        height: 600px;
+    }
+
+    #heroButtons {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .wideButton {
+        width: 175px;
+    }
+
+    #homeHeroContent .size77 {
+        font-size: 35px;
+    }
+
+    #homeHeroContent .size31 {
+        font-size: 15px;
+    }
 }
 
 /*  */
@@ -277,16 +331,6 @@ body, p {
 
     border-width: 0;
     border-bottom: 3px solid #2d2f77;
-    /* -webkit-border-image: 
-      -webkit-gradient(linear, 0 0, 0 100%, from(#00b3d1), to(#7fc89a)) 1 100%;
-    -webkit-border-image: 
-      -webkit-linear-gradient(left, #00b3d1, #7fc89a) 1 100%;
-    -moz-border-image:
-      -moz-linear-gradient(left, #00b3d1, #7fc89a) 1 100%;    
-    -o-border-image:
-      -o-linear-gradient(left, #00b3d1, #7fc89a) 1 100%;
-    border-image:
-      linear-gradient(to right, #00b3d1, #7fc89a) 1 100%; */
 }
 
 .hiddenIcon {
