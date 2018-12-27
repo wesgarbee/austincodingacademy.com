@@ -326,7 +326,8 @@ body, p {
 /* end INSTRUCTORS */
 
 .cardBlock {
-    padding: 0 100px;
+    max-width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: flex-end;
