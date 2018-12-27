@@ -81,18 +81,16 @@ body, p {
     margin-bottom: 48px;
 }
 
+.top12 {
+    margin-top: 12px;
+}
+
 .top84 {
     margin-top: 84px;
 }
 
 .primaryGradient {
     background: linear-gradient(to right, #00b3d1, #7fc89a);
-}
-
-/* Margin fix */
-
-#SVGGraphicIllustration1, footer {
-    /* margin: 0 -20px; */
 }
 
 /*  */
