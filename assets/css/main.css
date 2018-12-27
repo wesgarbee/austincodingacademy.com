@@ -516,7 +516,7 @@ footer .list-group-item {
 /*  */
 
 #tuitionHero {
-    background-color: #2d2f77;
+    background-image: url("/assets/images/financingHero.png");
     width: 100%;
     height: 392px;
     position: relative;
