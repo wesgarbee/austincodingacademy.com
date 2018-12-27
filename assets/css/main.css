@@ -89,6 +89,10 @@ body, p {
     margin-top: 12px;
 }
 
+.top32 {
+    margin-top: 32px;
+}
+
 .top84 {
     margin-top: 84px;
 }
@@ -130,6 +134,10 @@ body, p {
 
 #header {
     padding: 17px 0;
+}
+
+#logoAndNav {
+    max-width: 95%;
 }
 
 #logoAndNav img {
@@ -186,9 +194,9 @@ body, p {
 /* begin HERO */
 /*  */
 
-/* #heroText {
-    margin-top: 90px;
-} */
+#heroContainer {
+    max-width: 95%;
+}
 
 .heroTitle {
     margin-bottom: 16px;
