@@ -1,68 +1,61 @@
 ---
 layout: default
+permalink: /
 ---
 {% include header.html %}
 
 {% include heroAlt.html %}
 
-<section class="homeSection">
-    <div class="sectionHeader">
-        <h2 class="montserratBold centeredText size45">Why Our Students Love Us</h2>
-    </div>
-    {% include tabsAlt.html %}
+<section class="my-10 container-fluid">
+  <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
+    Why Our Students Love Us
+  </h2>
+  {% include tabs.html %}
 </section>
 
-<section class="homeSection">
-    <div class="sectionHeader">
-        <h2 class="montserratBold centeredText size45">Two Paths to Choose From</h2>
-    </div>
-    {% include tracksInfoCards.html %}
+<section class="mb-10 container-fluid">
+  <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
+    Two Paths to Choose From
+  </h2>
+  {% include tracksInfoCards.html %}
 </section>
 
-<section class="homeSection">
-    <div class="sectionHeader">
-        <h2 class="montserratBold centeredText size45">Our Instructors Work Full-Time in the Industry</h2>
-    </div>
-    {% include instructorsAlt.html %}
+<section class="mb-10 container-fluid">
+  <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
+    Our Instructors Work Full-Time in the Industry
+  </h2>
+  {% include instructorsAlt.html %}
 </section>
 
-<section class="homeSection">
-    <div class="sectionHeader">
-        <h2 class="montserratBold centeredText size45">Our Graduates Are Working At</h2>
-    </div>
-    {% include gradCompanies.html %}
+<section class="mb-10 container-fluid">
+  <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
+    Our Graduates Are Working At
+  </h2>
+  {% include gradCompanies.html %}
 </section>
 
-<section class="homeSection">
-    <div class="sectionHeader">
-        <h2 class="montserratBold centeredText size45">
-            Student Success Stories
-        </h2>
-    </div>
-    {% include studentStoriesAlt.html %}
+<section class="mb-10 container-fluid">
+  <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
+    Student Success Stories
+  </h2>
+  {% include studentStoriesAlt.html %}
 </section>
 
-<section class="ctaSection homeSection">
-    <div class="sectionHeader">
-        <h2 class="montserratBold centeredText size45">
-        Next Classes Start January 15th<br>
-        <span style="font-weight: normal">Save your spot today</span>
-        </h2>
-    </div>
-    <a class="btn stockBlueButton whiteText" href="/apply.html">Apply</a>
+<section class="mb-10 container-fluid justify-content-center d-flex flex-column align-items-center">
+  <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
+    Next Classes Start January 15th<br />
+    <span class="font-weight-normal">Save your spot today</span>
+  </h2>
+  <a class="btn stockBlueButton text-white" href="/apply">Apply</a>
 </section>
 
-<section class="homeSection">
-    <div class="sectionHeader">
-        <h2 class="montserratBold centeredText size45">
-            Contact Us
-        </h2>
-        <p class="sectionText centeredText">
-            Whether you have questions or you would just<br>
-            like to say hello, contact us.
-        </p>
-    </div>
-    {% include contactForm.html %}
+<section class="mb-10 container-fluid">
+  <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">Contact Us</h2>
+  <p class="sectionText text-center">
+    Whether you have questions or you would just<br />
+    like to say hello, contact us.
+  </p>
+  {% include contactForm.html %}
 </section>
 
 {% include footer.html %}

@@ -13,22 +13,18 @@ body, p {
     color: #303133;
 }
 
-.homeSection {
-    margin-top: 100px;
-    margin-bottom: 48px;
-}
-
-.sectionHeader {
-    margin-bottom: 48px;
-}
-
-.montserratBold {
+.font-family-alt {
     font-family: "montserrat", sans-serif;
-    font-weight: bold;
 }
 
-.centeredText {
-    text-align: center;
+.display-5 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.flex-1 {
+    flex: 1
 }
 
 .sectionText {
@@ -75,10 +71,6 @@ body, p {
 
 .size37 {
     font-size: 37px;
-}
-
-.size45 {
-    font-size: 45px;
 }
 
 .size77 {
@@ -161,10 +153,6 @@ body, p {
     width: 135px;
 }
 
-.whiteText {
-    color: #ffffff !important;
-}
-
 .u-header--bg-transparent .u-header__navbar-nav {
     background-color: #303133;
 }
@@ -206,7 +194,7 @@ body, p {
     position: relative;
 
     width: 100%;
-    height: 864px;
+    height: 100vh;
     margin: 0;
 }
 
@@ -344,15 +332,6 @@ body, p {
 /* begin TRACKS */
 /*  */
 
-.card-deck {
-    width: 100%;
-}
-
-.trackCard {
-    max-width: 538px;
-    max-height: 531px;
-}
-
 .stockBlueButton {
     font-size: 20px;
     border-radius: 50px;
@@ -407,12 +386,6 @@ body, p {
 /* begin CTA */
 /*  */
 
-.ctaSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-}
 
 /*  */
 /* end CTA */
