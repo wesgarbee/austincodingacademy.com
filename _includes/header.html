@@ -1,15 +1,43 @@
+<head>
+  <style>
+    .outlinedCTA {
+      color: #ffffff;
+      width: 135px;
+      height: 44px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background: transparent;
+      background-repeat: no-repeat;
+      border: 3px;
+      border-style: solid;
+      border-color: transparent;
+      border-image-source: url(/assets/images/applyButton.svg);
+      border-image-repeat: stretch stretch;
+      border-image-slice: 21;
+      border-image-width: 135px;
+    }
+
+    #header {
+      padding: 17px 0;
+    }
+  </style>
+</head>
+
 <!-- ========== HEADER ========== -->
 <header id="header" class="u-header u-header--bg-transparent u-header--white-nav-links-md u-header--abs-top"
         data-header-fix-moment="500"
         data-header-fix-effect="slide">
   <div class="u-header__section">
-    <div id="logoAndNav" class="container">
+    <div id="logo-and-nav" class="container">
       <!-- Nav -->
       <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
 
         <!-- Logo -->
         <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-text-white" href="/" aria-label="Front">
-          <img src=/assets/images/ACA_Logo_White.png>
+          <img src="/assets/images/ACA_Logo_White.png">
         </a>
         <!-- End Logo -->
 
@@ -27,19 +55,19 @@
         <!-- End Responsive Toggle Button -->
 
         <!-- Navigation -->
-        <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
+        <div id="nav-bar" class="collapse navbar-collapse u-header__navbar-collapse">
           <ul class="navbar-nav u-header__navbar-nav">
             <!-- Home -->
             <li class="nav-item hs-has-mega-menu u-header__nav-item">
-              <a class="nav-link u-header__nav-link text-white size16" href="/courses" aria-expanded="false">
-                Courses & Tuition
+              <a class="nav-link u-header__nav-link text-white size-16" href="/courses" aria-expanded="false">
+                Courses &amp; Tuition
               </a>
             </li>
             <!-- End Home -->
 
             <!-- Pages -->
             <li class="nav-item hs-has-sub-menu u-header__nav-item">
-              <a class="nav-link u-header__nav-link text-white size16" href="/financing" aria-expanded="false" aria-labelledby="pagesSubMenu">
+              <a class="nav-link u-header__nav-link text-white size-16" href="/financing" aria-expanded="false" aria-labelledby="pagesSubMenu">
                 Financing
               </a>
             </li>
@@ -47,7 +75,7 @@
 
             <!-- Docs -->
             <li class="nav-item hs-has-mega-menu u-header__nav-item">
-              <a class="nav-link u-header__nav-link text-white size16" href="/contact" aria-expanded="false">
+              <a class="nav-link u-header__nav-link text-white size-16" href="/contact" aria-expanded="false">
                 Contact
               </a>
             </li>
@@ -56,7 +84,7 @@
             <!-- Button -->
             <li class="nav-item u-header__nav-last-item">
               <a href="/apply">
-                <div class="outlinedCTA text-white size18">
+                <div class="outlinedCTA text-white size-18">
                   Apply
                 </div>
               </a>

@@ -5,6 +5,8 @@
 /* gradient-turq: 00b3d1 */
 /* gradient-green: 7fc89a */
 
+/* gradient-blue: 00b3d1 */
+
 /* begin GLOBAL */
 /*  */
 
@@ -27,74 +29,56 @@ body, p {
     flex: 1;
 }
 
-.sectionText {
+.section-text {
     font-size: 16px;
     color: #7E8697;
 }
 
-.headerTextMargins {
-    margin-top: 84px;
-    margin-bottom: 70px;
-}
-
-.size10 {
+.size-10 {
     font-size: 10px;
 }
 
-.size14 {
+.size-14 {
     font-size: 14px;
 }
 
-.size15 {
+.size-15 {
     font-size: 15px;
 }
 
-.size16 {
+.size-16 {
     font-size: 16px;
 }
 
-.size18 {
+.size-18 {
     font-size: 18px;
 }
 
-.size20 {
+.size-20 {
     font-size: 20px;
 }
 
-.size22 {
-    font-size: 22px;
-}
-
-.size31 {
+.size-31 {
     font-size: 31px;
 }
 
-.size37 {
+.size-37 {
     font-size: 37px;
 }
 
-.size77 {
-    font-size: 77px;
-}
-
-.bottom48 {
+.bottom-48 {
     margin-bottom: 48px;
 }
 
-.top12 {
-    margin-top: 12px;
-}
-
-.top32 {
-    margin-top: 32px;
-}
-
-.top84 {
-    margin-top: 84px;
-}
-
-.primaryGradient {
+.primary-gradient {
     background: linear-gradient(to right, #00b3d1, #7fc89a);
+}
+
+.stock-blue-button {
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #2d2f77 !important;
+    width: 228px;
 }
 
 /*  */
@@ -104,52 +88,25 @@ body, p {
 /* begin HEADER */
 /*  */
 
-.outlinedCTA {
-    color: #ffffff;
-    width: 135px;
-    height: 44px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    background: transparent;
-    background-repeat: no-repeat;
-    border: 3px;
-    border-style: solid;
-    border-color: transparent;
-    border-image-source: url(/assets/images/applyButton.svg);
-    border-image-repeat: stretch stretch;
-    border-image-slice: 21;
-    border-image-width: 135px;
-}
-
-.hoverScaleButton:hover {
-    transform: scale(1.05);
-}
-
-#header {
-    padding: 17px 0;
-}
-
-#logoAndNav {
+#logo-and-nav {
     max-width: 95%;
 }
 
-#logoAndNav img {
+#logo-and-nav img {
     width: 90px;
 }
 
-#navBar ul {
+#nav-bar ul {
     display: flex;
     justify-content: flex-end;
 }
 
-#navBar li {
+#nav-bar li {
     font-weight: bold;
 }
 
-#navBar .btn {
+#nav-bar .btn {
     width: 135px;
 }
 
@@ -163,54 +120,17 @@ body, p {
     }
 }
 
-/* alt header below */
-
-.headerApply {
-    width: 140px;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#headerBlue {
-    background-color: #202254;
-    padding: 17px 0;
-    position: relative;
-    width: 100%;
-}
-
-
+/*  */
 /* end HEADER */
 
 /* begin HERO */
 /*  */
 
-#homeHero {
-    background-image: url(/assets/images/placeholders/Artboard.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    position: relative;
-
-    width: 100%;
-    height: 100vh;
-    margin: 0;
+.hover-scale-button:hover {
+    transform: scale(1.05);
 }
 
-#homeHeroContent {
-    position: absolute;
-    top: 200px;
-    left: 5%;
-}
-
-#heroButtons {
-    display: flex;
-    justify-content: space-between;
-    width: 491px;
-}
-
-.wideButton {
+.wide-button {
     width: 228px;
     height: 53px;
     display: flex;
@@ -219,14 +139,14 @@ body, p {
     margin: 20px 0;
 }
 
-.ctaButton {
+.cta-button {
     color: white;
     font-weight: bold;
     font-size: 18px;
     border-radius: 30px;
 }
 
-.infoButton {
+.info-button {
     border: 3px solid #ffffff;
     color: #ffffff;
     font-weight: bold;
@@ -235,45 +155,45 @@ body, p {
 }
 
 @media (max-width: 767.98px) {
-    #homeHero {
+    #home-hero {
         height: 700px;
     }
 
-    #heroButtons {
+    #hero-buttons {
         width: 100%;
         justify-content: space-around;
     }
-    .wideButton {
+    .wide-button {
         width: 175px;
     }
 
-    #homeHeroContent .size77 {
+    #home-hero-content .display-3 {
         font-size: 50px;
     }
 
-    #homeHeroContent .size31 {
+    #home-hero-content .size-31 {
         font-size: 20px;
     }
 }
 
 @media (max-width: 575.98px) {
-    #homeHero {
+    #home-hero {
         height: 600px;
     }
 
-    #heroButtons {
+    #hero-buttons {
         width: 100%;
         justify-content: space-around;
     }
-    .wideButton {
+    .wide-button {
         width: 175px;
     }
 
-    #homeHeroContent .size77 {
+    #home-hero-content .size-37 {
         font-size: 35px;
     }
 
-    #homeHeroContent .size31 {
+    #home-hero-content .size-31 {
         font-size: 15px;
     }
 }
@@ -281,128 +201,19 @@ body, p {
 /*  */
 /* end HERO */
 
-/* begin TABS */
+/* begin CONTACT */
 /*  */
 
-#homeTabs {
-    box-sizing: border-box;
-    border-bottom: 0;
-    box-shadow: 0 0 1px 1px rgba(140, 152, 164, 0.15);
-    height: 110px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 48px
-}
-
-.noPadding {
-    padding: 0;
-}
-
-.nav-tabs .nav-link {
-    color: #303133;
-    height: 110px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-tabs .nav-link:hover {
-    color: #00b3d1;
-    border: 0;
-    transform: none;
-}
-
-.nav-tabs .nav-link.active {
-    color: #303133;
-    font-weight: bold !important;
-
-    border-width: 0;
-    border-bottom: 3px solid #2d2f77;
-}
-
-.hiddenIcon {
-    /* visibility:hidden; */
-    display: none;
-}
-
-/*  */
-/* end TABS */
-
-/* begin TRACKS */
-/*  */
-
-.stockBlueButton {
-    font-size: 20px;
-    border-radius: 50px;
-    background-color: #2d2f77 !important;
-    width: 228px;
-}
-
-/*  */
-/* end TRACKS */
-
-/* begin INSTRUCTORS */
-/*  */
-
-/*  */
-/* end INSTRUCTORS */
-
-.cardBlock {
-    max-width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-/*  */
-/* begin GRADCOMPANIES */
-
-.companyLogoDiv {
-    width: 270px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media (max-width: 767.98px) {
-    .companyLogoDiv {
-        width: 135px;
-        height: 80px;
-    }
-
-    .logoSection {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-/* end GRADCOMPANIES */
-/*  */
-
-/* begin CTA */
-/*  */
-
-
-/*  */
-/* end CTA */
-
-/* begin CONTACTUS */
-/*  */
-
-.centerForm {
+.center-form {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.centerForm .sendButton {
+.center-form .send-button {
     max-width: 500px;
 }
 
-.sendButton {
+.send-button {
     height: 50px;
     width: 100%;
     background-color: #2d2f77 !important;
@@ -410,37 +221,12 @@ body, p {
 }
 
 /*  */
-/* end CONTACTUS */
+/* end CONTACT */
 
-/* begin FOOTER */
+/* begin FORMS */
 /*  */
 
-footer p {
-    padding: 0 10px;
-    margin: 25px 0;
-    font-size: 16px;
-}
-
-.footerTitle {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-footer .list-group {
-    margin-top: 50px;
-}
-
-footer .list-group-item {
-    font-size: 18px !important;
-}
-
-/*  */
-/* end FOOTER */
-
-/* begin GRIEVANCEPOLICY */
-/*  */
-
-.formOutline {
+.form-outline {
     max-width: 890px;
     width: 64.3%;
     padding: 80px;
@@ -449,55 +235,15 @@ footer .list-group-item {
     border-radius: 4px;
 }
 
-.formOutline .row {
+.form-outline .row {
     margin: 0;
 }
 
-.formOutline p, .formOutline ul {
+.form-outline p, .form-outline ul {
     margin:0 0 25px;
     width: 100%;
     color: #77838F;
 }
 
 /*  */
-/* end GRIEVANCEPOLICY */
-
-/* begin CONTACTPAGE */
-/*  */
-
-.formLabel {
-    font-family: "open sans", sans-serif;
-    font-size: 13px;
-}
-
-/*  */
-/* end CONTACTPAGE */
-
-/* begin FAQ */
-/*  */
-
-.accordionSection {
-    margin: 0 auto 98px;
-    max-width: 1110px;
-
-}
-
-/*  */
-/* end FAQ */
-
-/* begin TUITION */
-/*  */
-
-#tuitionHero {
-    background-image: url("/assets/images/financingHero.png");
-    width: 100%;
-    height: 392px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-/*  */
-/* end TUITION */
+/* end FORMS */

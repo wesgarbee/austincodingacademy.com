@@ -1,0 +1,81 @@
+---
+layout: default
+permalink: /javascript/
+---
+<head>
+    <style>
+        .floating-button {
+            display: flex;
+            justify-content: center;
+            margin: 2rem auto 6rem;
+        }
+    </style>
+</head>
+
+{% include headerBlue.html %}
+
+{% include heroTrackJS.html %}
+
+{% include curriculumJS.html %}
+
+<div class="floating-button">
+    <a href="#">
+        <div class="wide-button cta-button primary-gradient hover-scale-button">
+        Download Course Guide
+        </div>
+    </a>
+</div>
+
+{% include comparisonCardsJS.html %}
+
+<h4 class="font-family-alt text-center font-weight-bold">Need Help With Tuition?</h4>
+<a class="text-center" href="/financing/"><h5>View Financing Options <span class="fas fa-arrow-right small"></span></h5></a>
+
+<h3 class="font-family-alt text-center font-weight-bold">Individual Course Dates</h3>
+
+<div class="container">
+    <h4>WD101 - Intro to Web Development</h4>
+    <div class="row">
+        <div class="col-6 col-md">
+            Month Day - Month Day
+        </div>
+        <div class="col-6 col-md">
+            Tuesdays & Thursdays
+        </div>
+        <div class="col-6 col-md">
+            6:30pm - 8:00pm
+        </div>
+        <div class="col-6 col-md">
+            Downtown Campus
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 col-md">
+            Month Day - Month Day
+        </div>
+        <div class="col-6 col-md">
+            Tuesdays & Thursdays
+        </div>
+        <div class="col-6 col-md">
+            6:30pm - 8:00pm
+        </div>
+        <div class="col-6 col-md">
+            Downtown Campus
+        </div>
+    </div>
+</div>
+
+<section style="margin: 0 auto 48px;">
+    <h2 class="font-family-alt font-weight-bold text-center display-4 mb-5">
+        Still Have Questions?
+    </h2>
+  <div style="width: 500px; margin: 0 auto;">
+        <p class="size-20 text-center">
+            From choosing the right course to understanding course details, we're here to help.
+        </p>
+        {% include contactForm.html %}
+  </div>
+</section>
+
+
+{% include footer.html %}

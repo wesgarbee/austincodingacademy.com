@@ -1,32 +1,57 @@
-<!-- Hero Section -->
-<div class=" d-lg-flex align-items-lg-center" style="background-image: url(/assets/images/placeholders/Artboard.png)">
-  <div class="d-none d-lg-block bg-img-hero position-absolute top-0 right-0 left-0"></div>
-  <div id="heroContainer" class="container space-top-3 space-bottom-2 space-top-md-4 space-bottom-md-3">
-    <div id="heroText" class="row align-items-md-center">
-      <div class="col-lg-9">
-        <!-- Title -->
-        <div class="bottom40">
-          <h1 class="text-white heroText font-family-alt font-weight-bold mt-5 display-3">
-            Change Your Life<br>With a New Career
-          </h1>
-          <p class="text-white heroText size31">Part-time coding classes instructed<br>
-            by full-time developers here in Austin, TX</p>
-        </div>
-        <!-- End Title -->
-        <div id="heroButtons" class="row">
-          <a class="col-md-6 col-xs-12" href="#">
-            <div class="wideButton infoButton hoverScaleButton">
-                Learn More
-            </div>
-          </a>
-          <a class="col-md-6 col-xs-12" href="#">
-            <div class="wideButton ctaButton primaryGradient hoverScaleButton">
-              Apply Now!
-            </div>
-          </a>
-        </div>
+<head>
+  <style>
+    #home-hero {
+      background-image: url(/assets/images/placeholders/Artboard.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      position: relative;
+
+      width: 100%;
+      height: 110vh;
+      margin: 0;
+    }
+
+    #home-hero-content {
+        position: absolute;
+        top: 200px;
+        left: 5%;
+    }
+
+    #hero-buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 491px;
+    }
+  </style>
+</head>
+
+<div id="home-hero" class="container-fluid">
+
+  <div id="home-hero-content">
+      <div class="">
+        <h1 class="text-white heroTitle font-family-alt font-weight-bold display-3">
+          Change Your Life<br>With a New Career
+        </h1>
+        <p class="text-white size-31">Part-time coding classes instructed<br>
+          by full-time developers here in Austin, TX</p>
       </div>
-    </div>
+
+      <div id="hero-buttons" class="row">
+        <a class="col-6" href="/courses">
+          <div class="wide-button info-button hover-scale-button">
+              Learn More
+          </div>
+        </a>
+        <a class="col-6" href="/apply">
+          <div class="wide-button cta-button primary-gradient hover-scale-button">
+            Apply Now!
+          </div>
+        </a>
+      </div>
   </div>
+
 </div>
-<!-- End Hero Section -->
+
+
+

@@ -1,21 +1,46 @@
+<head>
+    <style>
+        .company-logo-div {
+            width: 270px;
+            height: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (max-width: 767.98px) {
+            .company-logo-div {
+                width: 135px;
+                height: 80px;
+            }
+
+            #logo-section {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
 <div class="container-fluid">
-    <div class="row logoSection">
-        <div class="col-sm-3 col-md-2 companyLogoDiv">
+    <div id="logo-section" class="row">
+        <div class="col-sm-3 col-md-2 company-logo-div">
             <img class="u-clients" src="https://austincodingacademy.github.io/front/assets/svg/clients-logo/slack.svg" alt="Image Description">
         </div>
-        <div class="col-sm-3 col-md-2 companyLogoDiv">
+        <div class="col-sm-3 col-md-2 company-logo-div">
             <img class="u-clients" src="https://austincodingacademy.github.io/front/assets/svg/clients-logo/spotify.svg" alt="Image Description">
         </div>
-        <div class="col-sm-3 col-md-2 companyLogoDiv">
+        <div class="col-sm-3 col-md-2 company-logo-div">
             <img class="u-clients" src="https://austincodingacademy.github.io/front/assets/svg/clients-logo/google.svg" alt="Image Description">
         </div>
-        <div class="col-sm-3 col-md-2 companyLogoDiv">
+        <div class="col-sm-3 col-md-2 company-logo-div">
             <img class="u-clients" src="https://austincodingacademy.github.io/front/assets/svg/clients-logo/paypal.svg" alt="Image Description">
         </div>
-        <div class="col-sm-3 col-md-2 companyLogoDiv">
+        <div class="col-sm-3 col-md-2 company-logo-div">
             <img class="u-clients" src="https://austincodingacademy.github.io/front/assets/svg/clients-logo/netflix.svg" alt="Image Description">
         </div>
-        <div class="col-sm-3 col-md-2 companyLogoDiv">
+        <div class="col-sm-3 col-md-2 company-logo-div">
             <img class="u-clients" src="https://austincodingacademy.github.io/front/assets/svg/clients-logo/amazon.svg" alt="Image Description">
         </div>
     </div>
