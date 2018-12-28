@@ -190,7 +190,7 @@ body, p {
     background-image: url(/assets/images/placeholders/Artboard.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     position: relative;
 
     width: 100%;
