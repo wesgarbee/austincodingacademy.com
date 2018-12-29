@@ -187,24 +187,6 @@ body, p {
 /* begin FORMS */
 /*  */
 
-.form-outline {
-    /* max-width: 890px;
-    width: 64.3%;
-    padding: 80px;
-    margin: 115px auto 200px;
-    border-radius: 4px; */
-}
-
-.form-outline .row {
-    margin: 0;
-}
-
-.form-outline p, .form-outline ul {
-    margin:0 0 25px;
-    width: 100%;
-    color: #77838F;
-}
-
 /*  */
 /* end FORMS */
 
