@@ -16,20 +16,62 @@
         position: absolute;
         top: 200px;
         left: 5%;
+        width: 100%;
     }
 
     #hero-buttons {
         display: flex;
         justify-content: space-between;
-        width: 491px;
     }
+
+    @media (max-width: 767.98px) {
+      #home-hero {
+        height: 100vh;
+      }
+
+      #hero-buttons {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      #home-hero-content .display-3 {
+        font-size: 40px;
+      }
+
+      #home-hero-content .size-31 {
+        font-size: 20px;
+      }
+
+      .wide-button {
+        width: 175px !important;
+      }
+  }
+
+  @media (max-width: 575.98px) {
+      #home-hero {
+        height: 90vh;
+      }
+
+      #hero-buttons {
+        width: 100%;
+        justify-content: space-around;
+      }
+
+      #home-hero-content .size-37 {
+          font-size: 35px;
+      }
+
+      #home-hero-content .size-31 {
+          font-size: 15px;
+      }
+  }
   </style>
 </head>
 
 <div id="home-hero" class="container-fluid">
 
   <div id="home-hero-content">
-      <div class="">
+      <div>
         <h1 class="text-white font-family-alt font-weight-bold display-3">
           Change Your Life<br>With a New Career
         </h1>
@@ -38,12 +80,12 @@
       </div>
 
       <div id="hero-buttons" class="row">
-        <a class="col-6" href="/courses">
+        <a class="col" href="/courses">
           <div class="wide-button info-button hover-scale-button">
               Learn More
           </div>
         </a>
-        <a class="col-6" href="/apply">
+        <a class="col" href="/apply">
           <div class="wide-button cta-button primary-gradient hover-scale-button">
             Apply Now!
           </div>

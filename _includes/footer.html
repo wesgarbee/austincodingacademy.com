@@ -22,6 +22,24 @@
     .alt-gradient {
       background: linear-gradient(to right, #2d2f77, #00b3d1);
     }
+
+    @media (max-width: 991.98px) {
+      #logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .links {
+        text-align: center;
+      }
+    }
+    @media (min-width: 992px) {
+      #logo {
+        padding-left: 50px;
+      }
+    }
+
   </style>
 </head>
 
@@ -30,31 +48,34 @@
     <div class="container space-top-2 space-bottom-1">
       <div class="row justify-content-lg-start mb-7">
         <div class="col-sm-9 col-lg-4 mb-7">
-          <!-- Logo -->
-          <a href="/">
-            <img width="140px" src="/assets/images/aca-logo-3.png">
-          </a>
-          <!-- End Logo -->
-
-          <ul class="text-white" style="list-style: none; margin-top: 20px;">
-              <li style="list-style-image: url(/assets/images/icons/whiteMarker.png)">Downtown</li>
-              <li>(Capital Factory)</li>
-              <li>701 Brazos St, Ste 1616,</li>
-              <li>Austin, TX 78701</li>
-          </ul>
-          <ul class="text-white" style="list-style: none; margin-top: 20px;">
-              <li style="list-style-image: url(/assets/images/icons/whiteMarker.png)">Central Austin</li>
-              <li>(Highland)</li>
-              <li>314 E Highland Mall Blvd, Ste 114,</li>
-              <li>Austin, TX 78752</li>
-          </ul>
+          <div class="row">
+            <!-- Logo -->
+            <a id="logo" class="col col-lg-12" href="/">
+              <img width="140px" src="/assets/images/ACA_Logo_White.png">
+            </a>
+            <!-- End Logo -->
+            <div class="col col-lg-12">
+              <ul class="text-white" style="list-style: none; margin-top: 20px;">
+                  <li style="list-style-image: url(/assets/images/icons/whiteMarker.png)">Downtown</li>
+                  <li>(Capital Factory)</li>
+                  <li>701 Brazos St, Ste 1616,</li>
+                  <li>Austin, TX 78701</li>
+              </ul>
+              <ul class="text-white" style="list-style: none; margin-top: 20px;">
+                  <li style="list-style-image: url(/assets/images/icons/whiteMarker.png)">Central Austin</li>
+                  <li>(Highland)</li>
+                  <li>314 E Highland Mall Blvd, Ste 114,</li>
+                  <li>Austin, TX 78752</li>
+              </ul>
+            </div>
+          </div>
         </div>
 
-        <div class="col-6 col-sm-4 col-lg-2 ml-lg-auto mb-4">
+        <div class="links col-6 col-sm-4 col-lg-3 ml-lg-auto mb-4">
           <!-- List Group -->
           <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
             <li class="text-white footer-title">About</li>
-            <li><a class="text-white list-group-item list-group-item-action" href="/courses">Tracks &amp; Tuition</a></li>
+            <li><a class="text-white list-group-item list-group-item-action" href="/javascript">Tracks &amp; Tuition</a></li>
             <li><a class="text-white list-group-item list-group-item-action" href="/financing">Financing</a></li>
             <li><a class="text-white list-group-item list-group-item-action" href="/student-grievances">Student Grievance Policy</a></li>
             <li><a class="text-white list-group-item list-group-item-action" href="/apply">Apply Now</a></li>
@@ -62,7 +83,7 @@
           <!-- End List Group -->
         </div>
 
-        <div class="col-6 col-sm-4 col-lg-2 mb-4">
+        <div class="links col-6 col-sm-4 col-lg-3 mb-4">
           <!-- List Group -->
           <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
             <li class="text-white footer-title">Community</li>
@@ -75,7 +96,7 @@
 
       </div>
 
-      <div class="col-sm-6 text-sm-right">
+      <div class="text-center">
         <!-- Copyright -->
         <p class="small text-white-70 mb-0">© Austin Coding Academy 2018. All rights reserved.</p>
         <!-- End Copyright -->

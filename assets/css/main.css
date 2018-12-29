@@ -99,11 +99,30 @@ body, p {
 .navbar {
     padding: 17px 4%;
 }
+
 .navbar-brand img {
     width: 90px;            
 }
+
+.navbar-toggler-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-item {
     margin-right: 2rem;
+}
+
+@media (max-width: 991.98px) {
+    .navbar ul {
+        padding: 1rem 0;
+        background-color: #202254;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 /*  */
@@ -117,7 +136,7 @@ body, p {
 }
 
 .wide-button {
-    width: 228px;
+    width: 228px !important;
     height: 53px;
     display: flex;
     align-items: center;
@@ -138,50 +157,6 @@ body, p {
     font-weight: bold;
     font-size: 18px;
     border-radius: 30px;
-}
-
-@media (max-width: 767.98px) {
-    #home-hero {
-        height: 700px;
-    }
-
-    #hero-buttons {
-        width: 100%;
-        justify-content: space-around;
-    }
-    .wide-button {
-        width: 175px;
-    }
-
-    #home-hero-content .display-3 {
-        font-size: 50px;
-    }
-
-    #home-hero-content .size-31 {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    #home-hero {
-        height: 600px;
-    }
-
-    #hero-buttons {
-        width: 100%;
-        justify-content: space-around;
-    }
-    .wide-button {
-        width: 175px;
-    }
-
-    #home-hero-content .size-37 {
-        font-size: 35px;
-    }
-
-    #home-hero-content .size-31 {
-        font-size: 15px;
-    }
 }
 
 /*  */
@@ -213,12 +188,11 @@ body, p {
 /*  */
 
 .form-outline {
-    max-width: 890px;
+    /* max-width: 890px;
     width: 64.3%;
     padding: 80px;
     margin: 115px auto 200px;
-    border: 1px solid #E7EAF3;
-    border-radius: 4px;
+    border-radius: 4px; */
 }
 
 .form-outline .row {
@@ -234,6 +208,12 @@ body, p {
 /*  */
 /* end FORMS */
 
-.track-page-margin {
+.section-margin {
     margin: 120px auto;
+}
+
+.floating-button {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
 }
