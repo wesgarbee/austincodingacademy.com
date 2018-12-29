@@ -85,6 +85,10 @@ body, p {
     max-width: 850px;
 }
 
+.narrow-mini {
+    max-width: 600px;
+}
+
 /*  */
 /* end DEFAULT */
 
@@ -251,3 +255,7 @@ body, p {
 
 /*  */
 /* end FORMS */
+
+.track-page-margin {
+    margin: 120px auto;
+}

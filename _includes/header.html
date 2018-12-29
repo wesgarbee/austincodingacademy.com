@@ -58,10 +58,14 @@
         <div id="nav-bar" class="collapse navbar-collapse u-header__navbar-collapse">
           <ul class="navbar-nav u-header__navbar-nav">
             <!-- Home -->
-            <li class="nav-item hs-has-mega-menu u-header__nav-item">
-              <a class="nav-link u-header__nav-link text-white size-16" href="/courses" aria-expanded="false">
+            <li class="nav-item dropdown hs-has-mega-menu u-header__nav-item">
+              <a class="nav-link dropdown-toggle u-header__nav-link text-white size-16" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
                 Courses &amp; Tuition
               </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/javascript/">JavaScript</a>
+                <a class="dropdown-item" href="/c#/">C# .NET</a>
+              </div>
             </li>
             <!-- End Home -->
 
