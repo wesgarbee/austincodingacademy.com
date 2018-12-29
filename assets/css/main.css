@@ -96,36 +96,14 @@ body, p {
 /* begin HEADER */
 /*  */
 
-
-#logo-and-nav {
-    max-width: 95%;
+.navbar {
+    padding: 17px 4%;
 }
-
-#logo-and-nav img {
-    width: 90px;
+.navbar-brand img {
+    width: 90px;            
 }
-
-#nav-bar ul {
-    display: flex;
-    justify-content: flex-end;
-}
-
-#nav-bar li {
-    font-weight: bold;
-}
-
-#nav-bar .btn {
-    width: 135px;
-}
-
-.u-header--bg-transparent .u-header__navbar-nav {
-    background-color: #303133;
-}
-
-@media (min-width: 768px) {
-    .u-header--bg-transparent .u-header__navbar-nav {
-        background-color: rgb(0,0,0,0);
-    }
+.nav-item {
+    margin-right: 2rem;
 }
 
 /*  */

@@ -1,15 +1,27 @@
 <head>
     <style>
         .navbar {
-            background-color: #202254;
-            position: relative;
+            background-color: transparent;
+            position: absolute;
         }
-        #apply-gradient {
-            width: 140px;
-            height: 42px;
+        .outlined-cta {
+            color: #ffffff;
+            width: 135px;
+            height: 44px;
+            border-radius: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
+
+            background: transparent;
+            background-repeat: no-repeat;
+            border: 3px;
+            border-style: solid;
+            border-color: transparent;
+            border-image-source: url(/assets/images/applyButton.svg);
+            border-image-repeat: stretch stretch;
+            border-image-slice: 21;
+            border-image-width: 135px;
         }
     </style>
 </head>
@@ -41,8 +53,8 @@
             </li>
             <li class="nav-item">
               <a href="/apply/">
-                <div id="apply-gradient" class="cta-button primary-gradient text-white font-weight-bold size-18">
-                    Apply
+                <div class="outlined-cta text-white font-weight-bold size-18">
+                  Apply
                 </div>
               </a>
             </li>
