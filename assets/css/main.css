@@ -11,19 +11,35 @@
 /*  */
 
 .text-purple {
-  color: #2d2f77;
+  color: #2d2f77 !important;
 }
 .text-yellow {
-  color: #f5b02c;
+  color: #f5b02c !important;
 }
 .text-red {
-  color: #ef4a2a;
+  color: #ef4a2a !important;
 }
 .text-blue {
-  color: #00b3d1;
+  color: #00b3d1 !important;
 }
 .text-green {
-  color: #7fc89a;
+  color: #7fc89a !important;
+}
+
+.bg-purple {
+  background-color: #2d2f77 !important;
+}
+.bg-yellow {
+  background-color: #f5b02c !important;
+}
+.bg-red {
+  background-color: #ef4a2a !important;
+}
+.bg-blue {
+  background-color: #00b3d1 !important;
+}
+.bg-green {
+  background-color: #7fc89a !important;
 }
 
 
@@ -110,47 +126,6 @@ p {
 .narrow-mini {
   max-width: 600px;
 }
-
-/*  */
-/* end DEFAULT */
-
-/* begin HEADER */
-/*  */
-
-.navbar {
-  padding: 17px 4%;
-}
-
-.navbar-brand img {
-  width: 90px;
-}
-
-.navbar-toggler-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-item {
-  margin-right: 2rem;
-}
-
-@media (max-width: 991.98px) {
-  .navbar ul {
-    padding: 1rem 0;
-    background-color: #202254;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-
-/*  */
-/* end HEADER */
-
-/* begin HERO */
-/*  */
 
 .hover-scale-button:hover {
   transform: scale(1.05);

@@ -1,0 +1,145 @@
+<style>
+  .outlined-cta {
+    color: #ffffff;
+    width: 135px;
+    height: 44px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent;
+    background-repeat: no-repeat;
+    border: 3px;
+    border-style: solid;
+    border-color: transparent;
+    border-image-source: url(/assets/images/applyButton.svg);
+    border-image-repeat: stretch stretch;
+    border-image-slice: 21;
+    border-image-width: 135px;
+  }
+
+  .navbar-brand {
+    height: 90px;
+    width: 90px;
+  }
+</style>
+
+<!-- ========== HEADER ========== -->
+
+<header
+  id="header"
+  class="u-header {% if include.color == 'transparent' %} u-header--bg-transparent u-header--white-nav-links-md {% else %} u-header--navbar-bg {% endif %} u-header--abs-top"
+>
+  <div
+    class="u-header__section {% if include.color != 'transparent' %} bg-purple {% endif %}"
+  >
+    <div id="logoAndNav" class="container-fluid">
+      <!-- Nav -->
+      <nav
+        class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space"
+      >
+        <!-- Logo -->
+        <a
+          class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-text-white"
+          href="/"
+          aria-label="Logo"
+        >
+          <img src="/assets/images/ACA_Logo_White.png" class="w-100" />
+        </a>
+        <!-- End Logo -->
+
+        <!-- Responsive Toggle Button -->
+        <button
+          type="button"
+          class="navbar-toggler btn u-hamburger u-hamburger--white"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="navBar"
+          data-toggle="collapse"
+          data-target="#navBar"
+        >
+          <span id="hamburgerTrigger" class="u-hamburger__box">
+            <span class="u-hamburger__inner"></span>
+          </span>
+        </button>
+        <!-- End Responsive Toggle Button -->
+
+        <!-- Navigation -->
+        <div
+          id="navBar"
+          class="collapse navbar-collapse u-header__navbar-collapse"
+        >
+          <ul class="navbar-nav u-header__navbar-nav ml-auto">
+            <!-- Courses -->
+            <li
+              class="nav-item hs-has-sub-menu u-header__nav-item"
+              data-event="click"
+            >
+              <a
+                id="coursesMegaMenu"
+                class="nav-link u-header__nav-link u-header__nav-link-toggle"
+                href="javascript:;"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-labelledby="coursesSubMenu"
+                >Courses &amp; Tuition</a
+              >
+
+              <!-- Courses - Submenu -->
+              <ul
+                id="coursesSubMenu"
+                class="hs-sub-menu u-header__sub-menu"
+                aria-labelledby="coursesMegaMenu"
+              >
+                <!-- JavaScript -->
+                <li>
+                  <a
+                    id="navLinkCoursesJavaScript"
+                    class="nav-link"
+                    href="/javascript"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-controls="navSubmenuCoursesJavaScript"
+                    >JavaScript</a
+                  >
+                </li>
+                <!-- End JavaScript -->
+                <!-- C#/.Net -->
+                <li>
+                  <a
+                    id="navLinkCoursesCsharp"
+                    class="nav-link"
+                    href="/csharp"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-controls="navSubmenuCoursesCsharp"
+                    >C# .Net</a
+                  >
+                </li>
+                <!-- End C#/.Net -->
+              </ul>
+              <!-- End Courses - Submenu -->
+            </li>
+            <!-- End Courses -->
+            <!-- Financing -->
+            <li class="nav-item  u-header__nav-item">
+              <a class="nav-link u-header__nav-link" href="/financing"
+                >Financing</a
+              >
+            </li>
+            <!-- End Financing -->
+            <!-- Contact -->
+            <li class="nav-item  u-header__nav-item">
+              <a class="nav-link u-header__nav-link" href="/contact">Contact</a>
+            </li>
+            <!-- End Contact -->
+          </ul>
+        </div>
+        <!-- End Navigation -->
+      </nav>
+      <!-- End Nav -->
+    </div>
+  </div>
+</header>
+<!-- ========== END HEADER ========== -->

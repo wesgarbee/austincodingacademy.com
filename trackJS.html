@@ -3,24 +3,22 @@ layout: default
 permalink: /javascript/
 ---
 
-{% include headerBlue.html %} {% include /tracks/heroJS.html %}
-
-<section class="section-margin">
+{% include header.html %} {% include /tracks/heroJS.html %}
+<div class="my-10"></div>
+<section class="container-fluid">
   {% include /tracks/curriculumJS.html %}
-  <div class="floating-button">
-    <a href="#">
-      <div class="wide-button cta-button primary-gradient hover-scale-button">
+  <div class="my-10"></div>
+  <div class="row">
+    <div class="col col-sm-6 offset-sm-3 col-lg-4 offset-lg-4">
+      <a href="" class="btn-primary btn primary-gradient hover-scale-button btn-block">
         Download Course Guide
-      </div>
-    </a>
+      </a>
+    </div>
   </div>
-</section>
 
-<section class="section-margin">
+  <div class="my-10"></div>
   {% include /tracks/comparisonCardsJS.html %}
-</section>
 
-<section class="section-margin">
   <div class="container">
     <h4 class="font-family-alt text-center font-weight-bold">
       Need Help With Tuition?
@@ -31,9 +29,7 @@ permalink: /javascript/
         <span class="fas fa-arrow-right small"></span></h5
     ></a>
   </div>
-</section>
-
-<section class="section-margin">
+  <div class="my-10"></div>
   {% include /tracks/courseDatesJS.html %}
   <div class="floating-button">
     <a href="/apply">
@@ -42,11 +38,9 @@ permalink: /javascript/
       </div>
     </a>
   </div>
-</section>
 
-<section class="section-margin">{% include campusLocations.html %}</section>
-
-<section class="section-margin">
+{% include campusLocations.html %}
+  <div class="my-10"></div>
   <h2 class="font-family-alt font-weight-bold text-center display-4">
     Still Have Questions?
   </h2>
@@ -57,6 +51,7 @@ permalink: /javascript/
     </p>
     {% include contactForm.html %}
   </div>
+  <div class="my-10"></div>
 </section>
 
 {% include footer.html %}
