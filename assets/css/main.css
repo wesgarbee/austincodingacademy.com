@@ -1,5 +1,3 @@
-
-
 /* @import '../_sass/index'; */
 
 /* gradient-turq: 00b3d1 */
@@ -10,119 +8,125 @@
 /* begin GLOBAL */
 /*  */
 
-body, p {
-    font-family: "open sans", sans-serif;
-    color: #303133;
+/*  */
+
+body,
+p {
+  font-family: "open sans", sans-serif;
+  color: #303133;
 }
 
 .font-family-alt {
-    font-family: "montserrat", sans-serif;
+  font-family: "montserrat", sans-serif;
 }
 
 .display-5 {
-    font-size: 3rem;
-    font-weight: 300;
-    line-height: 1.2;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 .flex-1 {
-    flex: 1;
+  flex: 1;
+}
+
+.pt-14 {
+  padding-top: 14rem;
 }
 
 .section-text {
-    font-size: 16px;
-    color: #7E8697;
+  font-size: 16px;
+  color: #7e8697;
 }
 
 .size-10 {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .size-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .size-15 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .size-16 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .size-18 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .size-20 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .size-31 {
-    font-size: 31px;
+  font-size: 31px;
 }
 
 .size-37 {
-    font-size: 37px;
+  font-size: 37px;
 }
 
 .bottom-48 {
-    margin-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .primary-gradient {
-    background: linear-gradient(to right, #00b3d1, #7fc89a);
+  background: linear-gradient(to right, #00b3d1, #7fc89a);
 }
 
 .stock-blue-button {
-    font-size: 20px;
-    border-radius: 50px;
-    background-color: #2d2f77 !important;
-    width: 228px;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: #2d2f77 !important;
+  width: 228px;
 }
 
 .narrow {
-    max-width: 850px;
+  max-width: 850px;
 }
 
 .narrow-mini {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 /*  */
 /* end DEFAULT */
 
-
 /* begin HEADER */
 /*  */
 
 .navbar {
-    padding: 17px 4%;
+  padding: 17px 4%;
 }
 
 .navbar-brand img {
-    width: 90px;            
+  width: 90px;
 }
 
 .navbar-toggler-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-item {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
 
 @media (max-width: 991.98px) {
-    .navbar ul {
-        padding: 1rem 0;
-        background-color: #202254;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
+  .navbar ul {
+    padding: 1rem 0;
+    background-color: #202254;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 /*  */
@@ -132,31 +136,31 @@ body, p {
 /*  */
 
 .hover-scale-button:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .wide-button {
-    width: 228px !important;
-    height: 53px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
+  width: 228px !important;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
 }
 
 .cta-button {
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 30px;
 }
 
 .info-button {
-    border: 3px solid #ffffff;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 30px;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 30px;
 }
 
 /*  */
@@ -166,19 +170,19 @@ body, p {
 /*  */
 
 .center-form {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .center-form .send-button {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .send-button {
-    height: 50px;
-    width: 100%;
-    background-color: #2d2f77 !important;
-    border-radius: 3px;
+  height: 50px;
+  width: 100%;
+  background-color: #2d2f77 !important;
+  border-radius: 3px;
 }
 
 /*  */
@@ -191,11 +195,11 @@ body, p {
 /* end FORMS */
 
 .section-margin {
-    margin: 120px auto;
+  margin: 120px auto;
 }
 
 .floating-button {
-    display: flex;
-    justify-content: center;
-    margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
 }
