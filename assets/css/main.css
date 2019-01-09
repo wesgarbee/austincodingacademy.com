@@ -10,6 +10,23 @@
 
 /*  */
 
+.text-purple {
+  color: #2d2f77;
+}
+.text-yellow {
+  color: #f5b02c;
+}
+.text-red {
+  color: #ef4a2a;
+}
+.text-blue {
+  color: #00b3d1;
+}
+.text-green {
+  color: #7fc89a;
+}
+
+
 body,
 p {
   font-family: "open sans", sans-serif;
