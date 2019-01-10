@@ -1,3 +1,8 @@
+body {
+  font-family: "open sans", sans-serif;
+  color: #303133;
+}
+
 .text-purple {
   color: #2d2f77 !important;
 }
@@ -30,29 +35,21 @@
   background-color: #7fc89a !important;
 }
 
-body,
-p {
-  font-family: "open sans", sans-serif;
-  color: #303133;
-}
-
 .font-family-alt {
-  font-family: "montserrat", sans-serif;
+  font-family: "montserrat", sans-serif !important;
 }
 
 .display-5 {
-  font-size: 3rem;
-  font-weight: 300;
-  line-height: 1.2;
+  font-size: 3rem !important;
+  font-weight: 300 !important;
+  line-height: 1.2 !important;
 }
 
 .flex-1 {
-  flex: 1;
+  flex: 1 !important;
 }
 
-.pt-14 {
-  padding-top: 14rem;
-}
+
 
 .section-text {
   font-size: 16px;
