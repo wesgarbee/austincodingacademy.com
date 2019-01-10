@@ -5,3 +5,5 @@ linkPocket
 Exports
 extras
 node_modules
+*.log
+DS_Store

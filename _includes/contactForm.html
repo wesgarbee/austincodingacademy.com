@@ -1,66 +1,88 @@
-<head>
-    <style>
-        .form-label {
-            font-family: "open sans", sans-serif;
-            font-size: 13px;
-        }
-    </style>
-</head>
+<style>
+.form-label {
+    font-family: "open sans", sans-serif;
+    font-size: 13px;
+}
+</style>
 
 <form class="js-validate">
-    <div class="row center-form">
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-            <div class="js-form-message">
-            <label for="name" class="form-label">
-                Name
-                <span class="text-danger">*</span>
-            </label>
+  <div class="row center-form">
+    <!-- Input -->
+    <div class="col-sm-6 mb-6">
+      <div class="js-form-message">
+        <label for="name" class="form-label">
+          Name <span class="text-danger">*</span>
+        </label>
 
-            <input id="name" type="text" class="form-control" name="name" placeholder="Your name" aria-label="Your name" required
-                    data-msg="Please enter your name."
-                    data-error-class="u-has-error"
-                    data-success-class="u-has-success">
-            </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-            <div class="js-form-message">
-            <label for="email" class="form-label">
-                Email
-                <span class="text-danger">*</span>
-            </label>
-
-            <input id="email" type="email" class="form-control" name="email" placeholder="Your email address" aria-label="Your email address" required
-                    data-msg="Please enter a valid email address."
-                    data-error-class="u-has-error"
-                    data-success-class="u-has-success">
-            </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="js-form-message mb-6 col-sm-12">
-            <label for="message" class="form-label">
-                Message
-                <span class="text-danger">*</span>
-            </label>
-
-            <div class="input-group">
-                <textarea id="message" class="form-control" rows="4" name="text" placeholder="Enter your questions or comments here" aria-label="Enter your questions or comments here" required
-                        data-msg="Please enter a message."
-                        data-error-class="u-has-error"
-                        data-success-class="u-has-success"></textarea>
-            </div>
-        </div>
-        <!-- End Input -->
-
-        <div class="text-center col-sm-12">
-            <button type="submit" class="text-white btn send-button transition-3d-hover mb-4">
-                Send
-            </button>
-        </div>
+        <input
+          id="name"
+          type="text"
+          class="form-control"
+          name="name"
+          placeholder="Your name"
+          aria-label="Your name"
+          required
+          data-msg="Please enter your name."
+          data-error-class="u-has-error"
+          data-success-class="u-has-success"
+        />
+      </div>
     </div>
+    <!-- End Input -->
+
+    <!-- Input -->
+    <div class="col-sm-6 mb-6">
+      <div class="js-form-message">
+        <label for="email" class="form-label">
+          Email <span class="text-danger">*</span>
+        </label>
+
+        <input
+          id="email"
+          type="email"
+          class="form-control"
+          name="email"
+          placeholder="Your email address"
+          aria-label="Your email address"
+          required
+          data-msg="Please enter a valid email address."
+          data-error-class="u-has-error"
+          data-success-class="u-has-success"
+        />
+      </div>
+    </div>
+    <!-- End Input -->
+
+    <!-- Input -->
+    <div class="js-form-message mb-6 col-sm-12">
+      <label for="message" class="form-label">
+        Message <span class="text-danger">*</span>
+      </label>
+
+      <div class="input-group">
+        <textarea
+          id="message"
+          class="form-control"
+          rows="4"
+          name="text"
+          placeholder="Enter your questions or comments here"
+          aria-label="Enter your questions or comments here"
+          required
+          data-msg="Please enter a message."
+          data-error-class="u-has-error"
+          data-success-class="u-has-success"
+        ></textarea>
+      </div>
+    </div>
+    <!-- End Input -->
+
+    <div class="text-center col-sm-12">
+      <button
+        type="submit"
+        class="text-white btn send-button transition-3d-hover mb-4"
+      >
+        Send
+      </button>
+    </div>
+  </div>
 </form>

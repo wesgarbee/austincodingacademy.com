@@ -3,21 +3,27 @@ layout: default
 permalink: /javascript/
 ---
 
-{% include header.html %} {% include /tracks/heroJS.html %}
+{% include header.html %}
+
+{% include tracks/heroJS.html %}
+
 <div class="my-10"></div>
 <section class="container-fluid">
-  {% include /tracks/curriculumJS.html %}
+  {% include tracks/curriculumJS.html %}
   <div class="my-10"></div>
   <div class="row">
     <div class="col col-sm-6 offset-sm-3 col-lg-4 offset-lg-4">
-      <a href="" class="btn-primary btn primary-gradient hover-scale-button btn-block">
+      <a
+        href=""
+        class="btn-primary btn primary-gradient hover-scale-button btn-block"
+      >
         Download Course Guide
       </a>
     </div>
   </div>
 
   <div class="my-10"></div>
-  {% include /tracks/comparisonCardsJS.html %}
+  {% include tracks/comparisonCardsJS.html %}
 
   <div class="container">
     <h4 class="font-family-alt text-center font-weight-bold">
@@ -26,11 +32,12 @@ permalink: /javascript/
     <a class="text-center" href="/financing/">
       <h5>
         View Financing Options
-        <span class="fas fa-arrow-right small"></span></h5
-    ></a>
+        <span class="fas fa-arrow-right small"></span>
+      </h5>
+    </a>
   </div>
   <div class="my-10"></div>
-  {% include /tracks/courseDatesJS.html %}
+  {% include tracks/courseDatesJS.html %}
   <div class="floating-button">
     <a href="/apply">
       <div class="wide-button cta-button primary-gradient hover-scale-button">
@@ -39,7 +46,7 @@ permalink: /javascript/
     </a>
   </div>
 
-{% include campusLocations.html %}
+  {% include campusLocations.html %}
   <div class="my-10"></div>
   <h2 class="font-family-alt font-weight-bold text-center display-4">
     Still Have Questions?
