@@ -8,7 +8,7 @@
     "doctype-first": "smart",
     "head-req-title": false,
     "attr-name-style": "dash",
-    "class-style": "dash",
+    "class-style": "bem",
     "id-class-style": "dash",
     "tag-bans": false,
     "img-req-alt": false,

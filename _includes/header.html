@@ -7,7 +7,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     background: transparent;
     background-repeat: no-repeat;
     border: 3px;
@@ -26,15 +25,16 @@
 </style>
 
 <!-- ========== HEADER ========== -->
-
+<!-- htmllint preset="none" -->
 <header
   id="header"
-  class="u-header {% if include.color == 'transparent' %} u-header--bg-transparent u-header--white-nav-links-md {% else %} u-header--navbar-bg {% endif %} u-header--abs-top"
+  class="u-header {% if include.color == 'transparent' %} u-header--bg-transparent u-header--white-nav-links-md {% else %} u-header--navbar-bg {% endif %}"
 >
   <div
     class="u-header__section {% if include.color != 'transparent' %} bg-purple {% endif %}"
   >
-    <div id="logoAndNav" class="container-fluid">
+  <!-- htmllint preset="$previous" -->
+    <div class="container-fluid">
       <!-- Nav -->
       <nav
         class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space"
@@ -57,9 +57,9 @@
           aria-expanded="false"
           aria-controls="navBar"
           data-toggle="collapse"
-          data-target="#navBar"
+          data-target="#nav-bar"
         >
-          <span id="hamburgerTrigger" class="u-hamburger__box">
+          <span class="u-hamburger__box">
             <span class="u-hamburger__inner"></span>
           </span>
         </button>
@@ -67,7 +67,7 @@
 
         <!-- Navigation -->
         <div
-          id="navBar"
+          id="nav-bar"
           class="collapse navbar-collapse u-header__navbar-collapse"
         >
           <ul class="navbar-nav u-header__navbar-nav ml-auto">
@@ -77,7 +77,6 @@
               data-event="click"
             >
               <a
-                id="coursesMegaMenu"
                 class="nav-link u-header__nav-link u-header__nav-link-toggle"
                 href="javascript:;"
                 aria-haspopup="true"
@@ -88,19 +87,17 @@
 
               <!-- Courses - Submenu -->
               <ul
-                id="coursesSubMenu"
                 class="hs-sub-menu u-header__sub-menu"
-                aria-labelledby="coursesMegaMenu"
+                aria-labelledby="courses-mega-menu"
               >
                 <!-- JavaScript -->
                 <li>
                   <a
-                    id="navLinkCoursesJavaScript"
                     class="nav-link"
                     href="/javascript"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    aria-controls="navSubmenuCoursesJavaScript"
+                    aria-controls="nav-submenu-courses-javascript"
                     >JavaScript</a
                   >
                 </li>
@@ -108,12 +105,11 @@
                 <!-- C#/.Net -->
                 <li>
                   <a
-                    id="navLinkCoursesCsharp"
                     class="nav-link"
                     href="/csharp"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    aria-controls="navSubmenuCoursesCsharp"
+                    aria-controls="nav-submenu-courses-csharp"
                     >C# .Net</a
                   >
                 </li>
@@ -134,6 +130,14 @@
               <a class="nav-link u-header__nav-link" href="/contact">Contact</a>
             </li>
             <!-- End Contact -->
+            <li class="nav-item u-header__nav-item">
+              <a
+                class="btn cta-button text-white font-weight-bold primary-gradient py-1 px-6"
+                href="/apply"
+              >
+                Apply
+              </a>
+            </li>
           </ul>
         </div>
         <!-- End Navigation -->

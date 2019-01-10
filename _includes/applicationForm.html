@@ -1,11 +1,10 @@
-<head>
-  <style>
-    form {
-      display: flex;
-      justify-content: center;
-    }
-  </style>
-</head>
+
+<style>
+  form {
+    display: flex;
+    justify-content: center;
+  }
+</style>
 
 <div class="section-margin form-outline border container">
   <h2 class="font-family-alt my-4 display-4 text-center">
@@ -111,7 +110,7 @@
 
       <!-- Input -->
       <div class="js-form-message mb-6 col-sm-12 form-group">
-        <label for="are_you_18_or_older_" class="size-15">
+        <label class="size-15" for="yes">
           Will you be at least 18 by the time your classes begin?
           <span class="text-danger">*</span>
         </label>
@@ -157,14 +156,18 @@
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
           <label for="program" class="size-15">
-            To which program are you applying? <span class="text-danger">*</span>
+            To which program are you applying?
+            <span class="text-danger">*</span>
           </label>
 
           <select id="program" name="course" class="form-control">
-            <option value="Full-Stack Javascript Track">Full-Stack Javascript Track</option>
+            <option value="Full-Stack Javascript Track">
+              Full-Stack Javascript Track</option>
             <option value="C# .NET Track">C# .NET Track</option>
             <option value="Individual Classes">Individual Classes</option>
-            <option value="Not sure which track/classes I’m interested in ">Not sure which track/classes I’m interested in </option>
+            <option value="Not sure which track/classes I’m interested in "
+              >Not sure which track/classes I’m interested in
+            </option>
           </select>
         </div>
       </div>
@@ -202,12 +205,24 @@
           </label>
 
           <select id="describe" name="describe-you" class="form-control">
-            <option value="I'm researching coding bootcamps.">I'm researching coding bootcamps.</option>
-            <option value="I'm teaching myself to code, but I'm stuck.">I'm teaching myself to code, but I'm stuck.</option>
-            <option value="I'm interested in a career in tech.">I'm interested in a career in tech.</option>
-            <option value="I'm an entrepreneur with an idea.">I'm an entrepreneur with an idea.</option>
-            <option value="I'm looking for a college alternative.">I'm looking for a college alternative.</option>
-            <option value="I want to learn a new skill for my current job.">I want to learn a new skill for my current job.</option>
+            <option value="I'm researching coding bootcamps."
+              >I'm researching coding bootcamps.</option
+            >
+            <option value="I'm teaching myself to code, but I'm stuck."
+              >I'm teaching myself to code, but I'm stuck.</option
+            >
+            <option value="I'm interested in a career in tech."
+              >I'm interested in a career in tech.</option
+            >
+            <option value="I'm an entrepreneur with an idea."
+              >I'm an entrepreneur with an idea.</option
+            >
+            <option value="I'm looking for a college alternative."
+              >I'm looking for a college alternative.</option
+            >
+            <option value="I want to learn a new skill for my current job."
+              >I want to learn a new skill for my current job.</option
+            >
           </select>
         </div>
       </div>
@@ -224,7 +239,9 @@
           <select id="payment" name="payment" class="form-control">
             <option value="Paying on my own">Paying on my own</option>
             <option value="Planning to finance">Planning to finance</option>
-            <option value="Employer will be paying / reimbursing">Employer will be paying / reimbursing</option>
+            <option value="Employer will be paying / reimbursing"
+              >Employer will be paying / reimbursing</option
+            >
             <option value="Other">Other</option>
           </select>
         </div>
@@ -234,12 +251,12 @@
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="college_or_school_attended1" class="size-15">
+          <label for="college-or-school-attended1" class="size-15">
             Last School Attended <span class="text-danger">*</span>
           </label>
 
           <input
-            id="college_or_school_attended1"
+            id="college-or-school-attended1"
             type="text"
             class="form-control"
             name="college_or_school_attended1"
@@ -257,12 +274,12 @@
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="current_occupation1" class="size-15">
+          <label for="current-occupation1" class="size-15">
             Current Occupation <span class="text-danger">*</span>
           </label>
 
           <input
-            id="current_occupation1"
+            id="current-occupation1"
             type="text"
             class="form-control"
             name="current_occupation1"
@@ -280,11 +297,11 @@
       <!-- Input -->
       <div class="col-sm-12 mb-6">
         <div class="js-form-message form-group">
-          <label for="referral" class="size-15">
+          <label class="size-15" for="check1">
             How did you hear about us? <span class="text-danger">*</span>
           </label>
 
-          <div id="referral" class="row">
+          <div class="row">
             <div class="col">
               <div class="form-check">
                 <input
@@ -303,9 +320,7 @@
                   value="Instagram"
                   id="check2"
                 />
-                <label class="form-check-label" for="check2">
-                  Instagram
-                </label>
+                <label class="form-check-label" for="check2"> Instagram </label>
               </div>
 
               <div class="form-check">

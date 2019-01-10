@@ -1,15 +1,3 @@
-/* @import '../_sass/index'; */
-
-/* gradient-turq: 00b3d1 */
-/* gradient-green: 7fc89a */
-
-/* gradient-blue: 00b3d1 */
-
-/* begin GLOBAL */
-/*  */
-
-/*  */
-
 .text-purple {
   color: #2d2f77 !important;
 }
@@ -41,7 +29,6 @@
 .bg-green {
   background-color: #7fc89a !important;
 }
-
 
 body,
 p {
@@ -155,19 +142,9 @@ p {
   border-radius: 30px;
 }
 
-/*  */
-/* end HERO */
-
-/* begin CONTACT */
-/*  */
-
 .center-form {
   max-width: 800px;
   margin: 0 auto;
-}
-
-.center-form .send-button {
-  max-width: 500px;
 }
 
 .send-button {
@@ -177,14 +154,9 @@ p {
   border-radius: 3px;
 }
 
-/*  */
-/* end CONTACT */
-
-/* begin FORMS */
-/*  */
-
-/*  */
-/* end FORMS */
+.center-form .send-button {
+  max-width: 500px;
+}
 
 .section-margin {
   margin: 120px auto;
