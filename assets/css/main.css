@@ -35,6 +35,16 @@ body {
   background-color: #7fc89a !important;
 }
 
+.btn-purple {
+  color: #fff;
+  background-color: #2d2f77;
+  border-color: #2d2f77;
+}
+
+a:hover  {
+  color: white;
+}
+
 .font-family-alt {
   font-family: "montserrat", sans-serif !important;
 }
