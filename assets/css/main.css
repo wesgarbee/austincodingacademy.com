@@ -41,8 +41,13 @@ body {
   border-color: #2d2f77;
 }
 
-a:hover  {
-  color: white;
+.btn-wide {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.btn-round {
+  border-radius: 2rem;
 }
 
 .font-family-alt {
@@ -55,11 +60,21 @@ a:hover  {
   line-height: 1.2 !important;
 }
 
+.display-6 {
+  font-size: 2rem !important;
+  font-weight: 300 !important;
+  line-height: 1.2 !important;
+}
+
 .flex-1 {
   flex: 1 !important;
 }
 
-
+.hero {
+  background-position: 0 -1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .section-text {
   font-size: 16px;
@@ -104,6 +119,11 @@ a:hover  {
 
 .primary-gradient {
   background: linear-gradient(to right, #00b3d1, #7fc89a);
+  color: white;
+}
+
+.primary-gradient:hover {
+  color: white;
 }
 
 .stock-blue-button {

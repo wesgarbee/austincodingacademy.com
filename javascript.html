@@ -1,64 +1,44 @@
 ---
 layout: default
 permalink: /javascript/
+head: >
+  <style>
+    .hero { background-image: url("/assets/images/financingHero.png"); }
+  </style>
 ---
 
-{% include header.html %}
+<div class="hero py-11">
+  <h1 class="text-white font-family-alt font-weight-bold display-4 text-center">
+    JavaScript Track
+  </h1>
+</div>
 
-{% include heroJS.html %}
-
-<div class="my-10"></div>
-<section class="container">
+<main class="container">
+  <h2 class="display-6 text-center my-10 text-muted">
+    JavaScript is used everywhere on the internet. It’s a programming language
+    used to make not only websites but games, web apps, animations, and mobile
+    applications for both Android and iOS.
+  </h2>
   {% include curriculumJS.html %}
-  <div class="my-10"></div>
-  <div class="row">
-    <div class="col col-sm-6 offset-sm-3 col-lg-4 offset-lg-4">
-      <a
-        href=""
-        class="btn-primary btn primary-gradient hover-scale-button btn-block"
-      >
-        Download Course Guide
-      </a>
-    </div>
+  <div class="d-flex justify-content-center my-10">
+    {% include btn-course-guide.html %}
   </div>
-
-  <div class="my-10"></div>
   {% include comparisonCardsJS.html %}
-
-  <div class="container">
-    <h4 class="font-family-alt text-center font-weight-bold">
-      Need Help With Tuition?
-    </h4>
-    <a class="text-center" href="/financing/">
-      <h5>
-        View Financing Options
-        <span class="fas fa-arrow-right small"></span>
-      </h5>
-    </a>
+  <div class="my-10">
+    {% include tuition-help.html %}
   </div>
-  <div class="my-10"></div>
   {% include courseDatesJS.html %}
-  <div class="floating-button">
-    <a href="/apply">
-      <div class="wide-button cta-button primary-gradient hover-scale-button">
-        Apply
-      </div>
-    </a>
+  <div class="d-flex justify-content-center my-10">
+    {% include btn-apply.html %}
   </div>
-
   {% include campusLocations.html %}
-  <div class="my-10"></div>
-  <h2 class="font-family-alt font-weight-bold text-center display-4">
+  <h2 class="font-family-alt font-weight-bold text-center display-4 mt-10"">
     Still Have Questions?
   </h2>
-  <div style="max-width:500px; margin: 0 auto;">
-    <p class="size-20 mb-4 text-center">
-      From choosing the right course to understanding course details, we're here
-      to help.
-    </p>
-    {% include contactForm.html %}
-  </div>
+  <p class="size-20 mb-4 text-center">
+    From choosing the right course to understanding course details, we're here
+    to help.
+  </p>
+  {% include contactForm.html %}
   <div class="my-10"></div>
-</section>
-
-{% include footer.html %}
+</main>

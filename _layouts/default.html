@@ -69,11 +69,14 @@
       media="screen"
       href="/assets/css/main.css"
     />
+
+    {{ page.head }}
   </head>
 
   <body>
+    {% include header.html %}
     {{ content }}
-
+    {% include footer.html %}
     <!-- begin BOOTSTRAP -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

@@ -1,11 +1,32 @@
 ---
 layout: default
 permalink: /
+color: transparent
 ---
 
-{% include header.html color='transparent' %}
+<style>
+  .hero {
+    background-image: url(/assets/images/placeholders/Artboard.png);
+  }
+</style>
 
-{% include hero.html %}
+<div class="hero">
+  <div class="py-11 container">
+    <div class="my-11"></div>
+    <h1 class="text-white font-family-alt font-weight-bold display-5">
+      Change Your Life With a New Career
+    </h1>
+    <p class="text-white size-31">
+      Part-time coding classes taught by full-time developers here in Austin, TX
+    </p>
+    <div class="d-flex justify-content-center justify-content-md-start">
+      <a class="btn btn-outline-light btn-wide btn-round mr-2" href="/faq">
+        Learn More
+      </a>
+      {% include btn-apply.html %}
+    </div>
+  </div>
+</div>
 
 <section class="my-10 container">
   <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
@@ -49,7 +70,7 @@ permalink: /
     Next Classes Start January 15th<br />
     <span class="display-5">Save your spot today!</span>
   </h2>
-  <a class="btn stock-blue-button text-white" href="/apply">Apply</a>
+  {% include btn-apply.html %}
 </section>
 
 <section class="mb-10 container">
@@ -63,4 +84,4 @@ permalink: /
   {% include contactForm.html %}
 </section>
 
-{% include footer.html %}
+
