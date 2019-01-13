@@ -70,10 +70,13 @@
       href="/assets/css/main.css"
     />
 
+    {% include google-tag-manager-head.html %}
+
     {{ page.head }}
   </head>
 
   <body>
+    {% include google-tag-manager-body.html %}
     {% include header.html %}
     {{ content }}
     {% include footer.html %}

@@ -5,24 +5,51 @@
 }
 </style>
 
-<form class="js-validate">
+<form
+  class="js-validate"
+  action="https://forms.hubspot.com/uploads/form/v2/33cc0e23-1881-4874-a1d0-2c0307f20e41"
+  method="POST"
+  >
   <div class="row center-form">
     <!-- Input -->
     <div class="col-sm-6 mb-6">
       <div class="js-form-message">
-        <label for="name" class="form-label">
-          Name <span class="text-danger">*</span>
+        <label for="first-name" class="form-label">
+          First Name <span class="text-danger">*</span>
         </label>
 
         <input
-          id="name"
+          id="first-name"
           type="text"
           class="form-control"
-          name="name"
-          placeholder="Your name"
+          name="first_name"
+          placeholder="First Name"
           aria-label="Your name"
           required
-          data-msg="Please enter your name."
+          data-msg="Please enter your first name."
+          data-error-class="u-has-error"
+          data-success-class="u-has-success"
+        />
+      </div>
+    </div>
+    <!-- End Input -->
+
+    <!-- Input -->
+    <div class="col-sm-6 mb-6">
+      <div class="js-form-message">
+        <label for="last-name" class="form-label">
+          Last Name <span class="text-danger">*</span>
+        </label>
+
+        <input
+          id="last-name"
+          type="text"
+          class="form-control"
+          name="last_name"
+          placeholder="Last Name"
+          aria-label="Your last name"
+          required
+          data-msg="Please enter your last name."
           data-error-class="u-has-error"
           data-success-class="u-has-success"
         />
@@ -42,10 +69,33 @@
           type="email"
           class="form-control"
           name="email"
-          placeholder="Your email address"
+          placeholder="Email"
           aria-label="Your email address"
           required
           data-msg="Please enter a valid email address."
+          data-error-class="u-has-error"
+          data-success-class="u-has-success"
+        />
+      </div>
+    </div>
+    <!-- End Input -->
+
+    <!-- Input -->
+    <div class="col-sm-6 mb-6">
+      <div class="js-form-message">
+        <label for="phone" class="form-label">
+          Phone <span class="text-danger">*</span>
+        </label>
+
+        <input
+          id="phone"
+          type="text"
+          class="form-control"
+          name="phone"
+          placeholder="Phone"
+          aria-label="Your phone number"
+          required
+          data-msg="Please enter your phone number."
           data-error-class="u-has-error"
           data-success-class="u-has-success"
         />
