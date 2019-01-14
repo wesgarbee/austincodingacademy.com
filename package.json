@@ -9,7 +9,8 @@
     "lint-css": "stylelint ./**/*.css",
     "lint": "yarn lint-html && yarn lint-css",
     "test": "yarn lint",
-    "images": "npx resize assets/images/* --max-height 450 -o assets/images/ && imagemin assets/images/* --out-dir=assets/images/"
+    "resize": "npx resize assets/images/* --max-height 450 -o assets/images/",
+    "images": "imagemin assets/images/* --out-dir=assets/images/"
   },
   "devDependencies": {
     "htmllint-cli": "^0.0.7",
