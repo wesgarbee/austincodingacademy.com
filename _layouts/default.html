@@ -117,10 +117,10 @@
 
     <!-- begin CONTACTUS -->
     <!-- JS Implementing Plugins -->
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <!-- <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script> -->
 
     <!-- JS Front -->
-    <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.validation.js"></script>
+    <!-- <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.validation.js"></script> -->
 
     <!-- JS Plugins Init. -->
     <script>
@@ -159,6 +159,11 @@
       $(document).on("ready", function() {
         // initialization of header
         $.HSCore.components.HSHeader.init($("#header"));
+
+        $('form').submit(function(e) {
+          e.preventDefault();
+
+        })
       });
     </script>
   </body>
