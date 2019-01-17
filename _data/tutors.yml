@@ -1,0 +1,145 @@
+- name: Eric Barrs
+  skills: Web 101, JS 211, JS 311
+  email: eric@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8069545
+  virtual: https://meet.google.com/enj-jjez-zcw
+
+- name: Cynthia Williams
+  skills: Web 101, JS 211
+  email: cynthia@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8473481
+  virtual: https://meet.google.com/qio-pvbk-dfx
+
+- name: Andrew Lee
+  skills: Web 101, JS 211, JS 311
+  email: andrew@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8473508
+  virtual: https://meet.google.com/cqc-qach-mwk
+
+- name: Justin Lyle
+  skills: Web 101, C#, .NET
+  email: justin@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8181434
+  virtual: https://meet.google.com/fce-bbqd-buo
+
+- name: Michael Samara
+  skills: Web 101, JS 211, JS 311
+  email: michael@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8181465
+  virtual: https://meet.google.com/sug-ocqd-zdd
+
+- name: Peter Slavin
+  skills: C#, .NET
+  email: peter@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8181457
+  virtual: https://meet.google.com/fua-iopp-amt
+
+- name: Lillian Situ
+  skills: JS211, JS 311 or Graduates ONLY
+  email: lillian@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8182184
+  virtual: https://meet.google.com/zhe-ixfg-snm
+
+- name: Matt Viteri
+  skills: Full Stack JavaScript Graduates ONLY
+  email: matt@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8181474
+  virtual: https://meet.google.com/nbk-vphc-xmk
+
+- name: Matt Cameron
+  skills: .NET students or .NET Graduates ONLY
+  email: mattcameron@austincodingacademy.com
+  calendar: https://acaappointment.as.me/?appointmentType=8181476
+  virtual: https://meet.google.com/zxc-hkry-ckr
+
+# - name: Joel Gilbert
+#    location: San Antonio
+#    skills: HTML, CSS, C#
+#    rocketchat: https://chat.austincodingacademy.com/direct/jgilbert
+#    email: gilbert.279@gmail.com
+#    github: https://github.com/Paxman23l
+#    calendar: Email Joel to set up a time to meet in San Antonio.
+
+# - name: Justin Lyle
+#   location: North Austin
+#   skills: HTML, CSS, C#
+#   rocketchat: https://chat.austincodingacademy.com/direct/justinlyle-814
+#   discourse: https://discourse.austincodingacademy.com/u/justinlyle-814
+#   linkedin: https://www.linkedin.com/in/justinlyle/
+#   website: https://justinmlyle.com
+#   email: justin.m.lyle@gmail.com
+#   github:
+#   calendar: https://calendly.com/justin-m-lyle/
+
+# - name: Peter Slavin
+#   location: North Austin
+#   skills: HTML, CSS, C#
+#   rocketchat: https://chat.austincodingacademy.com/direct/peterslavin-889
+#   discourse: https://discourse.austincodingacademy.com/u/peterslavin-889
+#   linkedin: https://www.linkedin.com/in/peter-slavin-46824790/
+#   website:
+#   email: pbslavin@gmail.com
+#   github: https://github.com/pbslavin
+#   calendar: https://calendly.com/pbslavin/
+
+# - name: Lillian Situ
+#   classes: JS 311, Graduates
+#   skills: HTML, CSS, JS
+#   email: lillian@austincodingacademy.com
+#   github: https://github.com/toddfrederking
+#   schedule a time with her: https://acaappointment.as.me/?appointmentType=8181455
+
+# - name: Eric Barrs
+#   location: Central Austin
+#   skills: HTML, CSS, JS
+#   rocketchat: https://chat.austincodingacademy.com/direct/ericbarrs-913
+#   discourse: https://discourse.austincodingacademy.com/u/ericbarrs-913
+#   linkedin: https://linkedin.com/in/ericbarrs/
+#   website: https://www.ericbarrs.com/
+#   email: yellastar42@yahoo.com
+#   github: https://github.com/ericbarrs
+#   calendar: https://calendly.com/ericbarrs23/
+
+# - name: Joel Gilbert
+#   location: San Antonio
+#   skills: HTML, CSS, C#
+#   rocketchat: https://chat.austincodingacademy.com/direct/jgilbert
+#   discourse:
+#   linkedin:
+#   website:
+#   email: gilbert.279@gmail.com
+#   github: https://github.com/Paxman23l
+#   calendar:
+
+# - name: Matthew Cameron
+#   location:
+#   skills: Professional Mentorship (.Net)
+#   rocketchat: https://chat.austincodingacademy.com/direct/matthewcameron-917
+#   discourse: https://discourse.austincodingacademy.com/u/matthewcameron-917
+#   linkedin: https://www.linkedin.com/in/mcameron/
+#   website:
+#   email: cameron.matt@gmail.com
+#   github: https://github.com/mattcam3r0n
+#   calendar:
+
+# - name: Matthew Cameron
+#   location:
+#   skills: Professional Mentorship (JavaScript)
+#   rocketchat: https://chat.austincodingacademy.com/direct/matt
+#   discourse:
+#   linkedin: https://linkedin.com/in/mxviteri
+#   website:
+#   email: matt@austincodingacademy.com
+#   github:
+#   calendar:
+
+# - name: Kevin Colten
+#   location: Austin, Remote
+#   skills: HTML, CSS, C#, JavaScript, Node.js, Terminal, Git/GitHub, React, Express, MongoDB, SQL, Heroku
+#   rocketchat: https://chat.austincodingacademy.com/direct/kevincolten
+#   discourse: https://discourse.austincodingacademy.com/users/kevincolten
+#   linkedin: https://linkedin.com/in/kevincolten/
+#   website: https://kevincolten.com
+#   email: kevin@austincodingacademy.com
+#   github: https://github.com/kevincolten
+#   calendar:
