@@ -1,14 +1,14 @@
 - name: Eric Barrs
   skills: Web 101, JS 211, JS 311
   email: eric@austincodingacademy.com
-  calendar: https://acaappointment.as.me/?appointmentType=8069545
+  calendar: https://acaappointment.as.me/?calendarID=2522414
   virtual: https://meet.google.com/enj-jjez-zcw
   rocketchat: https://chat.austincodingacademy.com/direct/ericbarrs-913
   
 - name: Cynthia Williams
   skills: Web 101, JS 211
   email: cynthia@austincodingacademy.com
-  calendar: https://acaappointment.as.me/?appointmentType=8473481
+  calendar: https://acaappointment.as.me/?calendarID=2620427
   virtual: https://meet.google.com/qio-pvbk-dfx
   rocketchat: https://chat.austincodingacademy.com/direct/cynthiawilliams-967
   
@@ -57,35 +57,42 @@
 - name: Justin Lyle
   skills: Web 101, C# 221, .NET 321
   email: justin@austincodingacademy.com
-  calendar: https://acaappointment.as.me/?appointmentType=8181434
+  calendar: https://acaappointment.as.me/?calendarID=2550348
   virtual: https://meet.google.com/fce-bbqd-buo
   rocketchat: https://chat.austincodingacademy.com/direct/justinlyle-814
  
 - name: Andrew Lee
   skills: Web 101, JS 211, JS 311
   email: andrew@austincodingacademy.com
-  calendar: https://acaappointment.as.me/?appointmentType=8473508
+  calendar: https://acaappointment.as.me/?calendarID=2620430
   virtual: https://meet.google.com/cqc-qach-mwk
   rocketchat: https://chat.austincodingacademy.com/direct/andrewlee-810
+  
+- name: Steven Fiero
+  skills: JS Full Stack Graduate Mentor (GRADS ONLY)
+  email: stevensfiero@gmail.com
+  calendar: https://acaappointment.as.me/?calendarID=2717635
+  virtual: https://meet.google.com/zpo-pyqc-ibn
+  rocketchat: https://chat.austincodingacademy.com/direct/steven-fiero
   
 - name: Lillian Situ
   skills: Full Stack Graduate Mentor (GRADS ONLY)
   email: lillian@austincodingacademy.com
-  calendar: https://acaappointment.as.me/?appointmentType=8182184
+  calendar: https://acaappointment.as.me/?calendarID=2550374
   virtual: https://meet.google.com/zhe-ixfg-snm
   rocketchat: https://chat.austincodingacademy.com/direct/lillian_situ
   
 - name: Matt Viteri
   skills: Full Stack Graduate Mentor (GRADS ONLY)
   email: matt@austincodingacademy.com
-  calendar: https://acaappointment.as.me/?appointmentType=8181474
+  calendar: https://acaappointment.as.me/?calendarID=2550361
   virtual: https://meet.google.com/nbk-vphc-xmk
   rocketchat: https://chat.austincodingacademy.com
   
 - name: Matt Cameron
   skills: C# & JS Full Stack Graduate Mentor (GRADS ONLY)
   email: mattcameron@austincodingacademy.com
-  calendar: https://acaappointment.as.me/?appointmentType=8181476
+  calendar: https://acaappointment.as.me/?calendarID=2550362
   virtual: https://meet.google.com/zxc-hkry-ckr
   rocketchat: https://chat.austincodingacademy.com/direct/matthewcameron-917
 
