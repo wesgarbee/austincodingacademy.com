@@ -3,8 +3,425 @@ layout: default
 permalink: /apply/
 ---
 
-{% include header.html %}
+<div class="section-margin form-outline border container">
+  <h2 class="font-family-alt my-4 display-4 text-center">
+    Student Application
+  </h2>
+  <form
+    class="js-validate d-flex justify-content-center"
+    action="https://forms.hubspot.com/uploads/form/v2/4009818/9d476e09-2737-4394-b7db-f0395a2d26d5"
+    method="POST"
+  >
+    <input name="lifecyclestage" type="hidden" value="opportunity">
+    <input name="filled_out_application" type="hidden" value="true">
+    <div class="narrow row">
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="firstname" class="size-15">
+            First Name <span class="text-danger">*</span>
+          </label>
 
-{% include applicationForm.html %}
+          <input
+            type="text"
+            id="firstname"
+            class="form-control"
+            name="firstname"
+            placeholder="Your first name"
+            aria-label="Your first name"
+            required
+            data-msg="Please enter your first name."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
 
-{% include footer.html %}
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="lastname" class="size-15">
+            Last Name <span class="text-danger">*</span>
+          </label>
+
+          <input
+            type="text"
+            id="lastname"
+            class="form-control"
+            name="lastname"
+            placeholder="Your last name"
+            aria-label="Your last name"
+            required
+            data-msg="Please enter you last name."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="phone" class="size-15">
+            Phone <span class="text-danger">*</span>
+          </label>
+
+          <input
+            type="tel"
+            id="phone"
+            class="form-control"
+            name="phone"
+            placeholder="Your phone number"
+            aria-label="Your phone number"
+            required
+            data-msg="Please enter your phone number."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="email" class="size-15">
+            Email <span class="text-danger">*</span>
+          </label>
+
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            name="email"
+            placeholder="Your email address"
+            aria-label="Your email address"
+            required
+            data-msg="Please enter a valid email address."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="js-form-message mb-6 col-sm-12 form-group">
+        <label class="size-15" for="yes">
+          Will you be at least 18 by the time your classes begin?
+          <span class="text-danger">*</span>
+        </label>
+
+        <p class="size-10" style="max-width: 421px;">
+          Please note that you must be at least 18 years old by the time your
+          classes begin to apply to Austin Coding Academy. You also must have a
+          High School Diploma or GED.
+        </p>
+
+        <div id="age">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="are_you_18_or_older_"
+              id="yes"
+              value="yes"
+              aria-label="You must be 18 or older to begin classes"
+              required
+              data-msg="Please indicate whether you will be 18 or older when classes begin"
+              data-error-class="u-has-error"
+              data-success-class="u-has-success"
+            />
+            <label class="form-check-label" for="yes">Yes</label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              id="no"
+              name="are_you_18_or_older_"
+              value="no"
+            />
+            <label class="form-check-label" for="no">No</label>
+          </div>
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="program" class="size-15">
+            To which program are you applying?
+            <span class="text-danger">*</span>
+          </label>
+
+          <select id="program" name="course" class="form-control">
+            <option value="Full-Stack Javascript Track">
+              Full-Stack Javascript Track</option>
+            <option value="C# .NET Track">C# .NET Track</option>
+            <option value="Individual Classes">Individual Classes</option>
+            <option value="Not sure which track/classes I’m interested in "
+              >Not sure which track/classes I’m interested in
+            </option>
+          </select>
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="city" class="size-15">
+            Your Current City <span class="text-danger">*</span>
+          </label>
+
+          <input
+            id="city"
+            type="text"
+            class="form-control"
+            name="city"
+            placeholder="Your current city"
+            aria-label="Your current city"
+            required
+            data-msg="Please enter the city in which you live."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="describe" class="size-15">
+            Which of these best describes you?
+            <span class="text-danger">*</span>
+          </label>
+
+          <select id="describe" name="describe-you" class="form-control">
+            <option value="I'm researching coding bootcamps."
+              >I'm researching coding bootcamps.</option
+            >
+            <option value="I'm teaching myself to code, but I'm stuck."
+              >I'm teaching myself to code, but I'm stuck.</option
+            >
+            <option value="I'm interested in a career in tech."
+              >I'm interested in a career in tech.</option
+            >
+            <option value="I'm an entrepreneur with an idea."
+              >I'm an entrepreneur with an idea.</option
+            >
+            <option value="I'm looking for a college alternative."
+              >I'm looking for a college alternative.</option
+            >
+            <option value="I want to learn a new skill for my current job."
+              >I want to learn a new skill for my current job.</option
+            >
+          </select>
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="payment" class="size-15">
+            How do you intend to pay for the course?
+            <span class="text-danger">*</span>
+          </label>
+
+          <select id="payment" name="payment" class="form-control">
+            <option value="Paying on my own">Paying on my own</option>
+            <option value="Planning to finance">Planning to finance</option>
+            <option value="Employer will be paying / reimbursing"
+              >Employer will be paying / reimbursing</option
+            >
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="college-or-school-attended1" class="size-15">
+            Last School Attended <span class="text-danger">*</span>
+          </label>
+
+          <input
+            id="college-or-school-attended1"
+            type="text"
+            class="form-control"
+            name="college_or_school_attended1"
+            placeholder="The last school you attended"
+            aria-label="Last school attended"
+            required
+            data-msg="Please enter the last school you attended."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="current-occupation1" class="size-15">
+            Current Occupation <span class="text-danger">*</span>
+          </label>
+
+          <input
+            id="current-occupation1"
+            type="text"
+            class="form-control"
+            name="current_occupation1"
+            placeholder="Your current occupation"
+            aria-label="Your current occupation"
+            required
+            data-msg="Please enter your current occupation."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-12 mb-6">
+        <div class="js-form-message form-group">
+          <label class="size-15" for="check1">
+            How did you hear about us? <span class="text-danger">*</span>
+          </label>
+
+          <div class="row">
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="Facebook"
+                  id="check1"
+                />
+                <label class="form-check-label" for="check1"> Facebook </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="Instagram"
+                  id="check2"
+                />
+                <label class="form-check-label" for="check2"> Instagram </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="Twitter"
+                  id="check3"
+                />
+                <label class="form-check-label" for="check3"> Twitter </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="LinkedIn"
+                  id="check4"
+                />
+                <label class="form-check-label" for="check4"> LinkedIn </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="YouTube"
+                  id="check5"
+                />
+                <label class="form-check-label" for="check5"> YouTube </label>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="ACA Student / Alumni"
+                  id="check6"
+                />
+                <label class="form-check-label" for="check6">
+                  ACA Student / Alumni
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="ACA Faculty Member"
+                  id="check7"
+                />
+                <label class="form-check-label" for="check7">
+                  ACA Faculty Member
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="Friend / Family"
+                  id="check8"
+                />
+                <label class="form-check-label" for="check8">
+                  Friend / Family
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="Search engine"
+                  id="check9"
+                />
+                <label class="form-check-label" for="check9">
+                  Search engine
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="Other"
+                  id="check10"
+                />
+                <label class="form-check-label" for="check10"> Other </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Input -->
+      <button
+        class="floating-button btn stock-blue-button text-white"
+        type="Submit"
+      >
+        Submit
+      </button>
+    </div>
+  </form>
+</div>

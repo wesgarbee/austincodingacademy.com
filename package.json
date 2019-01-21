@@ -8,11 +8,21 @@
     "lint-html": "htmllint {*.html,./_includes/*.html,./_layouts/*.html}",
     "lint-css": "stylelint ./**/*.css",
     "lint": "yarn lint-html && yarn lint-css",
-    "test": "yarn lint"
+    "test": "yarn lint",
+    "resize": "npx resize assets/images/* --max-height 450 -o assets/images/",
+    "images": "imagemin assets/images/* --out-dir=assets/images/",
+    "favicon": "real-favicon generate favicon.json faviconData.json assets/favicons/ && npm run favicon-inject",
+    "favicon-inject": "echo '' > _includes/favicon.html && real-favicon inject faviconData.json assets/favicons _includes/favicon.html && mv assets/favicons/favicon.html _includes/favicon.html"
   },
   "devDependencies": {
     "htmllint-cli": "^0.0.7",
+    "imagemin-cli": "^4.0.0",
+    "resize-cli": "^0.0.4",
     "stylelint": "^9.9.0",
     "stylelint-config-recommended": "^2.1.0"
+  },
+  "dependencies": {
+    "cli-real-favicon": "^0.0.7",
+    "sitemap-generator-cli": "^7.4.0"
   }
 }
