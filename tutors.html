@@ -1,14 +1,6 @@
 ---
 layout: default
 permalink: /tutors
-head: >
-  <style>
-    .card-deck .card {
-      min-width: 260px;
-      max-width: 345px;
-    }
-  </style>
-body: >
 icons:
   - rocketchat: fab fa-rocketchat
   - email: fas fa-envelope
@@ -17,6 +9,13 @@ icons:
   - website: fas fa-globe
   - github: fab fa-github
 ---
+<style>
+  .card-deck .card {
+    min-width: 260px;
+    max-width: 345px;
+  }
+</style>
+
 <div class="container d-flex justify-content-center">
   <div class="card-deck d-block d-md-flex mt-5 row-eq">
     <!-- Tutors -->
@@ -42,9 +41,11 @@ icons:
                   {% assign key = icon[0] %}
                   {% if tutor[key] %}
                     <li class="list-inline-item">
-                      <a class="u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="{% if key == 'email' %}mailto:{% endif %}{{ tutor[key] }}" target="_blank">
+                      <!-- htmllint preset="none" -->
+                      <a class="u-icon u-icon--sm u-icon-secondary--air rounded-circle" href="{% if key == 'email' %}mailto:{% endif %}{{ tutor[key] }}" target="_blank" rel="noopener">
                         <span class="{{ icon[1] }} u-icon__inner"></span>
                       </a>
+                      <!-- htmllint preset="$previous" -->
                     </li>
                   {% endif %}
                 {% endfor %}
@@ -56,13 +57,17 @@ icons:
           <hr class="my-0">
 
           <div class="py-2">
+            <!-- htmllint preset="none" -->
             <a class="{% unless tutor.calendar %} disabled {% endunless %} btn btn-sm u-btn-primary--air transition-3d-hover" href="{{tutor.calendar}}" target="_blank">
+            <!-- htmllint preset="$previous" -->
               <span class="far fa-calendar-alt mr-2"></span>
               Schedule Tutoring
             </a>
           </div>
           <div class="py-2">
+            <!-- htmllint preset="none" -->
             <a class="{% unless tutor.virtual %} disabled {% endunless %} btn btn-sm u-btn-primary--air transition-3d-hover" href="{{tutor.virtual}}" target="_blank">
+            <!-- htmllint preset="$previous" -->
               <span class="fa fa-chalkboard-teacher mr-2"></span>
               Virtual Classroom
             </a>
