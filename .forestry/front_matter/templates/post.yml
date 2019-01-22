@@ -13,3 +13,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- _posts/here-is-the-title.md
