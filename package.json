@@ -1,0 +1,33 @@
+{
+  "name": "new.austincodingacademy.com",
+  "version": "1.0.0",
+  "repository": "https://github.com/AustinCodingAcademy/new.austincodingacademy.com",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "lint-html": "htmllint {*.html,./_includes/*.html,./_layouts/*.html}",
+    "lint-css": "stylelint ./**/*.css",
+    "lint": "yarn lint-html && yarn lint-css",
+    "test": "yarn lint",
+    "resize": "npx resize assets/images/* --max-height 450 -o assets/images/",
+    "images": "imagemin assets/images/* --out-dir=assets/images/",
+    "favicon": "real-favicon generate favicon.json faviconData.json assets/favicons/ && npm run favicon-inject",
+    "favicon-inject": "echo '' > _includes/favicon.html && real-favicon inject faviconData.json assets/favicons _includes/favicon.html && mv assets/favicons/favicon.html _includes/favicon.html",
+    "sitemap": "npm run sitemap-generator && sed -i \"s|http://127.0.0.1:8080|https://austincodingacademy.com|g\" _site/sitemap.xml",
+    "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml)",
+    "deploy": "yarn favicon && bundle exec jekyll build && yarn repo",
+    "repo": "cp -R .circleci/ _site/.circleci/ && gh-pages --repo \"git@github.com:AustinCodingAcademy/new.austincodingacademy.com.git\" --dotfiles -d ./_site"
+  },
+  "devDependencies": {
+    "cli-real-favicon": "^0.0.7",
+    "gh-pages": "^2.0.1",
+    "htmllint-cli": "^0.0.7",
+    "http-server": "^0.11.1",
+    "imagemin-cli": "^4.0.0",
+    "resize-cli": "^0.0.4",
+    "sitemap-generator": "^8.3.2",
+    "sitemap-generator-cli": "^7.4.0",
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended": "^2.1.0"
+  }
+}
