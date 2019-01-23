@@ -1,3 +1,4 @@
+<!-- htmllint preset="none" -->
 <style>
   .outlined-cta {
     color: #ffffff;
@@ -51,17 +52,17 @@
   /* Hide Dropdowns by Default */
   nav ul ul {
     display: none;
-    position: absolute; 
+    position: absolute;
     top: 56px; /* the height of the main nav */
     margin-left: -30px;
     list-style: none;
   }
-    
+
   /* Display Dropdowns on Hover */
   #nav-bar ul li:hover > ul {
     display:inherit;
   }
-    
+
   /* First Tier Dropdown */
   nav ul ul li {
     width:170px;
@@ -70,9 +71,9 @@
     position: relative;
   }
 </style>
+<!-- htmllint preset="$previous" -->
 
 <!-- ========== HEADER ========== -->
-<!-- htmllint preset="none" -->
 
 <amp-sidebar id="sidebar"
   class="d-flex d-md-none row"
@@ -85,7 +86,7 @@
     <button class="btn btn-outline-primary">
       Courses &amp; Tuition
     </button>
-    
+
     <ul id="hidden-list">
       <li><a href="/javascript">JavaScript</a></li>
       <li><a href="/csharp">C# .NET</a></li>
@@ -113,6 +114,7 @@
 
 </amp-sidebar>
 
+<!-- htmllint preset="none" -->
 <header
   id="header"
   class="u-header {% if page.color == 'transparent' %} u-header--bg-transparent u-header--white-nav-links-md u-header--abs-top {% else %} u-header--navbar-bg {% endif %}"
