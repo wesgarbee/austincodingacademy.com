@@ -110,47 +110,5 @@
     ></script>
     <!-- end BOOTSTRAP -->
 
-    <!-- begin DEFAULT-->
-    <!-- JS Global Compulsory -->
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery/dist/jquery.min.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/bootstrap/bootstrap.min.js"></script>
-
-    <!-- JS Front -->
-    <script src="https://austincodingacademy.github.io/front/assets/js/hs.core.js"></script>
-    <!-- end DEFAULT -->
-
-    <!-- JS Implementing Plugins -->
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-
-    <!-- JS Front -->
-    <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.header.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.svg-injector.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
-
-    <script src="/assets/javascripts/index.js"></script>
-
-    <!-- JS Plugins Init. -->
-    <script>
-      $(window).on("load", function() {
-        // initialization of HSMegaMenu component
-        $(".js-mega-menu").HSMegaMenu({
-          event: "hover",
-          pageContainer: $(".container"),
-          breakpoint: 767.98,
-          hideTimeOut: 0
-        });
-
-        // initialization of svg injector module
-        $.HSCore.components.HSSVGIngector.init(".js-svg-injector");
-      });
-
-      $(document).on("ready", function() {
-        // initialization of header
-        $.HSCore.components.HSHeader.init($("#header"));
-      });
-    </script>
   </body>
 </html>

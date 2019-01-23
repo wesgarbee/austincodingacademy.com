@@ -47,6 +47,28 @@
   #sidebar div:hover #hidden-list {
     display: block;
   }
+
+  /* Hide Dropdowns by Default */
+  nav ul ul {
+    display: none;
+    position: absolute; 
+    top: 56px; /* the height of the main nav */
+    margin-left: -30px;
+    list-style: none;
+  }
+    
+  /* Display Dropdowns on Hover */
+  #nav-bar ul li:hover > ul {
+    display:inherit;
+  }
+    
+  /* First Tier Dropdown */
+  nav ul ul li {
+    width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+  }
 </style>
 
 <!-- ========== HEADER ========== -->
@@ -128,71 +150,64 @@
           <ul class="navbar-nav u-header__navbar-nav ml-auto">
             <!-- Courses -->
             <li
-              class="nav-item hs-has-sub-menu u-header__nav-item"
-              data-event="click"
+              class="nav-item u-header__nav-item"
             >
               <a
-                class="nav-link u-header__nav-link u-header__nav-link-toggle"
-                href="javascript:;"
-                aria-haspopup="true"
-                aria-expanded="false"
-                aria-labelledby="coursesSubMenu"
-                >Courses &amp; Tuition</a
-              >
+                href="#"
+                class="text-white"
+                >
+                Courses &amp; Tuition
+              </a>
 
               <!-- Courses - Submenu -->
-              <ul
-                class="hs-sub-menu u-header__sub-menu"
-                aria-labelledby="courses-mega-menu"
-              >
+              <ul>
                 <!-- JavaScript -->
                 <li>
                   <a
-                    class="nav-link"
+                    class="text-white nav-link"
                     href="/javascript"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    aria-controls="nav-submenu-courses-javascript"
-                    >JavaScript</a
-                  >
+                    >
+                    JavaScript
+                    </a>
                 </li>
                 <!-- End JavaScript -->
                 <!-- C#/.Net -->
                 <li>
                   <a
-                    class="nav-link"
+                    class="text-white nav-link"
                     href="/csharp"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    aria-controls="nav-submenu-courses-csharp"
-                    >C# .Net</a
-                  >
+                    >
+                    C# .Net
+                  </a>
                 </li>
                 <!-- End C#/.Net -->
               </ul>
               <!-- End Courses - Submenu -->
             </li>
             <!-- End Courses -->
+
             <!-- Financing -->
             <li class="nav-item  u-header__nav-item">
               <a
-                class="nav-link u-header__nav-link"
+                class="text-white nav-link u-header__nav-link"
                 href="/financing"
               >
                 Financing</a
               >
             </li>
             <!-- End Financing -->
+
             <!-- Contact -->
             <li class="nav-item  u-header__nav-item">
               <a
-                class="nav-link u-header__nav-link"
+                class="text-white nav-link u-header__nav-link"
                 href="/contact"
               >
                 Contact
               </a>
             </li>
             <!-- End Contact -->
+
             <li class="nav-item u-header__nav-item">
               <a
                 class="btn cta-button text-white font-weight-bold primary-gradient py-1 px-6"

@@ -123,7 +123,7 @@ body {
 }
 
 .primary-gradient:hover {
-  color: white;
+  color: #e6e5e0;
 }
 
 .stock-blue-button {
@@ -139,10 +139,6 @@ body {
 
 .narrow-mini {
   max-width: 600px;
-}
-
-.hover-scale-button:hover {
-  transform: scale(1.05);
 }
 
 .wide-button {
