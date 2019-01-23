@@ -32,4 +32,18 @@ jobs:
           paths:
             - node_modules
           key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+
       - run: yarn test
+      - deploy:
+          name: Deploy
+          command: |
+              if [ "${CIRCLE_BRANCH}" == "preview" ]; then
+              git config --global user.email "kevin@austincodingacademy.com"
+              git config --global user.name "Kevin Colten"
+              yarn deploy-preview
+              fi
+              if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              git config --global user.email "kevin@austincodingacademy.com"
+              git config --global user.name "Kevin Colten"
+              yarn deploy
+              fi
