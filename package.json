@@ -14,8 +14,8 @@
     "favicon": "real-favicon generate favicon.json faviconData.json assets/favicons/ && npm run favicon-inject",
     "favicon-inject": "echo '' > _includes/favicon.html && real-favicon inject faviconData.json assets/favicons _includes/favicon.html && mv assets/favicons/favicon.html _includes/favicon.html",
     "sitemap": "npm run sitemap-generator && sed -i \"s|http://127.0.0.1:8080|https://austincodingacademy.com|g\" _site/sitemap.xml",
-    "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 -f _site/sitemap.xml)",
-    "deploy": "yarn favicon && bundle exec jekyll build && yarn sitemap && cp -R .circleci/ _site/.circleci/ && cp -R .circleci/ _site/.circleci/ && yarn repo",
+    "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml)",
+    "deploy": "yarn favicon && bundle exec jekyll build && yarn sitemap && cp -R .circleci/ _site/.circleci/ && yarn repo",
     "repo": "gh-pages --repo \"git@github.com:AustinCodingAcademy/new.austincodingacademy.com.git\" --dotfiles -d ./_site"
   },
   "devDependencies": {
@@ -25,7 +25,7 @@
     "http-server": "^0.11.1",
     "imagemin-cli": "^4.0.0",
     "resize-cli": "^0.0.4",
-    "sitemap-generator-cli": "^7.4.0",
+    "sitemap-generator-cli": "^5.0.1",
     "stylelint": "^9.9.0",
     "stylelint-config-recommended": "^2.1.0"
   }
