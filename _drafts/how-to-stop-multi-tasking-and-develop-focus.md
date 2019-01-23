@@ -7,7 +7,7 @@ date: 2019-01-23 13:53:55 -0600
 ---
 # How to Stop Multi-Tasking and Develop Focus
 
-![How to Stop Multi-Tasking and Develop Focus](https://blog.austincodingacademy.com/hs-fs/hubfs/How%20to%20Stop%20Multi-Tasking%20and%20Develop%20Focus.png?width=810&name=How%20to%20Stop%20Multi-Tasking%20and%20Develop%20Focus.png =810x)
+![](/assets/How to Stop Multi-Tasking and Develop Focus (1).png)
 
 In an age of constant digital distractions, focus may seem like a foreign concept. Websites like Facebook, Reddit, and YouTube give us an endless supply of content that are often more engaging than the tasks we need to accomplish. But focus is crucial for developers; one misplaced character in thousands of lines of code can throw off an entire project.
 
@@ -37,7 +37,7 @@ A simple time-blocking strategy you can use is called the [Pomodoro technique](
 
 Every device we own has apps and websites competing for our precious attention, but we don’t have to let them win. Keeping yourself free from distractions allows you to focus on getting more work done.
 
-Cell phones are a huge distraction for most people. Eliminate them by turning off your phone, or choose not to bring it to work (if you can). If this isn’t realistic for you because you have family who may need to contact you during the day, try to encourage family and friends to communicate with you via email during the workday, except for emergencies.  
+Cell phones are a huge distraction for most people. Eliminate them by turning off your phone, or choose not to bring it to work (if you can). If this isn’t realistic for you because you have family who may need to contact you during the day, try to encourage family and friends to communicate with you via email during the workday, except for emergencies.
 
 Your computer can be another distractions minefield. Reduce interruptions by turning off email notifications and pings from messaging platforms like Slack or Facebook Messenger. Use chrome extensions like [Stayfocusd](https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=en) and [News Feed Eradicator for FB](https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg?hl=en) to help restrict access to distracting websites. If you find yourself often coming up with creative ideas for other projects while you’re working, quickly jot them down with apps like [Laterbox](https://laterbox.co/) and [Google docs](https://www.google.com/docs/about/) so you can get back to work quickly.
 
