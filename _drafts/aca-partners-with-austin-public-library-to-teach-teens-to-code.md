@@ -7,19 +7,13 @@ date: 2019-01-23 13:36:58 -0600
 ---
 # ACA Partners with Austin Public Library to Teach Teens to Code
 
-[![ACA APL Glitch Teen Coding](https://blog.austincodingacademy.com/hs-fs/hubfs/ACA%20APL%20Glitch%20Teen%20Coding.png?width=595&name=ACA%20APL%20Glitch%20Teen%20Coding.png =595x)](http://library.austintexas.gov/) 
-
 On Monday night, Austin Coding Academy teamed up with [Austin Public Library](http://library.austintexas.gov/) to host a free coding event for local teenagers at the Central Library.
 
 “Glitch: Coding Made Easy" is a 2-hour workshop whose goal is to inspire teens to explore careers in computer programming. We are proud to partner with APL to introduce a creative an in-demand skill for their future careers.
 
 All of the students began the night with no coding experience, but after 120 minutes, all were able to create and deploy their own websites on a topic they were interested in. “We covered HTML, CSS, and JavaScript,” said ACA’s CEO Chris Lofton, who instructed the class. “One student built her website about books and movies she loves. Another student's website consisted of pictures from all the places she traveled. One even built a site that included instructions on how to play his favorite video game!”
 
- 
-
-![Teenage student builds website displaying places she's traveled](https://blog.austincodingacademy.com/hs-fs/hubfs/IMG_9845.jpg?width=595&name=IMG_9845.jpg =595x)
-
- 
+!\[Teenage student builds website displaying places she's traveled\](https://blog.austincodingacademy.com/hs-fs/hubfs/IMG_9845.jpg?width=595&name=IMG_9845.jpg =595x)
 
 During the course, students worked together to solve different problems they encountered while building their sites. Each of the students was fully engaged through the process of brainstorming, designing, and building their pages while getting feedback and guidance from their instructor. By the end of the night, they each had an active website to take home and continue building on their own.
 
@@ -27,11 +21,7 @@ During the course, students worked together to solve different problems they enc
 
 Keep an eye on Austin Public Library's [events calendar](https://library.austintexas.gov/events/calendar?loc=3939) for more Austin Coding Academy library workshops coming down the pipeline. It is ACA’s core mission to make tech careers accessible to everyone, and we think giving teens exposure to the challenges and rewards of coding will illuminate this as a possible path they could take after high school. "We absolutely want to continue planning events with ACA in the future," said Perez.
 
- 
-
-[![The event took place in the teen's section of the Austin Public Library's central location](https://blog.austincodingacademy.com/hs-fs/hubfs/IMG_4837.jpg?width=391&name=IMG_4837.jpg =391x)](https://library.austintexas.gov/events/search) .   [![Austin Public Library image](https://blog.austincodingacademy.com/hs-fs/hubfs/IMG_4834.jpg?width=390&name=IMG_4834.jpg =390x)](http://library.austintexas.gov/central-library) 
-
- 
+[!\[The event took place in the teen's section of the Austin Public Library's central location\](https://blog.austincodingacademy.com/hs-fs/hubfs/IMG_4837.jpg?width=391&name=IMG_4837.jpg =391x)](https://library.austintexas.gov/events/search) .   [!\[Austin Public Library image\](https://blog.austincodingacademy.com/hs-fs/hubfs/IMG_4834.jpg?width=390&name=IMG_4834.jpg =390x)](http://library.austintexas.gov/central-library)
 
 If you are interested in having Austin Coding Academy provide coding classes for your group, reach out to us at info@austincodingacademy.com.
 
