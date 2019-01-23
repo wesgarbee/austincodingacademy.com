@@ -33,6 +33,19 @@
   #sidebar button {
     min-width: 170px;
   }
+
+  #hidden-list {
+    display: none;
+    list-style: none;
+  }
+
+  #hidden-list li {
+    margin-top: 30px;
+  }
+
+  #sidebar div:hover #hidden-list {
+    display: block;
+  }
 </style>
 
 <!-- ========== HEADER ========== -->
@@ -42,17 +55,39 @@
   class="d-flex d-md-none row"
   layout="nodisplay"
   side="right">
+
   <button class="btn btn-outline-danger" on="tap:sidebar.close">Close menu</button>
-  <a href="/javascript"><button class="btn btn-outline-primary">JavaScript</button></a>
-  <a href="/csharp"><button class="btn btn-outline-primary">C# .NET</button></a>
-  <a href="/financing"><button class="btn btn-outline-primary">Financing</button></a>
-  <a href="/contact"><button class="btn btn-outline-primary">Contact</button></a>
+
+  <div>
+    <button class="btn btn-outline-primary">
+      Courses &amp; Tuition
+    </button>
+    
+    <ul id="hidden-list">
+      <li><a href="/javascript">JavaScript</a></li>
+      <li><a href="/csharp">C# .NET</a></li>
+    </ul>
+  </div>
+
+  <a href="/financing">
+    <button class="btn btn-outline-primary">
+      Financing
+    </button>
+  </a>
+
+  <a href="/contact">
+    <button class="btn btn-outline-primary">
+      Contact
+    </button>
+  </a>
+
   <a
     class="btn cta-button text-white font-weight-bold primary-gradient py-1 px-6"
     href="/apply"
   >
     Apply
   </a>
+
 </amp-sidebar>
 
 <header
