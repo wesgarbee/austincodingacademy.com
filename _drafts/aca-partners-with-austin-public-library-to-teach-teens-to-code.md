@@ -21,8 +21,6 @@ During the course, students worked together to solve different problems they enc
 
 Keep an eye on Austin Public Library's [events calendar](https://library.austintexas.gov/events/calendar?loc=3939) for more Austin Coding Academy library workshops coming down the pipeline. It is ACA’s core mission to make tech careers accessible to everyone, and we think giving teens exposure to the challenges and rewards of coding will illuminate this as a possible path they could take after high school. "We absolutely want to continue planning events with ACA in the future," said Perez.
 
-[!\[The event took place in the teen's section of the Austin Public Library's central location\](https://blog.austincodingacademy.com/hs-fs/hubfs/IMG_4837.jpg?width=391&name=IMG_4837.jpg =391x)](https://library.austintexas.gov/events/search) .   [!\[Austin Public Library image\](https://blog.austincodingacademy.com/hs-fs/hubfs/IMG_4834.jpg?width=390&name=IMG_4834.jpg =390x)](http://library.austintexas.gov/central-library)
-
 If you are interested in having Austin Coding Academy provide coding classes for your group, reach out to us at info@austincodingacademy.com.
 
 ## Want to pursue a career in tech? We’d love to talk about your options:
