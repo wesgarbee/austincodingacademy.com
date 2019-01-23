@@ -125,7 +125,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBH7GK"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    <style>
+    <!-- htmllint preset="none" -->
+<style>
   .outlined-cta {
     color: #ffffff;
     width: 135px;
@@ -174,10 +175,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   #sidebar div:hover #hidden-list {
     display: block;
   }
+
+  /* Hide Dropdowns by Default */
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 56px; /* the height of the main nav */
+    margin-left: -30px;
+    list-style: none;
+  }
+
+  /* Display Dropdowns on Hover */
+  #nav-bar ul li:hover > ul {
+    display:inherit;
+  }
+
+  /* First Tier Dropdown */
+  nav ul ul li {
+    width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+  }
 </style>
+<!-- htmllint preset="$previous" -->
 
 <!-- ========== HEADER ========== -->
-<!-- htmllint preset="none" -->
 
 <amp-sidebar id="sidebar"
   class="d-flex d-md-none row"
@@ -190,7 +213,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <button class="btn btn-outline-primary">
       Courses &amp; Tuition
     </button>
-    
+
     <ul id="hidden-list">
       <li><a href="/javascript">JavaScript</a></li>
       <li><a href="/csharp">C# .NET</a></li>
@@ -218,6 +241,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </amp-sidebar>
 
+<!-- htmllint preset="none" -->
 <header
   id="header"
   class="u-header  u-header--navbar-bg "
@@ -255,71 +279,64 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <ul class="navbar-nav u-header__navbar-nav ml-auto">
             <!-- Courses -->
             <li
-              class="nav-item hs-has-sub-menu u-header__nav-item"
-              data-event="click"
+              class="nav-item u-header__nav-item"
             >
               <a
-                class="nav-link u-header__nav-link u-header__nav-link-toggle"
-                href="javascript:;"
-                aria-haspopup="true"
-                aria-expanded="false"
-                aria-labelledby="coursesSubMenu"
-                >Courses &amp; Tuition</a
-              >
+                href="#"
+                class="text-white"
+                >
+                Courses &amp; Tuition
+              </a>
 
               <!-- Courses - Submenu -->
-              <ul
-                class="hs-sub-menu u-header__sub-menu"
-                aria-labelledby="courses-mega-menu"
-              >
+              <ul>
                 <!-- JavaScript -->
                 <li>
                   <a
-                    class="nav-link"
+                    class="text-white nav-link"
                     href="/javascript"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    aria-controls="nav-submenu-courses-javascript"
-                    >JavaScript</a
-                  >
+                    >
+                    JavaScript
+                    </a>
                 </li>
                 <!-- End JavaScript -->
                 <!-- C#/.Net -->
                 <li>
                   <a
-                    class="nav-link"
+                    class="text-white nav-link"
                     href="/csharp"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    aria-controls="nav-submenu-courses-csharp"
-                    >C# .Net</a
-                  >
+                    >
+                    C# .Net
+                  </a>
                 </li>
                 <!-- End C#/.Net -->
               </ul>
               <!-- End Courses - Submenu -->
             </li>
             <!-- End Courses -->
+
             <!-- Financing -->
             <li class="nav-item  u-header__nav-item">
               <a
-                class="nav-link u-header__nav-link"
+                class="text-white nav-link u-header__nav-link"
                 href="/financing"
               >
                 Financing</a
               >
             </li>
             <!-- End Financing -->
+
             <!-- Contact -->
             <li class="nav-item  u-header__nav-item">
               <a
-                class="nav-link u-header__nav-link"
+                class="text-white nav-link u-header__nav-link"
                 href="/contact"
               >
                 Contact
               </a>
             </li>
             <!-- End Contact -->
+
             <li class="nav-item u-header__nav-item">
               <a
                 class="btn cta-button text-white font-weight-bold primary-gradient py-1 px-6"
@@ -1758,7 +1775,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- End List Group -->
           </div>
         </div>
-        <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-center justify-content-md-end">
           <a href="https://www.facebook.com/AustinCodingAcademy/" class="mx-3">
             <span class="text-white fab fa-facebook-square fa-2x"></span>
           </a>
@@ -1800,47 +1817,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     ></script>
     <!-- end BOOTSTRAP -->
 
-    <!-- begin DEFAULT-->
-    <!-- JS Global Compulsory -->
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery/dist/jquery.min.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/bootstrap/bootstrap.min.js"></script>
-
-    <!-- JS Front -->
-    <script src="https://austincodingacademy.github.io/front/assets/js/hs.core.js"></script>
-    <!-- end DEFAULT -->
-
-    <!-- JS Implementing Plugins -->
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-
-    <!-- JS Front -->
-    <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.header.js"></script>
-    <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.svg-injector.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
-
-    <script src="/assets/javascripts/index.js"></script>
-
-    <!-- JS Plugins Init. -->
-    <script>
-      $(window).on("load", function() {
-        // initialization of HSMegaMenu component
-        $(".js-mega-menu").HSMegaMenu({
-          event: "hover",
-          pageContainer: $(".container"),
-          breakpoint: 767.98,
-          hideTimeOut: 0
-        });
-
-        // initialization of svg injector module
-        $.HSCore.components.HSSVGIngector.init(".js-svg-injector");
-      });
-
-      $(document).on("ready", function() {
-        // initialization of header
-        $.HSCore.components.HSHeader.init($("#header"));
-      });
-    </script>
   </body>
 </html>
