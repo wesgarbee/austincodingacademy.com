@@ -22,10 +22,75 @@
     height: 90px;
     width: 90px;
   }
+
+  #sidebar {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5%;
+  }
+
+  #sidebar button {
+    min-width: 170px;
+  }
+
+  #hidden-list {
+    display: none;
+    list-style: none;
+    margin-bottom: 0;
+  }
+
+  #hidden-list li {
+    margin-top: 30px;
+  }
+
+  #sidebar div:hover #hidden-list {
+    display: block;
+  }
 </style>
 
 <!-- ========== HEADER ========== -->
 <!-- htmllint preset="none" -->
+
+<amp-sidebar id="sidebar"
+  class="d-flex d-md-none row"
+  layout="nodisplay"
+  side="right">
+
+  <button class="btn btn-outline-danger" on="tap:sidebar.close">Close menu</button>
+
+  <div>
+    <button class="btn btn-outline-primary">
+      Courses &amp; Tuition
+    </button>
+    
+    <ul id="hidden-list">
+      <li><a href="/javascript">JavaScript</a></li>
+      <li><a href="/csharp">C# .NET</a></li>
+    </ul>
+  </div>
+
+  <a href="/financing">
+    <button class="btn btn-outline-primary">
+      Financing
+    </button>
+  </a>
+
+  <a href="/contact">
+    <button class="btn btn-outline-primary">
+      Contact
+    </button>
+  </a>
+
+  <a
+    class="btn cta-button text-white font-weight-bold primary-gradient py-1 px-6"
+    href="/apply"
+  >
+    Apply
+  </a>
+
+</amp-sidebar>
+
 <header
   id="header"
   class="u-header {% if page.color == 'transparent' %} u-header--bg-transparent u-header--white-nav-links-md u-header--abs-top {% else %} u-header--navbar-bg {% endif %}"
@@ -50,25 +115,15 @@
         <!-- End Logo -->
 
         <!-- Responsive Toggle Button -->
-        <button
-          type="button"
-          class="navbar-toggler btn u-hamburger u-hamburger--white"
-          aria-label="Toggle navigation"
-          aria-expanded="false"
-          aria-controls="navBar"
-          data-toggle="collapse"
-          data-target="#nav-bar"
-        >
-          <span class="u-hamburger__box">
-            <span class="u-hamburger__inner"></span>
-          </span>
+        <button class="display-5 text-white btn btn-link d-flex d-md-none" on="tap:sidebar.open">
+          <i class="fas fa-bars"></i>
         </button>
         <!-- End Responsive Toggle Button -->
 
         <!-- Navigation -->
         <div
           id="nav-bar"
-          class="collapse navbar-collapse u-header__navbar-collapse"
+          class="collapse navbar-collapse u-header__navbar-collapse d-none d-md-flex"
         >
           <ul class="navbar-nav u-header__navbar-nav ml-auto">
             <!-- Courses -->
@@ -120,14 +175,22 @@
             <!-- End Courses -->
             <!-- Financing -->
             <li class="nav-item  u-header__nav-item">
-              <a class="nav-link u-header__nav-link" href="/financing"
-                >Financing</a
+              <a
+                class="nav-link u-header__nav-link"
+                href="/financing"
+              >
+                Financing</a
               >
             </li>
             <!-- End Financing -->
             <!-- Contact -->
             <li class="nav-item  u-header__nav-item">
-              <a class="nav-link u-header__nav-link" href="/contact">Contact</a>
+              <a
+                class="nav-link u-header__nav-link"
+                href="/contact"
+              >
+                Contact
+              </a>
             </li>
             <!-- End Contact -->
             <li class="nav-item u-header__nav-item">
