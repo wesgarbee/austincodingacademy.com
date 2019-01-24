@@ -129,8 +129,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <style>
   .outlined-cta {
     color: #ffffff;
-    width: 135px;
-    height: 44px;
+    min-width: 170px;
+    height: 50px;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -143,7 +143,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     border-image-source: url(/assets/images/apply-button.svg);
     border-image-repeat: stretch stretch;
     border-image-slice: 21;
-    border-image-width: 135px;
+    border-image-width: 170px;
   }
 
   .navbar-brand {
@@ -156,6 +156,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     justify-content: space-around;
     align-items: center;
     padding: 0 5%;
+    background-color: rgba(0, 0, 0, 0.9);
   }
 
   #sidebar button {
@@ -166,10 +167,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     display: none;
     list-style: none;
     margin-bottom: 0;
+    position: absolute;
   }
 
   #hidden-list li {
-    margin-top: 30px;
+    margin-top: 5px;
   }
 
   #sidebar div:hover #hidden-list {
@@ -180,8 +182,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   nav ul ul {
     display: none;
     position: absolute;
-    top: 56px; /* the height of the main nav */
-    margin-left: -30px;
+    top: 60px; /* the height of the main nav */
+    margin-left: -40px;
     list-style: none;
   }
 
@@ -192,11 +194,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   /* First Tier Dropdown */
   nav ul ul li {
-    width:170px;
+    width:140px;
     float:none;
     display:list-item;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 3px 0 3px 10px;
   }
+
 </style>
 <!-- htmllint preset="$previous" -->
 
@@ -207,38 +212,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   layout="nodisplay"
   side="right">
 
-  <button class="btn btn-outline-danger" on="tap:sidebar.close">Close menu</button>
+  <div>
+    <button class="btn btn-danger" on="tap:sidebar.close">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
 
   <div>
-    <button class="btn btn-outline-primary">
-      Courses &amp; Tuition
+    <button class="btn btn-outline-light">
+      Courses &amp; Tuition <i class="fas fa-caret-down"></i>
     </button>
 
     <ul id="hidden-list">
-      <li><a href="/javascript">JavaScript</a></li>
-      <li><a href="/csharp">C# .NET</a></li>
+      <li>
+        <a href="/javascript" class="text-white">
+          JavaScript
+        </a>
+      </li>
+      <li>
+        <a href="/csharp" class="text-white">
+          C# .NET
+        </a>
+      </li>
     </ul>
   </div>
 
-  <a href="/financing">
-    <button class="btn btn-outline-primary">
-      Financing
-    </button>
-  </a>
+  <div>
+    <a href="/financing">
+      <button class="btn btn-outline-light">
+        Financing
+      </button>
+    </a>
+  </div>
 
-  <a href="/contact">
-    <button class="btn btn-outline-primary">
-      Contact
-    </button>
-  </a>
+  <div>
+    <a href="/contact">
+      <button class="btn btn-outline-light">
+        Contact
+      </button>
+    </a>
+  </div>
 
-  <a
-    class="btn cta-button text-white font-weight-bold primary-gradient py-1 px-6"
-    href="/apply"
-  >
-    Apply
-  </a>
-
+  <div>
+      <a
+        class="btn outlined-cta cta-button text-white font-weight-bold py-1 px-6"
+        href="/apply"
+      >
+        Apply
+      </a>
+    </div>
 </amp-sidebar>
 
 <!-- htmllint preset="none" -->
@@ -285,7 +307,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 href="#"
                 class="text-white nav-link u-header__nav-link"
                 >
-                Courses &amp; Tuition
+                Courses &amp; Tuition <i class="fas fa-caret-down"></i>
               </a>
 
               <!-- Courses - Submenu -->
