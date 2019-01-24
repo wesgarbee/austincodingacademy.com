@@ -4,10 +4,106 @@ permalink: /
 color: transparent
 ---
 
-<style>
+<style amp-custom>
   .hero {
     background-image: url(/assets/images/header-index.png);
   }
+
+  /* begin tabs */
+  :root {
+    --color-primary: #2d2f77;
+    --space-1: .5rem;  /* 8px */
+    --space-4: 2rem;   /* 32px */
+  }
+
+  /* Styles for the flex layout based tabs */
+  amp-selector[role=tablist].tabs-with-flex {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  amp-selector[role=tablist].tabs-with-flex [role=tab] {
+      flex-grow: 1;
+      /* custom styling, feel free to change */
+      text-align: center;
+      padding: var(--space-1);
+  }
+  amp-selector[role=tablist].tabs-with-flex [role=tab][selected] {
+      outline: none;
+      /* custom styling, feel free to change */
+      border-bottom: 2px solid var(--color-primary);
+  }
+  amp-selector[role=tablist].tabs-with-flex [role=tabpanel] {
+      display: none;
+      width: 100%;
+      order: 1; /* must be greater than the order of the tab buttons to flex to the next line */
+      /* custom styling, feel free to change */
+      padding: var(--space-4);
+  }
+  amp-selector[role=tablist].tabs-with-flex [role=tab][selected] + [role=tabpanel] {
+      display: block;
+  }
+
+  /* Styles for the selector based tabs */
+  amp-selector[role=tablist].tabs-with-selector {
+      display: flex;
+  }
+  amp-selector[role=tablist].tabs-with-selector [role=tab][selected] {
+      outline: none;
+      /* custom styling, feel free to change */
+      border-bottom: 2px solid var(--color-primary);
+  }
+  amp-selector[role=tablist].tabs-with-selector {
+      display: flex;
+  }
+  amp-selector[role=tablist].tabs-with-selector [role=tab] {
+    /* custom styling, feel free to change */
+    width: 100%;
+    text-align: center;
+    padding: var(--space-1);
+  }
+  amp-selector.tabpanels [role=tabpanel] {
+    display: none;
+    /* custom styling, feel free to change */
+    padding: var(--space-4);
+  }
+  amp-selector.tabpanels [role=tabpanel][selected] {
+    outline: none;
+    display: block;
+  }
+  /* end tabs */
+
+  /* begin instructors */
+  .card-block {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  /* end instructors */
+
+  /* begin grad-companies */
+  .company-logo-div {
+    width: 270px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 767.98px) {
+    .company-logo-div {
+      width: 135px;
+      height: 80px;
+    }
+
+    #logo-section {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  /* end grad-companies */
 </style>
 
 <div class="hero">
@@ -34,14 +130,193 @@ color: transparent
   <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
     Why Our Students Love Us
   </h2>
-  {% include tabs.html %}
+
+  <!-- begin tabs -->
+  <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+
+  <amp-selector class="tabs-with-flex"
+    role="tablist">
+    <div id="tab1"
+      role="tab"
+      class="tab-link"
+      aria-controls="tabpanel1"
+      option
+      selected>Night Classes</div>
+    <div id="tabpanel1"
+      role="tabpanel"
+      aria-labelledby="tab1"
+    >
+      <!-- Mockup Block -->
+      <div class="row justify-content-lg-between align-items-lg-center">
+        <div class="col-md mb-9 mb-lg-0">
+          <!-- Info -->
+          <div class="mb-5">
+            <h3 class="h4 size-37">Dont worry, you can keep your day job.</h3>
+            <p class="size-20">
+              Unlike many coding bootcamps, which require full-time commitment
+              and are hugely expensive, we go at a more steady pace offering
+              part-time, in-person classes twice a week.
+            </p>
+            {% include btn-apply.html class="btn-wide" %}
+          </div>
+          <!-- End Info -->
+        </div>
+
+        <div class="d-none d-md-block col-md position-relative">
+          <div class="pl-md-9">
+            <img
+              class="img-fluid shadow rounded"
+              src="/assets/images/tab-dayjob.png"
+              alt="Night Classes"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- End Mockup Block -->
+    </div>
+    <div id="tab2"
+      role="tab"
+      class="tab-link"
+      aria-controls="tabpanel2"
+      option>Innovative Curriculum</div>
+    <div id="tabpanel2"
+      role="tabpanel"
+      aria-labelledby="tab2"
+    >
+      <!-- Mockup Block -->
+      <div class="row justify-content-lg-between align-items-lg-center">
+        <div class="col-md mb-9 mb-lg-0">
+          <!-- Info -->
+          <div class="mb-5">
+            <h3 class="h4 size-37">We Help Keep You Relevant</h3>
+            <p class="size-20">
+              Our classes are taught by industry professionals currently working
+              in the field and our curriculum is updated on a regular basis so
+              you're always learning the most cutting-edge skills.
+            </p>
+            {% include btn-apply.html class="btn-wide" %}
+          </div>
+          <!-- End Info -->
+        </div>
+
+        <div class="d-none d-md-block col-md position-relative">
+          <div class="pl-md-9">
+            <img
+              class="img-fluid shadow-sm rounded"
+              src="/assets/images/tab-curriculum.png"
+              alt="Innovative Curriculum"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- End Mockup Block -->
+    </div>
+    <div id="tab3"
+      role="tab"
+      class="tab-link"
+      aria-controls="tabpanel3"
+      option>Job Placement</div>
+    <div id="tabpanel3"
+      role="tabpanel"
+      aria-labelledby="tab3"
+    >
+      <!-- Mockup Block -->
+      <div class="row justify-content-lg-between align-items-lg-center">
+        <div class="col-md mb-9 mb-lg-0">
+          <!-- Info -->
+          <div class="mb-5">
+            <h3 class="h4 size-37">Job Placement Assistance</h3>
+            <p class="size-20">
+              We are committed to helping you get a job. We’ll show you how to
+              craft your resume, setup networking events, introduce you to
+              potential employers, and technical interviews.
+            </p>
+            {% include btn-apply.html class="btn-wide" %}
+          </div>
+          <!-- End Info -->
+        </div>
+
+        <div class="d-none d-md-block col-md position-relative">
+          <div class="pl-md-9">
+            <img
+              class="img-fluid shadow-sm rounded"
+              src="/assets/images/tab-jobplacement.png"
+              alt="Job Placement"
+            />
+          </div>
+
+          <!-- SVG Component -->
+          <!-- End SVG Component -->
+        </div>
+      </div>
+      <!-- End Mockup Block -->
+    </div>
+  </amp-selector>
+  <!-- end tabs -->
+
 </section>
 
 <section class="mb-10 container">
   <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
     Two Paths to Choose From
   </h2>
-  {% include tracks-info-cards.html %}
+
+  <!-- begin tracks-info-cards -->
+  <div class="d-block d-lg-flex card-lg-gutters-3 justify-content-center">
+    <div class="card card-frame text-center mb-5 flex-1">
+      <!-- Card -->
+      <div class="card-body p-6">
+        <div class="u-avatar mx-auto mb-4">
+          <img
+            class="img-fluid rounded"
+            src="/assets/images//icon-javascript.png"
+            alt="Image Description"
+          />
+        </div>
+        <div class="mb-4">
+          <h4 class="h6 mb-1 size-31">Full-Stack JavaScript</h4>
+          <p>
+            Become a Full-Stack JavaScript developer and land a job at a company
+            like Facebook or a startup by learning the JavaScript coding language.
+          </p>
+        </div>
+        <a
+          class="btn stock-blue-button text-white hover-scale-button"
+          href="/javascript/"
+          >Learn More</a
+        >
+      </div>
+      <!-- End Card -->
+    </div>
+
+    <div class="card card-frame text-center mb-5 flex-1">
+      <!-- Card -->
+      <div class="card-body p-6">
+        <div class="u-avatar mx-auto mb-4">
+          <img
+            class="img-fluid rounded"
+            src="/assets/images//icon-csharp.png"
+            alt="Image Description"
+          />
+        </div>
+        <div class="mb-4">
+          <h4 class="h6 mb-1 size-31">C# and .NET</h4>
+          <p>
+            Become a .NET developer and land a job at a company like Frost Bank or
+            General Motors by learning the C# coding language, .NET Framework,
+            SQL, and React.js
+          </p>
+        </div>
+        <a
+          class="btn stock-blue-button text-white hover-scale-button"
+          href="/csharp"
+          >Learn More</a
+        >
+      </div>
+      <!-- End Card -->
+    </div>
+  </div>
+  <!-- end tracks-info-cards -->
 </section>
 
 <section class="my-10 container">
@@ -52,21 +327,161 @@ color: transparent
   <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
     Our Instructors Work Full-Time in the Industry
   </h2>
-  {% include instructors.html %}
+
+  <!-- begin instructors -->
+  <div class="container">
+    <div class="row card-block align-items-start">
+      <div class="col-12 col-md-4">
+        <img
+          class="img-fluid w-100 rounded"
+          src="/assets/images/instructor-danawen.jpeg"
+          alt="Dana Wen"
+        />
+        <a
+          href="https://www.linkedin.com/in/danawen/"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="card border-0 shadow-sm mt-n6 mx-3">
+            <div class="card-body text-center p-4">
+              <h3 class="h6 mb-1">Dana Wen</h3>
+              <p class="font-size-1 mb-0">ChickTech Austin</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <img
+          class="img-fluid w-100 rounded"
+          src="/assets/images/instructor-juanrodriguez.jpeg"
+          alt="Dana Wen"
+        />
+        <a
+          href="https://www.linkedin.com/in/juanrod1/"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="card border-0 shadow-sm mt-n6 mx-3">
+            <div class="card-body text-center p-4">
+              <h3 class="h6 mb-1">Juan Rodriguez</h3>
+              <p class="font-size-1 mb-0">L7 Informatics</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <img
+          class="img-fluid w-100 rounded"
+          src="/assets/images/instructor-danferguson.jpeg"
+          alt="Dana Wen"
+        />
+        <a
+          href="https://www.linkedin.com/in/ferguson-dan/"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="card border-0 shadow-sm mt-n6 mx-3">
+            <div class="card-body text-center p-4">
+              <h3 class="h6 mb-1">Dan Ferguson</h3>
+              <p class="font-size-1 mb-0">Tyler Technologies</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- end instructors -->
+
 </section>
 
 <section class="mb-10 container">
   <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
     Our Graduates Are Working At
   </h2>
-  {% include grad-companies.html %}
+
+  <!-- begin grad-companies -->
+  <div class="container">
+    <div id="logo-section" class="row">
+      <div class="col-sm-3 col-md-2 company-logo-div">
+        <img class="u-clients mw-100" src="/assets/images/logo-dell.png" alt="Dell" />
+      </div>
+      <div class="col-sm-3 col-md-2 company-logo-div">
+        <img class="u-clients mw-100" src="/assets/images/logo-dosh.png" alt="Dosh" />
+      </div>
+      <div class="col-sm-3 col-md-2 company-logo-div">
+        <img
+          class="u-clients mw-100"
+          src="/assets/images/logo-pluralsight.png"
+          alt="Plural Sight"
+        />
+      </div>
+      <div class="col-sm-3 col-md-2 company-logo-div">
+        <img class="u-clients mw-100" src="/assets/images/logo-mooveit.png" alt="Moove-It" />
+      </div>
+      <div class="col-sm-3 col-md-2 company-logo-div">
+        <img
+          class="u-clients mw-100"
+          src="/assets/images/logo-flosports.png"
+          alt="Flosports"
+        />
+      </div>
+      <div class="col-sm-3 col-md-2 company-logo-div">
+        <img class="u-clients" src="/assets/images/logo-ibm.png" alt="IBM" />
+      </div>
+    </div>
+  </div>
+  <!-- end grad-companies -->
+
 </section>
 
 <section class="mb-10 container">
   <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
     Student Success Stories
   </h2>
-  {% include student-stories.html %}
+
+  <!-- begin student-stories -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6">
+        <h3 class="size-20 text-center"><strong>Lillian Situ</strong></h3>
+        <h4 class="size-16 text-center">Software Engineer, Data.World</h4>
+        <iframe
+          src="https://player.vimeo.com/video/290925619"
+          width="100%"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+        ></iframe>
+        <p class="size-14 text-center">
+          "I've always been interested in programming and being able to create
+          something so being able to take what I learned at ACA and get a job with
+          it...was one of the best decisions I've made."
+        </p>
+      </div>
+      <div class="col-12 col-sm-6">
+        <h3 class="size-20 text-center"><strong>Greg Swan</strong></h3>
+        <h4 class="size-16 text-center">Web Developer, Kinetic Theory</h4>
+        <iframe
+          src="https://player.vimeo.com/video/290913789"
+          width="100%"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+        ></iframe>
+        <p class="size-14 text-center">
+          "ACA prepared me for the job market the way a high school teacher
+          prepares you for college; they gave me a solid foundation of knowledge,
+          taught me what not to do, and consistently reminded me that there was a
+          job out there for me if I was willing to put in the work."
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- end student-stories -->
 </section>
 
 <section
@@ -74,13 +489,23 @@ color: transparent
 >
   <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
     Next Classes Start March 4th<br />
-    <span class="display-5">Save your spot today!</span>
+    <span class="display-5">
+      Save your spot today!
+    </span>
   </h2>
   {% include btn-apply.html class="btn-wide" %}
 </section>
 
 <section class="mb-10 container">
-  {% include upcoming-events.html %}
+  <!-- begin upcoming-events -->
+  <h4
+    id="header-text-margins"
+    class="font-family-alt font-weight-bold text-center display-6 mb-4"
+  >
+    Upcoming Events
+  </h4>
+  <div id="upcoming-events"></div>
+  <!-- end upcoming-events -->
 </section>
 
 <section class="mb-10 container">

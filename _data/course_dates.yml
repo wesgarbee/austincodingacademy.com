@@ -1,0 +1,88 @@
+javascript:
+
+  - dates: March 4th - April 24th
+    weekdays: Mondays &amp; Wednesdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: Web 101 - Intro to Web Development
+
+  - dates: March 26th - May 16th
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: Downtown Capital Factory Campus
+    class: Web 101 - Intro to Web Development
+
+  - dates: April 29th - June 24th
+    weekdays: Mondays &amp; Wednesdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: JS 211 - JavaScript Basics
+
+  - dates: May 21st - July 16th
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: Downtown Capital Factory Campus
+    class: JS 211 - JavaScript Basics
+
+  - dates: June 26th - August 21st
+    weekdays: Mondays &amp; Wednesdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: JS 311 - Front-End JavaScript
+
+  - dates: July 23rd - September 12th
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: Downtown Capital Factory Campus
+    class: JS 311 - Front-End JavaScript
+
+  - dates: August 26th - October 21st
+    weekdays: Mondays &amp; Wednesdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: JS 411 - Back-End Javascript
+
+  - dates: September 17th - November 7th
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: Downtown Capital Factory Campus
+    class: JS 411 - Back-End Javascript
+
+  - dates: November 11th - December 12th
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: Job 501 - Job Placement Course
+
+csharp:
+
+  - dates: April 23rd - June 13th
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: Web 101 - Intro to Web Development
+
+  - dates: June 18th - August 13th
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: C# .NET 221 - C# Basics
+
+  - dates: August 19th - October 10th
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: C# .NET 321 - .NET Framework
+
+  - dates: October 15th - December 12th
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: C# .NET 421 - Advanced .NET + React.js
+
+  - dates: January 8th - January 31st
+    weekdays: Tuesdays &amp; Thursdays
+    time: 6:30pm - 9:00pm
+    campus: North Austin Highland Campus
+    class: Job 501 - Job Placement Course
+```
