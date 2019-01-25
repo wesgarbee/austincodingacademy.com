@@ -1,0 +1,27 @@
+<h2
+    style="margin-bottom: 3rem"
+    class="display-5 font-family-alt text-center font-weight-bold"
+    >
+    Individual Course Dates
+</h2>
+
+    {% for class in site.data.javascript_dates %}
+        <div class="container">
+            <h4 class="font-weight-bold">
+                <i class="fas fa-circle text-purple"></i>
+                {{class.course}}
+            </h4>
+            {% for section in site.data.javascript_dates.class.sections %}
+            <div class="row border my-2">
+            <div class="col-6 col-md my-4">{{section.dates}}</div>
+            <div class="col-6 col-md my-4">{{section.weekdays}}</div>
+            <div class="col-6 col-md my-4">{{section.time}}</div>
+            <div class="col-6 col-md my-4">{{section.campus}}</div>
+            </div>
+            {% endfor %}
+
+            <div class="d-flex justify-content-center my-10">
+            {% include btn-apply.html class="btn-wide" %}
+            </div>
+        </div>
+    {% endfor %}

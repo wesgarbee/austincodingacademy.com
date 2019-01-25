@@ -1,5 +1,4 @@
-javascript:
-
+Web101:
   - dates: March 4th - April 24th
     weekdays: Mondays &amp; Wednesdays
     time: 6:30pm - 9:00pm
@@ -12,6 +11,7 @@ javascript:
     campus: Downtown Capital Factory Campus
     class: Web 101 - Intro to Web Development
 
+JS211:
   - dates: April 29th - June 24th
     weekdays: Mondays &amp; Wednesdays
     time: 6:30pm - 9:00pm
@@ -24,6 +24,7 @@ javascript:
     campus: Downtown Capital Factory Campus
     class: JS 211 - JavaScript Basics
 
+JS311:
   - dates: June 26th - August 21st
     weekdays: Mondays &amp; Wednesdays
     time: 6:30pm - 9:00pm
@@ -36,6 +37,7 @@ javascript:
     campus: Downtown Capital Factory Campus
     class: JS 311 - Front-End JavaScript
 
+JS411:
   - dates: August 26th - October 21st
     weekdays: Mondays &amp; Wednesdays
     time: 6:30pm - 9:00pm
@@ -48,38 +50,43 @@ javascript:
     campus: Downtown Capital Factory Campus
     class: JS 411 - Back-End Javascript
 
+Job501:
   - dates: November 11th - December 12th
     weekdays: Tuesdays &amp; Thursdays
     time: 6:30pm - 9:00pm
     campus: North Austin Highland Campus
     class: Job 501 - Job Placement Course
 
-csharp:
 
+Web101:
   - dates: April 23rd - June 13th
     weekdays: Tuesdays &amp; Thursdays
     time: 6:30pm - 9:00pm
     campus: North Austin Highland Campus
     class: Web 101 - Intro to Web Development
 
+CNET221:
   - dates: June 18th - August 13th
     weekdays: Tuesdays &amp; Thursdays
     time: 6:30pm - 9:00pm
     campus: North Austin Highland Campus
     class: C# .NET 221 - C# Basics
 
+CNET321:
   - dates: August 19th - October 10th
     weekdays: Tuesdays &amp; Thursdays
     time: 6:30pm - 9:00pm
     campus: North Austin Highland Campus
     class: C# .NET 321 - .NET Framework
 
+CNET421:
   - dates: October 15th - December 12th
     weekdays: Tuesdays &amp; Thursdays
     time: 6:30pm - 9:00pm
     campus: North Austin Highland Campus
     class: C# .NET 421 - Advanced .NET + React.js
 
+Job501:
   - dates: January 8th - January 31st
     weekdays: Tuesdays &amp; Thursdays
     time: 6:30pm - 9:00pm
