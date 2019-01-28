@@ -29,7 +29,9 @@ permalink: "/faq/"
     {% for faq in site.data.faqs.basics %}
     <!-- Card -->
     <div class="card mb-3">
+      <!-- htmllint preset="none" -->
       <div class="card-header card-collapse" id="basics-heading-{{ forloop.index0 }}">
+      <!-- htmllint preset="$previous" -->
         <h5 class="mb-0">
           <button
             class="font-size-large btn btn-link btn-block d-flex justify-content-between card-btn p-3"
@@ -42,6 +44,7 @@ permalink: "/faq/"
           </button>
         </h5>
       </div>
+      <!-- htmllint preset="none" -->
       <div
         id="basics-collapse-{{forloop.index0}}"
         class="collapse"
@@ -51,6 +54,7 @@ permalink: "/faq/"
           {{faq.answer}}
         </div>
       </div>
+      <!-- htmllint preset="$previous" -->
     </div>
     <!-- End Card -->
     {% endfor %}
@@ -66,7 +70,9 @@ permalink: "/faq/"
     {% for faq in site.data.faqs.tuition %}
     <!-- Card -->
     <div class="card mb-3">
+      <!-- htmllint preset="none" -->
       <div class="card-header card-collapse" id="tuition-heading-{{forloop.index0}}">
+      <!-- htmllint preset="$previous" -->
         <h5 class="mb-0">
           <button
             class="font-size-large btn btn-link btn-block d-flex justify-content-between card-btn p-3"
@@ -79,6 +85,7 @@ permalink: "/faq/"
           </button>
         </h5>
       </div>
+      <!-- htmllint preset="none" -->
       <div
         id="tuition-collapse-{{forloop.index0}}"
         class="collapse"
@@ -88,6 +95,7 @@ permalink: "/faq/"
           {{faq.answer}}
         </div>
       </div>
+      <!-- htmllint preset="$previous" -->
     </div>
     <!-- End Card -->
     {% endfor %}
@@ -103,7 +111,9 @@ permalink: "/faq/"
       {% for faq in site.data.faqs.job %}
       <!-- Card -->
       <div class="card mb-3">
+      <!-- htmllint preset="none" -->
         <div class="card-header card-collapse" id="job-heading-{{forloop.index0}}">
+      <!-- htmllint preset="$previous" -->
           <h5 class="mb-0">
             <button
               class="font-size-large btn btn-link btn-block d-flex justify-content-between card-btn p-3"
@@ -116,6 +126,7 @@ permalink: "/faq/"
             </button>
           </h5>
         </div>
+      <!-- htmllint preset="none" -->
         <div
           id="job-collapse-{{forloop.index0}}"
           class="collapse"
@@ -125,6 +136,7 @@ permalink: "/faq/"
             {{faq.answer}}
           </div>
         </div>
+      <!-- htmllint preset="$previous" -->
       </div>
       <!-- End Card -->
       {% endfor %}
@@ -140,7 +152,9 @@ permalink: "/faq/"
     {% for faq in site.data.faqs.course %}
     <!-- Card -->
     <div class="card mb-3">
+      <!-- htmllint preset="none" -->
       <div class="card-header card-collapse" id="course-heading-{{forloop.index0}}">
+      <!-- htmllint preset="$previous" -->
         <h5 class="mb-0">
           <button
             class="font-size-large btn btn-link btn-block d-flex justify-content-between card-btn p-3"
@@ -153,6 +167,7 @@ permalink: "/faq/"
           </button>
         </h5>
       </div>
+      <!-- htmllint preset="none" -->
       <div
         id="course-collapse-{{forloop.index0}}"
         class="collapse"
@@ -162,6 +177,7 @@ permalink: "/faq/"
           {{faq.answer}}
         </div>
       </div>
+      <!-- htmllint preset="$previous" -->
     </div>
     <!-- End Card -->
     {% endfor %}

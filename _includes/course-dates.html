@@ -15,7 +15,9 @@
 {% for course in courses %}
     <div class="container mb-5">
         <h4 class="font-weight-bold">
+            <!-- htmllint preset="none" -->
             <i class="fas fa-circle text-{{course.color}}"></i>
+            <!-- htmllint preset="$previous" -->
             {{course.title}}
         </h4>
         {% for section in course.sections %}
