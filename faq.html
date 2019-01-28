@@ -29,7 +29,7 @@ permalink: "/faq/"
     {% for faq in site.data.faqs.basics %}
     <!-- Card -->
     <div class="card mb-3">
-      <div class="card-header card-collapse" id="basics-heading-{{forloop.index0}}">
+      <div class="card-header card-collapse" id="basics-heading-{{ forloop.index0 }}">
         <h5 class="mb-0">
           <button
             class="font-size-large btn btn-link btn-block d-flex justify-content-between card-btn p-3"
@@ -38,9 +38,7 @@ permalink: "/faq/"
             aria-expanded="false"
             aria-controls="basics-collapse-{{forloop.index0}}">
             {{faq.question}}
-            <span class="card-btn-arrow">
-              <span class="fas fa-arrow-left small"></span>
-            </span>
+
           </button>
         </h5>
       </div>
@@ -77,9 +75,7 @@ permalink: "/faq/"
             aria-expanded="false"
             aria-controls="tuition-collapse-{{forloop.index0}}">
             {{faq.question}}
-            <span class="card-btn-arrow">
-              <span class="fas fa-arrow-left small"></span>
-            </span>
+
           </button>
         </h5>
       </div>
@@ -116,9 +112,7 @@ permalink: "/faq/"
               aria-expanded="false"
               aria-controls="job-collapse-{{forloop.index0}}">
               {{faq.question}}
-              <span class="card-btn-arrow">
-                <span class="fas fa-arrow-left small"></span>
-              </span>
+
             </button>
           </h5>
         </div>
@@ -155,9 +149,7 @@ permalink: "/faq/"
             aria-expanded="false"
             aria-controls="course-collapse-{{forloop.index0}}">
             {{faq.question}}
-            <span class="card-btn-arrow">
-              <span class="fas fa-arrow-left small"></span>
-            </span>
+
           </button>
         </h5>
       </div>
@@ -187,3 +179,4 @@ permalink: "/faq/"
     {% include contact-form.html %}
   </div>
 </section>
+</div>
