@@ -1,41 +1,6 @@
 ---
 layout: default
 ---
-
-<head>
-    <!-- Title -->
-    <title>{{page.name}}</title>
-
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Google Fonts -->
-    <link
-        href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
-        rel="stylesheet"
-    >
-
-    <!-- CSS Implementing Plugins -->
-    <link
-        rel="stylesheet"
-        href="https://austincodingacademy.github.io/front/assets/vendor/font-awesome/css/fontawesome-all.min.css"
-    >
-    <link
-        rel="stylesheet"
-        href="https://austincodingacademy.github.io/front/assets/vendor/animate.css/animate.min.css"
-    >
-    <link
-        rel="stylesheet"
-        href="https://austincodingacademy.github.io/front/assets/vendor/hs-megamenu/src/hs.megamenu.css"
-    >
-    <link
-        rel="stylesheet"
-        href="https://austincodingacademy.github.io/front/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css"
-    >
-</head>
-
-<!-- htmllint preset="none" -->
 <body>
   <!-- ========== MAIN ========== -->
   <main id="content" role="main">
@@ -135,7 +100,7 @@ layout: default
             <!-- User Details -->
             <div class="mb-4">
               <h2 class="h4">{{page.greeting}}<span class="badge badge-success ml-1">Pro</span></h2>
-              <h4 class="h6 text-secondary mb-0">{{page.location}}<small>- Joined in July 2017</small></h4>
+              <h4 class="h6 text-secondary mb-0">{{page.location}}<small> - Joined in {{page.joined}}</small></h4>
             </div>
             <!-- End User Details -->
 
@@ -176,12 +141,14 @@ layout: default
                         {% assign verify = "Not Verified" %}
                         {% assign verify-img = "https://austincodingacademy.github.io/front/assets/svg/illustrations/unverified-user.svg" %}
                     {% endif %}
+                    <!-- htmllint preset="none" -->
                     <img
                         class="mr-2"
                         src={{verify-img}}
                         alt={{verify}}
                         style="width: 40px;"
                     />
+                    <!-- htmllint preset="$previous" -->
                     <div class="text-secondary">
                         {{verify}}
                     </div>
@@ -435,81 +402,4 @@ layout: default
   </main>
   <!-- ========== END MAIN ========== -->
 
-  <!-- Go to Top -->
-  <a class="js-go-to u-go-to" href="#"
-    data-position='{"bottom": 15, "right": 15 }'
-    data-type="fixed"
-    data-offset-top="400"
-    data-compensation="#header"
-    data-show-effect="slideInUp"
-    data-hide-effect="slideOutDown">
-    <span class="fas fa-arrow-up u-go-to__inner"></span>
-  </a>
-  <!-- End Go to Top -->
-
-  <!-- JS Global Compulsory -->
-  <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/vendor/bootstrap/bootstrap.min.js"></script>
-
-  <!-- JS Implementing Plugins -->
-  <script src="https://austincodingacademy.github.io/front/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-
-  <!-- JS Front -->
-  <script src="https://austincodingacademy.github.io/front/assets/js/hs.core.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.header.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.unfold.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.malihu-scrollbar.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.focus-state.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.svg-injector.js"></script>
-  <script src="https://austincodingacademy.github.io/front/assets/js/components/hs.go-to.js"></script>
-
-  <!-- JS Plugins Init. -->
-  <script>
-    $(window).on('load', function () {
-      // initialization of HSMegaMenu component
-      $('.js-mega-menu').HSMegaMenu({
-        event: 'hover',
-        pageContainer: $('.container'),
-        breakpoint: 767.98,
-        hideTimeOut: 0
-      });
-
-      // initialization of HSMegaMenu component
-      $('.js-breadcrumb-menu').HSMegaMenu({
-        event: 'hover',
-        pageContainer: $('.container'),
-        breakpoint: 991.98,
-        hideTimeOut: 0
-      });
-
-      // initialization of svg injector module
-      $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-    });
-
-    $(document).on('ready', function () {
-      // initialization of header
-      $.HSCore.components.HSHeader.init($('#header'));
-
-      // initialization of unfold component
-      $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
-        afterOpen: function () {
-          $(this).find('input[type="search"]').focus();
-        }
-      });
-
-      // initialization of malihu scrollbar
-      $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'));
-
-      // initialization of forms
-      $.HSCore.components.HSFocusState.init();
-
-      // initialization of go to
-      $.HSCore.components.HSGoTo.init('.js-go-to');
-    });
-  </script>
 </body>
-<!-- htmllint preset="$previous" -->
