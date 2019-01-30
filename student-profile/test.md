@@ -1,6 +1,20 @@
 ---
 layout: resume
 
+icons:
+  - name: Rocketchat
+    code: fab fa-rocketchat
+  - name: Linkedin
+    code: fab fa-linkedin
+  - name: Github
+    code: fab fa-github
+  - name: Twitter
+    code: fab fa-twitter
+  - name: Facebook
+    code: fab fa-facebook
+  - name: Instagram
+    code: fab fa-instagram
+
 profilename: Test Student
 image: test.png
 jobtitle: UI/UX Designer
@@ -23,15 +37,9 @@ social:
   - site: instagram
     link: #
     username:
-  - site: face book
-    link: #
-    username:
   - site: LinkedIn
     link: #
     username: Real Name
-  - site: dribble
-    link: #
-    username: Test
 
 greeting: Hi, I'm a test profile.
 location: Austin, TX
@@ -44,7 +52,7 @@ birthday: June 3, 1995
 workplace: Test Sites Inc.
 phone: (555) 555-5555
 language: English, French
-favoritefood: Red curry
+
 
 skills:
   - HTML5
@@ -69,6 +77,11 @@ education:
     logo: mit.png
     dates: 2014 - 2018
     degree: MA in Test Profiles
+
+projects:
+  - name: Project One
+    desc: A fun site for organizing cat photos!
+    repo: github.com
 
 reviews:
   - name: Mario Ejemplo

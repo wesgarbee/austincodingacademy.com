@@ -1,5 +1,6 @@
 ---
 layout: default
+
 ---
 <body>
   <!-- ========== MAIN ========== -->
@@ -33,41 +34,9 @@ layout: default
                     Send a Message
                   </a>
                 </div>
-
-                <a class="text-secondary small" href="#">
-                  <i class="far fa-flag mr-1"></i> Report this user
-                </a>
               </div>
             </div>
             <!-- End Profile Card -->
-
-            <!-- Contacts  -->
-            <!-- <div class="card mb-4">
-              <div class="card-header pt-4 pb-3 px-0 mx-4">
-                <h2 class="h6 mb-0">Contacts</h2>
-              </div>
-
-              <div class="card-body pt-3 pb-4 px-4">
-                {% for contact in page.contacts %}
-                <a class="d-flex align-items-start mb-4" href="#">
-                  <div class="position-relative u-avatar">
-                    <img
-                        class="img-fluid rounded-circle"
-                        src="https://austincodingacademy.github.io/front/assets/img/100x100/{{contact.image}}"
-                        alt="{{contact.name}}"
-                    >
-                    <span class="badge badge-xs badge-outline-success badge-pos badge-pos--bottom-right rounded-circle"></span>
-                  </div>
-
-                  <div class="ml-3">
-                    <span class="d-block text-dark">{{contact.name}}</span>
-                    <small class="d-block text-secondary">{{contact.job-title}}</small>
-                  </div>
-                </a>
-                {% endfor %}
-              </div>
-            </div> -->
-            <!-- End Contacts  -->
 
             <!-- Social Profiles -->
             <div class="card mb-4">
@@ -85,39 +54,17 @@ layout: default
                 >
                   <div class="media-body d-flex justify-content-start align-items-center">
                       {% assign sitename = {{social.site | remove: ' ' | capitalize}} %}
-                      {% case sitename %}
-                        {% when 'Dribble' %}
+                      {% for icon in page.icons %}
+                        {% if icon.name == sitename %}
+                          <!-- htmllint preset="none" -->
                           <i
-                            class="text-dark fab fa-dribbble mx-3 display-5"
+                            class="text-dark mx-3 display-5 {{icon.code}}"
                             style="width: 40px">
                           </i>
-                        {% when 'Twitter' %}
-                          <i
-                            class="text-dark fab fa-twitter mx-3 display-5"
-                            style="width: 40px">
-                          </i>
-                        {% when 'Facebook' %}
-                          <i
-                            class="text-dark fab fa-facebook mx-3 display-5"
-                            style="width: 40px">
-                          </i>
-                        {% when 'Linkedin' %}
-                          <i
-                            class="text-dark fab fa-linkedin mx-3 display-5"
-                            style="width: 40px">
-                          </i>
-                        {% when 'Instagram' %}
-                          <i
-                            class="text-dark fab fa-instagram display-5 mx-3"
-                            style="width: 40px">
-                          </i>
-                        {% when 'Github' %}
-                          <i
-                            class="text-dark fab fa-github display-5 mx-3"
-                            style="width: 40px">
-                          </i>
-                      {% endcase %}
-                    <span class="text-muted">{{ sitename }}<br/>
+                          <!-- htmllint preset="$previous" -->
+                        {% endif %}
+                      {% endfor %}
+                    <span class="text-muted">{{sitename}}<br/>
                       <span class="text-primary">{{social.username}}</span>
                     </span>
                   </div>
@@ -239,15 +186,7 @@ layout: default
               <div class="col-md-6 col-lg-4">
                 <!-- List Group -->
                 <ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0">
-                  <li class="list-group-item pt-0 pb-4">
-                    <div class="media">
-                      <span class="fas fa-birthday-cake list-group-icon mr-3"></span>
-                      <div class="media-body text-lh-sm">
-                        <span class="d-block mb-1">Birthday:</span>
-                        <span class="d-block text-muted">{{page.birthday}}</span>
-                      </div>
-                    </div>
-                  </li>
+
                   <li class="list-group-item pt-0 pb-4">
                     <div class="media">
                       <span class="fas fa-globe list-group-icon mr-3"></span>
@@ -257,15 +196,7 @@ layout: default
                       </div>
                     </div>
                   </li>
-                  <li class="list-group-item pt-0 pb-4">
-                      <div class="media">
-                        <span class="fas fa-utensils list-group-icon mr-3"></span>
-                        <div class="media-body text-lh-sm">
-                          <span class="d-block mb-1">Favorite food:</span>
-                          <span class="d-block text-muted">{{page.favoritefood}}</span>
-                        </div>
-                      </div>
-                    </li>
+
                 </ul>
                 <!-- End List Group -->
               </div>
@@ -322,6 +253,26 @@ layout: default
                             <h4 class="h6 mb-0">{{school.degree}}</h4>
                             <span class="d-block text-secondary">{{school.name}}</span>
                         </div>
+                    </div>
+                    <!-- End Info -->
+                    {% endfor %}
+                </div>
+
+                <div class="col-md-6 mb-7 mb-md-0">
+                    <!-- Title -->
+                    <div class="mb-3">
+                    <h3 class="h6 mb-0">Projects</h3>
+                    </div>
+                    <!-- End Title -->
+
+                    {% for project in page.projects %}
+                    <!-- Info -->
+                    <div class="d-flex mb-5">
+                      <div>
+                          <h4 class="h6 mb-0">{{project.name}}</h4>
+                          <h5 class="h6 mb-0">{{project.desc}}</h5>
+                          <span class="d-block text-secondary">at <a href="{{project.repo}}">{{project.repo}}</span></a>
+                      </div>
                     </div>
                     <!-- End Info -->
                     {% endfor %}
