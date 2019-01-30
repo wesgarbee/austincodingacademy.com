@@ -108,6 +108,52 @@ permalink: "/apply/"
       <!-- End Input -->
 
       <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="city" class="size-15">
+            Your Current City <span class="text-danger">*</span>
+          </label>
+
+          <input
+            id="city"
+            type="text"
+            class="form-control"
+            name="city"
+            placeholder="Your current city"
+            aria-label="Your current city"
+            required
+            data-msg="Please enter the city in which you live."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+      
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="state" class="size-15">
+            State <span class="text-danger">*</span>
+          </label>
+
+          <input
+            id="state"
+            type="text"
+            class="form-control"
+            name="state"
+            placeholder="Your state"
+            aria-label="Your state"
+            required
+            data-msg="Please enter your state."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+      
+      <!-- Input -->
       <div class="js-form-message mb-6 col-sm-12 form-group">
         <label class="size-15" for="yes">
           Will you be at least 18 by the time your classes begin?
@@ -151,50 +197,148 @@ permalink: "/apply/"
       </div>
       <!-- End Input -->
 
-      <!-- Input -->
+	  <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="program" class="size-15">
-            To which program are you applying?
-            <span class="text-danger">*</span>
-          </label>
-
-          <select id="program" name="course" class="form-control">
-            <option value="Full-Stack Javascript Track">
-              Full-Stack Javascript Track</option>
-            <option value="C# .NET Track">C# .NET Track</option>
-            <option value="Individual Classes">Individual Classes</option>
-            <option value="Not sure which track/classes I’m interested in "
-              >Not sure which track/classes I’m interested in
-            </option>
-          </select>
-        </div>
-      </div>
-      <!-- End Input -->
-
-      <!-- Input -->
-      <div class="col-sm-6 mb-6">
-        <div class="js-form-message form-group">
-          <label for="city" class="size-15">
-            Your Current City <span class="text-danger">*</span>
+          <label for="current-occupation1" class="size-15">
+            Current Occupation or Job Title<span class="text-danger">*</span>
           </label>
 
           <input
-            id="city"
+            id="current-occupation1"
             type="text"
             class="form-control"
-            name="city"
-            placeholder="Your current city"
-            aria-label="Your current city"
+            name="current_occupation1"
+            placeholder="Your current job title"
+            aria-label="Your current job title"
             required
-            data-msg="Please enter the city in which you live."
+            data-msg="Please enter your current job title."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
           />
         </div>
       </div>
       <!-- End Input -->
+      
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="current-company1" class="size-15">
+            Current Company <span class="text-danger">*</span>
+          </label>
 
+          <input
+            id="current-company1"
+            type="text"
+            class="form-control"
+            name="current_company1"
+            placeholder="Your current company"
+            aria-label="Your current company"
+            required
+            data-msg="Please enter your current company."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+      
+	  <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="college-or-school-attended1" class="size-15">
+            Last School Attended <span class="text-danger">*</span>
+          </label>
+
+          <input
+            id="college-or-school-attended1"
+            type="text"
+            class="form-control"
+            name="college_or_school_attended1"
+            placeholder="The last school you attended"
+            aria-label="Last school attended"
+            required
+            data-msg="Please enter the last school you attended."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+      
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="coding-experience" class="size-15">
+            What experience do you have in coding?
+            <span class="text-danger">*</span>
+          </label>
+
+          <select id="coding-experience" name="what_experience_if_any_do_you_have_in_coding_currently_" class="form-control">
+            <option value="None at all!"
+              >None at all!</option
+            >
+            <option value="I've dabbled with some online tutorials"
+              >I've dabbled with some online tutorials.</option
+            >
+            <option value="Solid fundamentals but not ready for a job"
+              >Solid fundamentals but not ready for a job.</option
+            >
+            <option value="I'm a professional developer"
+              >Professional developer, gaining more skills.</option
+            >
+          </select>
+        </div>
+      </div>
+      <!-- End Input -->
+      
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="curriculum-track" class="size-15">
+            To which program are you applying?
+            <span class="text-danger">*</span>
+          </label>
+
+          <select id="curriculum-track" name="curriculum_track" class="form-control">
+            <option value="Full Stack Javascript Track">
+              Full-Stack Javascript Track</option>
+            <option value="Full Stack C# .NET Track">Full-Stack C# .NET Track</option>
+            <option value="Individual Classes">Individual Classes</option>
+            <option value="I'm not sure!"
+              >I'm not sure yet!
+            </option>
+          </select>
+        </div>
+      </div>
+      <!-- End Input -->
+      
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="campus-interest" class="size-15">
+            Which campus are you interested in?
+            <span class="text-danger">*</span>
+          </label>
+
+          <select id="campus-interest" name="campus_interest_new" class="form-control">
+            <option value="Austin">
+              Downtown - Capital Factory (JavaScript only)
+            </option>
+            <option value="Austin - North">
+              Central - Highland
+            </option>
+            <option value="Any campus">
+              Either campus works!
+            </option>
+            <option value="Remote">
+              Remote (Outside of Austin)
+            </option>
+          </select>
+        </div>
+      </div>
+      <!-- End Input -->
+      
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
@@ -211,7 +355,7 @@ permalink: "/apply/"
               >I'm teaching myself to code, but I'm stuck.</option
             >
             <option value="I'm interested in a career in tech."
-              >I'm interested in a career in tech.</option
+              >I'm interested in switching to a career in tech.</option
             >
             <option value="I'm an entrepreneur with an idea."
               >I'm an entrepreneur with an idea.</option
@@ -236,63 +380,17 @@ permalink: "/apply/"
           </label>
 
           <select id="how-pay" name="how_do_you_intend_to_pay_for_the_course_" class="form-control">
-            <option value="Paying on my own">Paying on my own</option>
-            <option value="Planning to finance">Planning to finance</option>
+            <option value="Paying on my own">I'll be paying on my own.</option>
+            <option value="Planning to finance">I'm planning to finance tuition.</option>
             <option value="Employer will be paying / reimbursing"
-              >Employer will be paying / reimbursing</option
-            >
+              >My employer will be paying/reimbursing me.
+            </option>
             <option value="Other">Other</option>
           </select>
         </div>
       </div>
       <!-- End Input -->
-
-      <!-- Input -->
-      <div class="col-sm-6 mb-6">
-        <div class="js-form-message form-group">
-          <label for="college-or-school-attended1" class="size-15">
-            Last School Attended <span class="text-danger">*</span>
-          </label>
-
-          <input
-            id="college-or-school-attended1"
-            type="text"
-            class="form-control"
-            name="college_or_school_attended1"
-            placeholder="The last school you attended"
-            aria-label="Last school attended"
-            required
-            data-msg="Please enter the last school you attended."
-            data-error-class="u-has-error"
-            data-success-class="u-has-success"
-          />
-        </div>
-      </div>
-      <!-- End Input -->
-
-      <!-- Input -->
-      <div class="col-sm-6 mb-6">
-        <div class="js-form-message form-group">
-          <label for="current-occupation1" class="size-15">
-            Current Occupation <span class="text-danger">*</span>
-          </label>
-
-          <input
-            id="current-occupation1"
-            type="text"
-            class="form-control"
-            name="current_occupation1"
-            placeholder="Your current occupation"
-            aria-label="Your current occupation"
-            required
-            data-msg="Please enter your current occupation."
-            data-error-class="u-has-error"
-            data-success-class="u-has-success"
-          />
-        </div>
-      </div>
-      <!-- End Input -->
-
+      
       <!-- Input -->
       <div class="col-sm-12 mb-6">
         <div class="js-form-message form-group">
@@ -306,10 +404,11 @@ permalink: "/apply/"
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="Facebook"
+                  value="Facebook / Twitter / Social Media"
                   id="check1"
+                  name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check1"> Facebook </label>
+                <label class="form-check-label" for="check1">Facebook/Twitter/Social Media</label>
               </div>
 
               <div class="form-check">
@@ -318,6 +417,7 @@ permalink: "/apply/"
                   type="checkbox"
                   value="Instagram"
                   id="check2"
+                  name="how_did_you_hear_about_this_course_1"
                 />
                 <label class="form-check-label" for="check2"> Instagram </label>
               </div>
@@ -328,6 +428,7 @@ permalink: "/apply/"
                   type="checkbox"
                   value="Twitter"
                   id="check3"
+                  name="how_did_you_hear_about_this_course_1"
                 />
                 <label class="form-check-label" for="check3"> Twitter </label>
               </div>
@@ -338,6 +439,7 @@ permalink: "/apply/"
                   type="checkbox"
                   value="LinkedIn"
                   id="check4"
+                  name="how_did_you_hear_about_this_course_1"
                 />
                 <label class="form-check-label" for="check4"> LinkedIn </label>
               </div>
@@ -346,22 +448,35 @@ permalink: "/apply/"
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="YouTube"
+                  value="Coding Academy Event"
                   id="check5"
+                  name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check5"> YouTube </label>
+                <label class="form-check-label" for="check5"> ACA event </label>
               </div>
-            </div>
 
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="News - TV or Article"
+                  id="check6"
+                  name="how_did_you_hear_about_this_course_1"
+                />
+                <label class="form-check-label" for="check6"> News story (TV, article) </label>
+              </div> 
+            </div>
+            
             <div class="col">
               <div class="form-check">
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="ACA Student / Alumni"
-                  id="check6"
+                  value="Coding Academy Student / Alumni"
+                  id="check7"
+                  name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check6">
+                <label class="form-check-label" for="check7">
                   ACA Student / Alumni
                 </label>
               </div>
@@ -371,10 +486,11 @@ permalink: "/apply/"
                   class="form-check-input"
                   type="checkbox"
                   value="ACA Faculty Member"
-                  id="check7"
+                  id="check8"
+                  name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check7">
-                  ACA Faculty Member
+                <label class="form-check-label" for="check8">
+                  ACA Faculty/Staff Member
                 </label>
               </div>
 
@@ -382,10 +498,11 @@ permalink: "/apply/"
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="Friend / Family"
-                  id="check8"
+                  value="Friends / Family"
+                  id="check9"
+                  name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check8">
+                <label class="form-check-label" for="check9">
                   Friend / Family
                 </label>
               </div>
@@ -394,22 +511,37 @@ permalink: "/apply/"
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="Search engine"
-                  id="check9"
+                  value="Google or Search Engine"
+                  id="check10"
+                  name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check9">
+                <label class="form-check-label" for="check10">
                   Search engine
                 </label>
               </div>
-
+              
+ 			  <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="Radio"
+                  id="check11"
+                  name="how_did_you_hear_about_this_course_1"
+                />
+                <label class="form-check-label" for="check11">
+                  Radio
+                </label>
+              </div>
+              
               <div class="form-check">
                 <input
                   class="form-check-input"
                   type="checkbox"
                   value="Other"
-                  id="check10"
+                  id="check12"
+                  name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check10"> Other </label>
+                <label class="form-check-label" for="check12"> Other </label>
               </div>
             </div>
           </div>
