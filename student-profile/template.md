@@ -1,28 +1,16 @@
 ---
 layout: resume
 
-icons:
-  - name: Rocketchat
-    code: fab fa-rocketchat
-  - name: Linkedin
-    code: fab fa-linkedin
-  - name: Github
-    code: fab fa-github
-  - name: Twitter
-    code: fab fa-twitter
-  - name: Facebook
-    code: fab fa-facebook
-  - name: Instagram
-    code: fab fa-instagram
+github:
+  username:
+  link:
+
+linkedin:
+  link:
 
 profilename:
 image:
 jobtitle:
-
-social:
-  - site:
-    link:
-    username:
 
 greeting:
 location:

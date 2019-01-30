@@ -1,20 +1,6 @@
 ---
 layout: resume
 
-icons:
-  - name: Rocketchat
-    code: fab fa-rocketchat
-  - name: Linkedin
-    code: fab fa-linkedin
-  - name: Github
-    code: fab fa-github
-  - name: Twitter
-    code: fab fa-twitter
-  - name: Facebook
-    code: fab fa-facebook
-  - name: Instagram
-    code: fab fa-instagram
-
 profilename: Test Student
 image: test.png
 jobtitle: UI/UX Designer
@@ -27,19 +13,12 @@ contacts:
     job-title: Junior Web Engineer
     image: img08.jpg
 
-social:
-  - site: Twitter
-    link: #
-    username:
-  - site: GITHUB
-    link: #
-    username: githubtestname
-  - site: instagram
-    link: #
-    username:
-  - site: LinkedIn
-    link: #
-    username: Real Name
+github:
+  username: test-user
+  link: github.com
+
+linkedin:
+  link: #
 
 greeting: Hi, I'm a test profile.
 location: Austin, TX
@@ -73,8 +52,8 @@ workexperience:
     location: London, UK
 
 education:
-  - name: MIT
-    logo: mit.png
+  - name: Harvard
+    logo: harvard.png
     dates: 2014 - 2018
     degree: MA in Test Profiles
 
