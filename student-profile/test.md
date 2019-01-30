@@ -2,28 +2,24 @@
 layout: resume
 
 profilename: Test Student
-image: test.png
 jobtitle: UI/UX Designer
-
-contacts:
-  - name: Pat Owen
-    job-title: Senior Web Engineer
-    image: img09.jpg
-  - name: Jamie Owen
-    job-title: Junior Web Engineer
-    image: img08.jpg
-
-github:
-  username: test-user
-  link: github.com
-
-linkedin:
-  link: #
 
 greeting: Hi, I'm a test profile.
 location: Austin, TX
 joined: 01/2019
 blurb: Student can write a personal bio or introduction here.
+
+skills:
+  - HTML5
+  - JavaScript
+  - Python
+  - Bootstrap
+
+github:
+  username: test-user
+  link: github.com
+
+linkedin: #
 
 email: email@domain.gov
 website: https://www.student.gov
@@ -32,22 +28,15 @@ workplace: Test Sites Inc.
 phone: (555) 555-5555
 language: English, French
 
-
-skills:
-  - HTML5
-  - JavaScript
-  - Python
-  - Bootstrap
-
 workexperience:
   - company: Slack
     logo: slack.png
     start: July, 2018
     title: Senior Button Designer
     location: London, UK
-  - company: Slack
-    logo: slack.png
-    start: July, 2018
+  - company: Google
+    logo: google.png
+    start: Jan, 2018
     title: Senior Button Designer
     location: London, UK
 

@@ -1,15 +1,7 @@
 ---
 layout: resume
 
-github:
-  username:
-  link:
-
-linkedin:
-  link:
-
 profilename:
-image:
 jobtitle:
 
 greeting:
@@ -19,6 +11,12 @@ blurb:
 
 skills:
   -
+
+github:
+  username:
+  link:
+
+linkedin:
 
 email:
 website:
@@ -44,7 +42,6 @@ education:
 reviews:
   - name:
     position:
-    img:
     timestamp:
     post:
 
