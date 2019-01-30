@@ -68,13 +68,6 @@
   virtual: https://meet.google.com/cqc-qach-mwk
   rocketchat: https://chat.austincodingacademy.com/direct/andrewlee-810
   
-- name: Steven Fiero
-  skills: JS Full Stack Graduate Mentor (GRADS ONLY)
-  email: stevensfiero@gmail.com
-  calendar: https://acaappointment.as.me/?calendarID=2717635
-  virtual: https://meet.google.com/zpo-pyqc-ibn
-  rocketchat: https://chat.austincodingacademy.com/direct/steven-fiero
-  
 - name: Lillian Situ
   skills: Full Stack Graduate Mentor (GRADS ONLY)
   email: lillian@austincodingacademy.com
@@ -96,6 +89,13 @@
   virtual: https://meet.google.com/zxc-hkry-ckr
   rocketchat: https://chat.austincodingacademy.com/direct/matthewcameron-917
 
+# - name: Steven Fiero
+#   skills: JS Full Stack Graduate Mentor (GRADS ONLY)
+#   email: stevensfiero@gmail.com
+#   calendar: https://acaappointment.as.me/?calendarID=2717635
+#   virtual: https://meet.google.com/zpo-pyqc-ibn
+#   rocketchat: https://chat.austincodingacademy.com/direct/steven-fiero
+  
 # - name: Michael Samara
 #   skills: Web 101, JS 211, JS 311
 #   email: michael@austincodingacademy.com
