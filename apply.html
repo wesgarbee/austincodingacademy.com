@@ -27,8 +27,8 @@ permalink: "/apply/"
             id="firstname"
             class="form-control"
             name="firstname"
-            placeholder="Your first name"
-            aria-label="Your first name"
+            placeholder="First name"
+            aria-label="First name"
             required
             data-msg="Please enter your first name."
             data-error-class="u-has-error"
@@ -50,10 +50,10 @@ permalink: "/apply/"
             id="lastname"
             class="form-control"
             name="lastname"
-            placeholder="Your last name"
-            aria-label="Your last name"
+            placeholder="Last name"
+            aria-label="Last name"
             required
-            data-msg="Please enter you last name."
+            data-msg="Please enter your last name."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
           />
@@ -73,8 +73,8 @@ permalink: "/apply/"
             id="phone"
             class="form-control"
             name="phone"
-            placeholder="Your phone number"
-            aria-label="Your phone number"
+            placeholder="(***)***-****"
+            aria-label="(***)***-****"
             required
             data-msg="Please enter your phone number."
             data-error-class="u-has-error"
@@ -96,8 +96,8 @@ permalink: "/apply/"
             id="email"
             class="form-control"
             name="email"
-            placeholder="Your email address"
-            aria-label="Your email address"
+            placeholder="name@example.com"
+            aria-label="name@example.com"
             required
             data-msg="Please enter a valid email address."
             data-error-class="u-has-error"
@@ -119,8 +119,8 @@ permalink: "/apply/"
             type="text"
             class="form-control"
             name="city"
-            placeholder="Your current city"
-            aria-label="Your current city"
+            placeholder="City"
+            aria-label="City"
             required
             data-msg="Please enter the city in which you live."
             data-error-class="u-has-error"
@@ -142,8 +142,8 @@ permalink: "/apply/"
             type="text"
             class="form-control"
             name="state"
-            placeholder="Your state"
-            aria-label="Your state"
+            placeholder="ST"
+            aria-label="ST"
             required
             data-msg="Please enter your state."
             data-error-class="u-has-error"
@@ -275,18 +275,21 @@ permalink: "/apply/"
           </label>
 
           <select id="coding-experience" name="what_experience_if_any_do_you_have_in_coding_currently_" class="form-control">
-            <option value="None at all!"
-              >None at all!</option
-            >
-            <option value="I've dabbled with some online tutorials"
-              >I've dabbled with some online tutorials.</option
-            >
-            <option value="Solid fundamentals but not ready for a job"
-              >Solid fundamentals but not ready for a job.</option
-            >
-            <option value="I'm a professional developer"
-              >Professional developer, gaining more skills.</option
-            >
+            <option value="" disabled selected>
+              Select your answer
+            </option>
+            <option value="None at all!">
+              None at all!
+            </option>
+            <option value="I've dabbled with some online tutorials">
+              I've dabbled with some online tutorials.
+            </option>
+            <option value="Solid fundamentals but not ready for a job">
+              Solid fundamentals but not ready for a job.
+            </option>
+            <option value="I'm a professional developer">
+              Professional developer, gaining more skills.
+            </option>
           </select>
         </div>
       </div>
@@ -301,12 +304,19 @@ permalink: "/apply/"
           </label>
 
           <select id="curriculum-track" name="curriculum_track" class="form-control">
+            <option value="" disabled selected>
+              Select your answer
+            </option>
             <option value="Full Stack Javascript Track">
               Full-Stack Javascript Track</option>
-            <option value="Full Stack C# .NET Track">Full-Stack C# .NET Track</option>
-            <option value="Individual Classes">Individual Classes</option>
-            <option value="I'm not sure!"
-              >I'm not sure yet!
+            <option value="Full Stack C# .NET Track">
+              Full-Stack C# .NET Track
+            </option>
+            <option value="Individual Classes">
+              Individual Classes
+            </option>
+            <option value="I'm not sure!">
+              I'm not sure yet!
             </option>
           </select>
         </div>
@@ -322,6 +332,9 @@ permalink: "/apply/"
           </label>
 
           <select id="campus-interest" name="campus_interest_new" class="form-control">
+            <option value="" disabled selected>
+              Select your answer
+            </option>
             <option value="Austin">
               Downtown - Capital Factory (JavaScript only)
             </option>
@@ -348,24 +361,26 @@ permalink: "/apply/"
           </label>
 
           <select id="best-describes" name="which_of_these_best_describes_you_" class="form-control">
-            <option value="I'm researching coding bootcamps."
-              >I'm researching coding bootcamps.</option
-            >
-            <option value="I'm teaching myself to code, but I'm stuck."
-              >I'm teaching myself to code, but I'm stuck.</option
-            >
-            <option value="I'm interested in a career in tech."
-              >I'm interested in switching to a career in tech.</option
-            >
-            <option value="I'm an entrepreneur with an idea."
-              >I'm an entrepreneur with an idea.</option
-            >
-            <option value="I'm looking for a college alternative."
-              >I'm looking for a college alternative.</option
-            >
-            <option value="I want to learn a new skill for my current job."
-              >I want to learn a new skill for my current job.</option
-            >
+            <option value="" disabled selected>
+              Select your answer
+            </option>
+            <option value="I'm researching coding bootcamps.">
+              I'm researching coding bootcamps.</option>
+            <option value="I'm teaching myself to code, but I'm stuck.">
+              I'm teaching myself to code, but I'm stuck.
+            </option>
+            <option value="I'm interested in a career in tech.">
+              I'm interested in switching to a career in tech.
+            </option>
+            <option value="I'm an entrepreneur with an idea.">
+              I'm an entrepreneur with an idea.
+            </option>
+            <option value="I'm looking for a college alternative.">
+              I'm looking for a college alternative.
+            </option>
+            <option value="I want to learn a new skill for my current job.">
+              I want to learn a new skill for my current job.
+            </option>
           </select>
         </div>
       </div>
@@ -380,12 +395,21 @@ permalink: "/apply/"
           </label>
 
           <select id="how-pay" name="how_do_you_intend_to_pay_for_the_course_" class="form-control">
-            <option value="Paying on my own">I'll be paying on my own.</option>
-            <option value="Planning to finance">I'm planning to finance tuition.</option>
-            <option value="Employer will be paying / reimbursing"
-              >My employer will be paying/reimbursing me.
+            <option value="" disabled selected>
+              Select your answer
             </option>
-            <option value="Other">Other</option>
+            <option value="Paying on my own">
+              I'll be paying on my own.
+            </option>
+            <option value="Planning to finance">
+              I'm planning to finance tuition.
+            </option>
+            <option value="Employer will be paying / reimbursing">
+              My employer will be paying/reimbursing me.
+            </option>
+            <option value="Other">
+              Other
+            </option>
           </select>
         </div>
       </div>
@@ -408,7 +432,9 @@ permalink: "/apply/"
                   id="check1"
                   name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check1">Facebook/Twitter/Social Media</label>
+                <label class="form-check-label" for="check1">
+                  Facebook
+                </label>
               </div>
 
               <div class="form-check">
@@ -419,7 +445,9 @@ permalink: "/apply/"
                   id="check2"
                   name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check2"> Instagram </label>
+                <label class="form-check-label" for="check2"> 
+                  Instagram 
+                </label>
               </div>
 
               <div class="form-check">
@@ -430,7 +458,9 @@ permalink: "/apply/"
                   id="check3"
                   name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check3"> Twitter </label>
+                <label class="form-check-label" for="check3"> 
+                  Twitter 
+                </label>
               </div>
 
               <div class="form-check">
@@ -441,7 +471,9 @@ permalink: "/apply/"
                   id="check4"
                   name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check4"> LinkedIn </label>
+                <label class="form-check-label" for="check4"> 
+                  LinkedIn 
+                </label>
               </div>
 
               <div class="form-check">
@@ -452,21 +484,25 @@ permalink: "/apply/"
                   id="check5"
                   name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check5"> ACA event </label>
+                <label class="form-check-label" for="check5"> 
+                  ACA event 
+                </label>
               </div>
-
+              
               <div class="form-check">
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="News - TV or Article"
+                  value="ACA Faculty Member"
                   id="check6"
                   name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check6"> News story (TV, article) </label>
+                <label class="form-check-label" for="check6">
+                  ACA Faculty / Staff Member
+                </label>
               </div>
             </div>
-
+            
             <div class="col">
               <div class="form-check">
                 <input
@@ -485,24 +521,11 @@ permalink: "/apply/"
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="ACA Faculty Member"
+                  value="Friends / Family"
                   id="check8"
                   name="how_did_you_hear_about_this_course_1"
                 />
                 <label class="form-check-label" for="check8">
-                  ACA Faculty/Staff Member
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value="Friends / Family"
-                  id="check9"
-                  name="how_did_you_hear_about_this_course_1"
-                />
-                <label class="form-check-label" for="check9">
                   Friend / Family
                 </label>
               </div>
@@ -512,11 +535,24 @@ permalink: "/apply/"
                   class="form-check-input"
                   type="checkbox"
                   value="Google or Search Engine"
+                  id="check9"
+                  name="how_did_you_hear_about_this_course_1"
+                />
+                <label class="form-check-label" for="check9">
+                  Search engine
+                </label>
+              </div>
+              
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="News - TV or Article"
                   id="check10"
                   name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check10">
-                  Search engine
+                <label class="form-check-label" for="check10"> 
+                  News (TV, article) 
                 </label>
               </div>
 
@@ -541,7 +577,9 @@ permalink: "/apply/"
                   id="check12"
                   name="how_did_you_hear_about_this_course_1"
                 />
-                <label class="form-check-label" for="check12"> Other </label>
+                <label class="form-check-label" for="check12"> 
+                  Other 
+                </label>
               </div>
             </div>
           </div>
