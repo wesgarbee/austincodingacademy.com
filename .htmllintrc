@@ -15,5 +15,6 @@
   "attr-bans": false,
   "tag-close": true,
   "tag-name-match": true,
-  "attr-req-value": false
+  "attr-req-value": false,
+  "title-max-len": false
 }
