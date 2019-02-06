@@ -117,16 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
 
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6"></script>
-    <script>
-    grecaptcha.ready(function() {
-      grecaptcha.execute('6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6', {action: 'homepage'}).then(function(token) {
-        document.querySelectorAll('g-recaptcha-response').forEach(function(el) {
-          el.value = token;
-        });
-      });;
-    });
-    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   </head>
 
@@ -533,7 +524,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   <div class="my-10">
-    <h4
+    <script>
+function onSubmitCourseGuide(token) {
+  document.querySelector("#course-guide-form").submit();
+}
+</script>
+<h4
   id="header-text-margins"
   class="font-family-alt font-weight-bold text-center display-6 mb-4"
 >
@@ -544,6 +540,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   method="POST"
   target="_blank"
   class="js-validate"
+  id="course-guide-form"
   >
   <input name="lifecyclestage" type="hidden" value="marketingqualifiedlead">
   <input name="downloaded_a_courses_guide" type="hidden" value="true">
@@ -657,7 +654,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="text-center col-sm-5 col-md-6 mt-4">
       <button
         type="submit"
-        class="text-white btn send-button transition-3d-hover mb-4"
+        class="g-recaptcha text-white btn send-button transition-3d-hover mb-4"
+        data-sitekey="6LeBrI8UAAAAAEr4DmDSvoRV24vpvCW1RTm-hqx0"
+        data-callback="onSubmitCourseGuide"
       >
         Send
       </button>
@@ -934,11 +933,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   font-size: 13px;
 }
 </style>
+<script>
+function onSubmitContact(token) {
+  document.querySelector("#contact-form").submit();
+}
+</script>
 
 <form
   class="js-validate"
   action="https://forms.hubspot.com/uploads/form/v2/4009818/33cc0e23-1881-4874-a1d0-2c0307f20e41"
   method="POST"
+  id="contact-form"
   >
   <input name="lifecyclestage" type="hidden" value="lead">
   <input name="hs_lead_status" type="hidden" value="NEW">
@@ -1063,7 +1068,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="text-center col-sm-12">
       <button
         type="submit"
-        class="text-white btn send-button transition-3d-hover mb-4"
+        class="g-recaptcha text-white btn send-button transition-3d-hover mb-4"
+        data-sitekey="6LeBrI8UAAAAAEr4DmDSvoRV24vpvCW1RTm-hqx0"
+        data-callback="onSubmitContact"
       >
         Send
       </button>

@@ -117,16 +117,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
 
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6"></script>
-    <script>
-    grecaptcha.ready(function() {
-      grecaptcha.execute('6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6', {action: 'homepage'}).then(function(token) {
-        document.querySelectorAll('g-recaptcha-response').forEach(function(el) {
-          el.value = token;
-        });
-      });;
-    });
-    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   </head>
 
