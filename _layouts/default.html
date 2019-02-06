@@ -87,7 +87,11 @@
     <script src="https://www.google.com/recaptcha/api.js?render=6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6"></script>
     <script>
     grecaptcha.ready(function() {
-      grecaptcha.execute('6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6', {action: 'homepage'});
+      grecaptcha.execute('6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6', {action: 'homepage'}).then(function(token) {
+        document.querySelectorAll('g-recaptcha-response').forEach(function(el) {
+          el.value = token;
+        });
+      });;
     });
     </script>
 
