@@ -15,6 +15,13 @@ fields:
 - type: text
   name: img
   label: Image
+- type: tag_list
+  name: tags
+  label: Tags
+  default: []
+- type: tag_list
+  name: categories
+  label: Categories
 pages:
 - _posts/2019-01-22-here-is-the-title.md
 - _posts/new-in-2019-unlimited-tutoring-for-all-students.md
