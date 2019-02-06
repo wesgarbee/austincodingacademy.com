@@ -13,8 +13,8 @@ fields:
   label: Updated At
   name: updated_at
 - type: text
-  name: featured_image
-  label: Featured Image
+  name: img
+  label: Image
 pages:
 - _posts/2019-01-22-here-is-the-title.md
 - _posts/new-in-2019-unlimited-tutoring-for-all-students.md
