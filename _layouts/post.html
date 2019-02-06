@@ -3,7 +3,7 @@ layout: default
 ---
 <style>
   .hero {
-    background-image: url("{{post.img}}");
+    background-image: url("{{page.img}}");
   }
 </style>
 <!-- ========== MAIN ========== -->
@@ -12,10 +12,10 @@ layout: default
 
   <div class="hero py-11" style="height: 50vh">
     <h1 class="text-white font-family-alt font-weight-bold display-4 text-center">
-      {{post.title}}
+      {{ page.title }}
     </h1>
     <!-- Author -->
-    <div class="text-center mt-5">
+    <!-- <div class="text-center mt-5">
       <div class="u-avatar mx-auto mb-2">
         <img class="img-fluid rounded-circle" src="https://austincodingacademy.github.io/front/assets/img/100x100/img1.jpg"
           alt="Image Description">
@@ -23,7 +23,7 @@ layout: default
       <span class="d-block">
         <a class="text-white h6 mb-0" href="#">{{page.author.name}}</a>
       </span>
-    </div>
+    </div> -->
     <!-- End Author -->
   </div>
 
@@ -32,65 +32,10 @@ layout: default
   <!-- Description Section -->
   <div class="container space-top-2 space-top-md-3">
     <div class="w-lg-60 mx-auto">
-      <div class="mb-4">
-        <span class="text-muted">{{page.post.date}}</span>
-      </div>
-
-      <div class="mb-5">
-        <p>At Front, our mission has always been focused on bringing openness and transparency to the design process.
-          We've always believed that by providing a space where designers can share ongoing work not only empowers them
-          to make better products, it also helps them grow. We're proud to be a part of creating a more open culture
-          and to continue building a product that supports this vision.</p>
-        <p>As we've grown, we've seen how Front has helped companies such as Spotify, Microsoft, Airbnb, Facebook, and
-          Intercom bring their designers closer together to create amazing things. We've also learned that when the
-          culture of sharing is brought in earlier, the better teams adapt and communicate with one another.</p>
-        <p>That's why we are excited to share that we now have a <a href="#">free version of Front</a>, which will
-          allow individual designers, startups and other small teams a chance to create a culture of openness early on.</p>
-      </div>
-
-      <h2 class="h5 mb-3">Bringing the culture of sharing to everyone.</h2>
-
-      <p>Small teams and individual designers need a space where they can watch the design process unfold, both for
-        themselves and for the people they work with – no matter if it's a fellow designer, product manager, developer
-        or client. Front allows you to invite more people into the process, creating a central place for conversation
-        around design. As those teams grow, transparency and collaboration becomes integrated in how they communicate
-        and work together.</p>
-    </div>
-  </div>
-  <!-- End Description Section -->
-
-
-
-  <!-- Description Section -->
-  <div class="container space-bottom-2">
-    <div class="w-lg-60 mx-auto">
-      <div class="mb-7">
-        <p>"Front allows us to collaborate in real time and is a really great way for leadership on the team to stay
-          up-to-date with what everybody is working on," <a href="#">said</a> Stewart Scott-Curran, Intercom's Director
-          of Brand Design.</p>
-        <p>We know the power of sharing is real, and we want to create an opportunity for everyone to try Front and
-          explore how transformative open communication can be. Now you can have a team of one or two designers and
-          unlimited spectators (think PMs, management, marketing, etc.) share work and explore the design process
-          earlier.</p>
-        <p>"Front opened a new way of sharing. It's a persistent way for everyone to see and absorb each other's work,"
-          said David Scott, Creative Director at <a href="#">Eventbrite</a>.</p>
-      </div>
-    </div>
-  </div>
-  <!-- End Description Section -->
-
-  <!-- Description Section -->
-  <div class="container space-2">
-    <div class="w-lg-60 mx-auto">
-      <p>"Front allows us to collaborate in real time and is a really great way for leadership on the team to stay
-        up-to-date with what everybody is working on," <a href="#">said</a> Stewart Scott-Curran, Intercom's Director
-        of Brand Design.</p>
-      <p>We know the power of sharing is real, and we want to create an opportunity for everyone to try Front and
-        explore how transformative open communication can be. Now you can have a team of one or two designers and
-        unlimited spectators (think PMs, management, marketing, etc.) share work and explore the design process
-        earlier.</p>
-      <p>"Front opened a new way of sharing. It's a persistent way for everyone to see and absorb each other's work,"
-        said David Scott, Creative Director at <a href="#">Eventbrite</a>.</p>
+      <!-- <div class="mb-4">
+        <span class="text-muted">{{page.date}}</span>
+      </div> -->
+      {{ content }}
     </div>
   </div>
   <!-- End Description Section -->
@@ -110,10 +55,10 @@ layout: default
       </ul>
       <!-- End Tags -->
 
-      <hr class="my-7">
+      <!-- <hr class="my-7"> -->
 
       <!-- Social Networks -->
-      <ul class="list-inline text-center mb-0">
+      <!-- <ul class="list-inline text-center mb-0">
         <li class="list-inline-item">
           <a class="btn btn-icon btn-soft-secondary btn-bg-transparent" href="{{page.author.rocketchat}}">
             <span class="fab fa-rocketchat btn-icon__inner"></span>
@@ -139,13 +84,13 @@ layout: default
             <span class="fab fa-twitter btn-icon__inner"></span>
           </a>
         </li>
-      </ul>
+      </ul> -->
       <!-- End Social Networks -->
 
-      <hr class="my-7">
+      <!-- <hr class="my-7"> -->
 
       <!-- Author -->
-      <div class="media">
+      <!-- <div class="media">
         <div class="u-avatar mr-3">
           <img class="img-fluid rounded-circle" src="https://austincodingacademy.github.io/front/assets/img/100x100/img1.jpg"
             alt="Image Description">
@@ -167,7 +112,7 @@ layout: default
             {{page.author.desc}}
           </p>
         </div>
-      </div>
+      </div> -->
       <!-- End Author -->
     </div>
   </div>
