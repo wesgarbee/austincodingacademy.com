@@ -120,7 +120,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="https://www.google.com/recaptcha/api.js?render=6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6"></script>
     <script>
     grecaptcha.ready(function() {
-      grecaptcha.execute('6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6', {action: 'homepage'});
+      grecaptcha.execute('6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6', {action: 'homepage'}).then(function(token) {
+        document.querySelectorAll('g-recaptcha-response').forEach(function(el) {
+          el.value = token;
+        });
+      });;
     });
     </script>
 
@@ -546,6 +550,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <input name="lifecyclestage" type="hidden" value="marketingqualifiedlead">
   <input name="downloaded_a_courses_guide" type="hidden" value="true">
   <input name="hs_lead_status" type="hidden" value="NEW">
+  <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+  <input type="hidden" name="action" value="validate_captcha">
   <div class="row center-form">
     <!-- Input -->
     <div class="col-sm-6 mb-6">
@@ -910,6 +916,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   >
   <input name="lifecyclestage" type="hidden" value="lead">
   <input name="hs_lead_status" type="hidden" value="NEW">
+  <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+  <input type="hidden" name="action" value="validate_captcha">
   <div class="row center-form">
     <!-- Input -->
     <div class="col-sm-6 mb-6">
