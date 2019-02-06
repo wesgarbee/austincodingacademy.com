@@ -4,18 +4,23 @@ permalink: /apply/
 title: ''
 description: ''
 ---
-<script>
-function onSubmitApplication(token) {
-  document.querySelector("#application-form").submit();
-}
+<script
+  async custom-element="amp-form"
+  src="https://cdn.ampproject.org/v0/amp-form-0.1.js">
 </script>
-<div class="section-margin form-outline border container">
+<script>
+  function onSubmitApplication(token) {
+    document.querySelector("#application-form").submit();
+  }
+</script>
+<div class="vertical-120 form-outline border container">
   <h2 class="font-family-alt my-4 display-4 text-center">
     Student Application
   </h2>
   <form
+    target="_blank"
     class="js-validate d-flex justify-content-center"
-    action="https://forms.hubspot.com/uploads/form/v2/4009818/9d476e09-2737-4394-b7db-f0395a2d26d5"
+    action-xhr="https://forms.hubspot.com/uploads/form/v2/4009818/9d476e09-2737-4394-b7db-f0395a2d26d5"
     method="POST"
     id="application-form"
   >
@@ -27,7 +32,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="firstname" class="size-15">
+          <label for="firstname" class="form-label">
             First Name <span class="text-danger">*</span>
           </label>
 
@@ -50,7 +55,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="lastname" class="size-15">
+          <label for="lastname" class="form-label">
             Last Name <span class="text-danger">*</span>
           </label>
 
@@ -73,7 +78,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="phone" class="size-15">
+          <label for="phone" class="form-label">
             Phone <span class="text-danger">*</span>
           </label>
 
@@ -96,7 +101,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="email" class="size-15">
+          <label for="email" class="form-label">
             Email <span class="text-danger">*</span>
           </label>
 
@@ -119,7 +124,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="city" class="size-15">
+          <label for="city" class="form-label">
             Your Current City <span class="text-danger">*</span>
           </label>
 
@@ -142,7 +147,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="state" class="size-15">
+          <label for="state" class="form-label">
             State <span class="text-danger">*</span>
           </label>
 
@@ -164,7 +169,7 @@ function onSubmitApplication(token) {
 
       <!-- Input -->
       <div class="js-form-message mb-6 col-sm-12 form-group">
-        <label class="size-15" for="yes">
+        <label class="form-label" for="yes">
           Will you be at least 18 by the time your classes begin?
           <span class="text-danger">*</span>
         </label>
@@ -209,7 +214,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="current-occupation1" class="size-15">
+          <label for="current-occupation1" class="form-label">
             Current Occupation or Job Title<span class="text-danger">*</span>
           </label>
 
@@ -232,7 +237,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="current-company1" class="size-15">
+          <label for="current-company1" class="form-label">
             Current Company <span class="text-danger">*</span>
           </label>
 
@@ -255,7 +260,7 @@ function onSubmitApplication(token) {
     <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="college-or-school-attended1" class="size-15">
+          <label for="college-or-school-attended1" class="form-label">
             Last School Attended <span class="text-danger">*</span>
           </label>
 
@@ -278,7 +283,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="coding-experience" class="size-15">
+          <label for="coding-experience" class="form-label">
             What experience do you have in coding?
             <span class="text-danger">*</span>
           </label>
@@ -307,7 +312,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="curriculum-track" class="size-15">
+          <label for="curriculum-track" class="form-label">
             To which program are you applying?
             <span class="text-danger">*</span>
           </label>
@@ -335,7 +340,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="campus-interest" class="size-15">
+          <label for="campus-interest" class="form-label">
             Which campus are you interested in?
             <span class="text-danger">*</span>
           </label>
@@ -364,7 +369,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="best-describes" class="size-15">
+          <label for="best-describes" class="form-label">
             Which of these best describes you?
             <span class="text-danger">*</span>
           </label>
@@ -398,7 +403,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
-          <label for="how-pay" class="size-15">
+          <label for="how-pay" class="form-label">
             How do you intend to pay for the course?
             <span class="text-danger">*</span>
           </label>
@@ -427,7 +432,7 @@ function onSubmitApplication(token) {
       <!-- Input -->
       <div class="col-sm-12 mb-6">
         <div class="js-form-message form-group">
-          <label class="size-15" for="check1">
+          <label class="form-label" for="check1">
             How did you hear about us? <span class="text-danger">*</span>
           </label>
 
@@ -489,47 +494,6 @@ function onSubmitApplication(token) {
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="Coding Academy Event"
-                  id="check5"
-                  name="how_did_you_hear_about_this_course_1"
-                />
-                <label class="form-check-label" for="check5">
-                  ACA event
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value="ACA Faculty Member"
-                  id="check6"
-                  name="how_did_you_hear_about_this_course_1"
-                />
-                <label class="form-check-label" for="check6">
-                  ACA Faculty / Staff Member
-                </label>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value="Coding Academy Student / Alumni"
-                  id="check7"
-                  name="how_did_you_hear_about_this_course_1"
-                />
-                <label class="form-check-label" for="check7">
-                  ACA Student / Alumni
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
                   value="Friends / Family"
                   id="check8"
                   name="how_did_you_hear_about_this_course_1"
@@ -549,6 +513,47 @@ function onSubmitApplication(token) {
                 />
                 <label class="form-check-label" for="check9">
                   Search engine
+                </label>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="Coding Academy Event"
+                  id="check5"
+                  name="how_did_you_hear_about_this_course_1"
+                />
+                <label class="form-check-label" for="check5">
+                  ACA event
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="ACA Faculty Member"
+                  id="check6"
+                  name="how_did_you_hear_about_this_course_1"
+                />
+                <label class="form-check-label" for="check6">
+                  ACA faculty / staff member
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="Coding Academy Student / Alumni"
+                  id="check7"
+                  name="how_did_you_hear_about_this_course_1"
+                />
+                <label class="form-check-label" for="check7">
+                  ACA student / alumni
                 </label>
               </div>
 

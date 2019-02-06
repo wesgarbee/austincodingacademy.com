@@ -54,6 +54,32 @@ body {
   font-family: "montserrat", sans-serif !important;
 }
 
+/* CUSTOM FONT SIZING */
+
+.size-10 {
+  font-size: 10px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.size-18 {
+  font-size: 18px !important;
+}
+
+.size-20 {
+  font-size: 20px;
+}
+
+.font-size-large {
+  font-size: 1.05em;
+}
+
 .display-5 {
   font-size: 3rem !important;
   font-weight: 300 !important;
@@ -64,6 +90,10 @@ body {
   font-size: 2rem !important;
   font-weight: 300 !important;
   line-height: 1.2 !important;
+}
+
+.display-7 {
+  font-size: 1.95rem !important;
 }
 
 .flex-1 {
@@ -81,41 +111,21 @@ body {
   color: #7e8697;
 }
 
-.size-10 {
-  font-size: 10px;
-}
-
-.size-14 {
-  font-size: 14px;
-}
-
-.size-15 {
-  font-size: 15px;
-}
-
-.size-16 {
-  font-size: 16px;
-}
-
-.size-18 {
-  font-size: 18px;
-}
-
-.size-20 {
-  font-size: 20px;
-}
-
-.size-31 {
-  font-size: 31px;
-}
-
-.size-37 {
-  font-size: 37px;
-}
+/* CUSTOM MARGINS */
 
 .bottom-48 {
   margin-bottom: 48px;
 }
+
+.top-84 {
+  margin-top: 84px;
+}
+
+.vertical-120 {
+  margin: 120px auto;
+}
+
+/* CUSTOM GRADIENTS */
 
 .primary-gradient {
   background: linear-gradient(to right, #00b3d1, #7fc89a);
@@ -126,6 +136,30 @@ body {
   color: #e6e5e0;
 }
 
+.alt-gradient {
+  background: linear-gradient(to right, #2d2f77, #00b3d1);
+}
+
+/* CUSTOM BUTTONS */
+
+.outlined-cta {
+  min-width: 182px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  background-repeat: no-repeat;
+  border: 3px;
+  border-style: solid;
+  border-color: transparent;
+  border-image-source: url(/assets/images/apply-button.svg);
+  border-image-repeat: stretch stretch;
+  border-image-slice: 21;
+  border-image-width: 182px;
+}
+
 .stock-blue-button {
   font-size: 20px;
   border-radius: 50px;
@@ -133,36 +167,129 @@ body {
   width: 228px;
 }
 
+/* CUSTOM SECTION WIDTH */
+
 .narrow {
   max-width: 850px;
 }
 
-.narrow-mini {
+.extra-narrow {
   max-width: 600px;
 }
 
-.wide-button {
-  width: 228px !important;
-  height: 53px;
+/* HEADER */
+
+#sidebar button {
+  min-width: 182px;
+}
+
+#sidebar div:hover #hidden-list {
+  display: block !important;
+}
+
+/* Hide Dropdown by Default */
+nav ul ul {
+  top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+#nav-bar ul li:hover > ul {
+  display:inherit !important;
+}
+
+/* First Tier Dropdown */
+nav ul ul li {
+  width:140px;
+  float:none;
+  display:list-item;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 3px 0 3px 10px;
+}
+
+/* INDEX */
+
+.company-logo-div {
+  width: 270px;
+  height: 160px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 20px 0;
+  align-items: center;
 }
 
-.cta-button {
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 30px;
+@media (max-width: 767.98px) {
+  .company-logo-div {
+    width: 135px;
+    height: 80px;
+  }
 }
 
-.info-button {
-  border: 3px solid #ffffff;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 30px;
+/* AMP TABS */
+
+:root {
+  --color-primary: #2d2f77;
+  --space-1: .5rem;  /* 8px */
+  --space-4: 2rem;   /* 32px */
+}
+
+/* Styles for the flex layout based tabs */
+amp-selector[role=tablist].tabs-with-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+amp-selector[role=tablist].tabs-with-flex [role=tab] {
+    flex-grow: 1;
+    /* custom styling, feel free to change */
+    text-align: center;
+    padding: var(--space-1);
+}
+amp-selector[role=tablist].tabs-with-flex [role=tab][selected] {
+    outline: none;
+    /* custom styling, feel free to change */
+    border-bottom: 2px solid var(--color-primary);
+}
+amp-selector[role=tablist].tabs-with-flex [role=tabpanel] {
+    display: none;
+    width: 100%;
+    order: 1; /* must be greater than the order of the tab buttons to flex to the next line */
+    /* custom styling, feel free to change */
+    padding: var(--space-4);
+}
+amp-selector[role=tablist].tabs-with-flex [role=tab][selected] + [role=tabpanel] {
+    display: block;
+}
+
+/* Styles for the selector based tabs */
+amp-selector[role=tablist].tabs-with-selector {
+    display: flex;
+}
+amp-selector[role=tablist].tabs-with-selector [role=tab][selected] {
+    outline: none;
+    /* custom styling, feel free to change */
+    border-bottom: 2px solid var(--color-primary);
+}
+amp-selector[role=tablist].tabs-with-selector {
+    display: flex;
+}
+amp-selector[role=tablist].tabs-with-selector [role=tab] {
+  /* custom styling, feel free to change */
+  width: 100%;
+  text-align: center;
+  padding: var(--space-1);
+}
+amp-selector.tabpanels [role=tabpanel] {
+  display: none;
+  /* custom styling, feel free to change */
+  padding: var(--space-4);
+}
+amp-selector.tabpanels [role=tabpanel][selected] {
+  outline: none;
+  display: block;
+}
+
+/* FORMS */
+
+#policy-form li {
+  color: #77838f;
 }
 
 .center-form {
@@ -181,12 +308,27 @@ body {
   max-width: 500px;
 }
 
-.section-margin {
-  margin: 120px auto;
-}
-
 .floating-button {
   display: flex;
   justify-content: center;
   margin: 2rem auto;
+}
+
+/* HUBSPOT */
+
+.form-columns-2, .form-columns-1, .form-columns-3, .hs-input {
+  max-width: 100% !important;
+}
+[type='text'],  {
+  width: 100% !important;
+}
+div:not(.form-columns-1) .hs-form-field:not(.hs-form-field:first-child) {
+  padding-left: 10px;
+}
+
+/*  */
+
+.card-deck .card {
+  min-width: 260px;
+  max-width: 345px;
 }
