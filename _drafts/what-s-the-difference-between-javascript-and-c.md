@@ -1,13 +1,14 @@
 ---
 title: What's the Difference Between JavaScript and C#?
-created_at: 2018-08-09 00:00:00 -0500
-updated_at: 2019-01-23 00:00:00 -0600
-date: 2019-01-23 13:11:27 -0600
+created_at: 2018-08-09 05:00:00 +0000
+updated_at: 2019-01-23 06:00:00 +0000
+date: 2019-01-23 19:11:27 +0000
+img: ''
+tags: []
+categories: []
 
 ---
 # What's the Difference Between JavaScript and C#?
-
-![which-aca-track-is-right-for-you](https://blog.austincodingacademy.com/hs-fs/hubfs/which-aca-track-is-right-for-you.png?width=1200&name=which-aca-track-is-right-for-you.png =1200x)
 
 If you’re considering making the leap into a career in coding, there are so many factors to consider: should I get a bachelor’s degree in Computer Science or enroll in a coding school? Should I take an online class, an in-person class, or a remote class? And what language or specialty should I invest my time in learning?
 
@@ -43,19 +44,13 @@ Average: $75k - $100k
 
 Starting Average: $60k - $70k
 
- 
-
 #### Job outlook
 
 The job outlook for Javascript is strong. By 2020, there will be over [one million unfilled Javascript positions](https://www.wsj.com/articles/computer-programming-is-a-trade-lets-act-like-it-1407109947). Developer jobs are [projected to increase by 24%](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) over the next 10 years— much higher than the 10% average in other fields.
 
- 
-
 #### Community
 
 JavaScript has one of the largest Overstack communities, and is the most tagged language in GitHub. You will have no problem finding resources or connecting with other working coders with such a sizable community.
-
- 
 
 #### Example job titles
 
@@ -65,8 +60,6 @@ JavaScript has one of the largest Overstack communities, and is the most tagged 
 * JavaScript consultant
 * Quality assurance automation specialist
 
- 
-
 ### [**C#**](https://austincodingacademy.com/csharp/)
 
 C# is an open-source Microsoft programming language. It’s a high-level language, which means it can handle a lot of the nitty-gritty technical stuff for you. Since C# is “static,” much of the code is explicit and clearly defined.
@@ -74,8 +67,6 @@ C# is an open-source Microsoft programming language. It’s a high-level languag
 This static nature of C# makes it easy to understand at a glance, and is why it’s the go-to choice for projects that need consistency, simplicity, and scale. C# is also a fast language to run, which makes it a great candidate for programming video games through the Unity engine.
 
 If developing games or consistent code snippets sounds appealing to you, C# may be a good choice. It’s also certain to provide you with robust job opportunities and community.
-
- 
 
 #### Salary
 
@@ -85,13 +76,9 @@ Average: $70k - $95k
 
 Starting: $60k - $70k
 
- 
-
 #### Job outlook
 
 Fewer students choose to learn C# compared to JavaScript ,even though the projected growth rates are about the same ([24%](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)). This slight saturation of the JavaScript job market might lead to higher salaries for C# programmers in the next few years. C# also has interesting growth opportunity in the virtual-reality (VR) game market.
-
- 
 
 #### Community
 
@@ -106,20 +93,16 @@ The C# community is not quite as active as JavaScript, but it’s still the 4th 
 * Database manager
 * Unreal developer
 
- 
-
 ### Learn transferrable skills
 
 Both tracks provide the foundational knowledge and transferrable skills for amazing web design. A working knowledge of C# will aid you in picking up JavaScript, and vice versa. UX designers’ great understanding of design principles helps make them effective website designers with even basic coding knowledge.
 
 These interdisciplinary skills will help you impress hiring managers and improve your value when you start working with your new team.
 
- 
-
 ### Use these resources to help you decide
 
-Taking in all this information can feel like drinking water from a firehose. A great next step in your research process is to speak with real-life developers already in the field.  
-  
+Taking in all this information can feel like drinking water from a firehose. A great next step in your research process is to speak with real-life developers already in the field.
+
 Here are some resources to connect you with working programmers:
 
 * Hear from former students: [Stephanie](https://blog.austincodingacademy.com/get-to-know-aca-graduate-stephanie-singler), [Lillian](https://blog.austincodingacademy.com/student-highlight-12/19), [Jon](https://blog.austincodingacademy.com/student-project-highlight-jon-gorman).
