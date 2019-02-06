@@ -2,6 +2,4 @@
 label: campus-locations
 hide_body: false
 is_partial: true
-fields:
-- type: include
-- type: blocks
+fields: []
