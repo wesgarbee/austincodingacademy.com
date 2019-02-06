@@ -4,11 +4,17 @@
   font-size: 13px;
 }
 </style>
+<script>
+function onSubmitContact(token) {
+  document.querySelector("#contact-form").submit();
+}
+</script>
 
 <form
   class="js-validate"
   action="https://forms.hubspot.com/uploads/form/v2/4009818/33cc0e23-1881-4874-a1d0-2c0307f20e41"
   method="POST"
+  id="contact-form"
   >
   <input name="lifecyclestage" type="hidden" value="lead">
   <input name="hs_lead_status" type="hidden" value="NEW">
@@ -133,7 +139,9 @@
     <div class="text-center col-sm-12">
       <button
         type="submit"
-        class="text-white btn send-button transition-3d-hover mb-4"
+        class="g-recaptcha text-white btn send-button transition-3d-hover mb-4"
+        data-sitekey="6LeBrI8UAAAAAEr4DmDSvoRV24vpvCW1RTm-hqx0"
+        data-callback="onSubmitContact"
       >
         Send
       </button>

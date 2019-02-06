@@ -4,488 +4,322 @@ permalink: /instructor-apply/
 title: ''
 description: ''
 ---
-
-
+<script>
+function onSubmitInstructorApplication(token) {
+  document.querySelector("#instructor-application-form").submit();
+}
+</script>
 <div class="section-margin form-outline border container">
-    <h2 class="font-family-alt my-4 display-4 text-center">
-      Instructor Application
-    </h2>
-    <form
-      class="js-validate d-flex justify-content-center"
-      action=""
-      method="POST"
-    >
-      <input name="lifecyclestage" type="hidden" value="opportunity">
-      <input name="filled_out_application" type="hidden" value="true">
-      <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-      <input type="hidden" name="action" value="validate_captcha">
-      <div class="narrow row">
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-          <div class="js-form-message form-group">
-            <label for="firstname" class="size-15">
-              First Name <span class="text-danger">*</span>
-            </label>
+  <h2 class="font-family-alt my-4 display-4 text-center">
+    Instructor Application
+  </h2>
+  <form class="js-validate d-flex justify-content-center" action="" method="POST" id="instructor-application-form">
+    <input name="lifecyclestage" type="hidden" value="opportunity">
+    <input name="filled_out_application" type="hidden" value="true">
+    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+    <input type="hidden" name="action" value="validate_captcha">
+    <div class="narrow row">
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="firstname" class="size-15">
+            First Name <span class="text-danger">*</span>
+          </label>
 
-            <input
-              type="text"
-              id="firstname"
-              class="form-control"
-              name="firstname"
-              placeholder="Your first name"
-              aria-label="Your first name"
-              required
-              data-msg="Please enter your first name."
-              data-error-class="u-has-error"
-              data-success-class="u-has-success"
-            />
-          </div>
+          <input type="text" id="firstname" class="form-control" name="firstname" placeholder="Your first name"
+            aria-label="Your first name" required data-msg="Please enter your first name." data-error-class="u-has-error"
+            data-success-class="u-has-success" />
         </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-          <div class="js-form-message form-group">
-            <label for="lastname" class="size-15">
-              Last Name <span class="text-danger">*</span>
-            </label>
-
-            <input
-              type="text"
-              id="lastname"
-              class="form-control"
-              name="lastname"
-              placeholder="Your last name"
-              aria-label="Your last name"
-              required
-              data-msg="Please enter you last name."
-              data-error-class="u-has-error"
-              data-success-class="u-has-success"
-            />
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-          <div class="js-form-message form-group">
-            <label for="phone" class="size-15">
-              Phone <span class="text-danger">*</span>
-            </label>
-
-            <input
-              type="tel"
-              id="phone"
-              class="form-control"
-              name="phone"
-              placeholder="Your phone number"
-              aria-label="Your phone number"
-              required
-              data-msg="Please enter your phone number."
-              data-error-class="u-has-error"
-              data-success-class="u-has-success"
-            />
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-          <div class="js-form-message form-group">
-            <label for="email" class="size-15">
-              Email <span class="text-danger">*</span>
-            </label>
-
-            <input
-              type="email"
-              id="email"
-              class="form-control"
-              name="email"
-              placeholder="Your email address"
-              aria-label="Your email address"
-              required
-              data-msg="Please enter a valid email address."
-              data-error-class="u-has-error"
-              data-success-class="u-has-success"
-            />
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-          <div class="js-form-message form-group">
-            <label for="city" class="size-15">
-              Your Current City <span class="text-danger">*</span>
-            </label>
-
-            <input
-              id="city"
-              type="text"
-              class="form-control"
-              name="city"
-              placeholder="Your current city"
-              aria-label="Your current city"
-              required
-              data-msg="Please enter the city in which you live."
-              data-error-class="u-has-error"
-              data-success-class="u-has-success"
-            />
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-            <div class="js-form-message form-group">
-                <label for="current-occupation1" class="size-15">
-                    Current Occupation
-                    <span class="text-danger">*</span>
-                </label>
-
-                <input
-                    id="current-occupation1"
-                    type="text"
-                    class="form-control"
-                    name="current_occupation1"
-                    placeholder="Your current occupation"
-                    aria-label="Your current occupation"
-                    required
-                    data-msg="Please enter your current occupation."
-                    data-error-class="u-has-error"
-                    data-success-class="u-has-success"
-                />
-            </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-            <div class="js-form-message form-group">
-                <label for="college-or-school-attended1" class="size-15">
-                Last School Attended <span class="text-danger">*</span>
-                </label>
-
-                <input
-                id="college-or-school-attended1"
-                type="text"
-                class="form-control"
-                name="college_or_school_attended1"
-                placeholder="The last school you attended"
-                aria-label="Last school attended"
-                required
-                data-msg="Please enter the last school you attended."
-                data-error-class="u-has-error"
-                data-success-class="u-has-success"
-                />
-            </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-sm-6 mb-6">
-            <div class="js-form-message form-group">
-                <label for="program" class="size-15">
-                    Which course are you applying to teach for?
-                    <span class="text-danger">*</span>
-                </label>
-
-                <select id="program" name="course" class="form-control">
-                    <option value disabled selected>
-                        Please select
-                    </option>
-                    <option value="101 Intro to Web">
-                        101 Intro to Web
-                    </option>
-                    <option value="JS 211 - JavaScript Basics">
-                        JS 211 - JavaScript Basics
-                    </option>
-                    <option value="JS 311 - Front-End JavaScript">
-                        JS 311 - Front-End JavaScript
-                    </option>
-                    <option value="JS 411 - Back-End Javascript">
-                        JS 411 - Back-End Javascript
-                    </option>
-                    <option value="C# .NET 221 - C# Basics">
-                        C# .NET 221 - C# Basics
-                    </option>
-                    <option value="C# .NET 321 - .NET Framework">
-                        C# .NET 321 - .NET Framework
-                    </option>
-                    <option value="C# .NET 421 - Advanced .NET + React.js">
-                        C# .NET 421 - Advanced .NET + React.js
-                    </option>
-                </select>
-            </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-12 mb-6">
-          <div class="js-form-message form-group">
-            <label for="coding-experience" class="size-15">
-                What experience do you have in coding already?
-                <span class="text-danger">*</span>
-            </label>
-
-            <input
-                id="coding-experience"
-                type="text"
-                class="form-control"
-                name="coding-experience"
-                placeholder="Your coding experience"
-                aria-label="Your coding experience"
-                required
-                data-msg="Please describe your coding experience."
-                data-error-class="u-has-error"
-                data-success-class="u-has-success"
-            />
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-12 mb-6">
-            <div class="js-form-message form-group">
-                <label for="teaching-style" class="size-15">
-                    What should we know about your teaching style?
-                    <span class="text-danger">*</span>
-                </label>
-
-                <input
-                    id="teaching-style"
-                    type="text"
-                    class="form-control"
-                    name="teaching-style"
-                    placeholder="Your teaching style"
-                    aria-label="Your teaching style"
-                    required
-                    data-msg="Please describe your teaching style."
-                    data-error-class="u-has-error"
-                    data-success-class="u-has-success"
-                />
-            </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-12 mb-6">
-            <div class="js-form-message form-group">
-                <label for="why-teach" class="size-15">
-                    Why do you want to teach?
-                    <span class="text-danger">*</span>
-                </label>
-
-                <input
-                    id="why-teach"
-                    type="text"
-                    class="form-control"
-                    name="why-teach"
-                    placeholder="Your reason to teach"
-                    aria-label="Your reason to teach"
-                    required
-                    data-msg="Please describe why you want to teach."
-                    data-error-class="u-has-error"
-                    data-success-class="u-has-success"
-                />
-            </div>
-        </div>
-        <!-- End Input -->
-
-        <!-- Input -->
-        <div class="col-sm-12 mb-6">
-            <div class="js-form-message form-group">
-                <label class="size-15" for="check2">
-                    When deciding on a coding school to teach at, what are the biggest factors for you?
-                    <span class="text-danger">*</span>
-                </label>
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-check form-check-inline">
-                            <input
-                                class="form-check-input"
-                                type="checkbox"
-                                value="Curriculum"
-                                id="check-a1"
-                            />
-                            <label class="form-check-label" for="check-a1">
-                                Curriculum
-                            </label>
-                        </div>
-
-                        <div class="form-check form-check-inline">
-                            <input
-                                class="form-check-input"
-                                type="checkbox"
-                                value="Schedule"
-                                id="check-a2"
-                            />
-                            <label class="form-check-label" for="check-a2">
-                                Schedule
-                            </label>
-                        </div>
-
-                        <div class="form-check form-check-inline">
-                            <input
-                                class="form-check-input"
-                                type="checkbox"
-                                value="Teaching Methodology"
-                                id="check-a3"
-                            />
-                            <label class="form-check-label" for="check-a3">
-                                Teaching Methodology
-                            </label>
-                        </div>
-
-                        <div class="form-check form-check-inline">
-                            <input
-                                class="form-check-input"
-                                type="checkbox"
-                                value="Culture Fit"
-                                id="check-a4"
-                            />
-                            <label class="form-check-label" for="check-a4">
-                                Culture Fit
-                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Input -->
-
-
-        <!-- Input -->
-        <div class="col-sm-12 mb-6">
-          <div class="js-form-message form-group">
-            <label class="size-15" for="check1">
-              How did you hear about us? <span class="text-danger">*</span>
-            </label>
-
-            <div class="row">
-              <div class="col">
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="Facebook"
-                    id="check1"
-                  />
-                  <label class="form-check-label" for="check1"> Facebook </label>
-                </div>
-
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="Instagram"
-                    id="check2"
-                  />
-                  <label class="form-check-label" for="check2"> Instagram </label>
-                </div>
-
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="Twitter"
-                    id="check3"
-                  />
-                  <label class="form-check-label" for="check3"> Twitter </label>
-                </div>
-
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="LinkedIn"
-                    id="check4"
-                  />
-                  <label class="form-check-label" for="check4"> LinkedIn </label>
-                </div>
-
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="YouTube"
-                    id="check5"
-                  />
-                  <label class="form-check-label" for="check5"> YouTube </label>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="ACA Student / Alumni"
-                    id="check6"
-                  />
-                  <label class="form-check-label" for="check6">
-                    ACA Student / Alumni
-                  </label>
-                </div>
-
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="ACA Faculty Member"
-                    id="check7"
-                  />
-                  <label class="form-check-label" for="check7">
-                    ACA Faculty Member
-                  </label>
-                </div>
-
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="Friend / Family"
-                    id="check8"
-                  />
-                  <label class="form-check-label" for="check8">
-                    Friend / Family
-                  </label>
-                </div>
-
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="Search engine"
-                    id="check9"
-                  />
-                  <label class="form-check-label" for="check9">
-                    Search engine
-                  </label>
-                </div>
-
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value="Other"
-                    id="check10"
-                  />
-                  <label class="form-check-label" for="check10"> Other </label>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Input -->
-
-        <button
-          class="floating-button btn stock-blue-button text-white"
-          type="Submit"
-        >
-          Submit
-        </button>
       </div>
-    </form>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="lastname" class="size-15">
+            Last Name <span class="text-danger">*</span>
+          </label>
+
+          <input type="text" id="lastname" class="form-control" name="lastname" placeholder="Your last name" aria-label="Your last name"
+            required data-msg="Please enter you last name." data-error-class="u-has-error" data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="phone" class="size-15">
+            Phone <span class="text-danger">*</span>
+          </label>
+
+          <input type="tel" id="phone" class="form-control" name="phone" placeholder="Your phone number" aria-label="Your phone number"
+            required data-msg="Please enter your phone number." data-error-class="u-has-error" data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="email" class="size-15">
+            Email <span class="text-danger">*</span>
+          </label>
+
+          <input type="email" id="email" class="form-control" name="email" placeholder="Your email address" aria-label="Your email address"
+            required data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="city" class="size-15">
+            Your Current City <span class="text-danger">*</span>
+          </label>
+
+          <input id="city" type="text" class="form-control" name="city" placeholder="Your current city" aria-label="Your current city"
+            required data-msg="Please enter the city in which you live." data-error-class="u-has-error"
+            data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="current-occupation1" class="size-15">
+            Current Occupation
+            <span class="text-danger">*</span>
+          </label>
+
+          <input id="current-occupation1" type="text" class="form-control" name="current_occupation1" placeholder="Your current occupation"
+            aria-label="Your current occupation" required data-msg="Please enter your current occupation."
+            data-error-class="u-has-error" data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="college-or-school-attended1" class="size-15">
+            Last School Attended <span class="text-danger">*</span>
+          </label>
+
+          <input id="college-or-school-attended1" type="text" class="form-control" name="college_or_school_attended1"
+            placeholder="The last school you attended" aria-label="Last school attended" required data-msg="Please enter the last school you attended."
+            data-error-class="u-has-error" data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="program" class="size-15">
+            Which course are you applying to teach for?
+            <span class="text-danger">*</span>
+          </label>
+
+          <select id="program" name="course" class="form-control">
+            <option value disabled selected>
+              Please select
+            </option>
+            <option value="101 Intro to Web">
+              101 Intro to Web
+            </option>
+            <option value="JS 211 - JavaScript Basics">
+              JS 211 - JavaScript Basics
+            </option>
+            <option value="JS 311 - Front-End JavaScript">
+              JS 311 - Front-End JavaScript
+            </option>
+            <option value="JS 411 - Back-End Javascript">
+              JS 411 - Back-End Javascript
+            </option>
+            <option value="C# .NET 221 - C# Basics">
+              C# .NET 221 - C# Basics
+            </option>
+            <option value="C# .NET 321 - .NET Framework">
+              C# .NET 321 - .NET Framework
+            </option>
+            <option value="C# .NET 421 - Advanced .NET + React.js">
+              C# .NET 421 - Advanced .NET + React.js
+            </option>
+          </select>
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-12 mb-6">
+        <div class="js-form-message form-group">
+          <label for="coding-experience" class="size-15">
+            What experience do you have in coding already?
+            <span class="text-danger">*</span>
+          </label>
+
+          <input id="coding-experience" type="text" class="form-control" name="coding-experience" placeholder="Your coding experience"
+            aria-label="Your coding experience" required data-msg="Please describe your coding experience."
+            data-error-class="u-has-error" data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-12 mb-6">
+        <div class="js-form-message form-group">
+          <label for="teaching-style" class="size-15">
+            What should we know about your teaching style?
+            <span class="text-danger">*</span>
+          </label>
+
+          <input id="teaching-style" type="text" class="form-control" name="teaching-style" placeholder="Your teaching style"
+            aria-label="Your teaching style" required data-msg="Please describe your teaching style." data-error-class="u-has-error"
+            data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-12 mb-6">
+        <div class="js-form-message form-group">
+          <label for="why-teach" class="size-15">
+            Why do you want to teach?
+            <span class="text-danger">*</span>
+          </label>
+
+          <input id="why-teach" type="text" class="form-control" name="why-teach" placeholder="Your reason to teach"
+            aria-label="Your reason to teach" required data-msg="Please describe why you want to teach."
+            data-error-class="u-has-error" data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-12 mb-6">
+        <div class="js-form-message form-group">
+          <label class="size-15" for="check2">
+            When deciding on a coding school to teach at, what are the biggest factors for you?
+            <span class="text-danger">*</span>
+          </label>
+
+          <div class="row">
+            <div class="col">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="Curriculum" id="check-a1" />
+                <label class="form-check-label" for="check-a1">
+                  Curriculum
+                </label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="Schedule" id="check-a2" />
+                <label class="form-check-label" for="check-a2">
+                  Schedule
+                </label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="Teaching Methodology" id="check-a3" />
+                <label class="form-check-label" for="check-a3">
+                  Teaching Methodology
+                </label>
+              </div>
+
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" value="Culture Fit" id="check-a4" />
+                <label class="form-check-label" for="check-a4">
+                  Culture Fit
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Input -->
+
+
+      <!-- Input -->
+      <div class="col-sm-12 mb-6">
+        <div class="js-form-message form-group">
+          <label class="size-15" for="check1">
+            How did you hear about us? <span class="text-danger">*</span>
+          </label>
+
+          <div class="row">
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Facebook" id="check1" />
+                <label class="form-check-label" for="check1"> Facebook </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Instagram" id="check2" />
+                <label class="form-check-label" for="check2"> Instagram </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Twitter" id="check3" />
+                <label class="form-check-label" for="check3"> Twitter </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="LinkedIn" id="check4" />
+                <label class="form-check-label" for="check4"> LinkedIn </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="YouTube" id="check5" />
+                <label class="form-check-label" for="check5"> YouTube </label>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="ACA Student / Alumni" id="check6" />
+                <label class="form-check-label" for="check6">
+                  ACA Student / Alumni
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="ACA Faculty Member" id="check7" />
+                <label class="form-check-label" for="check7">
+                  ACA Faculty Member
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Friend / Family" id="check8" />
+                <label class="form-check-label" for="check8">
+                  Friend / Family
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Search engine" id="check9" />
+                <label class="form-check-label" for="check9">
+                  Search engine
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Other" id="check10" />
+                <label class="form-check-label" for="check10"> Other </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <button class="floating-button btn stock-blue-button text-white" type="Submit" data-sitekey="6LeBrI8UAAAAAEr4DmDSvoRV24vpvCW1RTm-hqx0"
+        data-callback="onSubmitInstructorApplication">
+        Submit
+      </button>
+    </div>
+  </form>
 </div>

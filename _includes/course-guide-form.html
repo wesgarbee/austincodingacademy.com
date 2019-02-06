@@ -1,3 +1,8 @@
+<script>
+function onSubmitCourseGuide(token) {
+  document.querySelector("#course-guide-form").submit();
+}
+</script>
 <h4
   id="header-text-margins"
   class="font-family-alt font-weight-bold text-center display-6 mb-4"
@@ -9,6 +14,7 @@
   method="POST"
   target="_blank"
   class="js-validate"
+  id="course-guide-form"
   >
   <input name="lifecyclestage" type="hidden" value="marketingqualifiedlead">
   <input name="downloaded_a_courses_guide" type="hidden" value="true">
@@ -122,7 +128,9 @@
     <div class="text-center col-sm-5 col-md-6 mt-4">
       <button
         type="submit"
-        class="text-white btn send-button transition-3d-hover mb-4"
+        class="g-recaptcha text-white btn send-button transition-3d-hover mb-4"
+        data-sitekey="6LeBrI8UAAAAAEr4DmDSvoRV24vpvCW1RTm-hqx0"
+        data-callback="onSubmitCourseGuide"
       >
         Send
       </button>
