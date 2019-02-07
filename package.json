@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "lint-html": "htmllint {*.html,./_includes/*.html,./_layouts/*.html}",
+    "lint-html": "htmllint {*.html,./_includes/*.html,./_layouts/*.html,./partials/*.html}",
     "lint-css": "stylelint ./**/*.css",
     "lint": "yarn lint-html && yarn lint-css",
     "test": "yarn lint",

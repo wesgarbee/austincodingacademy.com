@@ -126,111 +126,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBH7GK"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    <!-- htmllint preset="none" -->
-<style>
-  .outlined-cta {
-    color: #ffffff;
-    min-width: 182px;
-    height: 50px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    background-repeat: no-repeat;
-    border: 3px;
-    border-style: solid;
-    border-color: transparent;
-    border-image-source: url(/assets/images/apply-button.svg);
-    border-image-repeat: stretch stretch;
-    border-image-slice: 21;
-    border-image-width: 182px;
-  }
-
-  .navbar-brand {
-    height: 90px;
-    width: 90px;
-  }
-
-  #sidebar {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 5%;
-    background-color: rgba(0, 0, 0, 0.95);
-  }
-
-  #sidebar button {
-    min-width: 182px;
-  }
-
-  #hidden-list {
-    display: none;
-    list-style: none;
-    margin-bottom: 0;
-    position: absolute;
-  }
-
-  #hidden-list li {
-    margin-top: 5px;
-  }
-
-  #sidebar div:hover #hidden-list {
-    display: block;
-  }
-
-  /* Hide Dropdowns by Default */
-  nav ul ul {
-    display: none;
-    position: absolute;
-    top: 60px; /* the height of the main nav */
-    margin-left: -40px;
-    list-style: none;
-  }
-
-  /* Display Dropdowns on Hover */
-  #nav-bar ul li:hover > ul {
-    display:inherit;
-  }
-
-  /* First Tier Dropdown */
-  nav ul ul li {
-    width:140px;
-    float:none;
-    display:list-item;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 3px 0 3px 10px;
-  }
-
-</style>
-<!-- htmllint preset="$previous" -->
-
-<!-- ========== HEADER ========== -->
+    <!-- ========== HEADER ========== -->
 
 <amp-sidebar id="sidebar"
-  class="d-flex d-md-none row"
+  class="m-0 bg-dark d-flex d-md-none row flex-column align-items-center justify-content-around"
   layout="nodisplay"
   side="right">
 
-  <div>
+  <div class="mx-5">
     <button class="btn btn-outline-danger" on="tap:sidebar.close">
       <i class="fas fa-times"></i>
     </button>
   </div>
 
-  <div>
+  <div class="mx-3">
     <button class="text-center btn btn-outline-light">
       Courses &amp; Tuition <i class="fas fa-caret-down"></i>
     </button>
 
-    <ul id="hidden-list">
-      <li>
+    <ul id="hidden-list" class="d-none position-absolute list-unstyled w-75 text-center mx-auto mb-0">
+      <li class="mt-2">
         <a href="/javascript" class="text-white">
           JavaScript
         </a>
       </li>
-      <li>
+      <li class="mt-2">
         <a href="/csharp" class="text-white">
           C# .NET
         </a>
@@ -238,7 +158,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </ul>
   </div>
 
-  <div>
+  <div class="mx-3">
     <a href="/financing">
       <button class="text-center btn btn-outline-light">
         Financing
@@ -246,7 +166,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </a>
   </div>
 
-  <div>
+  <div class="mx-3">
     <a href="/contact">
       <button class="text-center btn btn-outline-light">
         Contact
@@ -254,9 +174,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </a>
   </div>
 
-  <div>
+  <div class="mx-3">
       <a
-        class="btn outlined-cta cta-button text-white font-weight-bold py-1 px-6"
+        class="btn outlined-cta btn-round text-white font-weight-bold py-1 px-6"
         href="/apply"
       >
         Apply
@@ -283,6 +203,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-text-white"
           href="/"
           aria-label="Logo"
+          style="width:90px; height:90px;"
         >
           <img src="/assets/images/logo-aca-white.png" class="w-100" />
         </a>
@@ -312,9 +233,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </a>
 
               <!-- Courses - Submenu -->
-              <ul>
+              <ul class="d-none position-absolute list-unstyled">
                 <!-- JavaScript -->
-                <li>
+                <li class="position-relative py-1 pl-3">
                   <a
                     class="text-white nav-link"
                     href="/javascript"
@@ -324,7 +245,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </li>
                 <!-- End JavaScript -->
                 <!-- C#/.Net -->
-                <li>
+                <li class="position-relative py-1 pl-3">
                   <a
                     class="text-white nav-link"
                     href="/csharp"
@@ -362,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <li class="nav-item u-header__nav-item ml-3">
               <a
-                class="btn cta-button text-white font-weight-bold primary-gradient py-1 px-6"
+                class="btn btn-round text-white font-weight-bold primary-gradient py-1 px-6"
                 href="/apply"
               >
                 Apply
@@ -451,59 +372,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- Blog Classic Section -->
 </main>
 <!-- ========== END MAIN ========== -->
-    <style>
-  footer p {
-    padding: 0 10px;
-    margin: 25px 0;
-    font-size: 16px;
-  }
-
-  .footer-title {
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  footer .list-group {
-    margin-top: 50px;
-  }
-
-  footer .list-group-item {
-    font-size: 18px !important;
-  }
-
-  .alt-gradient {
-    background: linear-gradient(to right, #2d2f77, #00b3d1);
-  }
-
-  @media (max-width: 991.98px) {
-    #logo {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .links {
-      text-align: center;
-    }
-  }
-
-  @media (min-width: 992px) {
-    #logo {
-      padding-left: 50px;
-    }
-  }
-</style>
-
-<!-- ========== FOOTER ========== -->
+    <!-- ========== FOOTER ========== -->
 <footer class="alt-gradient">
   <div class="container space-top-2 space-bottom-1">
     <div class="row justify-content-lg-start mb-7">
       <div class="col-sm-9 col-lg-6 mb-7 mx-auto mx-lg-0">
         <div class="row">
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-6 d-flex align-items-center justify-content-center">
             <!-- Logo -->
-            <a id="logo" href="/">
+            <a id="logo" class="d-flex align-items-center" href="/">
               <img width="140px" src="/assets/images/logo-aca-white.png">
             </a>
             <!-- End Logo -->
@@ -533,28 +410,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="col-12 col-sm-8 col-lg-6 mx-auto ml-lg-auto mr-lg-0">
         <div class="row">
 
-          <div class="links col-6 ml-lg-auto mb-4">
+          <div class="text-center text-md-left col-6 ml-lg-auto mb-4">
             <!-- List Group -->
-            <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-              <li class="text-white footer-title">About</li>
-              <li><a class="text-white list-group-item list-group-item-action" href="/javascript">Tracks &amp; Tuition</a></li>
-              <li><a class="text-white list-group-item list-group-item-action" href="/financing">Financing</a></li>
-              <li><a class="text-white list-group-item list-group-item-action" href="/student-grievances">Student
+            <ul class="list-group mt-5 list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+              <li class="text-white footer-title size-20 font-weight-bold">About</li>
+              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/javascript">Tracks &amp; Tuition</a></li>
+              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/financing">Financing</a></li>
+              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/student-grievances">Student
                   Grievance Policy</a></li>
-              <li><a class="text-white list-group-item list-group-item-action" href="/apply">Apply Now</a></li>
+              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/apply">Apply Now</a></li>
             </ul>
             <!-- End List Group -->
           </div>
 
-          <div class="links col-6 mb-4">
+          <div class="text-center text-md-left col-6 mb-4">
             <!-- List Group -->
-            <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-              <li class="text-white footer-title">Community</li>
-              <li><a class="text-white list-group-item list-group-item-action" href="https://campus.austincodingacademy.com">Campus Manager</a></li>
-              <li><a class="text-white list-group-item list-group-item-action" href="https://www.eventbrite.com/o/austin-coding-academy-10937668459"
+            <ul class="list-group mt-5 list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+              <li class="text-white footer-title size-20 font-weight-bold">Community</li>
+              <li><a class="text-white list-group-item size-18 list-group-item-action" href="https://campus.austincodingacademy.com">Campus Manager</a></li>
+              <li><a class="text-white list-group-item size-18 list-group-item-action" href="https://www.eventbrite.com/o/austin-coding-academy-10937668459"
                   rel="noopener" target="_blank">Upcoming Events</a></li>
-              <li><a class="text-white list-group-item list-group-item-action" href="/faq">FAQ</a></li>
-              <li><a class="text-white list-group-item list-group-item-action" href="/contact">Contact Us</a></li>
+              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/faq">FAQ</a></li>
+              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/contact">Contact Us</a></li>
             </ul>
             <!-- End List Group -->
           </div>
