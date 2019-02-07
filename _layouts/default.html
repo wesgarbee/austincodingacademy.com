@@ -15,8 +15,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Favicon -->
-    {% include favicon.html %}
-    {% include sharing.html %}
+    {% include _favicon.html %}
+    {% include _sharing.html %}
 
     <!-- Required meta tags -->
     <meta
@@ -79,7 +79,7 @@
       href="/assets/css/main.css"
     />
 
-    {% include google-tag-manager-head.html %}
+    {% include _google-tag-manager-head.html %}
 
     {{ page.head }}
 
@@ -89,10 +89,10 @@
   </head>
 
   <body>
-    {% include google-tag-manager-body.html %}
-    {% include header.html %}
+    {% include _google-tag-manager-body.html %}
+    {% include _header.html %}
     {{ content }}
-    {% include footer.html %}
+    {% include _footer.html %}
     <!-- begin BOOTSTRAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script
