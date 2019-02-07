@@ -10,102 +10,6 @@ description: ''
   .hero {
     background-image: url(/assets/images/header-index.png);
   }
-
-  /* begin tabs */
-  :root {
-    --color-primary: #2d2f77;
-    --space-1: .5rem;  /* 8px */
-    --space-4: 2rem;   /* 32px */
-  }
-
-  /* Styles for the flex layout based tabs */
-  amp-selector[role=tablist].tabs-with-flex {
-      display: flex;
-      flex-wrap: wrap;
-  }
-  amp-selector[role=tablist].tabs-with-flex [role=tab] {
-      flex-grow: 1;
-      /* custom styling, feel free to change */
-      text-align: center;
-      padding: var(--space-1);
-  }
-  amp-selector[role=tablist].tabs-with-flex [role=tab][selected] {
-      outline: none;
-      /* custom styling, feel free to change */
-      border-bottom: 2px solid var(--color-primary);
-  }
-  amp-selector[role=tablist].tabs-with-flex [role=tabpanel] {
-      display: none;
-      width: 100%;
-      order: 1; /* must be greater than the order of the tab buttons to flex to the next line */
-      /* custom styling, feel free to change */
-      padding: var(--space-4);
-  }
-  amp-selector[role=tablist].tabs-with-flex [role=tab][selected] + [role=tabpanel] {
-      display: block;
-  }
-
-  /* Styles for the selector based tabs */
-  amp-selector[role=tablist].tabs-with-selector {
-      display: flex;
-  }
-  amp-selector[role=tablist].tabs-with-selector [role=tab][selected] {
-      outline: none;
-      /* custom styling, feel free to change */
-      border-bottom: 2px solid var(--color-primary);
-  }
-  amp-selector[role=tablist].tabs-with-selector {
-      display: flex;
-  }
-  amp-selector[role=tablist].tabs-with-selector [role=tab] {
-    /* custom styling, feel free to change */
-    width: 100%;
-    text-align: center;
-    padding: var(--space-1);
-  }
-  amp-selector.tabpanels [role=tabpanel] {
-    display: none;
-    /* custom styling, feel free to change */
-    padding: var(--space-4);
-  }
-  amp-selector.tabpanels [role=tabpanel][selected] {
-    outline: none;
-    display: block;
-  }
-  /* end tabs */
-
-  /* begin instructors */
-  .card-block {
-    max-width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  /* end instructors */
-
-  /* begin grad-companies */
-  .company-logo-div {
-    width: 270px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  @media (max-width: 767.98px) {
-    .company-logo-div {
-      width: 135px;
-      height: 80px;
-    }
-
-    #logo-section {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-  /* end grad-companies */
 </style>
 
 <div class="hero">
@@ -153,7 +57,7 @@ description: ''
         <div class="col-md mb-9 mb-lg-0">
           <!-- Info -->
           <div class="mb-5">
-            <h3 class="h4 size-37">Dont worry, you can keep your day job.</h3>
+            <h3 class="h4 display-6">Dont worry, you can keep your day job.</h3>
             <p class="size-20">
               Unlike many coding bootcamps, which require full-time commitment
               and are hugely expensive, we go at a more steady pace offering
@@ -190,7 +94,7 @@ description: ''
         <div class="col-md mb-9 mb-lg-0">
           <!-- Info -->
           <div class="mb-5">
-            <h3 class="h4 size-37">We Help Keep You Relevant</h3>
+            <h3 class="h4 display-6">We Help Keep You Relevant</h3>
             <p class="size-20">
               Our classes are taught by industry professionals currently working
               in the field and our curriculum is updated on a regular basis so
@@ -227,7 +131,7 @@ description: ''
         <div class="col-md mb-9 mb-lg-0">
           <!-- Info -->
           <div class="mb-5">
-            <h3 class="h4 size-37">Job Placement Assistance</h3>
+            <h3 class="h4 display-6">Job Placement Assistance</h3>
             <p class="size-20">
               We are committed to helping you get a job. We’ll show you how to
               craft your resume, setup networking events, introduce you to
@@ -332,7 +236,7 @@ description: ''
 
   <!-- begin instructors -->
   <div class="container">
-    <div class="row card-block align-items-start">
+    <div class="row mw-90 my-0 mx-auto d-flex justify-content-center align-items-end">
       <div class="col-12 col-md-4">
         <img
           class="img-fluid w-100 rounded"
@@ -405,7 +309,7 @@ description: ''
 
   <!-- begin grad-companies -->
   <div class="container">
-    <div id="logo-section" class="row">
+    <div id="logo-section" class="row d-flex flex-column flex-md-row justify-content-center align-items-center">
       <div class="col-sm-3 col-md-2 company-logo-div">
         <img class="u-clients mw-100" src="/assets/images/logo-dell.png" alt="Dell" />
       </div>
