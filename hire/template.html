@@ -8,9 +8,13 @@
     <title>Austin Coding Academy | Learn to Code, Change Your Life</title>
     <meta name="description" content="">
     <style
-      amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
-    </style></noscript>
-
+      amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    </style>
+    <noscript>
+      <style amp-boilerplate>
+        body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+      </style>
+    </noscript>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -68,21 +72,6 @@
     />
     <!-- end DEFAULT -->
 
-    <!-- begin HEADER -->
-    <link
-      rel="stylesheet"
-      href="https://austincodingacademy.github.io/front/assets/vendor/font-awesome/css/fontawesome-all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://austincodingacademy.github.io/front/assets/vendor/animate.css/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://austincodingacademy.github.io/front/assets/vendor/hs-megamenu/src/hs.megamenu.css"
-    />
-    <!-- end HEADER -->
-
     <!-- begin INSTRUCTORS -->
     <link
       rel="stylesheet"
@@ -116,9 +105,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     
 
-    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script
+      async
+      custom-element="amp-sidebar"
+      src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js">
+    </script>
 
+    <script
+      async
+      defer
+      src="https://www.google.com/recaptcha/api.js">
+    </script>
+
+    <script
+      async
+      custom-element="amp-selector"
+      src="https://cdn.ampproject.org/v0/amp-selector-0.1.js">
+    </script>
+
+    <script
+      async
+      custom-element="amp-iframe"
+      src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js">
+    </script>
   </head>
 
   <body>
@@ -205,7 +214,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           aria-label="Logo"
           style="width:90px; height:90px;"
         >
-          <img src="/assets/images/logo-aca-white.png" class="w-100" />
+          <amp-img
+            width="90px"
+            height="90px"
+            layout="fixed"
+            alt="ACA Home"
+            src="/assets/images/logo-aca-white.png"
+            class="w-100"
+          ></amp-img>
         </a>
         <!-- End Logo -->
 
@@ -311,10 +327,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="card p-1 mb-4">
               <div class="card-body text-center">
                 <div class="mb-3">
-                  <img
+                  <amp-img
+                    width="80"
+                    height="80"
+                    layout="fixed"
                     class="u-lg-avatar rounded-circle"
                     src="https://www.gravatar.com/avatar/"
-                    alt="">
+                    alt=" Gravatar"
+                  ></amp-img>
                 </div>
 
                 <div class="mb-3">
@@ -351,9 +371,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       class="text-dark mx-3 display-5 fab fa-github"
                       style="width: 40px">
                     </i>
-                    <span class="text-muted">Github<br/>
-                      <span class="text-primary"></span>
-                    </span>
+                    <span class="text-muted"></span>
                   </div>
                 </a>
               </div>
@@ -368,9 +386,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       class="text-dark mx-3 display-5 fab fa-linkedin"
                       style="width: 40px">
                     </i>
-                    <span class="text-muted">LinkedIn<br/>
-                      <span class="text-primary"></span>
-                    </span>
+                    <span class="text-muted"></span>
                   </div>
                 </a>
               </div>
@@ -434,6 +450,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                     </div>
                   </li>
+                </ul>
+                <!-- End List Group -->
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <!-- List Group -->
+                <ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0">
+
                   <li class="list-group-item pt-0 pb-4">
                     <div class="media">
                       <span class="fas fa-mobile-alt list-group-icon mr-3"></span>
@@ -443,13 +467,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                     </div>
                   </li>
-                </ul>
-                <!-- End List Group -->
-              </div>
 
-              <div class="col-md-6 col-lg-4">
-                <!-- List Group -->
-                <ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0">
                   <li class="list-group-item pt-0 pb-4">
                     <div class="media">
                       <span class="fas fa-map-marker-alt list-group-icon mr-3"></span>
@@ -460,28 +478,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                   </li>
 
-                  <li class="list-group-item pt-0 pb-4">
-                    <div class="media">
-                      <span class="fas fa-building list-group-icon mr-3"></span>
-                      <div class="media-body text-lh-sm">
-                        <span class="d-block mb-1">Works at:</span>
-                        <span class="d-block text-muted"></span>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item pt-0 pb-4">
-                    <div class="media">
-                      <span class="fas fa-tags list-group-icon mr-3"></span>
-                      <div class="media-body text-lh-sm">
-                        <span class="d-block mb-1">Skills:</span>
-                        
-                          <span class="text-muted">
-                            
-                          </span>
-                        
-                      </div>
-                    </div>
-                  </li>
                 </ul>
                 <!-- End List Group -->
               </div>
@@ -492,10 +488,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                   <li class="list-group-item pt-0 pb-4">
                     <div class="media">
-                      <span class="fas fa-globe list-group-icon mr-3"></span>
+                      <span class="fas fa-building list-group-icon mr-3"></span>
                       <div class="media-body text-lh-sm">
-                        <span class="d-block mb-1">Language:</span>
+                        <span class="d-block mb-1">Works at:</span>
                         <span class="d-block text-muted"></span>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="list-group-item pt-0 pb-4">
+                    <div class="media">
+                      <span class="fas fa-tags list-group-icon mr-3"></span>
+                      <div class="media-body text-lh-sm">
+                        <span class="d-block mb-1">Skills:</span>
+                        
+                          <span class="text-muted">
+                            
+                          </span>
+                        
                       </div>
                     </div>
                   </li>
@@ -520,16 +530,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
                     <!-- Info -->
                     <div class="d-flex mb-5">
-                        <img
+                      <div>
+                          <amp-img
+                            width="70"
+                            height="70"
+                            layout="fixed"
                             class="u-avatar align-self-center mr-4"
                             src="/assets/images/profiles/"
                             alt=""
-                        >
-                        <div>
-                            <small class="d-block text-secondary"></small>
-                            <h4 class="h6 mb-0"></h4>
-                            <span class="d-block text-secondary">at  - </span>
-                        </div>
+                          ></amp-img>
+                      </div>
+                      <div>
+                          <small class="d-block text-secondary"></small>
+                          <h4 class="h6 mb-0"></h4>
+                          <span class="d-block text-secondary">at  - </span>
+                      </div>
                     </div>
                     <!-- End Info -->
                     
@@ -545,13 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
                     <!-- Info -->
                     <div class="row align-items-center mb-5">
-                        <div class="col-4">
-                            <img
-                                class="img-fluid"
-                                src="/assets/images/profiles/"
-                                alt="">
-                        </div>
-                        <div class="col-8">
+                        <div class="col">
                             <small class="d-block text-secondary"></small>
                             <h4 class="h6 mb-0"></h4>
                             <span class="d-block text-secondary"></span>
@@ -590,11 +599,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div>
                   <!-- Author -->
                   <div class="media mb-3">
-                    <img
-                        class="u-avatar rounded-circle mr-3"
-                        src="https://www.gravatar.com/avatar/"
-                        alt=""
-                    >
+                    <div>
+                        <amp-img
+                          width="80"
+                          height="80"
+                          layout="fixed"
+                          class="u-avatar rounded-circle mr-3"
+                          src="https://www.gravatar.com/avatar/"
+                          alt=""
+                        ></amp-img>
+                    </div>
 
                     <div class="media-body align-self-center">
                         <h4 class="d-inline-block mb-1">
@@ -640,7 +654,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="col-xs-12 col-sm-6 d-flex align-items-center justify-content-center">
             <!-- Logo -->
             <a id="logo" class="d-flex align-items-center" href="/">
-              <img width="140px" src="/assets/images/logo-aca-white.png">
+              <amp-img
+                width="140px"
+                height="140px"
+                layout="fixed"
+                alt="ACA Logo"
+                src="/assets/images/logo-aca-white.png"
+              ></amp-img>
             </a>
             <!-- End Logo -->
           </div>
@@ -719,20 +739,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </footer>
 <!-- ========== END FOOTER ========== -->
+
     <!-- begin BOOTSTRAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
+
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
     <!-- end BOOTSTRAP -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
-    <script src="/assets/javascripts/index.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js">
+    </script>
+
+    <script
+      src="/assets/javascripts/index.js">
+    </script>
+
   </body>
 </html>
