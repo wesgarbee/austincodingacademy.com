@@ -187,9 +187,14 @@ body {
   display: block !important;
 }
 
-/* Hide Dropdown by Default */
+/* Position Dropdown */
 nav ul ul {
   top: 60px; /* the height of the main nav */
+}
+
+footer ul ul {
+  bottom: 155px;
+  left: 88px;
 }
 
 /* Display Dropdowns on Hover */
@@ -197,8 +202,20 @@ nav ul ul {
   display:inherit !important;
 }
 
+footer ul li:hover > ul {
+  display:inline !important;
+}
+
 /* First Tier Dropdown */
 nav ul ul li {
+  width:140px;
+  float:none;
+  display:list-item;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 3px 0 3px 10px;
+}
+
+footer ul li ul {
   width:140px;
   float:none;
   display:list-item;

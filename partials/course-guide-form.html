@@ -1,8 +1,9 @@
 <script>
-function onSubmitCourseGuide(token) {
-  document.querySelector("#course-guide-form").submit();
-}
+  function onSubmitCourseGuide(token) {
+    document.querySelector("#course-guide-form").submit();
+  }
 </script>
+
 <h4
   id="header-text-margins"
   class="font-family-alt font-weight-bold text-center display-6 mb-4"
@@ -10,12 +11,12 @@ function onSubmitCourseGuide(token) {
   Download Our Course Guide
 </h4>
 <form
-  action="https://forms.hubspot.com/uploads/form/v2/4009818/702969c4-4c75-4b99-b6d2-59d04d6ebd03"
-  method="POST"
   target="_blank"
   class="js-validate"
+  action-xhr="https://forms.hubspot.com/uploads/form/v2/4009818/702969c4-4c75-4b99-b6d2-59d04d6ebd03"
+  method="POST"
   id="course-guide-form"
-  >
+>
   <input name="lifecyclestage" type="hidden" value="marketingqualifiedlead">
   <input name="downloaded_a_courses_guide" type="hidden" value="true">
   <input name="hs_lead_status" type="hidden" value="NEW">

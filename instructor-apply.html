@@ -5,15 +5,22 @@ title: ''
 description: ''
 ---
 <script>
-function onSubmitInstructorApplication(token) {
-  document.querySelector("#instructor-application-form").submit();
-}
+  function onSubmitInstructorApplication(token) {
+    document.querySelector("#instructor-application-form").submit();
+  }
 </script>
+
 <div class="vertical-120 form-outline border container">
   <h2 class="font-family-alt my-4 display-4 text-center">
     Instructor Application
   </h2>
-  <form class="js-validate d-flex justify-content-center" action="" method="POST" id="instructor-application-form">
+  <form
+    target="_blank"
+    class="js-validate d-flex justify-content-center"
+    action-xhr=""
+    method="POST"
+    id="instructor-application-form"
+  >
     <input name="lifecyclestage" type="hidden" value="opportunity">
     <input name="filled_out_application" type="hidden" value="true">
     <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
