@@ -13,8 +13,6 @@ skills:
   -
 
 github:
-  username:
-  link:
 
 linkedin:
 
@@ -22,9 +20,7 @@ email:
 website:
 phone:
 workplace:
-birthday:
 language:
-favoritefood:
 
 workexperience:
   - company:
@@ -35,7 +31,6 @@ workexperience:
 
 education:
   - name:
-    logo:
     dates:
     degree:
 

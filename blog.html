@@ -20,7 +20,14 @@ permalink: /blog/
           <div class="card-body p-0">
             <a href="{{ post.url }}">
               <div class="mb-5">
-                <img class="img-fluid w-100 rounded" src="{{ post.img }}" alt="{{blog.alt}}">
+                <amp-img
+                  width="345px"
+                  height="172.5px"
+                  layout="responsive"
+                  class="img-fluid w-100 rounded"
+                  src="{{ post.img }}"
+                  alt="{{blog.alt}}"
+                ></amp-img>
               </div>
             </a>
             <small class="d-block text-secondary mb-1">

@@ -225,6 +225,7 @@ nav ul ul li {
 
 /* AMP TABS */
 
+/* htmllint preset="none" */
 :root {
   --color-primary: #2d2f77;
   --space-1: .5rem;  /* 8px */
@@ -233,42 +234,42 @@ nav ul ul li {
 
 /* Styles for the flex layout based tabs */
 amp-selector[role=tablist].tabs-with-flex {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 amp-selector[role=tablist].tabs-with-flex [role=tab] {
-    flex-grow: 1;
-    /* custom styling, feel free to change */
-    text-align: center;
-    padding: var(--space-1);
+  flex-grow: 1;
+  /* custom styling, feel free to change */
+  text-align: center;
+  padding: var(--space-1);
 }
 amp-selector[role=tablist].tabs-with-flex [role=tab][selected] {
-    outline: none;
-    /* custom styling, feel free to change */
-    border-bottom: 2px solid var(--color-primary);
+  outline: none;
+  /* custom styling, feel free to change */
+  border-bottom: 2px solid var(--color-primary);
 }
 amp-selector[role=tablist].tabs-with-flex [role=tabpanel] {
-    display: none;
-    width: 100%;
-    order: 1; /* must be greater than the order of the tab buttons to flex to the next line */
-    /* custom styling, feel free to change */
-    padding: var(--space-4);
+  display: none;
+  width: 100%;
+  order: 1; /* must be greater than the order of the tab buttons to flex to the next line */
+  /* custom styling, feel free to change */
+  padding: var(--space-4);
 }
 amp-selector[role=tablist].tabs-with-flex [role=tab][selected] + [role=tabpanel] {
-    display: block;
+  display: block;
 }
 
 /* Styles for the selector based tabs */
 amp-selector[role=tablist].tabs-with-selector {
-    display: flex;
+  display: flex;
 }
 amp-selector[role=tablist].tabs-with-selector [role=tab][selected] {
-    outline: none;
-    /* custom styling, feel free to change */
-    border-bottom: 2px solid var(--color-primary);
+  outline: none;
+  /* custom styling, feel free to change */
+  border-bottom: 2px solid var(--color-primary);
 }
 amp-selector[role=tablist].tabs-with-selector {
-    display: flex;
+  display: flex;
 }
 amp-selector[role=tablist].tabs-with-selector [role=tab] {
   /* custom styling, feel free to change */
@@ -285,6 +286,7 @@ amp-selector.tabpanels [role=tabpanel][selected] {
   outline: none;
   display: block;
 }
+/* htmllint preset="$previous" */
 
 /* FORMS */
 
@@ -326,7 +328,7 @@ div:not(.form-columns-1) .hs-form-field:not(.hs-form-field:first-child) {
   padding-left: 10px;
 }
 
-/*  */
+/* TUTORS */
 
 .card-deck .card {
   min-width: 260px;

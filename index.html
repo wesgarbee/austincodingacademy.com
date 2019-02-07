@@ -5,12 +5,13 @@ color: transparent
 title: ''
 description: ''
 ---
-
-<style amp-custom>
-  .hero {
-    background-image: url(/assets/images/header-index.png);
-  }
-</style>
+<head>
+  <style>
+    .hero {
+      background-image: url(/assets/images/header-index.png);
+    }
+  </style>
+</head>
 
 <div class="hero">
   <div class="py-11 container">
@@ -38,7 +39,6 @@ description: ''
   </h2>
 
   <!-- begin tabs -->
-  <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
 
   <amp-selector class="tabs-with-flex"
     role="tablist">
@@ -57,7 +57,7 @@ description: ''
         <div class="col-md mb-9 mb-lg-0">
           <!-- Info -->
           <div class="mb-5">
-            <h3 class="h4 display-6">Dont worry, you can keep your day job.</h3>
+            <h3 class="h4 display-6">You can keep your day job</h3>
             <p class="size-20">
               Unlike many coding bootcamps, which require full-time commitment
               and are hugely expensive, we go at a more steady pace offering
@@ -70,11 +70,14 @@ description: ''
 
         <div class="d-none d-md-block col-md position-relative">
           <div class="pl-md-9">
-            <img
+            <amp-img
+              width="444px"
+              height="333px"
+              layout="responsive"
               class="img-fluid shadow rounded"
               src="/assets/images/tab-dayjob.png"
               alt="Night Classes"
-            />
+            ></amp-img>
           </div>
         </div>
       </div>
@@ -107,11 +110,14 @@ description: ''
 
         <div class="d-none d-md-block col-md position-relative">
           <div class="pl-md-9">
-            <img
+            <amp-img
+              width="444px"
+              height="333px"
+              layout="responsive"
               class="img-fluid shadow-sm rounded"
               src="/assets/images/tab-curriculum.png"
               alt="Innovative Curriculum"
-            />
+            ></amp-img>
           </div>
         </div>
       </div>
@@ -144,11 +150,14 @@ description: ''
 
         <div class="d-none d-md-block col-md position-relative">
           <div class="pl-md-9">
-            <img
+            <amp-img
+              width="444px"
+              height="333px"
+              layout="responsive"
               class="img-fluid shadow-sm rounded"
               src="/assets/images/tab-jobplacement.png"
               alt="Job Placement"
-            />
+            ></amp-img>
           </div>
 
           <!-- SVG Component -->
@@ -173,11 +182,14 @@ description: ''
       <!-- Card -->
       <div class="card-body p-6">
         <div class="u-avatar mx-auto mb-4">
-          <img
+          <amp-img
+            width="240px"
+            height="200px"
+            layout="responsive"
             class="img-fluid rounded"
             src="/assets/images//icon-javascript.png"
-            alt="Image Description"
-          />
+            alt="JavaScript"
+          ></amp-img>
         </div>
         <div class="mb-4">
           <h4 class="h6 mb-1 size-31">Full-Stack JavaScript</h4>
@@ -199,11 +211,14 @@ description: ''
       <!-- Card -->
       <div class="card-body p-6">
         <div class="u-avatar mx-auto mb-4">
-          <img
+          <amp-img
+            width="240px"
+            height="200px"
+            layout="responsive"
             class="img-fluid rounded"
             src="/assets/images//icon-csharp.png"
-            alt="Image Description"
-          />
+            alt="C# .NET"
+          ></amp-img>
         </div>
         <div class="mb-4">
           <h4 class="h6 mb-1 size-31">C# and .NET</h4>
@@ -238,11 +253,16 @@ description: ''
   <div class="container">
     <div class="row mw-90 my-0 mx-auto d-flex justify-content-center align-items-end">
       <div class="col-12 col-md-4">
-        <img
-          class="img-fluid w-100 rounded"
-          src="/assets/images/instructor-danawen.jpeg"
-          alt="Dana Wen"
-        />
+        <div>
+          <amp-img
+            width="450"
+            height="450"
+            layout="responsive"
+            class="img-fluid w-100 rounded"
+            src="/assets/images/instructor-danawen.jpeg"
+            alt="Dana Wen"
+          ></amp-img>
+        </div>
         <a
           href="https://www.linkedin.com/in/danawen/"
           target="_blank"
@@ -258,11 +278,16 @@ description: ''
       </div>
 
       <div class="col-12 col-md-4">
-        <img
-          class="img-fluid w-100 rounded"
-          src="/assets/images/instructor-juanrodriguez.jpeg"
-          alt="Dana Wen"
-        />
+        <div>
+            <amp-img
+              width="450"
+              height="450"
+              layout="responsive"
+              class="img-fluid w-100 rounded"
+              src="/assets/images/instructor-juanrodriguez.jpeg"
+              alt="Juan Rodriguez"
+            ></amp-img>
+          </div>
         <a
           href="https://www.linkedin.com/in/juanrod1/"
           target="_blank"
@@ -278,11 +303,16 @@ description: ''
       </div>
 
       <div class="col-12 col-md-4">
-        <img
-          class="img-fluid w-100 rounded"
-          src="/assets/images/instructor-danferguson.jpeg"
-          alt="Dana Wen"
-        />
+        <div>
+          <amp-img
+            width="450"
+            height="450"
+            layout="responsive"
+            class="img-fluid w-100 rounded"
+            src="/assets/images/instructor-danferguson.jpeg"
+            alt="Dan Ferguson"
+          ></amp-img>
+        </div>
         <a
           href="https://www.linkedin.com/in/ferguson-dan/"
           target="_blank"
@@ -311,30 +341,64 @@ description: ''
   <div class="container">
     <div id="logo-section" class="row d-flex flex-column flex-md-row justify-content-center align-items-center">
       <div class="col-sm-3 col-md-2 company-logo-div">
-        <img class="u-clients mw-100" src="/assets/images/logo-dell.png" alt="Dell" />
+        <amp-img
+          width="100px"
+          height="100px"
+          layout="responsive"
+          class="u-clients mw-100"
+          src="/assets/images/logo-dell.png"
+          alt="Dell"
+        ></amp-img>
       </div>
       <div class="col-sm-3 col-md-2 company-logo-div">
-        <img class="u-clients mw-100" src="/assets/images/logo-dosh.png" alt="Dosh" />
+        <amp-img
+          width="118px"
+          height="39px"
+          layout="responsive"
+          class="u-clients mw-100"
+          src="/assets/images/logo-dosh.png"
+          alt="Dosh"
+        ></amp-img>
       </div>
       <div class="col-sm-3 col-md-2 company-logo-div">
-        <img
+        <amp-img
+          width="179px"
+          height="47px"
+          layout="responsive"
           class="u-clients mw-100"
           src="/assets/images/logo-pluralsight.png"
           alt="Plural Sight"
-        />
+        ></amp-img>
       </div>
       <div class="col-sm-3 col-md-2 company-logo-div">
-        <img class="u-clients mw-100" src="/assets/images/logo-mooveit.png" alt="Moove-It" />
+        <amp-img
+          width="185px"
+          height="42px"
+          layout="responsive"
+          class="u-clients mw-100"
+          src="/assets/images/logo-mooveit.png"
+          alt="Moove-It"
+        ></amp-img>
       </div>
       <div class="col-sm-3 col-md-2 company-logo-div">
-        <img
+        <amp-img
+          width="155px"
+          height="27px"
+          layout="responsive"
           class="u-clients mw-100"
           src="/assets/images/logo-flosports.png"
           alt="Flosports"
-        />
+        ></amp-img>
       </div>
       <div class="col-sm-3 col-md-2 company-logo-div">
-        <img class="u-clients" src="/assets/images/logo-ibm.png" alt="IBM" />
+        <amp-img
+          width="250px"
+          height="100px"
+          layout="responsive"
+          class="u-clients"
+          src="/assets/images/logo-ibm.png"
+          alt="IBM"
+        ></amp-img>
       </div>
     </div>
   </div>
@@ -353,14 +417,17 @@ description: ''
       <div class="col-12 col-sm-6">
         <h3 class="size-20 text-center"><strong>Lillian Situ</strong></h3>
         <h4 class="size-16 text-center">Software Engineer, Data.World</h4>
-        <iframe
-          src="https://player.vimeo.com/video/290925619"
-          width="100%"
-          frameborder="0"
-          webkitallowfullscreen
-          mozallowfullscreen
-          allowfullscreen
-        ></iframe>
+        <div>
+          <amp-iframe
+            src="https://player.vimeo.com/video/290925619"
+            width="266.656px"
+            height="150px"
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin"
+            frameborder="0"
+            allowfullscreen
+          ></amp-iframe>
+        </div>
         <p class="size-14 text-center">
           "I've always been interested in programming and being able to create
           something so being able to take what I learned at ACA and get a job with
@@ -370,14 +437,17 @@ description: ''
       <div class="col-12 col-sm-6">
         <h3 class="size-20 text-center"><strong>Greg Swan</strong></h3>
         <h4 class="size-16 text-center">Web Developer, Kinetic Theory</h4>
-        <iframe
-          src="https://player.vimeo.com/video/290913789"
-          width="100%"
-          frameborder="0"
-          webkitallowfullscreen
-          mozallowfullscreen
-          allowfullscreen
-        ></iframe>
+        <div>
+          <amp-iframe
+            src="https://player.vimeo.com/video/290913789"
+            width="266.656px"
+            height="150px"
+            layout="responsive"
+            sandbox="allow-scripts allow-same-origin"
+            frameborder="0"
+            allowfullscreen
+          ></amp-iframe>
+        </div>
         <p class="size-14 text-center">
           "ACA prepared me for the job market the way a high school teacher
           prepares you for college; they gave me a solid foundation of knowledge,

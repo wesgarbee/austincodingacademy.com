@@ -21,7 +21,14 @@ icons:
             <!-- Team -->
             <div class="mb-4">
               <div class="position-relative u-lg-avatar mx-auto mb-3">
-                <img class="u-lg-avatar rounded-circle" src="http://gravatar.com/avatar/{{ tutor.email | downcase | md5 }}?s=144" alt="{{tutor.name}}">
+                <amp-img
+                  width="80"
+                  height="80"
+                  layout="fixed"
+                  class="u-lg-avatar rounded-circle"
+                  src="http://gravatar.com/avatar/{{ tutor.email | downcase | md5 }}?s=144"
+                  alt="{{tutor.name}}"
+                ></amp-img>
               </div>
               <h2 class="h6 mb-0">{{tutor.name}}</h2>
               <p class="small">{{tutor.location}}</p>
