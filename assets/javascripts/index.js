@@ -2,7 +2,7 @@ $(function() {
   if ($('#upcoming-events').length) {
     $.ajax('https://www.eventbriteapi.com/v3/organizers/10937668459/events/?token=EFX5TSXYKK76RPDJSNBW&only_public=true&order_by=start_asc&start_date.range_start=' + moment.utc().subtract(1, 'day').format(), {
       success: function (response) {
-        var $upcomingEvents = $('<div class="card-deck d-flex flex-wrap"></div>');
+        var $upcomingEvents = $('<div class="card-deck d-flex flex-wrap justify-content-center justify-content-xl-start align-items-center"></div>');
         response.events.slice(0, 6).forEach(function (event) {
           $upcomingEvents.append(`
           <div class="card card-frame text-center mb-5" style="min-width: 345px">
