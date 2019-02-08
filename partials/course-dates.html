@@ -1,17 +1,11 @@
 <h2
     style="margin-bottom: 3rem"
     class="display-5 font-family-alt text-center font-weight-bold"
-    >
+>
     Individual Course Dates
 </h2>
 
-{% if page.track == 'javascript' %}
-    {% assign courses = site.data.course_dates.javascript | get_courses_from_files %}
-{% else %}
-    {% assign courses = site.data.course_dates.csharp | get_courses_from_files %}
-{% endif %}
-
-{% for course in courses %}
+{% for course in page.courses %}
     <div class="container mb-5">
         <h4 class="font-weight-bold">
             <!-- htmllint preset="none" -->
