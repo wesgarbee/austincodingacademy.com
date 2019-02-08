@@ -6,7 +6,9 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <link rel="canonical" href="https://www.austincodingacademy.com">
     <title>Thank You</title>
-    <meta name="description" content="">
+    <meta
+      name="description"
+      content="At Austin Coding Academy, we fit learning to code into your life with a flexible &amp; affordable array of options, all taught by current industry professionals. Don’t wait - embark on a new career today!">
     <style
       amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
     </style>
@@ -107,14 +109,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <script
       async
-      custom-element="amp-sidebar"
-      src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js">
+      defer
+      src="https://www.google.com/recaptcha/api.js">
     </script>
 
     <script
       async
-      defer
-      src="https://www.google.com/recaptcha/api.js">
+      custom-element="amp-sidebar"
+      src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js">
     </script>
 
     <script
@@ -128,6 +130,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       custom-element="amp-iframe"
       src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js">
     </script>
+
+  <script
+    async
+    custom-element="amp-form"
+    src="https://cdn.ampproject.org/v0/amp-form-0.1.js">
+  </script>
+
   </head>
 
   <body>
@@ -244,7 +253,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a
                 href="#"
                 class="text-white nav-link u-header__nav-link"
-                >
+              >
                 Courses &amp; Tuition <i class="fas fa-caret-down"></i>
               </a>
 
@@ -255,9 +264,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <a
                     class="text-white nav-link"
                     href="/javascript"
-                    >
+                  >
                     JavaScript
-                    </a>
+                  </a>
                 </li>
                 <!-- End JavaScript -->
                 <!-- C#/.Net -->
@@ -265,7 +274,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <a
                     class="text-white nav-link"
                     href="/csharp"
-                    >
+                  >
                     C# .Net
                   </a>
                 </li>
@@ -281,8 +290,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 class="text-white nav-link u-header__nav-link"
                 href="/financing"
               >
-                Financing</a
-              >
+                Financing
+              </a>
             </li>
             <!-- End Financing -->
 
@@ -377,12 +386,57 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="text-center text-md-left col-6 ml-lg-auto mb-4">
             <!-- List Group -->
             <ul class="list-group mt-5 list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-              <li class="text-white footer-title size-20 font-weight-bold">About</li>
-              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/javascript">Tracks &amp; Tuition</a></li>
-              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/financing">Financing</a></li>
-              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/student-grievances">Student
-                  Grievance Policy</a></li>
-              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/apply">Apply Now</a></li>
+              <li class="text-white footer-title size-20 font-weight-bold">
+                About
+              </li>
+              <li>
+                <a class="text-white list-group-item size-18 list-group-item-action"
+                  href="#">
+                  Tracks &amp; Tuition
+                </a>
+                <!-- Courses - Submenu -->
+                <ul class="d-none position-absolute list-unstyled">
+                  <!-- JavaScript -->
+                  <li class="position-relative py-1 pl-3">
+                    <a
+                      class="text-white nav-link"
+                      href="/javascript"
+                    >
+                      JavaScript
+                    </a>
+                  </li>
+                  <!-- End JavaScript -->
+                  <!-- C#/.Net -->
+                  <li class="position-relative py-1 pl-3">
+                    <a
+                      class="text-white nav-link"
+                      href="/csharp"
+                    >
+                      C# .Net
+                    </a>
+                  </li>
+                  <!-- End C#/.Net -->
+                </ul>
+                <!-- End Courses - Submenu -->
+              </li>
+              <li>
+                <a class="text-white list-group-item size-18 list-group-item-action"
+                  href="/financing">
+                  Financing
+                </a>
+              </li>
+              <li>
+                <a class="text-white list-group-item size-18 list-group-item-action"
+                  href="/student-grievances">
+                  Student Grievance Policy
+                </a>
+              </li>
+              <li>
+                <a class="text-white list-group-item size-18 list-group-item-action"
+                  href="/apply">
+                  Apply Now
+                </a>
+              </li>
             </ul>
             <!-- End List Group -->
           </div>
@@ -390,12 +444,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="text-center text-md-left col-6 mb-4">
             <!-- List Group -->
             <ul class="list-group mt-5 list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-              <li class="text-white footer-title size-20 font-weight-bold">Community</li>
-              <li><a class="text-white list-group-item size-18 list-group-item-action" href="https://campus.austincodingacademy.com">Campus Manager</a></li>
-              <li><a class="text-white list-group-item size-18 list-group-item-action" href="https://www.eventbrite.com/o/austin-coding-academy-10937668459"
-                  rel="noopener" target="_blank">Upcoming Events</a></li>
-              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/faq">FAQ</a></li>
-              <li><a class="text-white list-group-item size-18 list-group-item-action" href="/contact">Contact Us</a></li>
+              <li class="text-white footer-title size-20 font-weight-bold">
+                Community
+              </li>
+              <li>
+                <a class="text-white list-group-item size-18 list-group-item-action"
+                  href="https://campus.austincodingacademy.com">
+                  Campus Manager
+                </a>
+              </li>
+              <li>
+                <a class="text-white list-group-item size-18 list-group-item-action"
+                href="https://www.eventbrite.com/o/austin-coding-academy-10937668459"
+                  rel="noopener" target="_blank">
+                  Upcoming Events
+                </a>
+              </li>
+              <li>
+                <a class="text-white list-group-item size-18 list-group-item-action"
+                  href="/faq">
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a class="text-white list-group-item size-18 list-group-item-action"
+                  href="/contact">
+                  Contact Us
+                </a>
+              </li>
             </ul>
             <!-- End List Group -->
           </div>
@@ -417,7 +493,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="text-center">
       <!-- Copyright -->
-      <p class="small text-white-70 mb-0">© Austin Coding Academy 2018. All rights reserved.</p>
+      <p class="small text-white-70 mb-0">
+        © Austin Coding Academy 2018. All rights reserved.
+      </p>
       <!-- End Copyright -->
     </div>
   </div>
