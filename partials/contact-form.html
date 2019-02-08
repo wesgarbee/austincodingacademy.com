@@ -6,8 +6,9 @@
 
 <form
   class="js-validate"
-  action="https://forms.hubspot.com/uploads/form/v2/4009818/33cc0e23-1881-4874-a1d0-2c0307f20e41"
+  action-xhr="https://api.hsforms.com/submissions/v3/integration/submit/4009818/33cc0e23-1881-4874-a1d0-2c0307f20e41"
   method="POST"
+  target="_blank"
   id="contact-form"
 >
   <input name="lifecyclestage" type="hidden" value="lead">
@@ -133,17 +134,21 @@
     <div class="text-center col-sm-12">
       <button
         type="submit"
-        class="g-recaptcha text-white btn send-button transition-3d-hover mb-4"
-        data-sitekey="6LeBrI8UAAAAAEr4DmDSvoRV24vpvCW1RTm-hqx0"
-        data-callback="onSubmitContact"
+        class="text-white btn send-button transition-3d-hover mb-4"
       >
         Send
       </button>
     </div>
-    <small class="col-12 text-center text-muted mx-auto">
-      This site is protected by reCAPTCHA and the Google
-      <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-      <a href="https://policies.google.com/terms">Terms of Service</a> apply.
-    </small>
+    {% include_relative partials/recaptcha-text.html %}
+    <div submit-success>
+        <template type="amp-mustache">
+          Message sent!
+        </template>
+      </div>
+      <div submit-error>
+        <template type="amp-mustache">
+          There was an error with your request
+        </template>
+      </div>
   </div>
 </form>
