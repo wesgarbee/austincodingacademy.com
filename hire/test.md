@@ -15,11 +15,9 @@ skills:
   - Python
   - Bootstrap
 
-github:
-  username: test-user
-  link: github.com
+github: github.com
 
-linkedin: #
+linkedin: linkedin.com
 
 email: email@domain.gov
 website: https://www.student.gov
@@ -42,7 +40,6 @@ workexperience:
 
 education:
   - name: Harvard
-    logo: harvard.png
     dates: 2014 - 2018
     degree: MA in Test Profiles
 
