@@ -262,7 +262,6 @@ footer ul li ul {
 
 /* AMP TABS */
 
-/* htmllint preset="none" */
 :root {
   --color-primary: #2d2f77;
   --space-1: .5rem;  /* 8px */
@@ -323,7 +322,6 @@ amp-selector.tabpanels [role=tabpanel][selected] {
   outline: none;
   display: block;
 }
-/* htmllint preset="$previous" */
 
 /* FORMS */
 
@@ -370,4 +368,9 @@ div:not(.form-columns-1) .hs-form-field:not(.hs-form-field:first-child) {
 .card-deck .card {
   min-width: 260px;
   max-width: 345px;
+}
+
+/* Hide form on successful submission */
+form.amp-form-submit-success .form-container {
+  display: none
 }
