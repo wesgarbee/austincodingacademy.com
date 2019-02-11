@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /student-grievances
+Disallow: /tutors
