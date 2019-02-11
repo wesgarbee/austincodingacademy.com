@@ -1,31 +1,25 @@
 <h2
-    style="margin-bottom: 3rem"
-    class="display-5 font-family-alt text-center font-weight-bold"
-    >
-    Individual Course Dates
+  style="margin-bottom: 3rem"
+  class="display-5 font-family-alt text-center font-weight-bold"
+>
+  Individual Course Dates
 </h2>
 
-{% if page.track == 'javascript' %}
-    {% assign courses = site.data.course_dates.javascript | get_courses_from_files %}
-{% else %}
-    {% assign courses = site.data.course_dates.csharp | get_courses_from_files %}
-{% endif %}
-
-{% for course in courses %}
-    <div class="container mb-5">
-        <h4 class="font-weight-bold">
-            <!-- htmllint preset="none" -->
-            <i class="fas fa-circle text-{{course.color}}"></i>
-            <!-- htmllint preset="$previous" -->
-            {{course.title}}
-        </h4>
-        {% for section in course.sections %}
-        <div class="row border my-2 align-items-center">
-        <div class="col-6 col-md-3 my-4">{{section.dates}}</div>
-        <div class="col-6 col-md-3 my-4">{{section.weekdays}}</div>
-        <div class="col-6 col-md-2 my-4">{{section.time}}</div>
-        <div class="col-6 col-md-4 my-4">{{section.campus}}</div>
-        </div>
-        {% endfor %}
-    </div>
+{% for course in page.courses %}
+<div class="container mb-5">
+  <h4 class="font-weight-bold">
+    <!-- htmllint preset="none" -->
+    <i class="fas fa-circle text-{{ course.color }}"></i>
+    <!-- htmllint preset="$previous" -->
+    {{ course.title }}
+  </h4>
+  {% for section in course.sections %}
+  <div class="row border my-2 align-items-center">
+    <div class="col-6 col-md-3 my-4">{{ section.dates }}</div>
+    <div class="col-6 col-md-3 my-4">{{ section.weekdays }}</div>
+    <div class="col-6 col-md-2 my-4">{{ section.time }}</div>
+    <div class="col-6 col-md-4 my-4">{{ section.campus }}</div>
+  </div>
+  {% endfor %}
+</div>
 {% endfor %}

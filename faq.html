@@ -4,7 +4,7 @@ permalink: "/faq/"
 title: FAQ
 description: ''
 categories:
-  basics:
+  general:
     title: Frequently Asked Questions
     faqs:
     - question: I’m an employer looking to hire some developers, how do I get in touch
@@ -16,9 +16,14 @@ categories:
       answer: Right now, our classes are in-person only. If you have special circumstances,
         we may be able to admit you into our classes remotely.
     - question: Who should apply?
-      answer: |-
+      answer:
         All of our graduates share these core qualities&#58;
-        <ul> <li>A desire to improve their life</li> <li>Exhibit “growth mindset”</li> <li>Willing to take a risk</li> <li>15 hrs to commit to the class and coursework each week</li> <li>Availability to attend classes</li> </ul> If this sounds like you, don’t hesitate to <a href="/apply">apply now!</a>
+        <br/>&#8208;&nbsp;A desire to improve their life
+        <br/>&#8208;&nbsp;Exhibit “growth mindset”
+        <br/>&#8208;&nbsp;Willing to take a risk
+        <br/>&#8208;&nbsp;15 hrs to commit to the class and coursework each week
+        <br/>&#8208;&nbsp;Availability to attend classes
+        <br/>If this sounds like you, don’t hesitate to <a href="/apply">apply now!</a>
     - question: What is the application process like?
       answer: First, you'll fill out a short application and schedule an Admissions
         Interview for us to get to know you and answer your questions. Then, you'll
@@ -147,53 +152,46 @@ categories:
 
 ---
 <div class="container">
+
   {% for category in page.categories %}
+
     <h2 class="font-family-alt top-84 bottom-48 text-center display-4">
       {{category[1].title}}
     </h2>
-    <!-- Accordion -->
-    <div class="accordion-section" id="{{category[0]}}-accordion">
-      {% for faq in category[1].faqs %}
-        <!-- Card -->
-        <div class="card mb-3">
-          <!-- htmllint preset="none" -->
-          <div class="card-header card-collapse" id="{{category[0]}}-heading-{{ forloop.index0 }}">
-          <!-- htmllint preset="$previous" -->
-            <h5 class="mb-0">
-              <button
-                class="font-size-large btn btn-link btn-block d-flex justify-content-between card-btn p-3"
-                data-toggle="collapse"
-                data-target="#{{category[0]}}-collapse-{{forloop.index0}}"
-                aria-expanded="false"
-                aria-controls="{{category[0]}}-collapse-{{forloop.index0}}">
-                {{faq.question}}
 
-              </button>
-            </h5>
-          </div>
-          <!-- htmllint preset="none" -->
-          <div
-            id="{{category[0]}}-collapse-{{forloop.index0}}"
-            class="collapse"
-            aria-labelledby="{{category[0]}}-heading-{{forloop.index0}}"
-            data-parent="#{{category[0]}}-accordion">
-            <div class="card-body bg-light">
-              {{faq.answer}}
-            </div>
-          </div>
-          <!-- htmllint preset="$previous" -->
-        </div>
-        <!-- End Card -->
+    <!-- Accordion -->
+    <amp-accordion disable-session-states>
+
+      {% for faq in category[1].faqs %}
+
+        <section class="mb-3">
+
+          <h4 class="bg-light mb-0 px-2 p-1 rounded-top">
+            {{faq.question}}
+          </h4>
+
+          <p class="text-dark px-2 py-1 border border-top-0 rounded-bottom">
+            {{faq.answer}}
+          </p>
+
+        </section>
+
       {% endfor %}
-    </div>
-    <!-- End Accordion -->
+
+    </amp-accordion>
+
   {% endfor %}
+
   <section class="mt-10">
+
     <h2 class="font-family-alt font-weight-bold text-center display-4 mb-5">
       Still Have Questions?
     </h2>
+
     <div>
       {% include_relative partials/contact-form.html %}
     </div>
+
   </section>
+
 </div>

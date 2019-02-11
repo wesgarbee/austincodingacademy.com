@@ -1,7 +1,7 @@
 {
-  "name": "new.austincodingacademy.com",
+  "name": "austincodingacademy.com",
   "version": "1.0.0",
-  "repository": "https://github.com/AustinCodingAcademy/new.austincodingacademy.com",
+  "repository": "https://github.com/AustinCodingAcademy/austincodingacademy.com",
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
@@ -15,8 +15,11 @@
     "favicon-inject": "echo '' > _includes/favicon.html && real-favicon inject faviconData.json assets/favicons _includes/favicon.html && mv assets/favicons/favicon.html _includes/favicon.html",
     "sitemap": "npm run sitemap-generator && sed -i \"s|http://127.0.0.1:8080|https://austincodingacademy.com|g\" _site/sitemap.xml",
     "sitemap-generator": "(http-server _site &) && (sitemap-generator http://127.0.0.1:8080 > _site/sitemap.xml)",
-    "deploy": "yarn favicon && bundle exec jekyll build && yarn sitemap && cp -R .circleci/ _site/.circleci/ && yarn repo",
-    "repo": "gh-pages --repo \"git@github.com:AustinCodingAcademy/new.austincodingacademy.com.git\" --dotfiles -d ./_site"
+    "deploy": "yarn favicon && yarn build && yarn sitemap && yarn cname && cp -R .circleci/ _site/.circleci/ && yarn repo",
+    "cname": "echo \"$(echo $PREVIEW)austincodingacademy.com\" >> _site/CNAME",
+    "repo": "gh-pages --repo \"git@github.com:AustinCodingAcademy/$(echo $PREVIEW)austincodingacademy.com.git\" --dotfiles -d ./_site",
+    "start": "jekyll serve --config _configs/default.yml",
+    "build": "bundle exec jekyll build --config _configs/default.yml && bundle exec jekyll build --config _configs/default.yml _configs/amp.yml --destination _site/amp/"
   },
   "devDependencies": {
     "cli-real-favicon": "^0.0.7",
