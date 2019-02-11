@@ -2,14 +2,8 @@
 <html {{site.baseurl}}>
   <head>
     <meta charset="utf-8" />
-
-    <link rel="canonical" href="https://www.austincodingacademy.com" />
-
     <title>
-      {{
-        page.title
-          | default: 'Austin Coding Academy | Learn to Code, Change Your Life'
-      }}
+      {{ page.title | default: 'Austin Coding Academy | Learn to Code, Change Your Life' }}
     </title>
 
     <meta
@@ -57,12 +51,15 @@
       href="/assets/css/main.css"
     />
 
-    {% if site.baseurl == 'amp' %} {% include google-tag-manager-head-amp.html
-    %} {% else %} {% include google-tag-manager-head.html %} {% endif %}
+    {% if site.baseurl == 'amp' %}
+      {% include google-tag-manager-head-amp.html %}
+      <link rel="canonical" href="{{site.url}}{{page.url}}">
+    {% else %}
+      {% include google-tag-manager-head.html %}
+      <link rel="amphtml" href="{{site.url}}{{page.url}}">
+    {% endif %}
 
-    {{
-      page.head
-    }}
+    {{ page.head }}
   </head>
 
   <body>
