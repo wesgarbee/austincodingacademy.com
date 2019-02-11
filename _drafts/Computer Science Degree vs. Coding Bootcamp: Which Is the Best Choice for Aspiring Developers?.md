@@ -12,8 +12,6 @@ date: 2019-02-11 15:28:54 -0600
 ---
 # Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for Aspiring Developers?
 
-![cs-degree-vs-aca](https://blog.austincodingacademy.com/hs-fs/hubfs/cs-degree-vs-aca.png?width=1200&name=cs-degree-vs-aca.png =1200x)
-
 If you’re just starting to consider pursuing a career as a developer, you’ve probably done your fair share of research. What does a typical day look like? How much money can I expect to make? What do I need to learn before I can apply for a position?
 
 Depending on where you’re looking online or who you’re talking to, you may have picked up that many developers have a bachelor’s degree (or higher) in computer science. In fact, until recently, a CS degree was the most direct path into a career in code.
