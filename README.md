@@ -9,10 +9,10 @@
 ### Development
 
 1. `bundle install`
-2. `jekyll serve`
-3. navigate to http://localhost:4000
+2. `yarn`
+3. `yarn start`
+4. navigate to http://localhost:4000
 
 ### Test
 
-1. `yarn install`
-2. `yarn test`
+1. `yarn test`
