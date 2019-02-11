@@ -3,15 +3,15 @@ layout: default
 permalink: "/apply/"
 title: Apply
 description: ''
-
+form_guid: 9d476e09-2737-4394-b7db-f0395a2d26d5
 ---
-<div class="vertical-120 form-outline border container">
+<div class="mt-10 border container">
   <h2 class="font-family-alt my-4 display-4 text-center">
     Student Application
   </h2>
   <form
     class="d-flex justify-content-center"
-    action-xhr="{{site.form_url}}/4009818/9d476e09-2737-4394-b7db-f0395a2d26d5"
+    action-xhr="{{site.form_url}}/{{site.hubspot_portal_id}}/{{page.form_guid}}"
     method="POST"
     target="_top"
   >
@@ -20,6 +20,7 @@ description: ''
       <input name="filled_out_application" type="hidden" value="true">
       <input name="page_name" type="hidden" value="{{page.title}}">
       <input name="page_uri" type="hidden" value="{{site.url}}{{page.url}}">
+      <input name="hutk" type="hidden" value="">
       <div class="narrow row">
         <!-- Input -->
         <div class="col-sm-6 mb-6">
@@ -433,7 +434,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="Facebook / Twitter / Social Media"
                     id="check1"
                     name="how_did_you_hear_about_this_course_1"
@@ -446,7 +447,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="Instagram"
                     id="check2"
                     name="how_did_you_hear_about_this_course_1"
@@ -459,7 +460,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="Twitter"
                     id="check3"
                     name="how_did_you_hear_about_this_course_1"
@@ -472,7 +473,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="LinkedIn"
                     id="check4"
                     name="how_did_you_hear_about_this_course_1"
@@ -485,7 +486,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="Friends / Family"
                     id="check8"
                     name="how_did_you_hear_about_this_course_1"
@@ -498,7 +499,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="Google or Search Engine"
                     id="check9"
                     name="how_did_you_hear_about_this_course_1"
@@ -513,7 +514,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="Coding Academy Event"
                     id="check5"
                     name="how_did_you_hear_about_this_course_1"
@@ -526,7 +527,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="ACA Faculty Member"
                     id="check6"
                     name="how_did_you_hear_about_this_course_1"
@@ -539,7 +540,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="Coding Academy Student / Alumni"
                     id="check7"
                     name="how_did_you_hear_about_this_course_1"
@@ -552,7 +553,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="News - TV or Article"
                     id="check10"
                     name="how_did_you_hear_about_this_course_1"
@@ -565,7 +566,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="Radio"
                     id="check11"
                     name="how_did_you_hear_about_this_course_1"
@@ -578,7 +579,7 @@ description: ''
                 <div class="form-check">
                   <input
                     class="form-check-input"
-                    type="checkbox"
+                    type="radio"
                     value="Other"
                     id="check12"
                     name="how_did_you_hear_about_this_course_1"
@@ -601,18 +602,12 @@ description: ''
         {% include_relative partials/recaptcha-text.html %}
       </div>
     </div>
-    <div class="text-center">
-      <div submit-success>
-        <template type="amp-mustache">
-          <p class="h1">Thank You</p>
-          <p>We have recieved your submission and look forward to speaking to you.</p>
-        </template>
-      </div>
-      <div submit-error>
-        <template type="amp-mustache">
-          <p class="text-danger">There was an error with your request. Please try again.</p>
-        </template>
-      </div>
-    </div>
   </form>
+  <div class="text-center">
+    <div submit-error>
+      <template type="amp-mustache">
+        <p class="text-danger">There was an error with your request. Please try again.</p>
+      </template>
+    </div>
+  </div>
 </div>

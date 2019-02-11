@@ -3,29 +3,22 @@ layout: default
 permalink: "/instructor-apply/"
 title: Instructor Application
 description: ''
-
+form_guid: 83193d74-f3de-4679-91db-18ba46864fef
 ---
-<script>
-  function onSubmitInstructorApplication(token) {
-    document.querySelector("#instructor-application-form").submit();
-  }
-</script>
-
-<div class="vertical-120 form-outline border container">
+<div class="mt-10 container">
   <h2 class="font-family-alt my-4 display-4 text-center">
     Instructor Application
   </h2>
   <form
     target="_top"
     class="d-flex justify-content-center"
-    action=""
+    action-xhr="{{site.form_url}}/{{site.hubspot_portal_id}}/{{page.form_guid}}"
     method="POST"
-    id="instructor-application-form"
   >
     <input name="lifecyclestage" type="hidden" value="opportunity">
-    <input name="filled_out_application" type="hidden" value="true">
-    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-    <input type="hidden" name="action" value="validate_captcha">
+    <input name="hutk" type="hidden" value="">
+    <input name="page_name" type="hidden" value="{{page.title}}">
+    <input name="page_uri" type="hidden" value="{{site.url}}{{page.url}}">
     <div class="narrow row">
       <!-- Input -->
       <div class="col-sm-6 mb-6">
@@ -112,6 +105,29 @@ description: ''
       <!-- Input -->
       <div class="col-sm-6 mb-6">
         <div class="js-form-message form-group">
+          <label for="current-company1" class="form-label">
+            Current Company <span class="text-danger">*</span>
+          </label>
+
+          <input
+            id="current-company1"
+            type="text"
+            class="form-control"
+            name="current_company1"
+            placeholder="Your current company"
+            aria-label="Your current company"
+            required
+            data-msg="Please enter your current company."
+            data-error-class="u-has-error"
+            data-success-class="u-has-success"
+          />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
           <label for="college-or-school-attended1" class="form-label">
             Last School Attended <span class="text-danger">*</span>
           </label>
@@ -131,7 +147,7 @@ description: ''
             <span class="text-danger">*</span>
           </label>
 
-          <select id="program" name="course" class="form-control">
+          <select id="program" name="which_course_are_you_applying_to_teach_" class="form-control">
             <option value disabled selected>
               Please select
             </option>
@@ -162,6 +178,21 @@ description: ''
       <!-- End Input -->
 
       <!-- Input -->
+      <div class="col-sm-6 mb-6">
+        <div class="js-form-message form-group">
+          <label for="github" class="form-label">
+            GitHub Profile
+            <span class="text-danger">*</span>
+          </label>
+
+          <input id="github" type="text" class="form-control" name="github_profile" placeholder="https://github.com/AustinCodingAcademy"
+            aria-label="github" required data-msg="Please enter your github profile link." data-error-class="u-has-error"
+            data-success-class="u-has-success" />
+        </div>
+      </div>
+      <!-- End Input -->
+
+      <!-- Input -->
       <div class="col-12 mb-6">
         <div class="js-form-message form-group">
           <label for="coding-experience" class="form-label">
@@ -169,7 +200,7 @@ description: ''
             <span class="text-danger">*</span>
           </label>
 
-          <input id="coding-experience" type="text" class="form-control" name="coding-experience" placeholder="Your coding experience"
+          <input id="coding-experience" type="text" class="form-control" name="what_s_your_current_experience_in_coding_" placeholder="Your coding experience"
             aria-label="Your coding experience" required data-msg="Please describe your coding experience."
             data-error-class="u-has-error" data-success-class="u-has-success" />
         </div>
@@ -184,7 +215,7 @@ description: ''
             <span class="text-danger">*</span>
           </label>
 
-          <input id="teaching-style" type="text" class="form-control" name="teaching-style" placeholder="Your teaching style"
+          <input id="teaching-style" type="text" class="form-control" name="what_should_we_know_about_your_teaching_style_1" placeholder="Your teaching style"
             aria-label="Your teaching style" required data-msg="Please describe your teaching style." data-error-class="u-has-error"
             data-success-class="u-has-success" />
         </div>
@@ -199,7 +230,7 @@ description: ''
             <span class="text-danger">*</span>
           </label>
 
-          <input id="why-teach" type="text" class="form-control" name="why-teach" placeholder="Your reason to teach"
+          <input id="why-teach" type="text" class="form-control" name="why_do_you_want_to_teach_1" placeholder="Your reason to teach"
             aria-label="Your reason to teach" required data-msg="Please describe why you want to teach."
             data-error-class="u-has-error" data-success-class="u-has-success" />
         </div>
@@ -217,28 +248,28 @@ description: ''
           <div class="row">
             <div class="col">
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" value="Curriculum" id="check-a1" />
+                <input class="form-check-input" type="radio" value="Curriculum" id="check-a1" name="when_deciding_on_a_coding_school_to_teach_at_what_are_the_biggest_factors_for_you_"/>
                 <label class="form-check-label" for="check-a1">
                   Curriculum
                 </label>
               </div>
 
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" value="Schedule" id="check-a2" />
+                <input class="form-check-input" type="radio" value="Schedule" id="check-a2" name="when_deciding_on_a_coding_school_to_teach_at_what_are_the_biggest_factors_for_you_" />
                 <label class="form-check-label" for="check-a2">
                   Schedule
                 </label>
               </div>
 
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" value="Teaching Methodology" id="check-a3" />
+                <input class="form-check-input" type="radio" value="Teaching Methodology" id="check-a3" name="when_deciding_on_a_coding_school_to_teach_at_what_are_the_biggest_factors_for_you_" />
                 <label class="form-check-label" for="check-a3">
                   Teaching Methodology
                 </label>
               </div>
 
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" value="Culture Fit" id="check-a4" />
+                <input class="form-check-input" type="radio" value="Culture Fit" id="check-a4" name="when_deciding_on_a_coding_school_to_teach_at_what_are_the_biggest_factors_for_you_" />
                 <label class="form-check-label" for="check-a4">
                   Culture Fit
                 </label>
@@ -249,88 +280,9 @@ description: ''
       </div>
       <!-- End Input -->
 
-
-      <!-- Input -->
-      <div class="col-sm-12 mb-6">
-        <div class="js-form-message form-group">
-          <label class="form-label" for="check1">
-            How did you hear about us? <span class="text-danger">*</span>
-          </label>
-
-          <div class="row">
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Facebook" id="check1" />
-                <label class="form-check-label" for="check1"> Facebook </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Instagram" id="check2" />
-                <label class="form-check-label" for="check2"> Instagram </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Twitter" id="check3" />
-                <label class="form-check-label" for="check3"> Twitter </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="LinkedIn" id="check4" />
-                <label class="form-check-label" for="check4"> LinkedIn </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="YouTube" id="check5" />
-                <label class="form-check-label" for="check5"> YouTube </label>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="ACA Student / Alumni" id="check6" />
-                <label class="form-check-label" for="check6">
-                  ACA Student / Alumni
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="ACA Faculty Member" id="check7" />
-                <label class="form-check-label" for="check7">
-                  ACA Faculty Member
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Friend / Family" id="check8" />
-                <label class="form-check-label" for="check8">
-                  Friend / Family
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Search engine" id="check9" />
-                <label class="form-check-label" for="check9">
-                  Search engine
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="Other" id="check10" />
-                <label class="form-check-label" for="check10"> Other </label>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Input -->
-
-      <button class="floating-button btn stock-blue-button text-white" type="Submit" data-sitekey="6LeBrI8UAAAAAEr4DmDSvoRV24vpvCW1RTm-hqx0"
-        data-callback="onSubmitInstructorApplication">
+      <button class="floating-button btn stock-blue-button text-white" type="Submit">
         Submit
       </button>
-
-      {% include_relative partials/recaptcha-text.html %}
-
     </div>
   </form>
 </div>

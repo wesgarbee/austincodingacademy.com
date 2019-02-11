@@ -1,5 +1,5 @@
 <form
-  action-xhr="{{site.form_url}}/4009818/33cc0e23-1881-4874-a1d0-2c0307f20e41"
+  action-xhr="{{site.form_url}}/{{site.hubspot_portal_id}}/33cc0e23-1881-4874-a1d0-2c0307f20e41"
   method="POST"
   target="_top"
 >
@@ -8,6 +8,7 @@
     <input name="hs_lead_status" type="hidden" value="NEW">
     <input name="page_name" type="hidden" value="{{page.title}}">
     <input name="page_uri" type="hidden" value="{{site.url}}{{page.url}}">
+    <input name="hutk" type="hidden" value="">
     <div class="row center-form">
       <!-- Input -->
       <div class="col-sm-6 mb-6">
@@ -131,19 +132,10 @@
         >
           Send
         </button>
-        <div class="mb-4">
-          {% include_relative partials/recaptcha-text.html %}
-        </div>
       </div>
     </div>
   </div>
   <div class="text-center">
-    <div submit-success>
-      <template type="amp-mustache">
-        <p class="h1">Thank You</p>
-        <p>We have recieved your submission and look forward to speaking to you.</p>
-      </template>
-    </div>
     <div submit-error>
       <template type="amp-mustache">
         <p class="text-danger">There was an error with your request. Please try again.</p>

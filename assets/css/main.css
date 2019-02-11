@@ -369,8 +369,3 @@ div:not(.form-columns-1) .hs-form-field:not(.hs-form-field:first-child) {
   min-width: 260px;
   max-width: 345px;
 }
-
-/* Hide form on successful submission */
-form.amp-form-submit-success .form-container {
-  display: none
-}
