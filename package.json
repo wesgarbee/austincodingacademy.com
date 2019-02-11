@@ -19,7 +19,7 @@
     "cname": "echo \"$(echo $PREVIEW)austincodingacademy.com\" >> _site/CNAME",
     "repo": "gh-pages --repo \"git@github.com:AustinCodingAcademy/$(echo $PREVIEW)austincodingacademy.com.git\" --dotfiles -d ./_site",
     "start": "jekyll serve --config _configs/default.yml",
-    "build": "bundle exec jekyll build --config _configs/default.yml && jekyll build --config _configs/default.yml _configs/amp.yml --destination _site/amp/"
+    "build": "bundle exec jekyll build --config _configs/default.yml && bundle exec jekyll build --config _configs/default.yml _configs/amp.yml --destination _site/amp/"
   },
   "devDependencies": {
     "cli-real-favicon": "^0.0.7",
