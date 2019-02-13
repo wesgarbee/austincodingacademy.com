@@ -15,6 +15,9 @@ fields:
 - type: text
   name: img
   label: Image
+  description: "/assets/images/image.png (from media in the sidebar)"
+  config:
+    required: true
 - type: tag_list
   name: tags
   label: Tags
