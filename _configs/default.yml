@@ -27,5 +27,5 @@ exclude:
   - yarn.lock
   - README.md
 
-permalink: /:categories/:title:output_ext/
+permalink: /blog/:categories/:title/
 
