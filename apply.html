@@ -6,9 +6,11 @@ description: ''
 form_guid: 9d476e09-2737-4394-b7db-f0395a2d26d5
 ---
 <div class="mt-10 border container">
+
   <h2 class="font-family-alt my-4 display-4 text-center">
     Student Application
   </h2>
+
   <form
     class="d-flex justify-content-center"
     action-xhr="{{site.form_url}}/{{site.hubspot_portal_id}}/{{page.form_guid}}"
@@ -602,7 +604,16 @@ form_guid: 9d476e09-2737-4394-b7db-f0395a2d26d5
         {% include_relative partials/recaptcha-text.html %}
       </div>
     </div>
+
+    <amp-recaptcha-input
+      layout="nodisplay"
+      name="recaptcha-apply"
+      data-sitekey="6LfApY8UAAAAADYQCJkSM5EQUdx57tzrMp1XFUm6"
+      data-action="homepage">
+    </amp-recaptcha-input>
+
   </form>
+
   <div class="text-center">
     <div submit-error>
       <template type="amp-mustache">
@@ -610,4 +621,5 @@ form_guid: 9d476e09-2737-4394-b7db-f0395a2d26d5
       </template>
     </div>
   </div>
+
 </div>
