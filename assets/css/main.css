@@ -115,6 +115,26 @@ body {
   color: #7e8697;
 }
 
+/* HERO IMAGES */
+
+/* HERO IMAGES */
+
+#hero-index {
+  background-image: url("/assets/images/header-index.png");
+}
+
+#hero-csharp {
+  background-image: url("/assets/images/header-csharp.png");
+}
+
+#hero-financing {
+  background-image: url("/assets/images/header-financing.png");
+}
+
+#hero-js {
+  background-image: url("/assets/images/header-javascript.png");
+}
+
 /* CUSTOM MARGINS */
 
 .bottom-48 {
