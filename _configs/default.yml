@@ -26,3 +26,6 @@ exclude:
   - package.json
   - yarn.lock
   - README.md
+
+permalink: /:categories/:title:output_ext
+
