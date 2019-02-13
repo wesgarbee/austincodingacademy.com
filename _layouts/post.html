@@ -33,5 +33,33 @@ layout: default
     </div>
   </div>
   <!-- End Description Section -->
-
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{site.url}}{{page.url}}"
+      },
+      "headline": "{{page.title}}",
+      "image": [
+        "{{site.url}}{{page.img}}"
+        ],
+      "datePublished": "{{page.created_at}}",
+      "dateModified": "{{page.updated_at}}",
+      "author": {
+        "@type": "Organization",
+        "name": "Austin Coding Academy"
+      },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Austin Coding Academy",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{site.url}}/assets/images/logo-aca.png"
+        }
+      },
+      "description": "{{page.excerpt}}"
+    }
+  </script>
 </main>
