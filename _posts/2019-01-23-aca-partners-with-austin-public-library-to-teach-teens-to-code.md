@@ -10,7 +10,7 @@ categories:
 - announcements
 excerpt: On Monday night, Austin Coding Academy teamed up with Austin Public Library to
   host a free coding event for local teenagers at the Central Library.
-layout: ''
+layout: post
 
 ---
 On Monday night, Austin Coding Academy teamed up with [Austin Public Library](http://library.austintexas.gov/) to host a free coding event for local teenagers at the Central Library.
