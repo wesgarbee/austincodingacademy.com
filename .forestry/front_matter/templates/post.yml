@@ -12,9 +12,6 @@ fields:
 - type: datetime
   label: Updated At
   name: updated_at
-- type: text
-  name: img
-  label: Image
 - type: tag_list
   name: tags
   label: Tags
@@ -34,6 +31,12 @@ fields:
   config:
     required: true
   default: post
+- type: text
+  name: img
+  label: Featured Image
+  description: "/assets/images/name.png"
+  config:
+    required: true
 pages:
 - _posts/Austin Coding Academy Partners with Lyft Drivers.md
 - _posts/2019-01-22-here-is-the-title.md

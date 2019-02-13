@@ -4,11 +4,13 @@ title: Test
 date: 2019-01-22 23:12:45 +0000
 created_at: 2019-01-01 06:00:00 +0000
 updated_at: ''
-img: "/assets/Dinh.png"
+img: "/assets/images/Dinh.png"
 tags:
 - test
 - tag
 categories: []
+excerpt: Voluptas sunt cum mollitia. Officia quibusdam aut perferendis laborum voluptas
+  velit. Beatae quam qui est officia dolor nihil voluptas nihil.
 
 ---
 Voluptas sunt cum mollitia. Officia quibusdam aut perferendis laborum voluptas velit. Beatae quam qui est officia dolor nihil voluptas nihil.
