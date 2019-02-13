@@ -27,6 +27,13 @@ fields:
   label: Excerpt
   config:
     required: true
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  config:
+    required: true
+  default: post
 pages:
 - _posts/Austin Coding Academy Partners with Lyft Drivers.md
 - _posts/2019-01-22-here-is-the-title.md
