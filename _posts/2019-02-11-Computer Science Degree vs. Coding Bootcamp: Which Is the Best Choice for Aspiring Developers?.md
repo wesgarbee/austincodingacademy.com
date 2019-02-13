@@ -12,6 +12,7 @@ excerpt: If you’re just starting to consider pursuing a career as a developer,
   probably done your fair share of research. What does a typical day look like? How
   much money can I expect to make? What do I need to learn before I can apply for
   a position?
+layout: post
 
 ---
 # Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for Aspiring Developers?
