@@ -10,6 +10,7 @@ categories:
 - announcements
 excerpt: On Monday night, Austin Coding Academy teamed up with Austin Public Library to
   host a free coding event for local teenagers at the Central Library.
+layout: post
 
 ---
 # ACA Partners with Austin Public Library to Teach Teens to Code
