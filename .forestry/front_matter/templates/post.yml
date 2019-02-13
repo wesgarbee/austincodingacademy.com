@@ -31,11 +31,12 @@ fields:
   config:
     required: true
   default: post
-- type: file
+- type: text
   name: img
   label: Featured Image
+  description: "/assets/images/name.png"
   config:
-    maxSize: '2'
+    required: true
 pages:
 - _posts/Austin Coding Academy Partners with Lyft Drivers.md
 - _posts/2019-01-22-here-is-the-title.md
