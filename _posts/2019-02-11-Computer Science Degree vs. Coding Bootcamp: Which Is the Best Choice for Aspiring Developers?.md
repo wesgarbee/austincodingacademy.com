@@ -4,7 +4,7 @@ title: 'Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice fo
   Aspiring Developers?'
 created_at: 2018-07-24 00:00:00 -0500
 updated_at: 2019-02-11 00:00:00 -0600
-img: CodeChica-Facebook.png
+img: "/assets/CodeChica-Facebook.png"
 categories:
 - web-development
 date: 2019-02-11 15:28:54 -0600
