@@ -3,7 +3,7 @@ title: ACA Partners with Austin Public Library to Teach Teens to Code
 created_at: 2018-10-11 05:00:00 +0000
 updated_at: 2018-10-11 05:00:00 +0000
 date: 2019-01-23 19:36:58 +0000
-img: ''
+img: "/assets/images/header-index.png"
 tags:
 - learn to code
 categories:
