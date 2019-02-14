@@ -7,7 +7,7 @@ img: ''
 categories:
 - web-development
 date: 2019-02-11 15:24:01 -0600
-
+layout: post
 ---
 # What Will You Make as a Full-Time Web Developer?
 
