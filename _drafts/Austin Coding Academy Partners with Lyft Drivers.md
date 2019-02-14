@@ -5,14 +5,13 @@ created_at: 2018-10-03 00:00:00 -0500
 updated_at: 2018-10-03 00:00:00 -0500
 img: ''
 categories:
-- aca-info
+- announcements
 date: 2019-02-11 15:17:37 -0600
+excerpt: Austin Coding Academy is partnering with Lyft, one of Austin’s most popular
+  ride-sharing apps, in an effort to make its classes more accessible to the same
+  drivers who make our city more accessible to all.
 
 ---
-# Austin Coding Academy Partners with Lyft Drivers
-
-![ACAlyft](https://blog.austincodingacademy.com/hs-fs/hubfs/ACAlyft.png?width=802&name=ACAlyft.png =802x)
-
 Austin Coding Academy is partnering [with Lyft](https://sites.google.com/lyft.com/lyftaustinonboarding/driver-deals/education), one of Austin’s most popular ride-sharing apps, in an effort to make its classes more accessible to the same drivers who make our city more accessible to all.
 
 “Everybody deserves access to a technical education and an opportunity to benefit from Austin’s booming tech industry,” says Austin Coding Academy CEO, Chris Lofton. “We’re excited to partner with Lyft to provide their drivers with this opportunity.”
@@ -29,7 +28,7 @@ Improving accessibility to drivers who have already demonstrated a commitment to
 
 Sean Philippi has excelled as a student at ACA, where he’s on track to graduate as a full-stack Javascript developer in December of this year. As a Lyft driver and now an ACA student, Sean embodies the extra level of commitment necessary to thrive in a challenging environment.
 
-**_![Untitled design (31)-890896-edited](https://blog.austincodingacademy.com/hs-fs/hubfs/Untitled%20design%20(31)-890896-edited.png?width=145&name=Untitled%20design%20(31)-890896-edited.png =145x)_**
+**_!\[Untitled design (31)-890896-edited\](https://blog.austincodingacademy.com/hs-fs/hubfs/Untitled%20design%20(31)-890896-edited.png?width=145&name=Untitled%20design%20(31)-890896-edited.png =145x)_**
 
 **_“I find the courses to be well-paced and challenging. I am very grateful for having discovered ACA.”_**
 
@@ -45,5 +44,4 @@ If you are a current Lyft driver who is interested in enrolling in classes at Au
 
 If you have any questions that you would like answered, you can [schedule a short Q&A](https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673) with our admissions team, or book a[ tour of either our North or Downtown Campus.](https://info.austincodingacademy.com/schedule-a-tour)
 
-  
 \*Further verification of your status as a Lyft driver will be requested after your application is accepted.
