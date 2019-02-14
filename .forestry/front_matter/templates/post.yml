@@ -6,6 +6,9 @@ fields:
 - type: text
   name: title
   label: Title
+- type: text
+  name: description
+  label: Description
 - type: datetime
   name: created_at
   label: Created At
@@ -23,11 +26,11 @@ fields:
   name: excerpt
   label: Excerpt
   config:
-    required: true
+    required: false
 - type: text
   name: layout
   label: layout
-  hidden: true
+  hidden: false
   config:
     required: true
   default: post
@@ -36,9 +39,9 @@ fields:
   label: Featured Image
   description: "/assets/images/name.png"
   config:
-    required: true
+    required: false
 pages:
-- _posts/Austin Coding Academy Partners with Lyft Drivers.md
+- _posts/2019-02-11-Austin Coding Academy Partners with Lyft Drivers.md
 - _posts/2019-01-22-here-is-the-title.md
 - _posts/Four exciting projects that will inspire you to learn JavaScript right now.md
 - _posts/What Will You Make as a Full-Time Web Developer?.md

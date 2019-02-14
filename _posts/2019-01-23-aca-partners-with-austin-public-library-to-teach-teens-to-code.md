@@ -1,6 +1,6 @@
 ---
 title: ACA Partners with Austin Public Library to Teach Teens to Code
-created_at: 2018-10-11 05:00:00 +0000
+created_at: 2018-10-11 00:00:00 -0500
 updated_at: 2018-10-11 05:00:00 +0000
 date: 2019-01-23 19:36:58 +0000
 img: "/assets/images/header-index.png"
@@ -10,7 +10,7 @@ categories:
 - announcements
 excerpt: On Monday night, Austin Coding Academy teamed up with Austin Public Library to
   host a free coding event for local teenagers at the Central Library.
-layout: post
+layout: ''
 
 ---
 On Monday night, Austin Coding Academy teamed up with [Austin Public Library](http://library.austintexas.gov/) to host a free coding event for local teenagers at the Central Library.
