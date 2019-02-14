@@ -2,17 +2,18 @@
 tags: []
 title: 'Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for
   Aspiring Developers?'
-created_at: 2018-07-24 00:00:00 -0500
-updated_at: 2019-02-11 00:00:00 -0600
-img: "/assets/images/CodeChica-Eventbright.png"
+created_at: 2018-07-24 05:00:00 +0000
+updated_at: 2019-02-11 06:00:00 +0000
+img: "/assets/images/cs-degree-vs-aca.png"
 categories:
 - web-development
-date: 2019-02-11 15:28:54 -0600
+date: 2019-02-11 21:28:54 +0000
 excerpt: If you’re just starting to consider pursuing a career as a developer, you’ve
   probably done your fair share of research. What does a typical day look like? How
   much money can I expect to make? What do I need to learn before I can apply for
   a position?
 layout: post
+description: ''
 
 ---
 # Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for Aspiring Developers?
