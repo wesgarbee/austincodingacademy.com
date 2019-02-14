@@ -23,11 +23,11 @@ fields:
   name: excerpt
   label: Excerpt
   config:
-    required: true
+    required: false
 - type: text
   name: layout
   label: layout
-  hidden: true
+  hidden: false
   config:
     required: true
   default: post
@@ -36,7 +36,7 @@ fields:
   label: Featured Image
   description: "/assets/images/name.png"
   config:
-    required: true
+    required: false
 pages:
 - _posts/2019-02-11-Austin Coding Academy Partners with Lyft Drivers.md
 - _posts/2019-01-22-here-is-the-title.md
