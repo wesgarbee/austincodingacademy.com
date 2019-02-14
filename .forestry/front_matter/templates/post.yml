@@ -30,7 +30,7 @@ fields:
 - type: text
   name: layout
   label: layout
-  hidden: false
+  hidden: true
   config:
     required: true
   default: post
