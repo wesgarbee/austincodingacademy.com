@@ -6,7 +6,7 @@ date: 2019-01-23 19:11:27 +0000
 img: ''
 tags: []
 categories: []
-
+layout: post
 ---
 # What's the Difference Between JavaScript and C#?
 

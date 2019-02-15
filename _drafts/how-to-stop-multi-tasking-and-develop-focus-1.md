@@ -6,7 +6,7 @@ updated_at: 2019-02-01 00:00:00 -0600
 img: ''
 categories: []
 date: 2019-02-06 12:07:48 -0600
-
+layout: post
 ---
 # How to Stop Multi-Tasking and Develop Focus
 
