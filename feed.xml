@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://austincodingacademy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://austincodingacademy.com/" rel="alternate" type="text/html" /><updated>2019-02-15T21:19:10+00:00</updated><id>https://austincodingacademy.com/feed.xml</id><entry><title type="html">Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for Aspiring Developers?</title><link href="https://austincodingacademy.com/blog/web-development/computer-science-degree-vs-coding-bootcamp-which-is-the-best-choice-for-aspiring-developers/" rel="alternate" type="text/html" title="Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for Aspiring Developers?" /><published>2019-02-11T21:28:54+00:00</published><updated>2019-02-11T21:28:54+00:00</updated><id>https://austincodingacademy.com/blog/web-development/computer-science-degree-vs-coding-bootcamp-which-is-the-best-choice-for-aspiring-developers</id><content type="html" xml:base="https://austincodingacademy.com/blog/web-development/computer-science-degree-vs-coding-bootcamp-which-is-the-best-choice-for-aspiring-developers/">&lt;p&gt;If you’re just starting to consider pursuing a career as a developer, you’ve probably done your fair share of research. What does a typical day look like? How much money can I expect to make? What do I need to learn before I can apply for a position?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://austincodingacademy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://austincodingacademy.com/" rel="alternate" type="text/html" /><updated>2019-02-15T22:07:59+00:00</updated><id>https://austincodingacademy.com/feed.xml</id><entry><title type="html">Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for Aspiring Developers?</title><link href="https://austincodingacademy.com/blog/web-development/computer-science-degree-vs-coding-bootcamp-which-is-the-best-choice-for-aspiring-developers/" rel="alternate" type="text/html" title="Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for Aspiring Developers?" /><published>2019-02-11T21:28:54+00:00</published><updated>2019-02-11T21:28:54+00:00</updated><id>https://austincodingacademy.com/blog/web-development/computer-science-degree-vs-coding-bootcamp-which-is-the-best-choice-for-aspiring-developers</id><content type="html" xml:base="https://austincodingacademy.com/blog/web-development/computer-science-degree-vs-coding-bootcamp-which-is-the-best-choice-for-aspiring-developers/">&lt;p&gt;If you’re just starting to consider pursuing a career as a developer, you’ve probably done your fair share of research. What does a typical day look like? How much money can I expect to make? What do I need to learn before I can apply for a position?&lt;/p&gt;
 
 &lt;p&gt;Depending on where you’re looking online or who you’re talking to, you may have picked up that many developers have a bachelor’s degree (or higher) in computer science. In fact, until recently, a CS degree was the most direct path into a career in code.&lt;/p&gt;
 
@@ -109,4 +109,119 @@
   &lt;li&gt;&lt;a href=&quot;https://info.austincodingacademy.com/schedule-a-tour&quot;&gt;Book a tour&lt;/a&gt; of one of our campuses&lt;/li&gt;
   &lt;li&gt;Learn more about our &lt;a href=&quot;https://austincodingacademy.com/javascript/#our-program&quot;&gt;Javascript&lt;/a&gt; and &lt;a href=&quot;https://austincodingacademy.com/csharp/&quot;&gt;C#/.NET&lt;/a&gt; Tracks&lt;/li&gt;
   &lt;li&gt;Apply now below!&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="learn to code" /><summary type="html">On Monday night, Austin Coding Academy teamed up with Austin Public Library to host a free coding event for local teenagers at the Central Library.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="learn to code" /><summary type="html">On Monday night, Austin Coding Academy teamed up with Austin Public Library to host a free coding event for local teenagers at the Central Library.</summary></entry><entry><title type="html">What’s the Difference Between JavaScript and C#?</title><link href="https://austincodingacademy.com/blog/web-development/what-s-the-difference-between-javascript-and-c/" rel="alternate" type="text/html" title="What's the Difference Between JavaScript and C#?" /><published>2019-01-23T19:11:27+00:00</published><updated>2019-01-23T19:11:27+00:00</updated><id>https://austincodingacademy.com/blog/web-development/what-s-the-difference-between-javascript-and-c</id><content type="html" xml:base="https://austincodingacademy.com/blog/web-development/what-s-the-difference-between-javascript-and-c/">&lt;p&gt;If you’re considering making the leap into a career in coding, there are so many factors to consider: should I get a bachelor’s degree in Computer Science or enroll in a coding school? Should I take an online class, an in-person class, or a remote class? And what language or specialty should I invest my time in learning?&lt;/p&gt;
+
+&lt;p&gt;At Austin Coding Academy, we currently offer two separate tracks for our students: JavaScript and C# .NET. We believe that there isn’t one “best” option; the right choice for each student has everything to do with their personal goals and interests.&lt;/p&gt;
+
+&lt;p&gt;In this article, we’ll take a closer look at both tracks, including general salary ranges, career outlooks, online communities, and job titles.&lt;/p&gt;
+
+&lt;h3 id=&quot;caution-dontonlyconsider-salary-and-hiring-outlook&quot;&gt;Caution: Don’t &lt;em&gt;only&lt;/em&gt; consider salary and hiring outlook&lt;/h3&gt;
+
+&lt;p&gt;It’s tempting to lean heavily on salary data when choosing a coding language or specialty. But since your career takes up most of your waking hours, it’s important to consider which one will be most personally fulfilling and interesting to you.&lt;/p&gt;
+
+&lt;p&gt;When looking at salary data on websites like Glassdoor and Payscale, you may notice a huge range of possible salaries. This is because, even with the same job title, there can be a lot of variation in job responsibilities and seniority. The best way to increase your salary potential is to be a key player on whatever team you end up on.&lt;/p&gt;
+
+&lt;p&gt;That’s why it’s so important to choose a track you’re passionate about; your interest in your work will give you the motivation to go above and beyond what’s asked and expected of you.&lt;/p&gt;
+
+&lt;h2 id=&quot;track-comparisons&quot;&gt;Track Comparisons&lt;/h2&gt;
+
+&lt;p&gt;Without further ado, let’s take a look at the two tracks offered at ACA, starting with JavaScript:&lt;/p&gt;
+
+&lt;h3 id=&quot;javascript&quot;&gt;&lt;a href=&quot;https://austincodingacademy.com/javascript/&quot;&gt;JavaScript&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;JavaScript (JS) is one of the most common coding languages, with about a third of software development jobs requiring some JavaScript knowledge. It’s also a relatively easy language to learn and has one of the largest communities to reach out to. The main purpose of JavaScript is to manipulate objects; any time something moves on a website, JavaScript is probably involved.&lt;/p&gt;
+
+&lt;p&gt;JavaScript is a giant in the internet browser world. It works across all the most popular web browsers and phone apps because it uses variables to adapt its code to the platform. Coders use JS in applications like Safari, Google Chrome, Internet Explorer, and IOS/Android app platforms.&lt;/p&gt;
+
+&lt;p&gt;While it’s mostly an advantage, the cross-platform adaptability of JS can sometimes lead to compatibility issues. Because JavaScript is error-prone, proficient developers will have an easy time finding a job. Companies will even pay freelancers to double-check their JavaScript code through &lt;a href=&quot;https://www.bugcrowd.com/bug-bounty-list/&quot;&gt;bug bounty programs.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;salary&quot;&gt;Salary&lt;/h4&gt;
+
+&lt;p&gt;Range: $51k - $120k&lt;/p&gt;
+
+&lt;p&gt;Average: $75k - $100k&lt;/p&gt;
+
+&lt;p&gt;Starting Average: $60k - $70k&lt;/p&gt;
+
+&lt;h4 id=&quot;job-outlook&quot;&gt;Job outlook&lt;/h4&gt;
+
+&lt;p&gt;The job outlook for Javascript is strong. By 2020, there will be over &lt;a href=&quot;https://www.wsj.com/articles/computer-programming-is-a-trade-lets-act-like-it-1407109947&quot;&gt;one million unfilled Javascript positions&lt;/a&gt;. Developer jobs are &lt;a href=&quot;https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm&quot;&gt;projected to increase by 24%&lt;/a&gt; over the next 10 years— much higher than the 10% average in other fields.&lt;/p&gt;
+
+&lt;h4 id=&quot;community&quot;&gt;Community&lt;/h4&gt;
+
+&lt;p&gt;JavaScript has one of the largest Overstack communities, and is the most tagged language in GitHub. You will have no problem finding resources or connecting with other working coders with such a sizable community.&lt;/p&gt;
+
+&lt;h4 id=&quot;example-job-titles&quot;&gt;Example job titles&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Full-stack website developer&lt;/li&gt;
+  &lt;li&gt;App developer&lt;/li&gt;
+  &lt;li&gt;Website admin&lt;/li&gt;
+  &lt;li&gt;JavaScript consultant&lt;/li&gt;
+  &lt;li&gt;Quality assurance automation specialist&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;c&quot;&gt;&lt;a href=&quot;https://austincodingacademy.com/csharp/&quot;&gt;&lt;strong&gt;C#&lt;/strong&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;C# is an open-source Microsoft programming language. It’s a high-level language, which means it can handle a lot of the nitty-gritty technical stuff for you. Since C# is “static,” much of the code is explicit and clearly defined.&lt;/p&gt;
+
+&lt;p&gt;This static nature of C# makes it easy to understand at a glance, and is why it’s the go-to choice for projects that need consistency, simplicity, and scale. C# is also a fast language to run, which makes it a great candidate for programming video games through the Unity engine.&lt;/p&gt;
+
+&lt;p&gt;If developing games or consistent code snippets sounds appealing to you, C# may be a good choice. It’s also certain to provide you with robust job opportunities and community.&lt;/p&gt;
+
+&lt;h4 id=&quot;salary-1&quot;&gt;Salary&lt;/h4&gt;
+
+&lt;p&gt;Range: $45k - $120k&lt;/p&gt;
+
+&lt;p&gt;Average: $70k - $95k&lt;/p&gt;
+
+&lt;p&gt;Starting: $60k - $70k&lt;/p&gt;
+
+&lt;h4 id=&quot;job-outlook-1&quot;&gt;Job outlook&lt;/h4&gt;
+
+&lt;p&gt;Fewer students choose to learn C# compared to JavaScript ,even though the projected growth rates are about the same (&lt;a href=&quot;https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm&quot;&gt;24%&lt;/a&gt;). This slight saturation of the JavaScript job market might lead to higher salaries for C# programmers in the next few years. C# also has interesting growth opportunity in the virtual-reality (VR) game market.&lt;/p&gt;
+
+&lt;h4 id=&quot;community-1&quot;&gt;Community&lt;/h4&gt;
+
+&lt;p&gt;The C# community is not quite as active as JavaScript, but it’s still the 4th largest on Overstack and the 7th largest meetup community. The Microsoft brand also provides many resources to help developers master the language.&lt;/p&gt;
+
+&lt;h4 id=&quot;example-job-titles-1&quot;&gt;Example job titles&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Full-stack web developer&lt;/li&gt;
+  &lt;li&gt;Windows app developer&lt;/li&gt;
+  &lt;li&gt;Information security specialist&lt;/li&gt;
+  &lt;li&gt;C#.net developer&lt;/li&gt;
+  &lt;li&gt;Database manager&lt;/li&gt;
+  &lt;li&gt;Unreal developer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;learn-transferrable-skills&quot;&gt;Learn transferrable skills&lt;/h3&gt;
+
+&lt;p&gt;Both tracks provide the foundational knowledge and transferrable skills for amazing web design. A working knowledge of C# will aid you in picking up JavaScript, and vice versa. UX designers’ great understanding of design principles helps make them effective website designers with even basic coding knowledge.&lt;/p&gt;
+
+&lt;p&gt;These interdisciplinary skills will help you impress hiring managers and improve your value when you start working with your new team.&lt;/p&gt;
+
+&lt;h3 id=&quot;use-these-resources-to-help-you-decide&quot;&gt;Use these resources to help you decide&lt;/h3&gt;
+
+&lt;p&gt;Taking in all this information can feel like drinking water from a firehose. A great next step in your research process is to speak with real-life developers already in the field.&lt;/p&gt;
+
+&lt;p&gt;Here are some resources to connect you with working programmers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hear from former students: &lt;a href=&quot;https://blog.austincodingacademy.com/get-to-know-aca-graduate-stephanie-singler&quot;&gt;Stephanie&lt;/a&gt;, &lt;a href=&quot;https://blog.austincodingacademy.com/student-highlight-12/19&quot;&gt;Lillian&lt;/a&gt;, &lt;a href=&quot;https://blog.austincodingacademy.com/student-project-highlight-jon-gorman&quot;&gt;Jon&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.eventbrite.com/o/austin-coding-academy-10937668459&quot;&gt;Go to local coding events&lt;/a&gt; to pick the brains of other developers and/or to get some hands-on experience.&lt;/li&gt;
+  &lt;li&gt;Subscribe to the ACA blog to learn about the industry and see student stories.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can also connect with ACA graduates/students through our &lt;a href=&quot;https://www.eventbrite.com/e/austin-coding-academy-open-house-tickets-53310470051&quot;&gt;open house events&lt;/a&gt; or let our advisors answer your questions by &lt;a href=&quot;https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673&quot;&gt;scheduling a quick call&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;experience-both-tracks-with-acas-web-101-class&quot;&gt;Experience both tracks with ACA’s Web 101 class&lt;/h2&gt;
+
+&lt;p&gt;Many other programs expect students to choose an area of specialization right away. At Austin Coding Academy, we understand that a little bit of exposure to all your options will help make your decision more clear. That’s why we cover the basics of both tracks in our &lt;a href=&quot;https://austincodingacademy.com/apply/&quot;&gt;intro to web class&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This intro course is great for the brand new student, all the way up to the student who’s dabbled with a few online tutorials. The ACA curriculum will solidify your coding knowledge, and our staff will provide you with the resources to help you land your dream job.&lt;/p&gt;
+
+&lt;p&gt;If you know you want to start working towards an amazing coding career, don’t put it off. Let us &lt;a href=&quot;https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673&quot;&gt;answer your questions&lt;/a&gt; or come &lt;a href=&quot;https://info.austincodingacademy.com/schedule-a-campus-tour&quot;&gt;tour the campus&lt;/a&gt;. See how ACA can help you on your path towards an exciting and rewarding career.&lt;/p&gt;
+
+&lt;p&gt;Already convinced? &lt;a href=&quot;https://austincodingacademy.com/apply/&quot;&gt;Apply today!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="JavaScript" /><category term="C#" /><category term="Web Development" /><category term="Classes" /><summary type="html">At Austin Coding Academy, we currently offer two separate tracks for our students: JavaScript and C# .NET. We believe that there isn’t one “best” option; the right choice for each student has everything to do with their personal goals and interests.</summary></entry></feed>
