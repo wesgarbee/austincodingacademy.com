@@ -6,15 +6,23 @@ fields:
 - type: text
   name: title
   label: Title
+  config:
+    required: true
 - type: text
   name: description
   label: Description
+  config:
+    required: true
 - type: datetime
   name: created_at
   label: Created At
+  config:
+    required: true
 - type: datetime
   label: Updated At
   name: updated_at
+  config:
+    required: true
 - type: tag_list
   name: tags
   label: Tags
@@ -39,7 +47,7 @@ fields:
   label: Featured Image
   description: "/assets/images/name.png"
   config:
-    required: false
+    required: true
 pages:
 - _posts/2019-01-23-aca-partners-with-austin-public-library-to-teach-teens-to-code.md
 - _posts/2019-02-11-Austin Coding Academy Partners with Lyft Drivers.md
