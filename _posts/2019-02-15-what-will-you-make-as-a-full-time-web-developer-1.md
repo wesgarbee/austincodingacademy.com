@@ -12,7 +12,7 @@ excerpt: Let’s look at how much money you can expect to earn working as a web 
   and how experience, education, location, and coding specialty can all impact your
   salary. Knowing what your skill is worth will help you negotiate better pay as you
   advance through your career.
-img: d
+img: "/assets/images/what-will-you-make-as-a-web-dev.png"
 date: 2019-02-15 16:25:36 -0600
 
 ---
