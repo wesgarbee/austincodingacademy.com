@@ -3,7 +3,7 @@ tags: []
 title: How to Stop Multi-Tasking and Develop Focus
 created_at: 2018-03-28 05:00:00 +0000
 updated_at: 2019-02-15 00:00:00 -0600
-img: d
+img: "/assets/images/How-to-Stop-Multi-Tasking-and-Develop-Focus.png"
 categories:
 - career-development
 date: 2019-02-06 18:07:48 +0000
