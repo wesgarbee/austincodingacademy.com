@@ -10,7 +10,7 @@ date: 2019-02-11 21:17:37 +0000
 excerpt: Austin Coding Academy is partnering with Lyft, one of Austin’s most popular
   ride-sharing apps, in an effort to make its classes more accessible to the same
   drivers who make our city more accessible to all.
-layout: ''
+layout: post
 description: ''
 
 ---
