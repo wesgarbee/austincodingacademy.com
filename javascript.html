@@ -1,11 +1,21 @@
 ---
 layout: default
 permalink: "/javascript/"
-track: javascript
-title: 'Learn JavaScript | JavaScript Classes in Austin, TX '
+track: JavaScript
+title: Learn JavaScript | JavaScript Classes in Austin, TX
+hero: js
+skills: React.js or Node.js
+
 description: 'Learn one of the most versatile & common programming languages with
   Austin Code Academy’s JavaScript track. You’ll go from beginner to advanced within
-  a year - all without quitting your day job. Enroll today! '
+  a year - all without quitting your day job. Enroll today!'
+
+overview: JavaScript is used everywhere on the internet. It’s a programming language
+  used to make not only websites but games, web apps, animations, and mobile applications
+  for both Android and iOS. Learning to code in JavaScript will arm you with one of
+  today’s most versatile and sought-after skills, making you ready for a new career or
+  giving you a competitive edge in your current one.
+
 courses:
   - title: Web 101 - Intro to Web Development
     color: purple
@@ -18,6 +28,14 @@ courses:
         weekdays  : Tuesdays &amp; Thursdays
         time      : 6:30pm - 9:00pm
         campus    : Downtown Capital Factory Campus
+    list:
+    - HTML5 + all new HTML5 APIs
+    - CSS3 + Animations and Transitions
+    - Version Control Software - Git
+    - Responsive Web Design
+    - JavaScript Basics &amp; DOM Manipulation
+    - Input Control and Form Submissions
+
   - title: JS 211 - JavaScript Basics
     color: yellow
     sections:
@@ -29,6 +47,12 @@ courses:
         weekdays  : Tuesdays &amp; Thursdays
         time      : 6:30pm - 9:00pm
         campus    : Downtown Capital Factory Campus
+    list:
+    - Immersion in Object Oriented Programming (OOP)
+    - Master Unit Testing + Test Driven Development (TDD)
+    - Break into Callbacks and Functional Programming
+    - Interact with remote APIs using AJAX requests
+    - Get a proper introduction to React.js
 
   - title: JS 311 - Front-End JavaScript
     color: green
@@ -41,6 +65,13 @@ courses:
         weekdays  : Tuesdays &amp; Thursdays
         time      : 6:30pm - 9:00pm
         campus    : Downtown Capital Factory Campus
+    list:
+    - Build deployment-ready React apps
+    - Maintain app state with Redux
+    - Build production-grade apps with Webpack
+    - Handle Client-Side Routing
+    - Expand your knowledge of Git
+    - Deep-dive into HTTPS protocol
 
   - title: JS 411 - Back-End Javascript
     color: red
@@ -53,6 +84,13 @@ courses:
         weekdays  : Tuesdays &amp; Thursdays
         time      : 6:30pm - 9:00pm
         campus    : Downtown Capital Factory Campus
+    list:
+      - Shape MongoDB structures with Mongoose.js
+      - Serve Express.js routes
+      - Explore the power of Node.js
+      - MVC - Model, View, Controller
+      - Deploy your own Node Package
+      - Learn to host and manage your websites
 
   - title: Job 501 - Job Placement Course
     color: blue
@@ -62,47 +100,13 @@ courses:
         time      : 6:30pm - 9:00pm
         campus    : North Austin Highland Campus
         class     : Job 501 - Job Placement Course
+    list:
+    - Technical interview prep
+    - White-boarding practice and feedback
+    - Portfolio support
+    - Resume building
+    - Networking opportunities and strategies
+    - Job-finding strategies
 ---
 
-<div id="hero-js" class="hero py-11">
-  <h1 class="text-white font-family-alt font-weight-bold display-4 text-center">
-    JavaScript Track
-  </h1>
-</div>
-
-<main class="container">
-  <h2 class="display-6 text-center my-10 text-muted">
-    JavaScript is used everywhere on the internet. It’s a programming language used to make not only websites but games, web apps, animations, and mobile applications for both Android and iOS. Learning to code in JavaScript will arm you with one of today’s most versatile and sought-after skills, making you ready for a new career or giving you a competitive edge in your current one.
-  </h2>
-
-  {% include_relative partials/curriculum.html %}
-
-  <div class="my-10">
-    {% include_relative partials/course-guide-form.html %}
-  </div>
-
-  {% include_relative partials/comparison-cards.html %}
-
-  <div class="my-10">
-    {% include_relative partials/tuition-help.html %}
-  </div>
-
-  {% include_relative partials/course-dates.html %}
-
-  <div class="d-flex justify-content-center my-10">
-    {% include_relative partials/btn-apply.html class="btn-wide" %}
-  </div>
-
-  {% include_relative partials/campus-locations.html %}
-
-  <h2 class="font-family-alt font-weight-bold text-center display-4 mt-10">
-    Still Have Questions?
-  </h2>
-  <p class="size-20 mb-4 text-center">
-    From choosing the right course to understanding course details, we're here
-    to help.
-  </p>
-  {% include_relative partials/contact-form.html %}
-  <div class="my-10"></div>
-
-</main>
+{% include course-page.html %}
