@@ -35,10 +35,10 @@
 
     {% if site.baseurl == '/amp' %}
       {% include google-tag-manager-head-amp.html%}
-      <link rel="canonical" href="{{site.baseurl}}{{site.url}}{{page.url}}">
+      <link rel="canonical" href="{{site.url}}{{page.url}}">
     {% else %}
       {% include google-tag-manager-head.html %}
-      <link rel="amphtml" href="{{site.baseurl}}{{site.url}}{{page.url}}">
+      <link rel="amphtml" href="{{site.url}}amp/{{page.url}}">
     {% endif %}
 
     {{ page.head }}
