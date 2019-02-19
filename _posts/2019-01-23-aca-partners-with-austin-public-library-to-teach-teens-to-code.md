@@ -3,7 +3,7 @@ title: ACA Partners with Austin Public Library to Teach Teens to Code
 created_at: 2018-10-11 05:00:00 +0000
 updated_at: 2018-10-11 05:00:00 +0000
 date: 2019-01-23 19:36:58 +0000
-img: "/assets/images/header-index.png"
+img: "/assets/images/ACA-APL-Glitch-Teen-Coding.png"
 tags:
 - learn to code
 categories:
@@ -11,10 +11,9 @@ categories:
 excerpt: On Monday night, Austin Coding Academy teamed up with Austin Public Library to
   host a free coding event for local teenagers at the Central Library.
 layout: post
+description: ''
 
 ---
-# ACA Partners with Austin Public Library to Teach Teens to Code
-
 On Monday night, Austin Coding Academy teamed up with [Austin Public Library](http://library.austintexas.gov/) to host a free coding event for local teenagers at the Central Library.
 
 “Glitch: Coding Made Easy" is a 2-hour workshop whose goal is to inspire teens to explore careers in computer programming. We are proud to partner with APL to introduce a creative an in-demand skill for their future careers.
