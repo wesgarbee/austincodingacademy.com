@@ -27,7 +27,7 @@ footer-community:
   title: Campus Manager
   url: https://campus.austincodingacademy.com
 footer-about:
-- url: "/bog"
+- url: "/blog"
   weight: 6
   title: Blog
 - weight: 5
