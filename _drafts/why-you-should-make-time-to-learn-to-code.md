@@ -11,7 +11,7 @@ categories:
 excerpt: 'Web Developers across the United States make an average of $67,990 annually.
   This increasingly popular career path currently has over 162,000 jobs ranging from
   entry to senior level. Find out how you can fit learning to code into your day:'
-img: m
+img: "/assets/images/make-time-for-web-development-training.png"
 date: 2019-02-21 13:34:55 -0600
 
 ---
