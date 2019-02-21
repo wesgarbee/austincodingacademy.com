@@ -1,7 +1,7 @@
 ---
 tags: []
 layout: post
-title: 4 Keys to Making a Career Switch into Tech without Technical Experience
+title: 4 Keys to Making a Tech Career Switch without Technical Experience
 description: Switching careers can be daunting, especially if it involves learning
   new skills. Hear are some tips on how to make the transition easier.
 created_at: 2018-01-31 00:00:00 -0600
