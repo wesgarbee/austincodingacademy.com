@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://austincodingacademy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://austincodingacademy.com/" rel="alternate" type="text/html" /><updated>2019-02-21T20:14:47+00:00</updated><id>https://austincodingacademy.com/feed.xml</id><entry><title type="html">4 Keys to Making a Tech Career Switch without Technical Experience</title><link href="https://austincodingacademy.com/blog/career-development/4-keys-to-making-a-career-switch-into-tech-without-technical-experience/" rel="alternate" type="text/html" title="4 Keys to Making a Tech Career Switch without Technical Experience" /><published>2019-02-21T19:58:04+00:00</published><updated>2019-02-21T19:58:04+00:00</updated><id>https://austincodingacademy.com/blog/career-development/4-keys-to-making-a-career-switch-into-tech-without-technical-experience</id><content type="html" xml:base="https://austincodingacademy.com/blog/career-development/4-keys-to-making-a-career-switch-into-tech-without-technical-experience/">&lt;p&gt;The tech industry seems to be holding steady as the place to be for job seekers and people looking to switch careers these days. Between the high job security, exciting work culture, competitive pay, and (in some cases) extremely generous and creative perks, tech companies make an excellent case for learning to code.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://austincodingacademy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://austincodingacademy.com/" rel="alternate" type="text/html" /><updated>2019-02-21T20:17:28+00:00</updated><id>https://austincodingacademy.com/feed.xml</id><entry><title type="html">What are Companies Looking for in a Web Developer’s Portfolio?</title><link href="https://austincodingacademy.com/blog/web-development/what-are-companies-looking-for-in-a-web-developer-s-portfolio/" rel="alternate" type="text/html" title="What are Companies Looking for in a Web Developer's Portfolio?" /><published>2019-02-21T20:16:21+00:00</published><updated>2019-02-21T20:16:21+00:00</updated><id>https://austincodingacademy.com/blog/web-development/what-are-companies-looking-for-in-a-web-developer-s-portfolio</id><content type="html" xml:base="https://austincodingacademy.com/blog/web-development/what-are-companies-looking-for-in-a-web-developer-s-portfolio/">&lt;p&gt;If you’re just starting out on your path as a developer without much or any experience to show off in your portfolio, the road ahead may seem daunting. Your portfolio is more than a showcase of projects and work samples. Your portfolio is your digital space that invites hiring managers to learn more about you and how you would be a great fit in their company and culture.&lt;/p&gt;
+
+&lt;p&gt;So what makes a great developer portfolio? What are hiring managers looking for when they review one? Let’s take a closer look at the important elements that make up a solid developer portfolio that will land you an interview.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-started-now&quot;&gt;Get started now&lt;/h2&gt;
+
+&lt;p&gt;Your developer portfolio is an ongoing, evolving project. Don’t wait until you start sending out your resume to start developing your portfolio. Get started as soon as possible so you’re not rushing to get something together before a recruiter takes a look. If you’re still taking classes, add projects to your portfolio as you complete them. Then, continue to update and improve your portfolio with every project you work on or goal you meet.&lt;/p&gt;
+
+&lt;h2 id=&quot;show-your-skills&quot;&gt;Show your skills&lt;/h2&gt;
+
+&lt;p&gt;This is the cornerstone of your portfolio. Not every hiring manager is the same. Some may look at your resume first before moving to your portfolio. Others may want to follow a link to your hosted projects or your Github repository of projects. It’s important that you keep up with each of these elements, so no matter the method of the hiring manager, you’re prepared to show off your work, skills, and technological capabilities and how you solve problems.&lt;/p&gt;
+
+&lt;p&gt;Don’t spend too much time trying to build the next great app that does a new thing or solves a different problem but ends up being poorly ‘spec’ed out. You may end up burdened by the amount of decisions and get stalled in your project. Your portfolio doesn’t need to be limited to work someone else commissioned or paid you to do. Find a project or app to clone and show a hiring manager how you would solve the problems with that app to make it better.&lt;/p&gt;
+
+&lt;p&gt;Kevin Colten, Chief Technology Officer and Lead Instructor at Austin Coding Academy, says he looks for “a strict following of coding conventions that can span different coding languages, especially if I’m considering hiring them in a language that isn’t their preferred language.”&lt;/p&gt;
+
+&lt;p&gt;Depending on the type of role and breadth of technologies used, hiring managers often look for the following skills:&lt;/p&gt;
+
+&lt;h3 id=&quot;front-end&quot;&gt;Front-end&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Different DOM manipulation technologies (Document API, jQuery)&lt;/li&gt;
+  &lt;li&gt;JSON and AJAX requests (current with libraries and frameworks with a willingness to continue learning.)&lt;/li&gt;
+  &lt;li&gt;HTML5 and basic understanding of accessibility&lt;/li&gt;
+  &lt;li&gt;CSS feature support and organization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;backend&quot;&gt;Backend&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Model-View-Controller architecture&lt;/li&gt;
+  &lt;li&gt;Basic SQL and NoSQL&lt;/li&gt;
+  &lt;li&gt;RESTful API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While education and experience is important, don’t forget to show off any ways you’ve been self-taught too. Include any repositories built from tutorials, a developer blog, or completed massive open online courses (MOOC).&lt;/p&gt;
+
+&lt;h2 id=&quot;tell-a-story&quot;&gt;Tell a story&lt;/h2&gt;
+
+&lt;p&gt;The idea of ‘telling a story’ has become ubiquitous in fields like design and branding. We hear it so often it’s nearly lost its meaning. Yet, there is some fundamental importance to telling a story—it’s something we as humans connect with at our core. Displaying your skills and abilities through storytelling is the best way to make that connection and display your value. Every story has the same basic elements: characters and conflict. Your portfolio tells the story about you, the character, and your journey to overcome certain challenges through your work.&lt;/p&gt;
+
+&lt;p&gt;“Don’t include sketches and ideation just for the purpose of including artifacts — make sure that they support the story in some way, and demonstrate your creativity in solving the problem,”&lt;a href=&quot;https://medium.com/design-ibm/design-portfolio-tips-and-tricks-from-a-hiring-manager-9bc42e7fcde7&quot;&gt; says Gord Davidson&lt;/a&gt;, Senior Design and Studio Manager at IBM Studios Toronto. Davidson has many years of experience working with and hiring designers. He believes every portfolio should follow this storytelling theme—each in its own way, of course.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-for-the-hiring-manager&quot;&gt;Design for the hiring manager&lt;/h2&gt;
+
+&lt;p&gt;Examine your portfolio from the hiring manager’s perspective. They are sorting through dozens of portfolios in a sitting—what will make yours stand out? Do you create a cohesive, memorable experience for the hiring manager, from your cover letter to resume to portfolio? Do you answer questions the hiring manager is asking?&lt;/p&gt;
+
+&lt;p&gt;Before you adding something to your portfolio, ask, “Does this contribute to the story I’m telling about my work skills and experience?” If the information you’re adding doesn’t highlight your work, skills, and who you are as an employee, leave it out. Don’t do have the worst portfolio ever. Be sure your portfolio does address these questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What problem did you solve?&lt;/li&gt;
+  &lt;li&gt;How did you get to the final product?&lt;/li&gt;
+  &lt;li&gt;Which tools did you use to get there?&lt;/li&gt;
+  &lt;li&gt;What challenges did you overcome to reach this?&lt;/li&gt;
+  &lt;li&gt;What purpose did this serve for the client?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Try to answer these questions in your portfolio in a concise manner. Keep the projects you display relevant to the role you’re applying. It needs to be memorable, but it also needs to be something they actually look at. You can always have more project examples or case studies available during the interview.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-wait-to-get-paid&quot;&gt;Don’t wait to get paid&lt;/h2&gt;
+
+&lt;p&gt;If you’re a new developer, you’re probably wondering: how do I show off my experience when I haven’t had a job yet? Remember, no one has to pay you to do a job for it to go in your portfolio. Show off your own work you’ve done for fun, do some pro bono work for a local organization, or show off your skills by ‘cloning’ an existing project. You don’t have to reinvent the wheel and come up with your own startup idea. Try redesigning a major brand’s website as if they hired you. Rebuild an existing app, but make it better by showing how you would solve some specific problem areas in the app and make the program flow better. Don’t be afraid to experiment! This shows hiring managers you can identify and solve problems creatively even without a project brief.&lt;/p&gt;
+
+&lt;p&gt;At ACA, we &lt;a href=&quot;https://austincodingacademy.com/courses/&quot;&gt;build a project every day of class&lt;/a&gt;, and some bigger projects may take several sessions. From there, students can show off their work online or continue building on a project. We also provide our students with updates about freelance and volunteer opportunities to work on projects to help build out their portfolios.&lt;/p&gt;
+
+&lt;h2 id=&quot;apply-early-and-often&quot;&gt;Apply early and often&lt;/h2&gt;
+
+&lt;p&gt;Often, the biggest hurdle in landing that first job is not the portfolio, experience, or interview skills—it’s the lack of applications job seekers submit. They also tend to delay too long before submitting those applications.&lt;/p&gt;
+
+&lt;p&gt;“We cannot stress enough that it’s the sheer number of applications [students] submit to different companies that will get them hired. It should not be uncommon to have 50+ applications out at a time because it surely isn’t uncommon to only hear back from five percent,” says Kevin. “It sounds stressful, but most anxiety experienced by students is the rush they feel to have their portfolio perfect when they should be more concerned with getting those first interviews, knowing that they may even bomb the first few.”&lt;/p&gt;
+
+&lt;p&gt;In the tech industry, the interviewing process can take several weeks for one company. You may not hear back from many companies for a while or at all. The more you jobs you apply for, and the earlier you start the process, the better your chances of getting that interview, and ultimately, the job.&lt;/p&gt;</content><author><name></name></author><summary type="html">If you’re just starting out on your path as a developer without much or any experience to show off in your portfolio, the road ahead may seem daunting. So what makes a great developer portfolio? Let’s take a closer look at the important elements that make up a solid developer portfolio that will land you an interview.</summary></entry><entry><title type="html">4 Keys to Making a Tech Career Switch without Technical Experience</title><link href="https://austincodingacademy.com/blog/career-development/4-keys-to-making-a-career-switch-into-tech-without-technical-experience/" rel="alternate" type="text/html" title="4 Keys to Making a Tech Career Switch without Technical Experience" /><published>2019-02-21T19:58:04+00:00</published><updated>2019-02-21T19:58:04+00:00</updated><id>https://austincodingacademy.com/blog/career-development/4-keys-to-making-a-career-switch-into-tech-without-technical-experience</id><content type="html" xml:base="https://austincodingacademy.com/blog/career-development/4-keys-to-making-a-career-switch-into-tech-without-technical-experience/">&lt;p&gt;The tech industry seems to be holding steady as the place to be for job seekers and people looking to switch careers these days. Between the high job security, exciting work culture, competitive pay, and (in some cases) extremely generous and creative perks, tech companies make an excellent case for learning to code.&lt;/p&gt;
 
 &lt;p&gt;However, one common concern we hear at Austin Coding Academy from students and prospective students is this: “I work in the service industry and I don’t have any technical job experience. Will anyone even hire me?”&lt;/p&gt;
 
