@@ -48,6 +48,15 @@ fields:
   description: "/assets/images/name.png"
   config:
     required: true
+- type: tag_list
+  name: redirect_from
+  label: Redirect From
+- type: text
+  name: permalink
+  label: Permalink
+  description: "/blog/title-here-with-dashes-nothing-special"
+  config:
+    required: true
 pages:
 - _posts/what-to-do-when-you-want-to-change-careers.md
 - _posts/7-characteristics-of-a-successful-web-developer.md
