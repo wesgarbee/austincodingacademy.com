@@ -58,6 +58,7 @@ fields:
   config:
     required: true
 pages:
+- _posts/2019-02-15-what-will-you-make-as-a-full-time-web-developer-1.md
 - _posts/how-to-get-a-job-as-a-web-developer-in-austin-s-tech-industry.md
 - _posts/2019-01-23-coming-spring-2019-lubbock-coding-academy.md
 - _posts/2019-01-23-q-a-with-our-new-job-placement-course-director.md
@@ -72,6 +73,5 @@ pages:
 - _posts/2019-02-21-4-keys-to-making-a-career-switch-into-tech-without-technical-experience.md
 - _posts/2019-02-21-why-you-should-make-time-to-learn-to-code.md
 - _posts/2019-02-06-how-to-stop-multi-tasking-and-develop-focus-1.md
-- _posts/2019-02-15-what-will-you-make-as-a-full-time-web-developer-1.md
 - _posts/2019-01-23-aca-partners-with-austin-public-library-to-teach-teens-to-code.md
 - _posts/2019-01-23-new-in-2019-unlimited-tutoring-for-all-students.md
