@@ -1,7 +1,7 @@
 ---
 title: Unlimited Tutoring for Austin Coding Academy Students
 created_at: 2019-01-03 06:00:00 +0000
-updated_at: 2019-01-23 06:00:00 +0000
+updated_at: 2019-01-23 00:00:00 -0600
 date: 2019-01-23 18:53:25 +0000
 layout: post
 description: Austin Coding Academy is redefining the coding bootcamp experience with
@@ -12,7 +12,7 @@ categories:
 excerpt: At Austin Coding Academy, we take pride in providing our students an unmatched
   level of support and community. One element of student support that we're most proud
   of having available in 2019 is unlimited tutoring for all ACA students.
-img: x
+img: "/assets/images/coding-tutoring-session.jpg"
 redirect_from: []
 permalink: "/blog/announcements/unlimited-tutoring-for-austin-coding-academy-students"
 
