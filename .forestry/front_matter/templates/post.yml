@@ -58,7 +58,7 @@ fields:
   config:
     required: true
 pages:
-- _posts/four-exciting-projects-that-will-inspire-you-to-learn-javascript-right-now-1.md
+- _posts/2019-02-24-four-exciting-projects-that-will-inspire-you-to-learn-javascript-right-now-1.md
 - _posts/2019-01-23-highlight-six-aca-grads-land-jobs.md
 - _posts/2019-01-23-what-s-the-difference-between-javascript-and-c.md
 - _posts/what-to-do-when-you-want-to-change-careers.md
