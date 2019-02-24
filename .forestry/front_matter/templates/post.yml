@@ -58,6 +58,7 @@ fields:
   config:
     required: true
 pages:
+- _posts/how-to-get-a-job-as-a-web-developer-in-austin-s-tech-industry.md
 - _posts/2019-01-23-coming-spring-2019-lubbock-coding-academy.md
 - _posts/2019-01-23-q-a-with-our-new-job-placement-course-director.md
 - _posts/2019-02-24-four-exciting-projects-that-will-inspire-you-to-learn-javascript-right-now-1.md
@@ -65,7 +66,6 @@ pages:
 - _posts/2019-01-23-what-s-the-difference-between-javascript-and-c.md
 - _posts/what-to-do-when-you-want-to-change-careers.md
 - _posts/7-characteristics-of-a-successful-web-developer.md
-- _posts/how-to-get-a-job-as-a-web-developer-in-austin-s-tech-industry.md
 - _posts/5-signs-you-need-to-make-a-career-change.md
 - _posts/2019-02-21-what-are-companies-looking-for-in-a-web-developer-s-portfolio.md
 - _posts/5-tips-to-help-you-learn-coding-faster.md
