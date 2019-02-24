@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://austincodingacademy.com/amp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://austincodingacademy.com/amp/" rel="alternate" type="text/html" /><updated>2019-02-24T20:10:15+00:00</updated><id>https://austincodingacademy.com/amp/feed.xml</id><entry><title type="html">What to Do When You Want to Change Careers</title><link href="https://austincodingacademy.com/amp/blog/career-development/what-to-do-when-you-want-to-change-careers/" rel="alternate" type="text/html" title="What to Do When You Want to Change Careers" /><published>2019-02-21T21:32:48+00:00</published><updated>2019-02-21T21:32:48+00:00</updated><id>https://austincodingacademy.com/amp/blog/career-development/what-to-do-when-you-want-to-change-careers</id><content type="html" xml:base="https://austincodingacademy.com/amp/blog/career-development/what-to-do-when-you-want-to-change-careers/">&lt;p&gt;The thought of changing careers is exciting to many people at one time or another. With your goals and ambitions no longer constrained by your old career path, &lt;a href=&quot;https://blog.austincodingacademy.com/5-signs-you-need-to-change-careers&quot;&gt;a career change&lt;/a&gt; may open up your potential and let you surprise yourself. Pursuing a career you’re excited about can also provide a stronger sense of purpose and passion for life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://austincodingacademy.com/amp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://austincodingacademy.com/amp/" rel="alternate" type="text/html" /><updated>2019-02-24T20:17:15+00:00</updated><id>https://austincodingacademy.com/amp/feed.xml</id><entry><title type="html">Four Exciting Projects That Will Inspire You to Learn JavaScript Right Now</title><link href="https://austincodingacademy.com/amp/blog/javascript/four-exciting-projects-that-will-inspire-you-to-learn-javascript" rel="alternate" type="text/html" title="Four Exciting Projects That Will Inspire You to Learn JavaScript Right Now" /><published>2019-02-24T20:14:48+00:00</published><updated>2019-02-24T20:14:48+00:00</updated><id>https://austincodingacademy.com/amp/blog/javascript/four-exciting-projects-that-will-inspire-you-to-learn-javascript-right-now-1</id><content type="html" xml:base="https://austincodingacademy.com/amp/blog/javascript/four-exciting-projects-that-will-inspire-you-to-learn-javascript">&lt;p&gt;JavaScript (JS) is the &lt;a href=&quot;https://stackify.com/popular-programming-languages-2018/&quot;&gt;most commonly-used coding language&lt;/a&gt; for developers in 2019. JS earned its popularity because it’s easy to learn, dynamically typed, fast to run, and works across most platforms, including all modern web browsers. Coders &lt;a href=&quot;https://blog.austincodingacademy.com/which-aca-track-is-right-for-you&quot;&gt;from all different specialties&lt;/a&gt; will need a basic understanding of JavaScript to complete most designs—especially front-end designs.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at some impressive projects that might inspire you to want to start learning JavaScript now:&lt;/p&gt;
+
+&lt;h2 id=&quot;smart-technology-and-talking-plants&quot;&gt;Smart technology and talking plants&lt;/h2&gt;
+
+&lt;p&gt;Smart technology has the potential to improve our healthcare, revolutionize our workplaces, and customize our homes. As this trend in smart tech progresses, we may find ourselves living in a sci-fi utopia.&lt;/p&gt;
+
+&lt;p&gt;One appealing smart-tech project uses JavaScript code to create &lt;a href=&quot;http://www.webondevices.com/the-arduino-plant-with-javascript-voice-recognition/&quot;&gt;smart plants&lt;/a&gt;. Smart plants use sensors to detect soil moisture, temperature, and other factors important for plant health. Advanced voice recognition software and text-to-voice capability makes it easy to interact with smart plants and simplifies the plant maintenance process.&lt;/p&gt;
+
+&lt;p&gt;Smart technology is an emerging field that will soon change our lives. Learning JavaScript could provide you with the skill set necessary to land a job in this new and exciting industry.&lt;/p&gt;
+
+&lt;h2 id=&quot;drones-that-fly-themselves&quot;&gt;Drones that fly themselves&lt;/h2&gt;
+
+&lt;p&gt;Drones aren’t just fun; they’re useful, with applications in aerial photography, package deliveries, safety inspections, and even &lt;a href=&quot;https://www.virgin.com/virgin-unite/business-innovation/humanitarian-sky-drones-disaster-response&quot;&gt;humanitarian efforts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Using JavaScript, it’s possible to build self-driving drones. Lines of JS code can command drones to auto-hover, perform barrel rolls, and run into red objects like a matador would do with a bull.&lt;/p&gt;
+
+&lt;p&gt;At events like &lt;a href=&quot;http://dronegames.co/&quot;&gt;Drone Games&lt;/a&gt; and &lt;a href=&quot;http://www.nodecopter.com/&quot;&gt;Nodecopter&lt;/a&gt;, programmers use software to see who can make the coolest drone. They often reuse open-source code snippets to program features like voice to text, face recognition, and advanced directional 3D movement.&lt;/p&gt;
+
+&lt;p&gt;While these projects are fun, they can also help you land a job. The drone job market will &lt;a href=&quot;http://www.govtech.com/budget-finance/Drone-Related-Job-Growth-to-Outpace-Predictions.html&quot;&gt;grow faster than predicted&lt;/a&gt;, and some universities even offer &lt;a href=&quot;http://www.govtech.com/budget-finance/Drone-Related-Job-Growth-to-Outpace-Predictions.html&quot;&gt;degrees in drone technology&lt;/a&gt;. Industries that will use drones include the military, real estate, construction, filmmaking, and even &lt;a href=&quot;https://uavcoach.com/uav-jobs/#guide-5&quot;&gt;insurance&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Learn more about what it takes to get into the drone industry by reading &lt;a href=&quot;https://jobs.ieee.org/jobs/content/Drones-are-a-big-job-opportunity-but-for-new-engin-2017-02-10&quot;&gt;this article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;mobile-apps-that-dominate-industries&quot;&gt;Mobile apps that dominate industries&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://brainhub.eu/blog/famous-apps-built-with-react-native/&quot;&gt;Many apps&lt;/a&gt; use the JS react native framework, but the Facebook ads app is a particularly shining example. &lt;a href=&quot;https://code.fb.com/developer-tools/react-native-for-android-how-we-built-the-first-cross-platform-react-native-app/&quot;&gt;Facebook uses JS&lt;/a&gt; to calculate complex variables like ad formats, time zones, dates, and currencies. Many of these features are accessible through an &lt;a href=&quot;https://medium.mybridge.co/amazing-javascript-projects-for-the-past-year-v-2018-2f114c6bd70a&quot;&gt;open source JavaScript code&lt;/a&gt;. The react native framework is also perfect for creating an integrated user interface.&lt;/p&gt;
+
+&lt;p&gt;When tech giants like Facebook use JS, it shows that the language is not limited to small app projects. In fact, &lt;a href=&quot;https://www.telerik.com/blogs/5-benefits-of-reactjs-to-brighten-a-cloudy-day&quot;&gt;JavaScript has key advantages&lt;/a&gt; that make it perfect for projects of any size. Learning JS can help developers build projects at any scale—big or small.&lt;/p&gt;
+
+&lt;h2 id=&quot;websites-to-inspire-action&quot;&gt;Websites to inspire action&lt;/h2&gt;
+
+&lt;p&gt;Website design skills are growing in demand. Companies spend a lot of time and money trying to drive traffic to their website. Designers who can convert that traffic into paying customers are especially competitive in the job market.&lt;/p&gt;
+
+&lt;p&gt;JavaScript is the perfect tool for building &lt;a href=&quot;http://webdesignerwall.com/trends/30-truly-interactive-websites-built-css-javascript&quot;&gt;stunning websites.&lt;/a&gt; The code is fast, and object manipulation makes it possible to create amazing interactive designs.&lt;/p&gt;
+
+&lt;p&gt;Learning JavaScript will prepare you for a &lt;a href=&quot;https://blog.austincodingacademy.com/what-will-you-make-as-a-full-time-developer&quot;&gt;lucrative career&lt;/a&gt;, but you don’t have to wait until after graduation to get started. Working on side projects is a great way to hone your skills and build up your &lt;a href=&quot;https://blog.austincodingacademy.com/what-are-hiring-managers-looking-for-in-a-developers-portfolio&quot;&gt;developer’s portfolio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here are some amazing websites to inspire your next web-design project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://windowwonderland.withgoogle.com/&quot;&gt;Window Wonderland&lt;/a&gt;: This website puts you right in the middle of New York City’s holiday shopping experience.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cavalierchallenge.com/&quot;&gt;Cavalier Challenge&lt;/a&gt;: This online game immerses you in a experience right from the get-go.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://airview.blueair.com/&quot;&gt;Air View&lt;/a&gt;: Air View is an innovative way to visualize abstract air quality data to make it feel “real.”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.keyideas.net/&quot;&gt;Key Ideas&lt;/a&gt;: Key Ideas is a film-production agency that uses their website to showcase their unique skills and services.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are some ACA students who made projects with JavaScript to improve their portfolio and &lt;a href=&quot;https://blog.austincodingacademy.com/5-ways-to-get-a-job-as-a-web-developer-in-austins-tech-industry&quot;&gt;land their first developer job&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.austincodingacademy.com/student-project-highlight-jon-gucciardi&quot;&gt;Jon Gucciardi&lt;/a&gt; built his own messaging app, and landed a job as a software developer for Verizon Wireless.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.austincodingacademy.com/student-project-highlight-greg-devany&quot;&gt;Greg Devany&lt;/a&gt; designed a website and app for helping users find coupons for restaurants. He’s used it as the cornerstone of his resume.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;start-learning-javascript-today&quot;&gt;Start learning JavaScript today&lt;/h2&gt;
+
+&lt;p&gt;These projects highlight why JavaScript is such a desirable skill to have. JavaScript developers get to work on fun tasks while earning &lt;a href=&quot;https://blog.austincodingacademy.com/what-will-you-make-as-a-full-time-developer&quot;&gt;a great salary&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;ACA offers you the fast track to a coding career. You’ll learn the most in-demand skills from teachers who also work full-time as developers. After graduation, you’ll get access to our job placement network to connect you with the position of your dreams.&lt;/p&gt;
+
+&lt;p&gt;Ready to start your path towards a rewarding career? &lt;a href=&quot;https://austincodingacademy.com/apply/&quot;&gt;Apply today.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information, you can &lt;a href=&quot;https://acaappointment.acuityscheduling.com/schedule.php?appointmentType=1406673&quot;&gt;schedule a call with our staff&lt;/a&gt; or &lt;a href=&quot;https://info.austincodingacademy.com/schedule-a-campus-tour&quot;&gt;tour the campus&lt;/a&gt;. &lt;a href=&quot;https://austincodingacademy.com/why/&quot;&gt;Learn how ACA can help&lt;/a&gt; jumpstart your software development career today.&lt;/p&gt;</content><author><name></name></author><summary type="html">JavaScript (JS) is the most commonly-used coding language for developers in 2019. JS earned its popularity because it’s easy to learn, dynamically typed, fast to run, and works across most platforms, including all modern web browsers. Let’s look at some impressive projects that might inspire you to start learning JavaScript now:</summary></entry><entry><title type="html">What to Do When You Want to Change Careers</title><link href="https://austincodingacademy.com/amp/blog/career-development/what-to-do-when-you-want-to-change-careers/" rel="alternate" type="text/html" title="What to Do When You Want to Change Careers" /><published>2019-02-21T21:32:48+00:00</published><updated>2019-02-21T21:32:48+00:00</updated><id>https://austincodingacademy.com/amp/blog/career-development/what-to-do-when-you-want-to-change-careers</id><content type="html" xml:base="https://austincodingacademy.com/amp/blog/career-development/what-to-do-when-you-want-to-change-careers/">&lt;p&gt;The thought of changing careers is exciting to many people at one time or another. With your goals and ambitions no longer constrained by your old career path, &lt;a href=&quot;https://blog.austincodingacademy.com/5-signs-you-need-to-change-careers&quot;&gt;a career change&lt;/a&gt; may open up your potential and let you surprise yourself. Pursuing a career you’re excited about can also provide a stronger sense of purpose and passion for life.&lt;/p&gt;
 
 &lt;p&gt;But that excitement can vanish if you’re afraid changing careers is too risky or complicated. The truth is, you don’t have to take irresponsible risks when exploring new career options. You can even prepare for a career change while &lt;a href=&quot;https://austincodingacademy.com/courses/&quot;&gt;keeping your current job&lt;/a&gt;.&lt;/p&gt;
 
@@ -495,58 +557,4 @@
 
 &lt;p&gt;You will learn the most marketable skills at ACA, because all our teachers are also full-time working developers. After graduation, we’ll make sure you have a smooth transition into your first job by connecting you to our exclusive company job network. With our flexible night classes, you can study while keeping your day job. Best of all, ACA offers some of the most affordable tuition rates in the industry.&lt;/p&gt;
 
-&lt;p&gt;What are you waiting for? If you’re ready to make a positive change in your life by becoming a software developer &lt;a href=&quot;https://austincodingacademy.com/apply/&quot;&gt;apply today&lt;/a&gt;. Our staff will work with you to help you turn your dreams into a reality.&lt;/p&gt;</content><author><name></name></author><summary type="html">Let’s look at how much money you can expect to earn working as a web developer and how experience, education, location, and coding specialty can all impact your salary. Knowing what your skill is worth will help you negotiate better pay as you advance through your career.</summary></entry><entry><title type="html">Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for Aspiring Developers?</title><link href="https://austincodingacademy.com/amp/blog/web-development/computer-science-degree-vs-coding-bootcamp-which-is-the-best-choice-for-aspiring-developers/" rel="alternate" type="text/html" title="Computer Science Degree vs. Coding Bootcamp: Which Is the Best Choice for Aspiring Developers?" /><published>2019-02-11T21:28:54+00:00</published><updated>2019-02-11T21:28:54+00:00</updated><id>https://austincodingacademy.com/amp/blog/web-development/computer-science-degree-vs-coding-bootcamp-which-is-the-best-choice-for-aspiring-developers</id><content type="html" xml:base="https://austincodingacademy.com/amp/blog/web-development/computer-science-degree-vs-coding-bootcamp-which-is-the-best-choice-for-aspiring-developers/">&lt;p&gt;If you’re just starting to consider pursuing a career as a developer, you’ve probably done your fair share of research. What does a typical day look like? How much money can I expect to make? What do I need to learn before I can apply for a position?&lt;/p&gt;
-
-&lt;p&gt;Depending on where you’re looking online or who you’re talking to, you may have picked up that many developers have a bachelor’s degree (or higher) in computer science. In fact, until recently, a CS degree was the most direct path into a career in code.&lt;/p&gt;
-
-&lt;p&gt;But while many people working as developers have degrees in computer science, that doesn’t mean it’s a requirement. In fact, as the cost of college continues to rise with every passing year, there are fewer people who are willing or able to sink that kind of money (or time) into getting a degree. Meanwhile, the demand for capable developers hasn’t slowed down.&lt;/p&gt;
-
-&lt;p&gt;This is where coding schools (like Austin Coding Academy) come into the picture. As more and more developers are needed to build the technology we depend on every day, and with fewer people able to press pause on their lives for four years, coding schools offer a way to get smart, motivated people up to speed so that they can enter the booming tech workforce.&lt;/p&gt;
-
-&lt;p&gt;To get a job as a developer, you could opt for an expensive four-year education— including a bunch of random classes that have nothing to do with learning to code— or you could enroll in a coding school and get your coding career started sooner. Here’s why a coding school (like Austin Coding Academy) is a better option for people who want to become developers:&lt;/p&gt;
-
-&lt;h2 id=&quot;more-life-friendly-schedule&quot;&gt;More Life-Friendly Schedule&lt;/h2&gt;
-
-&lt;p&gt;Students enrolled in a four-year degree program are generally unable to get their education while also holding down a full-time job. Between unusual course schedules, group projects, and study time for a wide variety of courses, most full-time college students can’t also be full-time employees.&lt;/p&gt;
-
-&lt;p&gt;Students in coding schools like Austin Coding Academy, on the other hand, are able to &lt;a href=&quot;https://blog.austincodingacademy.com/how-to-manage-time-effectively-when-you-dont-have-much-of-it&quot;&gt;continue working in their full-time jobs while taking classes in the evenings&lt;/a&gt;. Many ACA students have said that this factor gave them the peace of mind and financial flexibility to take the leap. In just two nights a week, ACA students get the education they need to transition out of their current day jobs and into their dream careers as full-time developers.&lt;/p&gt;
-
-&lt;h2 id=&quot;smaller-class-sizes&quot;&gt;Smaller Class Sizes&lt;/h2&gt;
-
-&lt;p&gt;In most four-year universities, students are required to take numerous prerequisite courses before they get to start learning any of the practical knowledge they’ll need in the working world. These entry-level classes are big money-makers for universities, since they can pack huge groups of students into a lecture hall with one professor. In these environments, there’s often very little (if any) personal interaction between the instructor and most of the students.&lt;/p&gt;
-
-&lt;p&gt;At Austin Coding Academy, there isn’t a long list of prerequisite coursework to do before jumping in; there’s just &lt;em&gt;one&lt;/em&gt; introductory course, and it has a limited class size just like our intermediate and advanced courses. We believe in keeping our classes small— a maximum of 20 students— so that each student is able to get individualized attention when they hit a snag.&lt;/p&gt;
-
-&lt;p&gt;As an added bonus, these smaller class sizes mean our students get a chance to know and build friendships with their classmates. The result is a warm, positive environment where fellow students and instructors serve as a support network to encourage each other when the going gets tough.&lt;/p&gt;
-
-&lt;h2 id=&quot;lower-cost&quot;&gt;Lower Cost&lt;/h2&gt;
-
-&lt;p&gt;The cost of a single year at a four-year university is enough to give most people a serious case of sticker shock. According to The College Board, the average cost of tuition and fees per year ranges from $9,410 at a public school (for in-state students) all the way up to a whopping $32,410 for private schools. These figures don’t include living expenses, either.&lt;/p&gt;
-
-&lt;p&gt;One of our goals at Austin Coding Academy is to provide the best value and return on investment for our students. That means keeping our class prices accessible to hard-working, motivated students, and it’s why we provide &lt;a href=&quot;https://austincodingacademy.com/tuition/&quot;&gt;affordable tuition&lt;/a&gt;— with no opaque fees tacked on top. Our students know exactly what they’re paying for: a high-quality, useful coding education.&lt;/p&gt;
-
-&lt;h2 id=&quot;professors-with-real-world-experience&quot;&gt;Professors with Real-World Experience&lt;/h2&gt;
-
-&lt;p&gt;Academia operates with its own antiquated rules, meaning that most university professors are &lt;em&gt;professors&lt;/em&gt; by trade. When students get a computer science degree, they’re likely to be taught by instructors who haven’t worked as developer recently— if ever.&lt;/p&gt;
-
-&lt;p&gt;In contrast, every Austin Coding Academy instructor is currently employed in the tech industry. Because of this, they’re able to adapt their instruction to reflect what’s happening in the industry at the moment. Even better: their students get to learn from people who know exactly what practical skills they’ll rely on to do their jobs every day.&lt;/p&gt;
-
-&lt;h2 id=&quot;commitment-to-getting-you-a-job&quot;&gt;Commitment to Getting You a Job&lt;/h2&gt;
-
-&lt;p&gt;At the end of a four-year college education, students are rewarded with a diploma that proves they’ve taken the required coursework to graduate. This piece of paper may or may not help them get a job in their chosen field.&lt;/p&gt;
-
-&lt;p&gt;At the end of an ACA education, sure, there’s a certificate. But more importantly, our students leave with a professional network, an impressive portfolio demonstrating their new skills, and the support of our well-connected staff to help them find a job as a developer shortly after graduation.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.austincodingacademy.com/get-to-know-aca-graduate-stephanie-singler&quot;&gt;&lt;strong&gt;Recent ACA graduate Stephanie had multiple job offers within a month of graduation— listen to her experience in her own words.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;At Austin Coding Academy, we’re committed to providing the best possible return on our students’ investments. When students enroll at ACA to get on the path to their dream jobs, we’re with them every step of the way— from the first class through to a new career (and beyond).&lt;/p&gt;
-
-&lt;p&gt;That’s why we make it a priority to help our graduates find high-paying jobs in the tech industry as soon as they finish their ACA coursework. We’re able to do this through the connections our former students, instructors, and other staff maintain with movers and shakers (and hiring managers) all over the tech industry in Austin. Our former students are currently working as JavaScript developers, full stack developers, QA engineers, and project managers, to name a few.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-aca-the-right-fit-for-you&quot;&gt;Is ACA the Right Fit for You?&lt;/h2&gt;
-
-&lt;p&gt;If you’re ready to make a career change to get into a challenging, exciting, dynamic role in the tech sector, it’s important to remember that a computer science degree is not the only way to get there. An Austin Coding Academy education can get you the same results in less time, for less money, and without the risk involved in quitting your full-time job to enroll in school. Our knowledgeable and supportive staff will ensure that your coursework reflects what’s needed in the real world right now, so you can be sure that you’ve got the most in-demand skills in the job market.&lt;/p&gt;
-
-&lt;p&gt;If you’d like to learn more, &lt;a href=&quot;https://info.austincodingacademy.com/get-a-free-course-guide&quot;&gt;download our course guide&lt;/a&gt; and/or contact us today— we’d be happy to answer any of your questions or schedule time to give you an in-person tour of either of our campuses. Not living in Austin? We’ve got you! &lt;a href=&quot;https://blog.austincodingacademy.com/why-acas-remote-classroom-is-a-better-choice&quot;&gt;Our remote classes&lt;/a&gt; provide the same quality instruction you’d get in person.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://austincodingacademy.com/apply/&quot;&gt;&lt;strong&gt;Ready to take the next step toward your dream career? Our next session starts August 20. Apply here.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">If you’re just starting to consider pursuing a career as a developer, you’ve probably done your fair share of research. What does a typical day look like? How much money can I expect to make? What do I need to learn before I can apply for a position?</summary></entry></feed>
+&lt;p&gt;What are you waiting for? If you’re ready to make a positive change in your life by becoming a software developer &lt;a href=&quot;https://austincodingacademy.com/apply/&quot;&gt;apply today&lt;/a&gt;. Our staff will work with you to help you turn your dreams into a reality.&lt;/p&gt;</content><author><name></name></author><summary type="html">Let’s look at how much money you can expect to earn working as a web developer and how experience, education, location, and coding specialty can all impact your salary. Knowing what your skill is worth will help you negotiate better pay as you advance through your career.</summary></entry></feed>
