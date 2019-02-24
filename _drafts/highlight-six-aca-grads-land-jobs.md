@@ -24,11 +24,11 @@ Here are six of our graduates who have landed or have already started in full-ti
 
 ### [**Israel Hernandez**](https://www.linkedin.com/in/israel-hernandez-b076b3159/)
 
-**Israel graduated from ACA's C#/.NET track in June. He now works as a Junior Developer with** [**Saxony Partners**](https://saxonypartners.com/welcome/)**, a Management & Digital Consultancy Firm in Dallas, TX.**
+Israel graduated from ACA's C#/.NET track in June. He now works as a Junior Developer with [Saxony Partners](https://saxonypartners.com/welcome/), a Management & Digital Consultancy Firm in Dallas, TX.
 
 ### [**Laurie Hansson**](https://www.linkedin.com/in/lauren-hansson/)
 
-**Laurie is currently enrolled in ACA's Full Stack Javascript track, and is set to graduate from the program in the coming weeks. She currently works as a User Experience and Interface Design Intern at** [**The Riverbend Church**](http://www.riverbend.com/)**.**
+Laurie is currently enrolled in ACA's Full Stack Javascript track, and is set to graduate from the program in the coming weeks. She currently works as a User Experience and Interface Design Intern at [The Riverbend Church](http://www.riverbend.com/).
 
 ### [**Matt Huntsberry**](https://www.linkedin.com/in/mmhuntsberry/)
 
@@ -36,11 +36,11 @@ Matt graduated from the Full Stack Javascript track at ACA in early 2018. After 
 
 ### [**Michael Samara**](https://www.linkedin.com/in/michael-samara-95483584/)
 
-**Michael finished the Full Stack Javascript track in October of this year. He recently landed a full-time developer role.**
+Here are six of our graduates who have landed or have already started in full-time developer roles in recent months! We couldn't be more proud of the hard work that they've put in to get to this point. Check them out:
 
-### [**Nathan Simmons**](https://www.linkedin.com/in/nathanhbsimmons/)
+[**Nathan Simmons**](https://www.linkedin.com/in/nathanhbsimmons/)
 
-**Nathan graduated from the Full Stack Javascript track with ACA in July of 2018. During November he accepted a position as an Associate Software Engineer with** [**Malauzai Software**](https://www.malauzai.com/)**.**
+Nathan graduated from the Full Stack Javascript track with ACA in July of 2018. During November he accepted a position as an Associate Software Engineer with [Malauzai Software](https://www.malauzai.com/).
 
 ### **Paul Mathis**
 
