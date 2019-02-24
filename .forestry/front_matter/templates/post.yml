@@ -58,7 +58,7 @@ fields:
   config:
     required: true
 pages:
-- _posts/coming-spring-2019-lubbock-coding-academy.md
+- _posts/2019-01-23-coming-spring-2019-lubbock-coding-academy.md
 - _posts/2019-01-23-q-a-with-our-new-job-placement-course-director.md
 - _posts/2019-02-24-four-exciting-projects-that-will-inspire-you-to-learn-javascript-right-now-1.md
 - _posts/2019-01-23-highlight-six-aca-grads-land-jobs.md
