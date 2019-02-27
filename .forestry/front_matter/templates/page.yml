@@ -28,3 +28,6 @@ fields:
 - type: text
   name: color
   label: color
+- type: tag_list
+  name: redirect_from
+  label: Redirect From
