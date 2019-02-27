@@ -29,3 +29,5 @@ fields:
   name: redirect_from
   label: Redirect From
   default: []
+pages:
+- apply.html
