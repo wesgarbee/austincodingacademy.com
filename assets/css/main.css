@@ -125,19 +125,29 @@ body {
 /* HERO IMAGES */
 
 #hero-index {
-  background-image: url("/assets/images/header-index.png");
+  background-image: url("/assets/images/header-index.jpg");
 }
 
 #hero-csharp {
-  background-image: url("/assets/images/header-csharp.png");
+  background-image: url("/assets/images/header-csharp.jpg");
 }
 
 #hero-financing {
-  background-image: url("/assets/images/header-financing.png");
+  background-image: url("/assets/images/header-financing.jpg");
 }
 
 #hero-js {
-  background-image: url("/assets/images/header-javascript.png");
+  background-image: url("/assets/images/header-javascript.jpg");
+}
+
+#hero-blog {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('/assets/images/4SGM0882-c.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* CUSTOM MARGINS */
@@ -321,20 +331,11 @@ amp-selector.tabpanels [role=tabpanel][selected] {
   color: #77838f;
 }
 
-.center-form {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .send-button {
   height: 50px;
   width: 100%;
   background-color: #2d2f77;
   border-radius: 3px;
-}
-
-.center-form .send-button {
-  max-width: 500px;
 }
 
 .floating-button {
@@ -360,4 +361,10 @@ div:not(.form-columns-1) .hs-form-field:not(.hs-form-field:first-child) {
 .card-deck .card {
   min-width: 260px;
   max-width: 345px;
+}
+
+.lightbox {
+  background: rgba(0,0,0,.9);
+  width: 100%;
+  height: 100%;
 }

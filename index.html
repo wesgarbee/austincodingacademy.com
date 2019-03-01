@@ -1,14 +1,14 @@
 ---
 layout: default
 permalink: "/"
-color: transparent
 title: Austin Coding Academy | Learn to Code, Change Your Life
+hero: index
 description: At Austin Coding Academy, we fit learning to code into your life with
   a flexible &amp; affordable array of options, all taught by current industry professionals.
   Don’t wait - embark on a new career today!
-
+redirect_from: []
 ---
-<div id="hero-index" class="hero">
+<div id="hero-{{ page.hero }}" class="hero">
   <div class="py-11 container">
     <div class="col-md-8 pl-0">
       <div class="my-11"></div>
@@ -19,8 +19,39 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
         Part-time coding classes taught by full-time developers here in Austin, TX
       </p>
       <div class="d-flex justify-content-center justify-content-md-start">
-        <a class="btn btn-outline-light btn-round mr-2 flex-1" href="tel:5128278498">
-          Call Us Now
+        <button
+          class="btn btn-outline-light btn-round mr-2 flex-1 d-sm-none"
+          on="tap:call-us">
+          Call for More Info
+        </button>
+        <amp-lightbox
+          id="call-us"
+          class="lightbox"
+          layout="nodisplay"
+          scrollable
+          on="tap:call-us.close">
+          <div class="mt-5 pt-5 d-flex mx-auto flex-column align-items-center">
+            <a
+              class="my-5 btn btn-light btn-round mr-2 flex-1 d-sm-none"
+              href="https://app.acuityscheduling.com/schedule.php?owner=11951420&appointmentType=1406673"
+              target="_blank">
+              Schedule a Q&A
+            </a>
+            <h4 class="text-white border-top border-bottom">
+              OR
+            </h4>
+            <a
+              class="my-5 btn btn-light btn-round mr-2 flex-1 d-sm-none"
+              href="tel:5128278498">
+              Call Us Now!
+            </a>
+          </div>
+        </amp-lightbox>
+        <a
+          class="btn btn-outline-light btn-round mr-2 flex-1 d-none d-sm-block"
+          href="https://app.acuityscheduling.com/schedule.php?owner=11951420&appointmentType=1406673"
+          target="_blank">
+          Schedule a Q&A
         </a>
         {% include_relative partials/btn-apply.html class='flex-1'%}
       </div>
@@ -35,42 +66,45 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
 
   <!-- begin tabs -->
 
-  <amp-selector class="tabs-with-flex"
+  <amp-selector
+    class="tabs-with-flex"
     role="tablist">
-    <div id="tab1"
+    <div
+      id="tab1"
       role="tab"
       class="tab-link"
       aria-controls="tabpanel1"
       option
-      selected>Night Classes</div>
-    <div id="tabpanel1"
+      selected>
+      Flexible<span class="d-none d-sm-inline">&nbsp;</span><span class="d-sm-none"><br/></span>Schedule
+    </div>
+    <div
+      id="tabpanel1"
       role="tabpanel"
       aria-labelledby="tab1"
     >
       <!-- Mockup Block -->
-      <div class="row justify-content-lg-between align-items-lg-center">
+      <div class="row justify-content-lg-between align-items-lg-start">
         <div class="col-md mb-9 mb-lg-0">
           <!-- Info -->
           <div class="mb-5">
-            <h3 class="h4 display-6">You can keep your day job</h3>
-            <p class="size-20">
-              Unlike many coding bootcamps, which require full-time commitment
-              and are hugely expensive, we go at a more steady pace offering
-              part-time, in-person classes twice a week.
-            </p>
+            <h3 class="h4 display-6">Keep Your Day Job While You Make a Career Change</h3>
+            <p class="size-20">&#8226; Part-time classes meet twice a week in the evenings, so learning to code fits your schedule</p>
+            <p class="size-20">&#8226; Project-based, flipped classroom gives you real-world practice</p>
+            <p class="size-20">&#8226; Unlimited tutoring gives you the option to book one-on-one help as you need it</p>
             {% include_relative partials/btn-apply.html class="btn-wide" %}
           </div>
           <!-- End Info -->
         </div>
 
         <div class="d-none d-md-block col-md position-relative">
-          <div class="pl-md-9">
+          <div>
             <amp-img
               width="444px"
               height="333px"
               layout="responsive"
               class="img-fluid shadow rounded"
-              src="/assets/images/tab-dayjob.png"
+              src="/assets/images/tab-dayjob.jpg"
               alt="Night Classes"
             ></amp-img>
           </div>
@@ -78,39 +112,41 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
       </div>
       <!-- End Mockup Block -->
     </div>
-    <div id="tab2"
+    <div
+      id="tab2"
       role="tab"
       class="tab-link"
       aria-controls="tabpanel2"
-      option>Innovative Curriculum</div>
-    <div id="tabpanel2"
+      option>
+      Affordable<span class="d-none d-sm-inline">&nbsp;</span><span class="d-sm-none"><br/></span>Tuition
+    </div>
+    <div
+      id="tabpanel2"
       role="tabpanel"
       aria-labelledby="tab2"
     >
       <!-- Mockup Block -->
-      <div class="row justify-content-lg-between align-items-lg-center">
+      <div class="row justify-content-lg-between align-items-lg-start">
         <div class="col-md mb-9 mb-lg-0">
           <!-- Info -->
           <div class="mb-5">
-            <h3 class="h4 display-6">We Help Keep You Relevant</h3>
-            <p class="size-20">
-              Our classes are taught by industry professionals currently working
-              in the field and our curriculum is updated on a regular basis so
-              you're always learning the most cutting-edge skills.
-            </p>
+            <h3 class="h4 display-6">We Work with our Students to Make Tuition Manageable</h3>
+            <p class="size-20">&#8226; Pay course-by-course or for the entire program</p>
+            <p class="size-20">&#8226; Finance your tuition through <a href="https://austincodingacademy.skills.fund/">Skills Fund</a>, our primary financing partner</p>
+            <p class="size-20">&#8226; Talk with our admissions team about tuition options</p>
             {% include_relative partials/btn-apply.html class="btn-wide" %}
           </div>
           <!-- End Info -->
         </div>
 
         <div class="d-none d-md-block col-md position-relative">
-          <div class="pl-md-9">
+          <div>
             <amp-img
               width="444px"
               height="333px"
               layout="responsive"
               class="img-fluid shadow-sm rounded"
-              src="/assets/images/tab-curriculum.png"
+              src="/assets/images/tab-curriculum.jpg"
               alt="Innovative Curriculum"
             ></amp-img>
           </div>
@@ -118,45 +154,45 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
       </div>
       <!-- End Mockup Block -->
     </div>
-    <div id="tab3"
+    <div
+      id="tab3"
       role="tab"
       class="tab-link"
       aria-controls="tabpanel3"
-      option>Job Placement</div>
-    <div id="tabpanel3"
+      option>
+      Job<span class="d-none d-sm-inline">&nbsp;</span><span class="d-sm-none"><br/></span>Placement
+    </div>
+    <div
+      id="tabpanel3"
       role="tabpanel"
       aria-labelledby="tab3"
     >
       <!-- Mockup Block -->
-      <div class="row justify-content-lg-between align-items-lg-center">
+      <div class="row justify-content-lg-between align-items-lg-start">
         <div class="col-md mb-9 mb-lg-0">
           <!-- Info -->
           <div class="mb-5">
-            <h3 class="h4 display-6">Job Placement Assistance</h3>
-            <p class="size-20">
-              We are committed to helping you get a job. We’ll show you how to
-              craft your resume, set up networking events, introduce you to
-              potential employers, and technical interviews.
-            </p>
+            <h3 class="h4 display-6">You’ll Learn Skills That Will Get You a Job</h3>
+            <p class="size-20">&#8226; Learn from instructors who are professional web developers and work with what they’re teaching you, every day</p>
+            <p class="size-20">&#8226; Build portfolio projects as you learn the skills for which Austin companies are hiring</p>
+            <p class="size-20">&#8226; Practice technical interviews, build your resume, and get expert feedback and more in our Job Placement Course</p>
             {% include_relative partials/btn-apply.html class="btn-wide" %}
           </div>
           <!-- End Info -->
         </div>
 
         <div class="d-none d-md-block col-md position-relative">
-          <div class="pl-md-9">
+          <div>
             <amp-img
               width="444px"
               height="333px"
               layout="responsive"
               class="img-fluid shadow-sm rounded"
-              src="/assets/images/tab-jobplacement.png"
+              src="/assets/images/tab-jobplacement.jpg"
               alt="Job Placement"
             ></amp-img>
           </div>
 
-          <!-- SVG Component -->
-          <!-- End SVG Component -->
         </div>
       </div>
       <!-- End Mockup Block -->
@@ -177,14 +213,7 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
       <!-- Card -->
       <div class="card-body p-6">
         <div class="u-avatar mx-auto mb-4">
-          <amp-img
-            width="240px"
-            height="200px"
-            layout="responsive"
-            class="img-fluid rounded"
-            src="/assets/images//icon-javascript.png"
-            alt="JavaScript"
-          ></amp-img>
+          <i class="fab fa-js-square fa-4x"></i>
         </div>
         <div class="mb-4">
           <h4 class="h6 mb-1 size-31">Full-Stack JavaScript</h4>
@@ -194,7 +223,7 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
           </p>
         </div>
         <a
-          class="btn stock-blue-button text-white hover-scale-button"
+          class="btn stock-blue-button text-white"
           href="/javascript/"
           >Learn More</a
         >
@@ -206,14 +235,7 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
       <!-- Card -->
       <div class="card-body p-6">
         <div class="u-avatar mx-auto mb-4">
-          <amp-img
-            width="240px"
-            height="200px"
-            layout="responsive"
-            class="img-fluid rounded"
-            src="/assets/images//icon-csharp.png"
-            alt="C# .NET"
-          ></amp-img>
+          <i class="fas fa-hashtag fa-4x"></i>
         </div>
         <div class="mb-4">
           <h4 class="h6 mb-1 size-31">C# and .NET</h4>
@@ -224,7 +246,7 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
           </p>
         </div>
         <a
-          class="btn stock-blue-button text-white hover-scale-button"
+          class="btn stock-blue-button text-white"
           href="/csharp"
           >Learn More</a
         >
@@ -254,7 +276,7 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
             height="450"
             layout="responsive"
             class="img-fluid w-100 rounded"
-            src="/assets/images/instructor-danawen.jpeg"
+            src="/assets/images/instructor-danawen.jpg"
             alt="Dana Wen"
           ></amp-img>
         </div>
@@ -279,7 +301,7 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
               height="450"
               layout="responsive"
               class="img-fluid w-100 rounded"
-              src="/assets/images/instructor-juanrodriguez.jpeg"
+              src="/assets/images/instructor-juanrodriguez.jpg"
               alt="Juan Rodriguez"
             ></amp-img>
           </div>
@@ -304,7 +326,7 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
             height="450"
             layout="responsive"
             class="img-fluid w-100 rounded"
-            src="/assets/images/instructor-danferguson.jpeg"
+            src="/assets/images/instructor-danferguson.jpg"
             alt="Dan Ferguson"
           ></amp-img>
         </div>
@@ -467,13 +489,16 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
   {% include_relative partials/btn-apply.html class="btn-wide" %}
 </section>
 
-<section class="mb-10 container">
+<section class="mb-10 container d-flex flex-column justify-content-center">
+
   <h2 class="font-family-alt font-weight-bold text-center display-5">
     Contact Us
   </h2>
   <p class="section-text text-center mb-4">
     Whether you have questions or you would just<br />
-    like to say hello, contact us.
+    like to say hello, let us know.
   </p>
+
   {% include_relative partials/contact-form.html %}
+
 </section>
