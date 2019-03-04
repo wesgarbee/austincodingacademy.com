@@ -58,6 +58,7 @@ fields:
   config:
     required: true
 pages:
+- _posts/the-benefits-of-an-in-person-coding-bootcamp-vs-online-classes.md
 - _posts/2019-02-21-why-you-should-make-time-to-learn-to-code.md
 - _posts/2019-02-21-5-tips-to-help-you-learn-coding-faster.md
 - _posts/2019-02-21-5-signs-you-need-to-make-a-career-change.md
