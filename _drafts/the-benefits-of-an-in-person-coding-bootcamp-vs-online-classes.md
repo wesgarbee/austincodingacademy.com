@@ -14,19 +14,25 @@ permalink: "/blog/web-development/the-benefits-of-an-in-person-coding-bootcamp-v
 date: 2019-03-04 15:22:15 -0600
 
 ---
-With the rise of coding bootcamps as a pathway into the world of tech, deciding on the right education for you can seem overwhelming. One of the most important decisions to make is whether you want to attend an in-person class or an online bootcamp. While both options provide their own advantages, in-person classes tend to provide better outcomes for students for a variety of reasons. 
+With the rise of coding bootcamps as a pathway into the world of tech, deciding on the right education for you can seem overwhelming. One of the most important decisions to make is whether you want to attend an in-person class or an online bootcamp. While both options provide their own advantages, in-person classes tend to provide better outcomes for students for a variety of reasons.
 
 ## The Breakdown of In-Person vs. Online Coding Classes
 
 Choosing between in-person and online bootcamps is an important decision that will shape your coding skill set. Your learning experience will influence both your opinion of the coding education service and coding in general. A bad programming learning experience can turn people away from coding altogether. Here are the benefits of in-person coding bootcamps compared to online classes:
 
-### Support, Collaboration, and Practical Application are the Keys to Learning to Code
+### Support and Practical Application are the Keys to Learning to Code
 
-While online classes may be more accessible in certain cases, they lack essential elements that are important when learning a new skill. Most important among these are **support, collaboration, and application.** When learning a skill that is as involved as coding, it's crucial to have all of these readily available.
+While online classes may be more accessible in certain cases, they lack essential elements that are important when learning a new skill. Most important among these are **support and application.** When learning a skill that is as involved as coding, it's crucial to have these readily available.
 
-These elements are difficult to simulate in an online class, but they are a key component of the in-person experience. Having the ability to build alongside peers and get feedback from instructors can accelerate and improve the learning process, eliminate frustration, and allow for the exchange of ideas. Not to mention, you'll leave with the added benefit of having built a network of peers and friends that can help you in your future career.
+These elements are difficult to simulate in an online class, but they are a key component of the in-person experience. Having the ability to get live feedback from instructors and tutors can accelerate and improve the learning process, eliminate frustration, and allow for the exchange of ideas. Not to mention, you'll leave with the added benefit of having built a network of peers and friends that can help you in your future career.
 
 For this reason, in-person coding schools typically provide better outcomes for students. These schools teach invaluable skills in web development and can help you land a tech job using the coding knowledge they impart to their students. The pace is generally slower than online coding schools and helps the learning sink in and stick rather than rushing through material only to forget most of it shortly afterward.
+
+### Peer Collaboration
+
+Another important advantage that in-person coding classes have over online options are that they allow for real life collaboration with peers in a classroom setting. Similar to having the support of instructors and tutors, being able to collaborate and build with peers improves the learning process significantly.
+
+Building 
 
 ### The Pace of Online Coding Bootcamps Can Leave You Behind
 
@@ -34,7 +40,7 @@ Many online or immersive coding bootcamps sell the idea that you can learn to be
 
 In-person classes, on the other hand, generally tend to be slower than online coding schools. A less frantic pace allows for exploration and helps the learning of a vast amount of resources sink in and stick rather than rushing through material only to forget most of it shortly afterward.
 
-## **Pros and Cons, Online vs. On-Site Coding Bootcamps**
+## **Summary: Pros and Cons, Online vs. On-Site Coding Bootcamps**
 
 Both options have some pros and cons to weigh out before making a decision. Depending on what your learning style is, in-person coding courses could be the right fit for you. In-person coding bootcamps have some strong advantages that play off of student’s strengths and shore up their weaknesses more effectively than their online counterparts.
 
@@ -48,23 +54,7 @@ Overall the superior structuring and level of student interaction make in-person
 
 Make the right choice for your learning experience and opt for an in-person bootcamp like Austin Coding Academy.
 
-### **The Value of Web Development and Software Engineering Skills**
-
-Today’s market values technical skills like web development and software engineering. These two highly technical areas are specialties that require dedicated learning to master with any efficacy. Part of the reason more people who have coding experience from in-person bootcamps are being hired is to help fill the shortage of professionals with these skills. This is especially true of software engineering jobs.
-
-### **The Importance of Coding Bootcamps Is Increasing**
-
-Coding bootcamps have been growing more important over recent years and are making a difference for job applicants without Computer Science degrees. As coding classes from bootcamps gain more respect and credibility in the eyes of employers, more opportunities open up for their students.
-
-The effectiveness and desirability of coding bootcamps have grown so much that traditional colleges and universities are beginning to dabble in them. More significant still, the education, and training earned through coding bootcamps are starting to gain traction as [replacements for computer science degrees](https://venturebeat.com/2015/11/08/coding-bootcamps-are-replacing-computer-science-degrees/).
-
-While replacing computer science degrees with these alternative learning sources would have been traditionally thought of as inconceivable, times are changing.
-
-### The Challenge: Finding the right Coding Bootcamp for You
-
-Now that the superiority of in-person coding classes has been established, all that’s left for you to do is find the right coding bootcamp for you. You’ll be looking for many of the same qualities that are covered here, solid curriculum structures, hands-on experience, teamwork, access to instructors, mock training interviews, and portfolio projects.
-
-### **Make Your Coding Learning Experience a Good One, with Austin Coding Academy**
+## **Make Your Coding Learning Experience a Good One, with Austin Coding Academy**
 
 At Austin Coding Academy we make sure that students get the best possible in-person experience, through three key components:
 
