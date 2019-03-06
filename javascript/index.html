@@ -204,13 +204,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <amp-sidebar
   on="tap:sidebar.open"
+  role="navigation"
   scrollable
   id="sidebar"
   class="m-0 bg-dark d-flex d-md-none row flex-column align-items-start justify-content-start"
   layout="nodisplay"
   side="right">
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <div class="ml-5 text-white">
           Courses &amp; Tuition
@@ -240,7 +245,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <!-- htmllint preset="none" -->
         
@@ -253,7 +262,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <!-- htmllint preset="none" -->
         
@@ -266,7 +279,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <!-- htmllint preset="none" -->
         
@@ -279,7 +296,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <!-- htmllint preset="none" -->
         
@@ -330,7 +351,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Logo -->
 
         <!-- Responsive Toggle Button -->
-        <button class="display-5 text-white btn btn-link d-flex d-md-none" on="tap:sidebar.open">
+        <button
+          class="display-5 text-white btn btn-link d-flex d-md-none"
+          on="tap:sidebar.open"
+          role="button">
           <i class="fas fa-bars"></i>
         </button>
         <!-- End Responsive Toggle Button -->
@@ -1110,7 +1134,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </p>
 
     
-<a href="#" class="btn text-white bg-purple mx-auto" on="tap:contact-lightbox">
+<a href="#"
+  class="btn text-white bg-purple mx-auto"
+  on="tap:contact-lightbox"
+  role="button">
   Contact us &nbsp;<i class="far fa-envelope"></i>
 </a>
 
@@ -1120,6 +1147,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   layout="nodisplay"
   scrollable
   on="tap:contact-lightbox.close"
+  tabindex="20"
+  role="dialog"
 >
   <div class="container px-5 pt-5 text-white">
 
@@ -1130,7 +1159,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   target="_top"
   class="mb-4"
 >
-  <div class="form-container" on="tap:contact-lightbox.open">
+  <div
+    class="form-container"
+    on="tap:contact-lightbox.open"
+    role="form"
+    tabindex="19">
     <input name="lifecyclestage" type="hidden" value="lead">
     <input name="hs_lead_status" type="hidden" value="NEW">
     <input name="page_name" type="hidden" value="Learn JavaScript | JavaScript Classes with Austin Coding Academy">
@@ -1155,6 +1188,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             data-msg="Please enter your first name."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="1"
           />
         </div>
       </div>
@@ -1178,6 +1212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             data-msg="Please enter your last name."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="2"
           />
         </div>
       </div>
@@ -1201,6 +1236,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             data-msg="Please enter a valid email address."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="3"
           />
         </div>
       </div>
@@ -1224,6 +1260,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             data-msg="Please enter your phone number."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="4"
           />
         </div>
       </div>
@@ -1247,11 +1284,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             data-msg="Please enter a message."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="5"
           ></textarea>
         </div>
       </div>
       <!-- End Input -->
-
       <!-- Input -->
 <!-- htmllint preset="none" -->
 
@@ -1327,6 +1364,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <button
           type="submit"
           class="text-white btn send-button transition-3d-hover mb-3"
+          tabindex="18"
         >
           Send
         </button>
@@ -1346,6 +1384,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   </div>
 </amp-lightbox>
+
 
 
   </div>

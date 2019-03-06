@@ -198,13 +198,18 @@
 
 <amp-sidebar
   on="tap:sidebar.open"
+  role="navigation"
   scrollable
   id="sidebar"
   class="m-0 bg-dark d-flex d-md-none row flex-column align-items-start justify-content-start"
   layout="nodisplay"
   side="right">
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <div class="ml-5 text-white">
           Courses &amp; Tuition
@@ -234,7 +239,11 @@
     </div>
 
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <!-- htmllint preset="none" -->
         
@@ -247,7 +256,11 @@
     </div>
 
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <!-- htmllint preset="none" -->
         
@@ -260,7 +273,11 @@
     </div>
 
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <!-- htmllint preset="none" -->
         
@@ -273,7 +290,11 @@
     </div>
 
   
-    <div class="mt-5 text-left" on="tap:sidebar.open">
+    <div
+      class="mt-5 text-left"
+      on="tap:sidebar.open"
+      role="dialog"
+      tabindex="20">
       
         <!-- htmllint preset="none" -->
         
@@ -324,7 +345,10 @@
         <!-- End Logo -->
 
         <!-- Responsive Toggle Button -->
-        <button class="display-5 text-white btn btn-link d-flex d-md-none" on="tap:sidebar.open">
+        <button
+          class="display-5 text-white btn btn-link d-flex d-md-none"
+          on="tap:sidebar.open"
+          role="button">
           <i class="fas fa-bars"></i>
         </button>
         <!-- End Responsive Toggle Button -->
@@ -446,7 +470,9 @@
       <div class="d-flex justify-content-center justify-content-md-start">
         <button
           class="btn btn-outline-light btn-round mr-2 flex-1 d-sm-none"
-          on="tap:call-us">
+          on="tap:call-us"
+          role="button"
+          tabindex="1">
           Call for More Info
         </button>
         <amp-lightbox
@@ -454,14 +480,17 @@
           class="lightbox"
           layout="nodisplay"
           scrollable
-          on="tap:call-us.close">
+          on="tap:call-us.close"
+          role="dialog"
+          tabindex="20">
           <div class="mt-5 pt-5 d-flex mx-auto flex-column align-items-center">
             <!-- htmllint preset="none" -->
             <a
               class="my-5 btn btn-light btn-round mr-2 flex-1 d-sm-none"
               href="https://app.acuityscheduling.com/schedule.php?owner=11951420&appointmentType=1406673"
               target="_blank"
-              rel="noopener">
+              rel="noopener"
+              tabindex="1">
               Schedule a Q&amp;A
             </a>
             <!-- htmllint preset="$previous" -->
@@ -470,7 +499,8 @@
             </h4>
             <a
               class="my-5 btn btn-light btn-round mr-2 flex-1 d-sm-none"
-              href="tel:5128278498">
+              href="tel:5128278498"
+              tabindex="2">
               Call Us Now!
             </a>
           </div>
@@ -1166,7 +1196,10 @@
   </p>
 
   
-<a href="#" class="btn text-white bg-purple mx-auto" on="tap:contact-lightbox">
+<a href="#"
+  class="btn text-white bg-purple mx-auto"
+  on="tap:contact-lightbox"
+  role="button">
   Contact us &nbsp;<i class="far fa-envelope"></i>
 </a>
 
@@ -1176,6 +1209,8 @@
   layout="nodisplay"
   scrollable
   on="tap:contact-lightbox.close"
+  tabindex="20"
+  role="dialog"
 >
   <div class="container px-5 pt-5 text-white">
 
@@ -1186,7 +1221,11 @@
   target="_top"
   class="mb-4"
 >
-  <div class="form-container" on="tap:contact-lightbox.open">
+  <div
+    class="form-container"
+    on="tap:contact-lightbox.open"
+    role="form"
+    tabindex="19">
     <input name="lifecyclestage" type="hidden" value="lead">
     <input name="hs_lead_status" type="hidden" value="NEW">
     <input name="page_name" type="hidden" value="Austin Coding Academy | Learn to Code, Change Your Life">
@@ -1211,6 +1250,7 @@
             data-msg="Please enter your first name."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="1"
           />
         </div>
       </div>
@@ -1234,6 +1274,7 @@
             data-msg="Please enter your last name."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="2"
           />
         </div>
       </div>
@@ -1257,6 +1298,7 @@
             data-msg="Please enter a valid email address."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="3"
           />
         </div>
       </div>
@@ -1280,6 +1322,7 @@
             data-msg="Please enter your phone number."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="4"
           />
         </div>
       </div>
@@ -1303,11 +1346,11 @@
             data-msg="Please enter a message."
             data-error-class="u-has-error"
             data-success-class="u-has-success"
+            tabindex="5"
           ></textarea>
         </div>
       </div>
       <!-- End Input -->
-
       <!-- Input -->
 <!-- htmllint preset="none" -->
 
@@ -1383,6 +1426,7 @@
         <button
           type="submit"
           class="text-white btn send-button transition-3d-hover mb-3"
+          tabindex="18"
         >
           Send
         </button>
@@ -1402,6 +1446,7 @@
 
   </div>
 </amp-lightbox>
+
 
 
 </section>
