@@ -69,7 +69,7 @@ Overall the superior structuring and level of student interaction make in-person
 
 If you are considering joining a coding bootcamp, consider Austin Coding Academy.
 
-## **Make Your Coding Learning Experience a Good One, with Austin Coding Academy**
+## **Make Your Experience Learning to Code a Good One: Austin Coding Academy**
 
 At Austin Coding Academy we make sure that students get the best possible in-person experience, through three key components:
 
@@ -79,4 +79,4 @@ At Austin Coding Academy we make sure that students get the best possible in-per
 
 3\. Job placement is our number one priority. We have a Director of Job Placement who works with each of our students individually, and a 4-week Job Placement course to make sure that every single graduate is supported as they launch their new career.
 
-**_Check out_** [**_Austin Coding Academy_**](https://austincodingacademy.com/)**_, your leader in teaching programming and code. Their coding bootcamp is one of the finest available, and you can rest assured knowing you’ll learn a lot from your time there._**
+**_Interested in learning to code with Austin Coding Academy? You can learn about the courses we have to offer, our job placement strategy, and more at_** [**_austincodingacademy.com_**](https://austincodingacademy.com/)**_. If you're ready to get started, you can fill out a quick, 5-minute application and_** [**_apply now_**](https://austincodingacademy.com/apply/)**_._**
