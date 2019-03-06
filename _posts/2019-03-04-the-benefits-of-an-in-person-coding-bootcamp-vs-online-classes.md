@@ -21,7 +21,7 @@ date: 2019-03-04 21:22:15 +0000
 ---
 With the rise of coding bootcamps as a pathway into the world of tech, there are a lot of options to choose from. One of the most important decisions to make is whether you want to attend an in-person class or an online bootcamp. While both options provide their own advantages, in-person classes tend to provide better outcomes for students for a variety of reasons.
 
-## The Breakdown of In-Person vs. Online Coding Classes
+## **The Breakdown of In-Person vs. Online Coding Classes**
 
 Choosing between in-person and online bootcamps is an important decision that will shape your coding skill set. Your learning experience will influence both your opinion of the coding education service and coding in general. A bad programming learning experience can turn people away from coding altogether. Here are the benefits of in-person coding bootcamps compared to online classes:
 
