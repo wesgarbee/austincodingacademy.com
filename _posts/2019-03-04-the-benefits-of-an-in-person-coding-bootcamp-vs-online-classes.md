@@ -55,9 +55,11 @@ Finally, many online or immersive coding bootcamps sell the idea that you can le
 
 Think about any new skill that you've ever learned. Would you say that you're willing to be a professional in it after a few weeks of study? Probably not. Web development, like anything else, is a skill that can be learned and developed. While you may be able to pick up some information over the course of a few weeks, real learning and competency comes from practice, application, and repetition.
 
+![](/assets/images/javascript-html-css-books.jpg)
+
 Compared to these programs, in-person classes generally tend to be slower than online coding schools. A less frantic pace allows for exploration and helps the learning of a vast amount of resources sink in and stick rather than rushing through material only to forget most of it shortly afterward. For this reason, in-person grads tend to be more well-rounded and job-ready candidates after graduation.
 
-## **Summary: In-Person Coding Bootcamps** 
+## **Summary: In-Person Coding Bootcamps**
 
 Both options have some pros and cons to weigh out before choosing. Depending on what your learning style is, in-person coding courses could be the right fit for you. In-person coding bootcamps have some strong advantages that play off of student’s strengths and shore up their weaknesses more effectively than their online counterparts.
 
