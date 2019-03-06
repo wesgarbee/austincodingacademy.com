@@ -24,7 +24,9 @@ redirect_from: []
       <div class="d-flex justify-content-center justify-content-md-start">
         <button
           class="btn btn-outline-light btn-round mr-2 flex-1 d-sm-none"
-          on="tap:call-us">
+          on="tap:call-us"
+          role="button"
+          tabindex="1">
           Call for More Info
         </button>
         <amp-lightbox
@@ -32,14 +34,17 @@ redirect_from: []
           class="lightbox"
           layout="nodisplay"
           scrollable
-          on="tap:call-us.close">
+          on="tap:call-us.close"
+          role="dialog"
+          tabindex="20">
           <div class="mt-5 pt-5 d-flex mx-auto flex-column align-items-center">
             <!-- htmllint preset="none" -->
             <a
               class="my-5 btn btn-light btn-round mr-2 flex-1 d-sm-none"
               href="https://app.acuityscheduling.com/schedule.php?owner=11951420&appointmentType=1406673"
               target="_blank"
-              rel="noopener">
+              rel="noopener"
+              tabindex="1">
               Schedule a Q&amp;A
             </a>
             <!-- htmllint preset="$previous" -->
@@ -48,7 +53,8 @@ redirect_from: []
             </h4>
             <a
               class="my-5 btn btn-light btn-round mr-2 flex-1 d-sm-none"
-              href="tel:5128278498">
+              href="tel:5128278498"
+              tabindex="2">
               Call Us Now!
             </a>
           </div>
