@@ -3,7 +3,6 @@ layout: resume
 categories: [ ]
 
 name:
-course:
 jobtitle:
 
 location:

@@ -3,7 +3,6 @@ layout: resume
 categories: [ grad ]
 
 fullname: Kevin Colten
-course:
 jobtitle: Chief Technology Officer, Web Developer
 
 location: Austin, TX
