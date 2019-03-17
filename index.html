@@ -8,32 +8,73 @@ description: At Austin Coding Academy, we fit learning to code into your life wi
   a flexible &amp; affordable array of options, all taught by current industry professionals.
   Don’t wait - embark on a new career today!
 redirect_from: []
+next-class-start: April 2nd
+tabs:
+  - label-1: Flexible
+    label-2: Schedule
+    title: Keep Your Day Job While You Make a Career Change
+    bullets:
+      - In-person, part-time classes meet twice a week in the evenings, so learning to code fits your schedule
+      - Project-based, flipped classroom gives you real-world practice
+      - Unlimited tutoring gives you the option to book one-on-one help as you need it
+    image: tab-dayjob.jpg
+    image-alt: Night Classes
+    tab-number: 1
+    selected: selected
+  - label-1: Affordable
+    label-2: Tuition
+    title: We Work with Our Students to Make Tuition Manageable
+    bullets:
+      - Pay course-by-course or for the entire program
+      - Finance your tuition through <a href="https://austincodingacademy.skills.fund/">Skills Fund</a>, our primary financing partner
+      - Talk with our admissions team about tuition options
+    image: tab-curriculum.jpg
+    image-alt: Innovative Curriculum
+    tab-number: 2
+  - label-1: Job
+    label-2: Placement
+    title: You’ll Learn Skills That Will Get You a Job
+    bullets:
+      - Learn from instructors who are professional web developers and work with what they’re teaching you, every day
+      - Build portfolio projects as you learn the skills for which Austin companies are hiring
+      - Practice technical interviews, build your resume, and get expert feedback and more in our Job Placement Course
+    image: tab-jobplacement.jpg
+    image-alt: Job Placement
+    tab-number: 3
+instructors:
+  - name: Dana Wen
+    linkedin: danawen
+    img: danawen
+    company: ChickTech
+  - name: Juan Rodriguez
+    linkedin: juanrod1
+    img: juanrodriguez
+    company: L7 Informatics
+  - name: Dan Furguson
+    linkedin: furguson-dan
+    img: danferguson
+    company: Tyler Technologies
 logos:
   - width: "100px"
     height: "100px"
     src: "/assets/images/logo-dell.png"
     alt: "Dell"
-
   - width: "118px"
     height: "39px"
     src: "/assets/images/logo-dosh.png"
     alt: "Dosh"
-
   - width: "155px"
     height: "27px"
     src: "/assets/images/logo-flosports.png"
     alt: "Flosports"
-
   - width: "250px"
     height: "100px"
     src: "/assets/images/logo-ibm.png"
     alt: "IBM"
-
   - width: "185px"
     height: "42px"
     src: "/assets/images/logo-mooveit.png"
     alt: "Moove-It"
-
   - width: "179px"
     height: "47px"
     src: "/assets/images/logo-pluralsight.png"
@@ -70,7 +111,7 @@ logos:
           <div class="mt-5 pt-5 d-flex mx-auto flex-column align-items-center">
             <!-- htmllint preset="none" -->
             <a
-              class="my-5 btn btn-light btn-round mr-2 flex-1 d-sm-none"
+              class="my-5 btn btn-light btn-round flex-1 d-sm-none"
               href="https://app.acuityscheduling.com/schedule.php?owner=11951420&appointmentType=1406673"
               target="_blank"
               rel="noopener"
@@ -82,7 +123,7 @@ logos:
               OR
             </h4>
             <a
-              class="my-5 btn btn-light btn-round mr-2 flex-1 d-sm-none"
+              class="my-5 btn btn-light btn-round flex-1 d-sm-none"
               href="tel:5128278498"
               tabindex="2">
               Call Us Now!
@@ -112,34 +153,36 @@ logos:
   <amp-selector
     class="tabs-with-flex"
     role="tablist">
+    {% for tab in page.tabs %}
+    <!-- htmllint preset="none" -->
     <div
-      id="tab1"
+      id="tab{{ tab.tab-number }}"
       role="tab"
       class="tab-link"
-      aria-controls="tabpanel1"
+      aria-controls="tabpanel{{ tab.tab-number }}"
       option
-      selected>
-      Flexible<span class="d-none d-sm-inline">&nbsp;</span><span class="d-sm-none"><br/></span>Schedule
+      {{ tab.selected }}>
+      {{ tab.label-1}}<span class="d-none d-sm-inline">&nbsp;</span><span class="d-sm-none"><br/></span>{{ tab.label-2 }}
     </div>
     <div
-      id="tabpanel1"
+      id="tabpanel{{ tab.tab-number }}"
       role="tabpanel"
-      aria-labelledby="tab1"
+      aria-labelledby="tab{{ tab.tab-number }}"
     >
+    <!-- htmllint preset="$previous" -->
       <!-- Mockup Block -->
       <div class="row justify-content-lg-between align-items-lg-start">
         <div class="col-md mb-9 mb-lg-0">
           <!-- Info -->
           <div class="mb-5">
-            <h3 class="h4 display-6">Keep Your Day Job While You Make a Career Change</h3>
-            <p class="size-20">&#8226; In-person, part-time classes meet twice a week in the evenings, so learning to code fits your schedule</p>
-            <p class="size-20">&#8226; Project-based, flipped classroom gives you real-world practice</p>
-            <p class="size-20">&#8226; Unlimited tutoring gives you the option to book one-on-one help as you need it</p>
+            <h3 class="h4 display-6">{{ tab.title }}</h3>
+            {% for bullet in tab.bullets %}
+            <p class="size-20">&#8226; {{ bullet }}</p>
+            {% endfor %}
             {% include_relative partials/btn-apply.html class="btn-wide" %}
           </div>
           <!-- End Info -->
         </div>
-
         <div class="d-none d-md-block col-md position-relative">
           <div>
             <amp-img
@@ -147,99 +190,15 @@ logos:
               height="333px"
               layout="responsive"
               class="img-fluid shadow rounded"
-              src="/assets/images/tab-dayjob.jpg"
-              alt="Night Classes"
+              src="/assets/images/{{ tab.image }}"
+              alt="{{ tab.image-alt }}"
             ></amp-img>
           </div>
         </div>
       </div>
       <!-- End Mockup Block -->
     </div>
-    <div
-      id="tab2"
-      role="tab"
-      class="tab-link"
-      aria-controls="tabpanel2"
-      option>
-      Affordable<span class="d-none d-sm-inline">&nbsp;</span><span class="d-sm-none"><br/></span>Tuition
-    </div>
-    <div
-      id="tabpanel2"
-      role="tabpanel"
-      aria-labelledby="tab2"
-    >
-      <!-- Mockup Block -->
-      <div class="row justify-content-lg-between align-items-lg-start">
-        <div class="col-md mb-9 mb-lg-0">
-          <!-- Info -->
-          <div class="mb-5">
-            <h3 class="h4 display-6">We Work with our Students to Make Tuition Manageable</h3>
-            <p class="size-20">&#8226; Pay course-by-course or for the entire program</p>
-            <p class="size-20">&#8226; Finance your tuition through <a href="https://austincodingacademy.skills.fund/">Skills Fund</a>, our primary financing partner</p>
-            <p class="size-20">&#8226; Talk with our admissions team about tuition options</p>
-            {% include_relative partials/btn-apply.html class="btn-wide" %}
-          </div>
-          <!-- End Info -->
-        </div>
-
-        <div class="d-none d-md-block col-md position-relative">
-          <div>
-            <amp-img
-              width="444px"
-              height="333px"
-              layout="responsive"
-              class="img-fluid shadow-sm rounded"
-              src="/assets/images/tab-curriculum.jpg"
-              alt="Innovative Curriculum"
-            ></amp-img>
-          </div>
-        </div>
-      </div>
-      <!-- End Mockup Block -->
-    </div>
-    <div
-      id="tab3"
-      role="tab"
-      class="tab-link"
-      aria-controls="tabpanel3"
-      option>
-      Job<span class="d-none d-sm-inline">&nbsp;</span><span class="d-sm-none"><br/></span>Placement
-    </div>
-    <div
-      id="tabpanel3"
-      role="tabpanel"
-      aria-labelledby="tab3"
-    >
-      <!-- Mockup Block -->
-      <div class="row justify-content-lg-between align-items-lg-start">
-        <div class="col-md mb-9 mb-lg-0">
-          <!-- Info -->
-          <div class="mb-5">
-            <h3 class="h4 display-6">You’ll Learn Skills That Will Get You a Job</h3>
-            <p class="size-20">&#8226; Learn from instructors who are professional web developers and work with what they’re teaching you, every day</p>
-            <p class="size-20">&#8226; Build portfolio projects as you learn the skills for which Austin companies are hiring</p>
-            <p class="size-20">&#8226; Practice technical interviews, build your resume, and get expert feedback and more in our Job Placement Course</p>
-            {% include_relative partials/btn-apply.html class="btn-wide" %}
-          </div>
-          <!-- End Info -->
-        </div>
-
-        <div class="d-none d-md-block col-md position-relative">
-          <div>
-            <amp-img
-              width="444px"
-              height="333px"
-              layout="responsive"
-              class="img-fluid shadow-sm rounded"
-              src="/assets/images/tab-jobplacement.jpg"
-              alt="Job Placement"
-            ></amp-img>
-          </div>
-
-        </div>
-      </div>
-      <!-- End Mockup Block -->
-    </div>
+    {% endfor %}
   </amp-selector>
   <!-- end tabs -->
 </section>
@@ -318,7 +277,7 @@ logos:
           </p>
         </div>
         <a
-          class="btn stock-blue-button text-white"
+          class="btn btn-wide btn-round bg-purple size-20 text-white"
           href="/javascript/"
           >Learn More</a
         >
@@ -341,7 +300,7 @@ logos:
           </p>
         </div>
         <a
-          class="btn stock-blue-button text-white"
+          class="btn btn-wide btn-round bg-purple size-20 text-white"
           href="/csharp"
           >Learn More</a
         >
@@ -364,6 +323,7 @@ logos:
   <!-- begin instructors -->
   <div class="container">
     <div class="row mw-90 my-0 mx-auto d-flex justify-content-center align-items-end">
+      {% for instructor in page.instructors %}
       <div class="col-12 col-md-4">
         <div>
           <amp-img
@@ -371,73 +331,24 @@ logos:
             height="450"
             layout="responsive"
             class="img-fluid w-100 rounded"
-            src="/assets/images/instructor-danawen.jpg"
-            alt="Dana Wen"
+            src="/assets/images/instructor-{{ instructor.img }}.jpg"
+            alt="{{ instructor.name }}"
           ></amp-img>
         </div>
         <a
-          href="https://www.linkedin.com/in/danawen/"
+          href="https://www.linkedin.com/in/{{ instructor.linkedin }}/"
           target="_blank"
           rel="noopener"
         >
           <div class="card border-0 shadow-sm mt-n6 mx-3">
             <div class="card-body text-center p-4">
-              <h3 class="h6 mb-1">Dana Wen</h3>
-              <p class="font-size-1 mb-0">ChickTech Austin</p>
+              <h3 class="h6 mb-1">{{ instructor.name }}</h3>
+              <p class="font-size-1 mb-0">{{ instructor.company }}</p>
             </div>
           </div>
         </a>
       </div>
-
-      <div class="col-12 col-md-4">
-        <div>
-            <amp-img
-              width="450"
-              height="450"
-              layout="responsive"
-              class="img-fluid w-100 rounded"
-              src="/assets/images/instructor-juanrodriguez.jpg"
-              alt="Juan Rodriguez"
-            ></amp-img>
-          </div>
-        <a
-          href="https://www.linkedin.com/in/juanrod1/"
-          target="_blank"
-          rel="noopener"
-        >
-          <div class="card border-0 shadow-sm mt-n6 mx-3">
-            <div class="card-body text-center p-4">
-              <h3 class="h6 mb-1">Juan Rodriguez</h3>
-              <p class="font-size-1 mb-0">L7 Informatics</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-12 col-md-4">
-        <div>
-          <amp-img
-            width="450"
-            height="450"
-            layout="responsive"
-            class="img-fluid w-100 rounded"
-            src="/assets/images/instructor-danferguson.jpg"
-            alt="Dan Ferguson"
-          ></amp-img>
-        </div>
-        <a
-          href="https://www.linkedin.com/in/ferguson-dan/"
-          target="_blank"
-          rel="noopener"
-        >
-          <div class="card border-0 shadow-sm mt-n6 mx-3">
-            <div class="card-body text-center p-4">
-              <h3 class="h6 mb-1">Dan Ferguson</h3>
-              <p class="font-size-1 mb-0">Tyler Technologies</p>
-            </div>
-          </div>
-        </a>
-      </div>
+      {% endfor %}
     </div>
   </div>
   <!-- end instructors -->
@@ -451,7 +362,7 @@ logos:
   <div class="container">
     <div id="logo-section" class="row d-flex flex-column flex-md-row justify-content-center align-items-center">
       {% for logo in page.logos %}
-      <div class="col-sm-3 col-md-2 company-logo-div">
+      <div class="col-sm-3 col-md-2 company-logo-div d-flex justify-content-center align-items-center">
         <amp-img
           width="{{ logo.width }}"
           height="{{ logo.height }}"
@@ -478,7 +389,7 @@ logos:
   class="mb-10 container justify-content-center d-flex flex-column align-items-center"
 >
   <h2 class="font-family-alt font-weight-bold text-center display-5 mb-5">
-    Next Classes Start April 2nd<br/>
+    Next Classes Start {{ page.next-class-start }}<br/>
   </h2>
   {% include_relative partials/btn-apply.html class="btn-wide" %}
 </section>
