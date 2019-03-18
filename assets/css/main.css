@@ -22,8 +22,8 @@
   visibility: hidden;
 }
 
-body, p {
-  font-family: "open sans", sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
   color: #303133;
 }
 
