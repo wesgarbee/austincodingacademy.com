@@ -46,6 +46,7 @@ jobs:
               git config --global user.email "kevin@austincodingacademy.com"
               git config --global user.name "Kevin Colten"
               yarn deploy
+              sudo apt install rsync
               rsync -a --delete _site/ root@134.209.57.190:/usr/share/nginx/html
               fi
 
