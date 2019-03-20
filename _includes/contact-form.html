@@ -1,6 +1,6 @@
 {% unless page.permalink == "/contact/" %}
 <a href="#"
-  class="btn text-white bg-purple mx-auto"
+  class="btn text-white bg-purple btn-round btn-wide mx-auto"
   on="tap:contact-lightbox"
   role="button">
   Contact us &nbsp;<i class="far fa-envelope"></i>
@@ -155,7 +155,7 @@
       </div>
       <!-- End Input -->
       <div class="col-12 mb-4">
-        {% include_relative partials/referral-question.html %}
+        {% include referral-question.html %}
       </div>
       <!-- htmllint preset="none" -->
       <div class="{% if page.permalink == '/contact/' %} text-center col-sm-12 {% else %} col-sm-6 mb-4 d-flex align-items-end {% endif %}">
