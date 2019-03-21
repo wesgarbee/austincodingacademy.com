@@ -9,15 +9,15 @@ location: Austin, TX
 blurb: 'A life-learner and new technology enthusiast, I work hard at the things I love: programming, teaching, and learning.'
 
 skills:
+  - Node
+  - React
+  - Redux
+  - React Native
   - HTML
   - CSS
   - JS
   - jQuery
   - Backbone.js
-  - React.js
-  - React Native
-  - Redux
-  - Node.js
   - Ruby/Rails
   - PHP/Laravel
   - Python/Django
