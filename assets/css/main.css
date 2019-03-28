@@ -136,13 +136,12 @@ body, p {
   border-color: #2d2f77;
 }
 
-.btn-wide {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .btn-round {
   border-radius: 2rem;
+}
+
+.btn {
+  min-width: 9rem;
 }
 
 .font-family-alt {
@@ -199,9 +198,6 @@ body, p {
   font-size: 1.95rem;
 }
 
-.flex-1 {
-  flex: 1;
-}
 .section-text {
   font-size: 16px;
   color: #7e8697;
@@ -278,7 +274,7 @@ body, p {
 
 .primary-gradient {
   background: linear-gradient(to right, #00b3d1, #7fc89a);
-  color: white;
+  color: #ffffff;
 }
 
 .alt-gradient {
@@ -508,7 +504,7 @@ ul.share-buttons img {
   /* Animation */
   .anim-typewriter{
   animation: typewriter 4s steps(60) 1s 1 normal both,
-            blinkTextCursor 500ms steps(44) infinite normal;
+            blinkTextCursor 1400ms steps(44) infinite normal;
   }
   @keyframes typewriter{
   from{width: 0;}
