@@ -27,4 +27,4 @@ build:
   preview_output_directory: _site
   output_directory: _site
   instant_preview_command: touch _includes/css.html && yarn css && bundle exec jekyll
-    serve --config _config.yml
+    serve --config _config.yml --host 0.0.0.0 --port 8080
