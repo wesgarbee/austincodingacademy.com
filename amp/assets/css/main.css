@@ -128,11 +128,15 @@ body, p {
 }
 
 .bg-pale {
-  background-color: rgba(45,47,119, 0.1);
+  background-color: rgba(45, 47, 119, .1);
 }
 
 .shadow-yellow {
   text-shadow: 2px 2px #f5b02c;
+}
+
+.shadow-dark {
+  box-shadow: 2px 2px 5px rgba(50, 50, 50, .75);
 }
 
 .btn-purple {
