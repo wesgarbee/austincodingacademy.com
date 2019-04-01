@@ -182,6 +182,10 @@ body, p {
   max-width: 22rem;
 }
 
+.pt-7 {
+  padding-top: 7rem;
+}
+
 /* CUSTOM FONT SIZING */
 
 .size-10 {
