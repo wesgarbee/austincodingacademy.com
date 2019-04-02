@@ -83,11 +83,11 @@ education:
 projects:
   - name: Austin Coding Academy
     desc: An accessible, affordable coding school!
-    repo: https://github.com/austincodingacademy
+    url: https://github.com/austincodingacademy
   - name: Campus Manager
     desc: A learning management system built for the modern coding class.
-    repo: https://github.com/austincodingacademy/campus-manager
+    url: https://github.com/austincodingacademy/campus-manager
   - name: YoSQL
     desc: Say YES to SQL! Convert MongoDB databases and nested JSON objects into relational databases
-    repo: https://github.com/kevincolten/yosql
+    url: https://github.com/kevincolten/yosql
 ---

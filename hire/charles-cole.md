@@ -54,10 +54,10 @@ education:
 projects:
   - name: Bloodborne Ally
     desc: A quick, flexible, loot-driven API powered by Slicknode, for experienced Bloodborne players
-    repo: https://github.com/char-cole/bloodborne-ally
+    url: https://github.com/char-cole/bloodborne-ally
   - name: Austin Coding Academy
     desc: An accessible, affordable coding school!
-    repo: https://github.com/austincodingacademy
+    url: https://github.com/austincodingacademy
 
 reviews:
 ---
