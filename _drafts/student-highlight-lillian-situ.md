@@ -4,13 +4,16 @@ layout: post
 title: 'Student Highlight: Lillian Situ'
 description: c
 created_at: 2017-12-19 06:00:00 +0000
-updated_at: 2019-04-02 05:00:00 +0000
+updated_at: 2017-12-19 06:00:00 +0000
 categories:
 - student-highlight
-excerpt: ''
+excerpt: This week we’re putting the spotlight on Lillian Situ. Lillian completed
+  the Full Stack JavaScript program in December 2017 and now she is employed as a
+  Software Engineer at data.world! We asked her to reflect on herself and her time
+  at Austin Coding Academy.
 img: c
 redirect_from: []
-permalink: c
+permalink: "/blog/student-highlight/lillian-situ"
 height: ''
 width: ''
 date: 2019-04-02 14:42:59 +0000
@@ -18,7 +21,7 @@ date: 2019-04-02 14:42:59 +0000
 ---
 ## Just one of our students who has found her dream job!
 
-Every month we like to feature our outstanding students at Austin Coding Academy. ACA’s student body is as diverse as it is interesting and we’d like to give ya’ll the opportunity to get to know them a little better. Our students make Austin Coding Academy the great place that it is.
+Every month we like to feature our outstanding students at Austin Coding Academy. ACA’s student body is as diverse as it is interesting and we’d like to give everyone the opportunity to get to know them a little better. Our students make Austin Coding Academy the great place that it is.
 
 This week we’re putting the spotlight on Lillian Situ. Lillian completed the Full Stack JavaScript program in December 2017 and now she is employed as a Software Engineer at data.world! We asked her to reflect on herself and her time at Austin Coding Academy.
 
@@ -74,5 +77,7 @@ What free time? The learning never stops and coders know no sleep!
 Awesome! Now I have a debugging elephant -- sorry, rubber ducky, you've been replaced.
 
 We love showing off our students, they’re incredible! If you’re one of our students and have a great story, we’d love to hear it.
+
+## Follow in Lillian's Footsteps
 
 If you’re not one of our students, but you’d like to start your own journey, our next class starts soon. We do [tours and class visits](https://info.austincodingacademy.com/schedule-a-campus-tour), so if you’d like to see what ACA is all about, we’d love to have you swing by.
