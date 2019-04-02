@@ -228,9 +228,10 @@ layout: default
                 <!-- Info -->
                 <div class="media mb-5">
                   <div class="media-body">
-                    <h5 class="mb-0 font-weight-bold">{{project.name}}</h5>
+                    <h5 class="mb-0 font-weight-bold">
+                      <a href="{{project.url}}">{{project.name}}</a>
+                    </h5>
                     <h6 class="mb-0">{{project.desc}}</h6>
-                    <a href="{{project.repo}}">{{project.repo}}</a>
                   </div>
                 </div>
                 <!-- End Info -->
