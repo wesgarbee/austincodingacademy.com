@@ -208,6 +208,19 @@ body, p {
   font-size: 20px;
 }
 
+.mobile-display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (max-width: 767.98px) {
+  .mobile-display-5 {
+    font-size: 2rem;
+    line-height: 1.2
+  }
+}
+
 .display-5 {
   font-size: 3rem;
   font-weight: 300;
