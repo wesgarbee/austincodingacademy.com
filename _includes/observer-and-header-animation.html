@@ -1,6 +1,6 @@
 <amp-position-observer
   on="scroll:fill-header-background.seekTo(percent=event.percent)"
-  intersection-ratios="{{ page.intersection-ratios | default: 0 }}"
+  intersection-ratios="0"
   layout="nodisplay">
 </amp-position-observer>
 
@@ -13,11 +13,11 @@
         "selector": "#header-background",
         "keyframes": [{
           "opacity": "0",
-          "offset": 0.05
+          "offset": 0
         },
         {
           "opacity": "1",
-          "offset": 0.1
+          "offset": {{ page.scroll_offset_for_animation | default: 0.05}}
         },
         {
           "opacity": "1",
