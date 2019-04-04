@@ -252,8 +252,9 @@ body, p {
   color: #ffffff;
 }
 
-.hover-shadow-yellow:hover {
-  text-shadow: 1px 1px #f5b02c;
+.hover-white:hover {
+  color: #ffffff;
+  text-shadow: 0 0 3px rgba(255,255,255,.5);
 }
 
 /* HERO IMAGES */
