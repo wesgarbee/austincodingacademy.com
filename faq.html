@@ -155,47 +155,32 @@ categories:
         work.
 
 ---
-<div class="container pt-11">
-
+<div class="container mt-90 py-5">
   {% for category in page.categories %}
-
-    <h2 class="font-family-alt top-84 bottom-48 text-center display-4">
-      {{category[1].title}}
-    </h2>
-
-    <!-- Accordion -->
-    <amp-accordion disable-session-states>
-
-      {% for faq in category[1].faqs %}
-
-        <section class="mb-3">
-
-          <h4 class="bg-light mb-0 px-2 p-1 rounded-top">
-            {{faq.question}}
-          </h4>
-
-          <p class="text-default px-2 py-1 border border-top-0 rounded-bottom">
-            {{faq.answer}}
-          </p>
-
-        </section>
-
-      {% endfor %}
-
-    </amp-accordion>
-
+    <div class="my-10">
+      <h2 class="font-family-alt mb-6 text-center display-4">
+        {{category[1].title}}
+      </h2>
+      <amp-accordion disable-session-states>
+        {% for faq in category[1].faqs %}
+          <section class="mb-3">
+            <h4 class="bg-light mb-0 px-2 p-1 rounded-top">
+              {{faq.question}}
+            </h4>
+            <p class="text-default px-2 py-1 border border-top-0 rounded-bottom">
+              {{faq.answer}}
+            </p>
+          </section>
+        {% endfor %}
+      </amp-accordion>
+    </div>
   {% endfor %}
-
   <section class="my-10">
-
     <h2 class="font-family-alt font-weight-bold text-center display-4 mb-5">
       Still Have Questions?
     </h2>
-
     <div class="d-flex flex-column justify-content-center">
       {% include contact-form.html %}
     </div>
-
   </section>
-
 </div>

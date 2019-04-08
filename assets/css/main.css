@@ -127,13 +127,13 @@ body, p {
   background-color: #7fc89a;
 }
 
-.bg-semi-transparent {
-  background-color: rgba(255, 255, 255, .9);
+.box-highlighted {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15)
 }
 
 .background-logo {
   min-height: 100vh;
-  background-image: url("/assets/images/aca-logo-white-large.png");
+  background-image: url("/assets/images/ACA-logo-white-large.png");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -182,8 +182,8 @@ body, p {
   max-width: 22rem;
 }
 
-.pt-7 {
-  padding-top: 7rem;
+.mt-90 {
+  margin-top: 90px;
 }
 
 /* CUSTOM FONT SIZING */
@@ -206,6 +206,19 @@ body, p {
 
 .size-20 {
   font-size: 20px;
+}
+
+.mobile-display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+@media (max-width: 767.98px) {
+  .mobile-display-5 {
+    font-size: 2rem;
+    line-height: 1.2
+  }
 }
 
 .display-5 {
@@ -235,17 +248,30 @@ body, p {
   opacity: 0;
 }
 
-.nav-item a:hover, #sidebar a:hover, .primary-gradient:hover {
+.nav-item a:hover, #sidebar a:hover, .cta-gradient:hover {
   color: #ffffff;
 }
 
-.hover-shadow-yellow:hover {
-  text-shadow: 1px 1px #f5b02c;
+.hover-white:hover {
+  color: #ffffff;
+  text-shadow: 0 0 3px rgba(255,255,255,.5);
+}
+
+.photo-hover {
+  -webkit-transition: box-shadow .3s, transform .3s; /* Safari */
+  transition: box-shadow .3s, transform .3s;
+}
+
+.photo-hover:hover {
+  box-shadow: 0 0 30px rgba(45,47,119, 0.7);
+  -webkit-transform: scale(1.025); /* Safari */
+  transform: scale(1.025);
 }
 
 /* HERO IMAGES */
 
 .hero {
+  min-height: 95vh;
   background-position: 0 -1px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -260,21 +286,18 @@ body, p {
 }
 
 #hero-csharp {
-  background-image: url("/assets/images/header-csharp.jpg");
-}
-
-#hero-financing {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/images/hero-financing.jpg');
+  background: linear-gradient(rgba(45, 47, 119, 0.7), rgba(127,200,154, 0.7)), url('/assets/images/hero-csharp.jpg');
   background-position: top;
 }
 
 #hero-js {
-  background-image: url("/assets/images/header-javascript.jpg");
+  background: linear-gradient(rgba(45, 47, 119, 0.7), rgba(0,179,209, 0.7)), url('/assets/images/hero-javascript.jpg');
+  background-position: top;
 }
 
 #hero-blog {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/images/hero-blog.jpg');
-  background-position: bottom;
+  background: linear-gradient(rgba(45, 47, 119, 0.8), rgba(45, 47, 119, 0.8)), url('/assets/images/hero-blog.jpg');
+  background-position: center;
 }
 
 #hero-landing {
@@ -298,13 +321,21 @@ body, p {
 
 /* CUSTOM GRADIENTS */
 
-.primary-gradient {
+.cta-gradient {
   background: linear-gradient(to right, #00b3d1, #7fc89a);
   color: #ffffff;
 }
 
-.alt-gradient {
+.js-gradient {
   background: linear-gradient(to right, #2d2f77, #00b3d1);
+}
+
+.csharp-gradient {
+  background: linear-gradient(to right, #2d2f77, #7fc89a);
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #21409a, #2d2f77);
 }
 
 /* CUSTOM BUTTONS */
