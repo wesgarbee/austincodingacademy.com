@@ -19,6 +19,12 @@ width: ''
 date: 2019-04-11 20:29:00 +0000
 
 ---
+[_Luke Stenis_](https://www.linkedin.com/in/ethanstenis/) _graduated from Austin Coding Academy's Full Stack Web Development program in 2016. Upon graduating, Luke landed a role as an "Implementation Engineer" with Austin-based content production company,_ [_Invodo_](https://www.invodo.com/)_. During his time at Invodo, Luke also worked as an instructor at ACA, teaching the 10-week "Intro to Web Development" course._
+
+_Luke currently works in Salt Lake City, Utah, as a "Digital Analytics Implementation Engineer" with_ [_PluralSight_](https://www.pluralsight.com/)_._
+
+***
+
 Looking to break into a web development career? Great decision - the job market is booming here in Austin, and around the country. In fact, there are so many jobs available that it can be overwhelming to know where to start or how to begin.
 
 The technology field is vast, and as a result there are a variety of different career paths you can take to becoming a web developer. While there are many paths to a coding career, those who are successful shared a similar method for landing their first job in web development.
