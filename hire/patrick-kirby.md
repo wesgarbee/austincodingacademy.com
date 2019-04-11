@@ -2,7 +2,7 @@
 layout: resume #don't touch
 categories: [ ] # don't touch
 
-fullname: Kevin Colten
+fullname: Patrick Kirby
 jobtitle: Chief Technology Officer, Web Developer
 
 location: Austin, TX
