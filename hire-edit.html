@@ -10,7 +10,7 @@ description: ""
     {% for page in site.pages %}
       {% if page.layout == 'resume' %}
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 text-center">
-          <a href="https://github.com/AustinCodingAcademy/austincodingacademy.com/edit/preview/{{page.path}}">
+          <a href="https://github.com/AustinCodingAcademy/austincodingacademy.com/edit/preview/{{page.path}}" target="_blank">
             {% unless page.categories contains 'hire' %} 🚧 {% endunless %} Edit This Page {% unless page.categories contains 'hire' %} 🚧 {% endunless %}
           </a>
           <div class="card shadow">
