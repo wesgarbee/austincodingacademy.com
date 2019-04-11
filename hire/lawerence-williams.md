@@ -23,7 +23,7 @@ skills:
   - Git/GitHub
   - REST APIs
   - Data Visualization
- 
+
 
 github: https://github.com/uhuru3
 linkedin: https://www.linkedin.com/in/lawerence-williams/
@@ -48,7 +48,7 @@ workexperience:
     dates: April 2010 - Current
     title: C.E.O. President
     location: Austin, TX
- 
+
 
 education:
   - name: Austin Coding Academy
@@ -62,11 +62,8 @@ education:
     logo: https://pbs.twimg.com/profile_images/897474273501003776/jCs6fCxN_400x400.jpg
 
 projects:
-  - name: Austin Coding Academy
-    desc: An accessible, affordable coding school!
-    url: https://github.com/austincodingacademy
-  - name: Campus Manager
-    desc: A learning management system built for the modern coding class.
-    url: https://github.com/austincodingacademy/campus-manager
-  
+  - name:
+    desc:
+    url:
+
 ---
