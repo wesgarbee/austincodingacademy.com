@@ -23,7 +23,7 @@ width: ''
 ---
 In an age of constant digital distractions, focus may seem like a foreign concept. Websites like Facebook, Reddit, and YouTube give us an endless supply of content that are often more engaging than the tasks we need to accomplish. But focus is crucial for developers; one misplaced character in thousands of lines of code can throw off an entire project.
 
-Unfortunately, once you lose focus, getting it back is a challenge. In fact, studies show that when people get distracted, it can take up to [25 minutes to refocus](http://blog.idonethis.com/distractions-at-work/) on the task they had been working on. If you have five distractions per day, you’re essentially wasting two hours of productivity time. Most of us can’t afford to lose that kind of time when work deadlines are approaching, so here are some actionable tips to help develop focus and get more done at work:
+Unfortunately, once you lose focus, getting it back is a challenge. In fact, studies show that when people get distracted, it can take up to 25 minutes to refocus on the task they had been working on. If you have five distractions per day, you’re essentially wasting two hours of productivity time. Most of us can’t afford to lose that kind of time when work deadlines are approaching, so here are some actionable tips to help develop focus and get more done at work:
 
 ## Do one thing at a time
 
