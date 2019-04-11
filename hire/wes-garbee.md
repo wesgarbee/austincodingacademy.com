@@ -1,12 +1,12 @@
 ---
 layout: resume #don't touch
-categories: [ ] #don't touch
+categories: [ hire ] #don't touch
 
 fullname: Wes Garbee
 jobtitle: Web Developer, Enterprise ISR
 
 location: Austin, TX
-blurb: 'A life-learner and new technology enthusiast, I work hard at the things I love: programming, teaching, and learning. As a software developer of more than six years and a teacher of more than ten, I have combined my teaching experience and passion for coding to help create an accessible, living, and relevant curriculum aimed to open up the tech industry to those determined to break in.'
+blurb: 'A voracious learner of many things. I strive to improve myself everyday; from the most mundane tasks to life long dreams. I have been in IT sales for 8 years. I have a desire to direct my experience in exploring problems and developing solutions into web and software development.'
 
 skills:
   - C#
@@ -33,24 +33,19 @@ phone: (512) 630-6381
 
 workexperience:
   - company: ePlus Technology
-    logo: https://camo.githubusercontent.com/4be240b9d916fff63fd4755771387f2db91ccbea/687474703a2f2f656e2e67726176617461722e636f6d2f75736572696d6167652f3130373337303130302f61303835393431343535363435333631333864666161663037326337623234312e706e673f73697a653d323030
-    dates: August 2015 - Present
-    title: Chief Technology Officer
+    logo: https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/11011718_827783657309250_12763560813304155_n.jpg?_nc_cat=105&_nc_ht=scontent-dfw5-2.xx&oh=1e9883226b8a84b9e6736015314d5ef0&oe=5D47A458
+    dates: July 2011 - Present
+    title: Enterprise ISR
     location: Austin, TX
-  - company: SkillsEngine
-    logo: https://media.licdn.com/dms/image/C510BAQEUfbXLPe7V8Q/company-logo_200_200/0?e=2159024400&v=beta&t=0HX39QiGoWtXrHsmVfM2nUPgyKnGin7zK9j3E0a7BRs
-    dates: October 2017 - March 2019
-    title: Senior Software Engineer
+  - company: JPMorgan Chase Bank
+    logo: https://thumbor.forbes.com/thumbor/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fi.forbesimg.com%2Fmedia%2Flists%2Fcompanies%2Fjpmorgan-chase_416x416.jpg
+    dates: June 2008 - March 2011
+    title: Personal and Business Banker
     location: Austin, TX
-  - company: Anaconda
-    logo: https://dudodiprj2sv7.cloudfront.net/vendor-logos/46/UH/OTQJVNSSIAHO.JPEG
-    dates: June 2015 - January 2017
-    title: Web Developer
-    location: Austin, TX
-  - company: Generation Ready
-    logo: https://pbs.twimg.com/profile_images/715892872839622657/Bn-dtcwD_400x400.jpg
-    dates: November 2013 - June 2015
-    title: Lead Software Engineer + Architect
+  - company: Circuit City
+    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Circuit_City_logo.svg/220px-Circuit_City_logo.svg.png
+    dates: August 2005 - June 2008
+    title: Sales Manager
     location: Austin, TX
 
 education:
