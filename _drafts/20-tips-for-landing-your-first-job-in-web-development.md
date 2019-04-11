@@ -2,7 +2,8 @@
 tags: []
 layout: post
 title: 20 Tips for Landing Your First Job in Web Development
-description: tbd
+description: Landing your first tech job can be daunting. Web developer, and Austin
+  Coding Academy graduate, Luke Stenis, has 20 tips for finding that first job.
 created_at: 2016-09-01 05:00:00 +0000
 updated_at: 2019-04-11 05:00:00 +0000
 categories:
