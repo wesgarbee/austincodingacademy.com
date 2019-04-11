@@ -42,7 +42,7 @@ skills:
 github: https://github.com/kevincolten
 linkedin: https://www.linkedin.com/in/kevincolten
 
-email: kevincolten@gmail.com
+email:
 website: https://kevincolten.com
 workplace: Austin Coding Academy
 phone: (512) 593-2019
