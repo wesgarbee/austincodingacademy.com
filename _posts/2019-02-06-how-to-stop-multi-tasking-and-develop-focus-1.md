@@ -17,6 +17,8 @@ excerpt: In an age of constant digital distractions, focus may seem like a forei
   more done at work.
 redirect_from: []
 permalink: "/blog/career-development/how-to-stop-multi-tasking-and-develop-focus/"
+height: ''
+width: ''
 
 ---
 In an age of constant digital distractions, focus may seem like a foreign concept. Websites like Facebook, Reddit, and YouTube give us an endless supply of content that are often more engaging than the tasks we need to accomplish. But focus is crucial for developers; one misplaced character in thousands of lines of code can throw off an entire project.
@@ -77,6 +79,5 @@ As a developer, it’s important to be efficient at your work. Not only does tha
 
 Looking for even more ways to improve your productivity? Check out these articles:
 
-* [5 tips to master programming faster](https://blog.austincodingacademy.com/5-tips-master-programming-faster)
-* [How the principles of language learning can help you code better](https://blog.austincodingacademy.com/how-the-principles-of-language-learning-can-help-you-code-better)
-* [Sleep habits to make you better at your job](https://blog.austincodingacademy.com/these-sleep-habits-can-make-you-better-at-your-job)
+* [5 Tips to Help You Learn Coding Faster](https://austincodingacademy.com/blog/web-development/5-tips-to-help-you-learn-coding-faster/)
+* [7 Characteristics of a Successful Web Developer](https://austincodingacademy.com/blog/web-development/7-characteristics-of-a-successful-web-developer/)
