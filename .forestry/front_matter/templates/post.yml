@@ -63,6 +63,7 @@ fields:
   name: width
   label: Width
 pages:
+- _posts/20-tips-for-landing-your-first-job-in-web-development.md
 - _posts/2019-03-04-the-benefits-of-an-in-person-coding-bootcamp-vs-online-classes.md
 - _posts/student-highlight-lillian-situ.md
 - _posts/2019-02-06-how-to-stop-multi-tasking-and-develop-focus-1.md
