@@ -62,6 +62,12 @@ fields:
 - type: number
   name: width
   label: Width
+- type: text
+  name: author_name
+  label: Author Name
+- type: text
+  name: author_email
+  label: Author Email
 pages:
 - _posts/2019-02-06-how-to-stop-multi-tasking-and-develop-focus-1.md
 - _posts/2019-04-11-20-tips-for-landing-your-first-job-in-web-development.md
