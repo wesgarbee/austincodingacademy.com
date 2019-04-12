@@ -14,7 +14,7 @@ excerpt: While there are many paths to a coding career, those who are successful
   you, and use these twenty tips for success in the job market.
 img: "/assets/images/conference-room-stock-photo.jpg"
 redirect_from: []
-permalink: "/blog/web-development/20-tips-for-landing-your-first-job-in-web-development"
+permalink: "/blog/web-development/20-tips-for-landing-your-first-job-in-web-development/"
 height: ''
 width: ''
 date: 2019-04-11 20:29:00 +0000
