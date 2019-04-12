@@ -33,7 +33,7 @@ linkedin: https://www.linkedin.com/in/christopher--willis/
 email: willis.christopher.a@gmail.com
 website: BeCurieUs.com
 workplace: Apartment Home Living
-phone: (512) 593-2019
+phone:
 
 workexperience:
   - company: Apartment Home Living/CoStar Group
