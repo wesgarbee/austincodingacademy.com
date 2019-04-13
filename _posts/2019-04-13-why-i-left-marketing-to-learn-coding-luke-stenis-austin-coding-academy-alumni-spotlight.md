@@ -12,7 +12,7 @@ categories:
 - luke-stenis
 excerpt: 'Luke Stenis decided to quit marketing and learn how to code. Ready why,
   and how that decision has changed his life:'
-img: x
+img: "/assets/images/alumni-spotlight-luke-stenis.png"
 redirect_from: []
 permalink: "/blog/alumni-spotlight/luke-stenis/why-i-left-marketing-to-learn-coding/"
 height: ''
