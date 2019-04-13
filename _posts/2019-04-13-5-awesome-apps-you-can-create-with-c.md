@@ -19,6 +19,12 @@ author_email: ethanstenis@gmail.com
 date: 2019-04-13 13:16:59 -0500
 
 ---
+[_Luke Stenis_](https://www.linkedin.com/in/ethanstenis/) _graduated from Austin Coding Academy’s Full Stack Web Development program in 2016. Upon graduating, Luke landed a role as an “Implementation Engineer” with Austin-based content production company,_ [_Invodo_](https://www.invodo.com/)_. During his time at Invodo, Luke also worked as an instructor at ACA, teaching the 10-week “Intro to Web Development” course._
+
+_Luke currently works in Salt Lake City, Utah, as a “Digital Analytics Implementation Engineer” with_ [_PluralSight_](https://www.pluralsight.com/)_._
+
+***
+
 Curious about what the C# programming language can do? Here is a short introduction to C# and five amazing apps you can build with this technology stack.
 
 ## Language in the Key of C#
