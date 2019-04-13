@@ -10,9 +10,9 @@ categories: []
 excerpt: Whether you are looking to advance your career, supplement your skill set,
   or just love to learn, these five websites below offer instant and interactive courses
   to teach you programming languages… for free.
-img: b
+img: "/assets/images/woman-computer-coffee-shop-stock-photo.jpg"
 redirect_from: []
-permalink: "/blog/web-development/5-free-coding-websites-for-beginners"
+permalink: "/blog/web-development/5-free-coding-websites-for-beginners/"
 height: ''
 width: ''
 author_name: Luke Stenis
