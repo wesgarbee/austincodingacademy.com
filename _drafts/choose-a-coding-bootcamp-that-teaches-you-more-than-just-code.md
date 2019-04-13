@@ -22,6 +22,11 @@ author_email: ethanstenis@gmail.com
 date: 2019-04-13 13:57:29 -0500
 
 ---
+[_Luke Stenis_](https://www.linkedin.com/in/ethanstenis/) _graduated from Austin Coding Academy’s Full Stack Web Development program in 2016. Upon graduating, Luke landed a role as an “Implementation Engineer” with Austin-based content production company,_ [_Invodo_](https://www.invodo.com/)_. During his time at Invodo, Luke also worked as an instructor at ACA, teaching the 10-week “Intro to Web Development” course._
+
+_Luke currently works in Salt Lake City, Utah, as a “Digital Analytics Implementation Engineer” with_ [_PluralSight_](https://www.pluralsight.com/)_._
+
+***
 
 I’ve been involved with Austin Coding Academy since its inception many, many moons ago. I’ve taken the coding bootcamp journey both as a student and as an instructor, and I’ve helped class after class of students go from complete novices to completely job-ready in the course of nine months, with varying degrees of success.
 
