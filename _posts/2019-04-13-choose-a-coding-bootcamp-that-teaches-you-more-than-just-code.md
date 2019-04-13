@@ -12,9 +12,9 @@ excerpt: 'Software companies, start-ups, and tech giants aren''t just looking fo
   coders. Junior web developers who are proficient in these three soft skills find
   success and are able to accelerate their coding career faster than even the best
   technical developers:'
-img: x
+img: "/assets/imagescollaboration-stock-photo.jpg"
 redirect_from: []
-permalink: "/blog/web-development/"
+permalink: "/blog/web-development/choose-a-coding-bootcamp-that-teaches-you-more-than-just-code/"
 height: ''
 width: ''
 author_name: Luke Stenis
