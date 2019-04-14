@@ -186,6 +186,10 @@ body, p {
   line-height: 1.2;
 }
 
+.large-icon {
+  font-size: 3rem;
+}
+
 /* HEADER LINKS */
 
 #header-background {

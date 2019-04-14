@@ -27,15 +27,15 @@ title: {{ page.fullname }}
                   {{ page.fullname }}
                 </h5>
                 <div class="card-body p-4 d-flex justify-content-center">
-                  <a href="{{ page.github }}">
-                    <i class="text-default display-5 fab fa-github-square"></i>
-                  </a>
-                  <a href="{{ page.linkedin }}" class="mx-3">
-                    <i class="text-default display-5 fab fa-linkedin"></i>
-                  </a>
-                  <a href="mailto:{{ page.email }}">
-                    <i class="text-default display-5 fas fa-envelope-square"></i>
-                  </a>
+                    <a href="{{ page.github }}" class="large-icon">
+                      <i class="text-default fab fa-github-square"></i>
+                    </a>
+                    <a href="{{ page.linkedin }}" class="large-icon mx-3">
+                      <i class="text-default icon-large fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:{{ page.email }}" class="large-icon">
+                      <i class="text-default fas fa-envelope-square"></i>
+                    </a>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ title: {{ page.fullname }}
 
             <!-- Collections -->
             <ul class="list-inline d-flex justify-content-center align-items-center flex-wrap">
-              {% assign skills = page.skills | slice:1,6 %}
+              {% assign skills = page.skills | slice:1,5 %}
               {% for skill in skills %}
               <li class="list-inline-item mb-3 mb-sm-0 mx-2">
                 <div class="d-flex align-items-center">
