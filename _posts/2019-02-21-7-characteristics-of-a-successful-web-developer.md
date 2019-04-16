@@ -4,8 +4,8 @@ layout: post
 title: 7 Characteristics of a Successful Web Developer
 description: Great code doesn't always make a great web developer. Here are some non-technical
   characteristics we see in strong developers and software engineers.
-created_at: 2018-04-16 00:00:00 -0500
-updated_at: 2019-02-21 00:00:00 -0600
+created_at: 2018-04-16 05:00:00 +0000
+updated_at: 2019-02-21 06:00:00 +0000
 categories:
 - web-development
 excerpt: 'Great code doesn’t always translate into a great hire. While it definitely
@@ -13,9 +13,15 @@ excerpt: 'Great code doesn’t always translate into a great hire. While it defi
   knowledge. Here are seven characteristics common in web developers - other than
   technical skills - who are successful at their job:'
 img: "/assets/images/7-characteristics-of-a-successful-web-developer.png"
-date: 2019-02-21 15:04:26 -0600
+date: 2019-02-21 21:04:26 +0000
 
 ---
+[_Luke Stenis_](https://www.linkedin.com/in/ethanstenis/) _graduated from Austin Coding Academy’s Full Stack Web Development program in 2016. Upon graduating, Luke landed a role as an “Implementation Engineer” with Austin-based content production company,_ [_Invodo_](https://www.invodo.com/)_. During his time at Invodo, Luke also worked as an instructor at ACA, teaching the 10-week “Intro to Web Development” course._
+
+_Luke currently works in Salt Lake City, Utah, as a “Digital Analytics Implementation Engineer” with_ [_PluralSight_](https://www.pluralsight.com/)_._
+
+***
+
 Are there certain characteristics that make you a better web developer than others?
 
 Breaking into the tech scene can be very intimidating - it seems like every day there is a trendy new JS library to learn and another class of coding school graduates to compete with. If you spend any time scouring job boards, you’ll also see this reflected in entry-level or junior web development jobs requiring a wider knowledge base from their applicants than in the past.
