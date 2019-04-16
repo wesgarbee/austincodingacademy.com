@@ -25,7 +25,7 @@ github: https://github.com/Forrest-Flowers
 linkedin: https://www.linkedin.com/in/forrestflowers
 
 email: forrest.w.flowers@gmail.com
-website:
+website: https://forrest-flowers.github.io./
 workplace:
 phone: (512) 940-6405
 
@@ -39,5 +39,5 @@ education:
 projects:
   - name: Roll Your Life Away
     desc: A group finder for Dungeons and Dragons and other tabletop games.
-    url:
+    url: https://forrest-flowers-gf.azurewebsites.net/
 ---
