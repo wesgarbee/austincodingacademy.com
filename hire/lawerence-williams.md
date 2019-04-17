@@ -1,6 +1,6 @@
 ---
 layout: resume #don't touch
-categories: [ ] # don't touch
+categories: [ hire ] # don't touch
 
 fullname: Lawerence Williams
 jobtitle: Full Stack Web Developer
@@ -29,22 +29,16 @@ github: https://github.com/uhuru3
 linkedin: https://www.linkedin.com/in/lawerence-williams/
 
 email: uhuru3000@gmail.com
-workplace: Austin Coding Academy
+workplace: Roots And Culture
 phone: (512) 539-9572
 
 workexperience:
-  - company: Austin Coding Academy
-    logo: https://camo.githubusercontent.com/4be240b9d916fff63fd4755771387f2db91ccbea/687474703a2f2f656e2e67726176617461722e636f6d2f75736572696d6167652f3130373337303130302f61303835393431343535363435333631333864666161663037326337623234312e706e673f73697a653d323030
-    dates: July 2017 - Present
-    title: Web Developer
-    location: Austin, TX
   - company: Personal Care Counseling Center
-    logo: https://media.licdn.com/dms/image/C510BAQEUfbXLPe7V8Q/company-logo_200_200/0?e=2159024400&v=beta&t=0HX39QiGoWtXrHsmVfM2nUPgyKnGin7zK9j3E0a7BRs
     dates: March 2012 - July 2018
     title: Administrative Assistant
     location: Austin, TX
+    
   - company: Roots And Culture
-    logo: https://dudodiprj2sv7.cloudfront.net/vendor-logos/46/UH/OTQJVNSSIAHO.JPEG
     dates: April 2010 - Current
     title: C.E.O. President
     location: Austin, TX
@@ -62,8 +56,8 @@ education:
     logo: https://pbs.twimg.com/profile_images/897474273501003776/jCs6fCxN_400x400.jpg
 
 projects:
-  - name:
-    desc:
-    url:
+  - name: Redux Action Practice
+    desc: Fully functional app
+    url: https://github.com/AustinCodingAcademy/redux-action-practice/pull/1
 
 ---
