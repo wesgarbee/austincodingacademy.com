@@ -3,25 +3,29 @@ layout: resume #don't touch
 categories: [ ] #don't touch
 
 fullname: Wes Garbee
-jobtitle: Web Developer, Enterprise ISR
+jobtitle: Full-Stack .NET Web Developer, Enterprise ISR
 
 location: Austin, TX
-blurb: "A life-learner and new technology enthusiast, I work hard at the things I love: programming, teaching, and learning. As a software developer of more than six years and a teacher of more than ten, I have combined my teaching experience and passion for coding to help create an accessible, living, and relevant curriculum aimed to open up the tech industry to those determined to break in."
+blurb: "An avid developer with a passion for connecting with others and learning about the world around me. I have spent 10+ years exploring difficulties and delivering solutions to meet current and long-term needs. I love music, dogs, and a good beer with good people."
 
 skills:
   - C#
+  - .NET
   - HTML
   - CSS
   - JavaScript
   - jQuery
   - Bootstrap.js
-  - Python/Django
   - Testing
   - SQLite
   - SQL
   - Git/GitHub
   - Azure
+  - Gulp
   - SaaS
+  - C++
+  - Python/Django
+  - Database Design
 
 github: https://github.com/wesgarbee
 linkedin: https://www.linkedin.com/in/wesgarbee
@@ -33,24 +37,19 @@ phone: (512) 630-6381
 
 workexperience:
   - company: ePlus Technology
-    logo: https://camo.githubusercontent.com/4be240b9d916fff63fd4755771387f2db91ccbea/687474703a2f2f656e2e67726176617461722e636f6d2f75736572696d6167652f3130373337303130302f61303835393431343535363435333631333864666161663037326337623234312e706e673f73697a653d323030
-    dates: August 2015 - Present
-    title: Chief Technology Officer
+    logo: https://www.eplus.com/images/default-source/default-album/blog_logo.gif?sfvrsn=b0974bb1_0
+    dates: July 2011 - Present
+    title: Enterprise ISR
     location: Austin, TX
-  - company: SkillsEngine
-    logo: https://media.licdn.com/dms/image/C510BAQEUfbXLPe7V8Q/company-logo_200_200/0?e=2159024400&v=beta&t=0HX39QiGoWtXrHsmVfM2nUPgyKnGin7zK9j3E0a7BRs
-    dates: October 2017 - March 2019
-    title: Senior Software Engineer
+  - company: JPMorgan Chase Bank
+    logo: https://icon2.kisspng.com/20180821/coq/kisspng-jpmorgan-chase-brand-chase-bank-logo-font-the-company-get-coaching-culture-5b7ca98ac10818.7998958915348965227907.jpg
+    dates: June 2008 - June 2011
+    title: Personal Banker
     location: Austin, TX
-  - company: Anaconda
-    logo: https://dudodiprj2sv7.cloudfront.net/vendor-logos/46/UH/OTQJVNSSIAHO.JPEG
-    dates: June 2015 - January 2017
-    title: Web Developer
-    location: Austin, TX
-  - company: Generation Ready
-    logo: https://pbs.twimg.com/profile_images/715892872839622657/Bn-dtcwD_400x400.jpg
-    dates: November 2013 - June 2015
-    title: Lead Software Engineer + Architect
+  - company: Circuit City
+    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Circuit_City_logo.svg/220px-Circuit_City_logo.svg.png
+    dates: August 2005 - June 208
+    title: Technology Lead
     location: Austin, TX
 
 education:
@@ -60,12 +59,12 @@ education:
     logo: https://camo.githubusercontent.com/4be240b9d916fff63fd4755771387f2db91ccbea/687474703a2f2f656e2e67726176617461722e636f6d2f75736572696d6167652f3130373337303130302f61303835393431343535363435333631333864666161663037326337623234312e706e673f73697a653d323030
 
   - name: Austin Community College
-    dates: August 2004 - May 2007
+    dates: August 2004 - July 2007
     degree: A.A.S. Photography
     logo: https://www.newsradioklbj.com/sites/g/files/exi641/f/styles/large_730/public/article-images-featured/1421041-686916.jpg?itok=OB-bP5gF
 
 projects:
-  - name:
-    desc:
-    url:
+  - name: Cava
+    desc: A web-based application for managing wine. Allows the user to create and manage a cellar and the wines contained within.
+    url: https://cava.azurewebsites.net
 ---
